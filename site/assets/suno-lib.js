@@ -24,7 +24,7 @@ export function ladder(song, stages, className = 'ladder') {
     if (i === song.level) li.setAttribute('aria-current', 'step');
     return li; }));
 }
-export const stageLine = (song, stages) => `Stage: ${song.stage}, ${song.level + 1} of ${stages.length} · ${song.versions.length} versions`;
+export const stageLine = (song, stages) => `Stage: ${song.stage}, ${song.level + 1} of ${stages.length} · ${song.versions.length} ${song.versions.length === 1 ? 'version' : 'versions'}`;
 // A take button that loads Suno's player into a shared slot `into`: one player per slot, so a second take replaces the
 // first in place and only one can play. The caption says which take is loaded and that Suno's player needs its own press.
 export function playButton(take, label, into, text = 'Play') {
