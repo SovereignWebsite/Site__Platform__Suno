@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://cdn1.suno.ai https://cdn2.suno.ai; frame-src https://suno.com; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mixing desk · Suno, our songs (unofficial)</title>
+<meta name="description" content="Our Suno songs as mixing desks: one desk per song, a channel per version, takes as the left and right pair, the stage as the master meter. Unofficial.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Suno, our songs (unofficial)">
+<meta property="og:locale" content="en_GB">
+<meta property="og:url" content="https://suno.platform.sovereignweb.site/designs/desk/">
+<meta property="og:title" content="Mixing desk · Suno, our songs (unofficial)">
+<meta property="og:description" content="Our Suno songs as mixing desks: one desk per song, a channel per version, takes as the left and right pair, the stage as the master meter. Unofficial.">
+<meta property="og:image" content="https://suno.platform.sovereignweb.site/assets/share/card-1200x630.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Suno, our songs (unofficial)">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mixing desk · Suno, our songs (unofficial)">
+<meta name="twitter:description" content="Our Suno songs as mixing desks: one desk per song, a channel per version, takes as the left and right pair, the stage as the master meter. Unofficial.">
+<meta name="twitter:image" content="https://suno.platform.sovereignweb.site/assets/share/card-1200x630.jpg">
+<link rel="canonical" href="https://suno.platform.sovereignweb.site/designs/desk/">
+<style>
+body{background:#16191c;color:#e9edf1}
+*{box-sizing:border-box}body{margin:0}.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;z-index:9}
+iframe{width:100%;height:240px;border:0;border-radius:6px;display:block}
+.cmp{margin:0}.cmp figcaption{font-size:.85rem;margin:.3rem 0}
+.sitefoot{font:15px/1.6 system-ui,sans-serif;max-width:60rem;margin:3rem auto 0;padding:1rem;border-top:1px solid rgba(127,127,127,.35)}
+.sitefoot nav{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;margin-bottom:.5rem}.sitefoot a{color:inherit;font-weight:600;overflow-wrap:anywhere}
+body{font:14px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+main{max-width:64rem;margin:0 auto;padding:1.2rem 1rem}
+h1{font:700 1.8rem/1.1 system-ui,sans-serif;margin:.2rem 0;color:#e9edf1}.unofficial{color:#aab4bf;margin:.3rem 0 1rem;font:13px system-ui,sans-serif}
+p{color:#c5ced8;font-family:system-ui,sans-serif}
+.desk{background:#23272c;border:1px solid #3a4047;border-radius:10px;margin:1.2rem 0;padding:.8rem}
+.deskhead{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center;justify-content:space-between}
+.deskhead h2{margin:0;color:#ffd166;font:700 1.1rem system-ui,sans-serif}
+.meter{display:flex;flex-direction:row;gap:3px;list-style:none;padding:0;margin:0;font-size:10px;text-transform:uppercase}
+.meter li{padding:.15rem .4rem;background:#2f353c;color:#b9c3ce;border-radius:2px}.meter .done{background:#2f6b45;color:#e9edf1}.meter .now{background:#ffd166;color:#23272c;font-weight:700}
+.strips{display:flex;gap:6px;overflow-x:auto;padding:.8rem 0 .3rem}
+.strip{flex:0 0 108px;background:#2d3238;border:1px solid #3a4047;border-radius:6px;padding:.4rem;display:flex;flex-direction:column;gap:.35rem;align-items:center;color:#d5dde5}
+.strip img{width:84px;height:40px;object-fit:cover;border-radius:3px}
+.ch{font-weight:700;color:#ffd166}.eq{font-size:10px;text-align:center;height:2.6em;overflow:hidden;color:#aab4bf}
+.faders{display:flex;gap:10px;height:90px;align-items:flex-end}
+.fader{width:14px;height:90px;background:#16191c;border-radius:7px;position:relative}
+.fader i{position:absolute;left:-5px;width:24px;height:12px;background:#d5dde5;border-radius:2px}
+.lr{display:flex;gap:4px}
+button{font:700 11px ui-monospace,monospace;border:1px solid #556;background:#1b1e22;color:#e9edf1;border-radius:4px;padding:.25rem .4rem;cursor:pointer;min-height:28px;min-width:28px}
+button[disabled]{background:#2f6b45}.mon{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}.mon[hidden]{display:none}.mon figcaption{color:#ffd166}
+@media (max-width:40rem){.mon{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<main id="main">
+<h1>The mixing desk</h1>
+<p class="unofficial">Unofficial: not made, run or endorsed by Suno, and not affiliated with Suno. Songs and players are served by suno.com.</p>
+<p>One desk per song. Each channel is a version (oldest on the left); L and R are its two takes, and the fader shows each take's length. The master meter shows the song's stage. Press L or R to solo a take, or LR to hear both side by side in the monitor.</p>
+<div id="desks"></div>
+</main>
+<footer class="sitefoot">
+<nav aria-label="About this site"><a href="/">Home</a><a href="/designs/">All designs</a><a href="/admin/">How this site was made</a><a href="/policy/">How this site is governed</a></nav>
+Unofficial: not affiliated with Suno. A sovereign website, made with the <a href="https://sovereignwebsite.org/">open pattern</a>. Source: <a href="https://github.com/SovereignWebsite/Site__Platform__Suno">github.com/SovereignWebsite/Site__Platform__Suno</a>.
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

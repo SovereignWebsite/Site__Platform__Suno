@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://cdn1.suno.ai https://cdn2.suno.ai; frame-src https://suno.com; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liner notes · Suno, our songs (unofficial)</title>
+<meta name="description" content="Our Suno songs as gatefold liner notes: the session log, the alternate takes, and the stage ladder across the spine. Unofficial.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Suno, our songs (unofficial)">
+<meta property="og:locale" content="en_GB">
+<meta property="og:url" content="https://suno.platform.sovereignweb.site/designs/liner/">
+<meta property="og:title" content="Liner notes · Suno, our songs (unofficial)">
+<meta property="og:description" content="Our Suno songs as gatefold liner notes: the session log, the alternate takes, and the stage ladder across the spine. Unofficial.">
+<meta property="og:image" content="https://suno.platform.sovereignweb.site/assets/share/card-1200x630.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Suno, our songs (unofficial)">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Liner notes · Suno, our songs (unofficial)">
+<meta name="twitter:description" content="Our Suno songs as gatefold liner notes: the session log, the alternate takes, and the stage ladder across the spine. Unofficial.">
+<meta name="twitter:image" content="https://suno.platform.sovereignweb.site/assets/share/card-1200x630.jpg">
+<link rel="canonical" href="https://suno.platform.sovereignweb.site/designs/liner/">
+<style>
+body{background:#f1ece2;color:#2f2a22}
+*{box-sizing:border-box}body{margin:0}.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;z-index:9}
+iframe{width:100%;height:240px;border:0;border-radius:6px;display:block}
+.cmp{margin:0}.cmp figcaption{font-size:.85rem;margin:.3rem 0}
+.sitefoot{font:15px/1.6 system-ui,sans-serif;max-width:60rem;margin:3rem auto 0;padding:1rem;border-top:1px solid rgba(127,127,127,.35)}
+.sitefoot nav{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;margin-bottom:.5rem}.sitefoot a{color:inherit;font-weight:600;overflow-wrap:anywhere}
+body{font:16px/1.55 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+main{max-width:62rem;margin:0 auto;padding:1.5rem 1rem}
+h1{font-weight:400;font-size:clamp(1.8rem,5vw,2.6rem);margin:.2rem 0;letter-spacing:.02em}
+.kicker{font:600 12px system-ui,sans-serif;letter-spacing:.25em;text-transform:uppercase;color:#64573f}
+.unofficial{font:13px system-ui,sans-serif;color:#6f6557;margin:.4rem 0 1rem}
+.gate{display:grid;grid-template-columns:1fr 2.2rem 1fr;background:#fffdf8;border:1px solid #d8d0c0;box-shadow:0 8px 24px rgba(60,40,10,.12);margin:1.6rem 0}
+.panel{padding:1.1rem 1.2rem}.panel h2{margin:0;font-weight:400;font-size:1.6rem}.panel h3{font:600 12px system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#7d6f5a;margin:1rem 0 .4rem}
+.spine{background:#2f2a22;display:flex;align-items:center;justify-content:center}
+.spine .ladder{writing-mode:vertical-rl;transform:rotate(180deg);list-style:none;margin:0;padding:.6rem 0;display:flex;gap:.6rem;font:600 11px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.15em;color:#bdb29e}
+.spine .done{color:#d9cfbd}.spine .now{color:#ffcf6e}
+.cover{width:100%;max-width:220px;aspect-ratio:1;object-fit:cover;display:block;margin:.6rem 0}
+.log{list-style:none;padding:0;margin:0;counter-reset:n}.log li{padding:.45rem 0;border-top:1px solid #e7e0d2;font-size:15px}
+.log .meta{display:block;font:13px system-ui,sans-serif;color:#7d6f5a}
+button{font:600 12px system-ui,sans-serif;background:none;border:1px solid #7d6f5a;border-radius:999px;padding:.2rem .6rem;margin:.3rem .3rem 0 0;cursor:pointer;min-height:28px;color:#2f2a22}
+button[disabled]{background:#2f2a22;color:#fffdf8}.alt{display:grid;grid-template-columns:1fr;gap:.6rem;margin-top:.6rem}.alt[hidden]{display:none}
+.credits p{margin:.2rem 0;font-size:15px}.back{background:#2f2a22;color:#efe7d8;padding:1.2rem;border-radius:4px;margin-top:2rem}.back a{color:#ffcf6e}
+@media (max-width:44rem){.gate{grid-template-columns:1fr}.spine{padding:.4rem}.spine .ladder{writing-mode:horizontal-tb;transform:none;flex-wrap:wrap;justify-content:center}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<main id="main">
+<div class="kicker">Liner notes</div>
+<h1>Our songs: the sessions</h1>
+<p class="unofficial">Unofficial: not made, run or endorsed by Suno, and not affiliated with Suno. Songs and players are served by suno.com.</p>
+<p>One gatefold per song. On the left, the session log: every version with its date, and both alternate takes. On the right, the credits and style notes. The stage runs down the spine.</p>
+<div id="gates"></div>
+<section class="back" aria-label="How this was made"><h2>How this was made</h2><p>Words and prompts by the team and its agents; music by Suno. This page is static files: fork <a href="https://github.com/SovereignWebsite/Site__Platform__Suno">the repository</a>, put your own public Suno songs in <code>site/data/songs.json</code>, and turn on GitHub Pages.</p></section>
+</main>
+<footer class="sitefoot">
+<nav aria-label="About this site"><a href="/">Home</a><a href="/designs/">All designs</a><a href="/admin/">How this site was made</a><a href="/policy/">How this site is governed</a></nav>
+Unofficial: not affiliated with Suno. A sovereign website, made with the <a href="https://sovereignwebsite.org/">open pattern</a>. Source: <a href="https://github.com/SovereignWebsite/Site__Platform__Suno">github.com/SovereignWebsite/Site__Platform__Suno</a>.
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://cdn1.suno.ai https://cdn2.suno.ai; frame-src https://suno.com; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radio listings · Suno, our songs (unofficial)</title>
+<meta name="description" content="Our Suno songs as a week of radio listings: each song a programme, each version an episode, the stage as the time slot. Unofficial.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Suno, our songs (unofficial)">
+<meta property="og:locale" content="en_GB">
+<meta property="og:url" content="https://suno.platform.sovereignweb.site/designs/radio/">
+<meta property="og:title" content="Radio listings · Suno, our songs (unofficial)">
+<meta property="og:description" content="Our Suno songs as a week of radio listings: each song a programme, each version an episode, the stage as the time slot. Unofficial.">
+<meta property="og:image" content="https://suno.platform.sovereignweb.site/assets/share/card-1200x630.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Suno, our songs (unofficial)">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Radio listings · Suno, our songs (unofficial)">
+<meta name="twitter:description" content="Our Suno songs as a week of radio listings: each song a programme, each version an episode, the stage as the time slot. Unofficial.">
+<meta name="twitter:image" content="https://suno.platform.sovereignweb.site/assets/share/card-1200x630.jpg">
+<link rel="canonical" href="https://suno.platform.sovereignweb.site/designs/radio/">
+<style>
+body{background:#fdfcf7;color:#111}
+*{box-sizing:border-box}body{margin:0}.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;z-index:9}
+iframe{width:100%;height:240px;border:0;border-radius:6px;display:block}
+.cmp{margin:0}.cmp figcaption{font-size:.85rem;margin:.3rem 0}
+.sitefoot{font:15px/1.6 system-ui,sans-serif;max-width:60rem;margin:3rem auto 0;padding:1rem;border-top:1px solid rgba(127,127,127,.35)}
+.sitefoot nav{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;margin-bottom:.5rem}.sitefoot a{color:inherit;font-weight:600;overflow-wrap:anywhere}
+body{font:16px/1.45 Georgia,"Times New Roman",serif}
+main{max-width:52rem;margin:0 auto;padding:1.5rem 1rem}
+.mast{border-top:4px double #111;border-bottom:4px double #111;text-align:center;padding:.4rem 0}
+h1{font:900 clamp(2rem,7vw,3.4rem)/1 Georgia,serif;margin:0;letter-spacing:-.01em}
+.dateline{font:600 12px system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase}
+.unofficial{font:13px system-ui,sans-serif;color:#555;margin:.6rem 0}
+.prog{border-bottom:1px solid #111;padding:1rem 0}
+.slotline{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.4rem;font:700 13px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#a0221c}
+.prog h2{margin:.2rem 0;font-size:1.6rem}
+.ladder{display:flex;flex-wrap:wrap;gap:0;list-style:none;padding:0;margin:.3rem 0 .6rem;font:600 11px system-ui,sans-serif;text-transform:uppercase}
+.ladder li{padding:.1rem .5rem;border:1px solid #111;margin-right:-1px;color:#5e5e5e}.ladder .done{color:#111}.ladder .now{background:#111;color:#fff}
+.eps{list-style:none;padding:0;margin:0;columns:2 20rem;column-gap:2rem}
+.eps li{break-inside:avoid;padding:.35rem 0;border-top:1px dotted #999;font-size:15px}
+.eps b{font-family:system-ui,sans-serif;font-size:13px;margin-right:.4rem}
+.eps .tag{font:700 10px system-ui,sans-serif;background:#a0221c;color:#fff;padding:.05rem .3rem;margin-left:.3rem;text-transform:uppercase}
+button{font:600 12px system-ui,sans-serif;background:none;border:1px solid #111;border-radius:2px;padding:.2rem .5rem;margin:.25rem .3rem 0 0;cursor:pointer;min-height:28px;color:#111}
+button[disabled]{background:#111;color:#fff}.tuner{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.6rem}.tuner[hidden]{display:none}
+@media (max-width:40rem){.tuner{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<main id="main">
+<div class="mast"><div class="dateline">The listings</div><h1>Radio Our Songs</h1><div class="dateline">This week, all times UTC</div></div>
+<p class="unofficial">Unofficial: not made, run or endorsed by Suno, and not affiliated with Suno. Songs and players are served by suno.com.</p>
+<p>Each song is a programme and each version an episode. The further a song has come, the better its slot: late night for ideas and experiments, prime time once it is picked.</p>
+<div id="progs"></div>
+</main>
+<footer class="sitefoot">
+<nav aria-label="About this site"><a href="/">Home</a><a href="/designs/">All designs</a><a href="/admin/">How this site was made</a><a href="/policy/">How this site is governed</a></nav>
+Unofficial: not affiliated with Suno. A sovereign website, made with the <a href="https://sovereignwebsite.org/">open pattern</a>. Source: <a href="https://github.com/SovereignWebsite/Site__Platform__Suno">github.com/SovereignWebsite/Site__Platform__Suno</a>.
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
