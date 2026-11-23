@@ -10,7 +10,7 @@
   const when = (iso) => new Date(iso).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' }) + ' UTC';
   const take = (t, name, title) => {
     const play = el('button', { type: 'button', textContent: 'Play' });
-    const vote = el('button', { type: 'button', textContent: 'Vote', disabled: true, title: 'Voting opens soon' });
+    const vote = el('button', { type: 'button', textContent: 'Vote (opens soon)', disabled: true });
     const box = el('div', { className: 'take' }, [el('b', { textContent: name }), el('span', { textContent: mmss(t.duration_s) }), play, vote, el('a', { href: `https://suno.com/song/${t.id}`, textContent: 'On Suno', 'aria-label': `${title}, ${name}, on Suno` })]);
     play.setAttribute('aria-label', `Play ${title}, ${name}`); vote.setAttribute('aria-label', `Vote for ${title}, ${name}`);
     play.addEventListener('click', () => {
@@ -32,7 +32,7 @@
     const older = s.versions.slice(0, -1).reverse();
     return el('article', { className: 'songcard', id: s.slug }, [
       el('div', { className: 'songhead' }, [
-        el('img', { src: latest.takes[0].cover, alt: '', width: 120, height: 120, loading: 'lazy' }),
+        el('img', { src: latest.takes[0].cover, alt: '', width: 120, height: 120, loading: 'lazy', referrerPolicy: 'no-referrer' }),
         el('div', {}, [el('h3', { textContent: s.title }), el('p', { className: 'about', textContent: s.about }), ladder, ...(s.lyrics_by ? [el('p', { className: 'vmeta' }, [el('a', { href: `/lyrics/${s.slug}.txt`, textContent: 'Read the lyrics' })])] : [])]),
       ]),
       el('section', { className: 'latest' }, [version(latest, s.title, 'h4')]),

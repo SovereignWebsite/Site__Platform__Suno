@@ -3,6 +3,7 @@
 export const el = (tag, props = {}, kids = []) => {
   const e = document.createElement(tag);
   for (const [k, v] of Object.entries(props)) { if (k.startsWith('aria-') || k.startsWith('data-') || k === 'role') e.setAttribute(k, v); else e[k] = v; }
+  if (tag === 'img') e.referrerPolicy = 'no-referrer';
   e.append(...kids); return e;
 };
 export const mmss = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;

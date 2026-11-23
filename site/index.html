@@ -26,7 +26,7 @@
 :root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#5d5c57;--accent:#2f6b4f;--line:#e4e1d8}
 @media (prefers-color-scheme:dark){:root{--bg:#141513;--fg:#ecebe6;--muted:#a8a69e;--accent:#7fc3a0;--line:#2c2d29}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
-main{max-width:44rem;margin:0 auto;padding:10vh 1rem 4rem}
+main{max-width:44rem;margin:0 auto;padding:1.5rem 1rem 4rem}
 .skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem}
 .mark{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
 h1{font-size:clamp(2rem,6vw,3rem);line-height:1.1;margin:.4rem 0 1rem}
@@ -61,6 +61,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);font-si
 h2{font-size:1.25rem;margin:2rem 0 .5rem}ol,ul.plain{color:var(--muted);padding-left:1.2rem}li{margin:.35rem 0}
 pre{background:rgba(127,127,127,.1);padding:.8rem 1rem;border-radius:6px;white-space:pre-wrap;font-size:.9rem;color:var(--fg)}
 code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
+@media (max-width:40rem){.mark{display:none}}
 @media (max-width:599px){footer,.family-credit,.family,.site-links{font-size:15px}}
 .unofficial{font-size:.9rem;border-left:3px solid var(--accent);padding:.2rem .8rem;margin:1rem 0}
 .songcard{border:1px solid var(--line);border-radius:10px;padding:1rem;margin:1.2rem 0}
@@ -111,17 +112,18 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 <main id="main">
 <div class="mark">suno.platform.sovereignweb.site</div>
 <h1>Suno, our songs (unofficial)</h1>
-<p>Songs our team made with <a href="https://suno.com/">Suno</a>, played through Suno's own player. Each song is shown with its versions and how far along it is, from experiment to release. Listen, and soon vote for the take you like best.</p>
-<p class="unofficial">Unofficial. This site is not made, run or endorsed by Suno and is not affiliated with Suno. The songs and their players are served by suno.com.</p>
+<p>Songs made with <a href="https://suno.com/">Suno</a> by Dinis Cruz and his team of AI agents, part of the <a href="https://sovereignwebsite.ai/">Sovereign Website</a> project. Each song shows its versions and how far along it is, from idea to release.</p>
+<p class="unofficial">Unofficial: not made, run or endorsed by Suno, and not affiliated with Suno. Covers are loaded from Suno; pressing Play loads Suno's player, which runs Suno's code.</p>
 
 <h2 id="songs">The songs</h2>
-<p>Prefer a different view? The same songs are told five ways in <a href="/designs/">the designs</a>: a record crate, a gig poster, a mixing desk, radio listings and liner notes.</p>
-<p>Each song grows through versions, and Suno gives two takes of every version. The newest version is first; the history is below it.</p>
+<p>Each song has versions, and two takes (A and B) of each; the newest first.</p>
 <div id="list"></div>
 <noscript><p>The songs need JavaScript. Every song, version and take is in <a href="/data/songs.json">data/songs.json</a>, and plays at suno.com/song/ followed by its id.</p></noscript>
 
+<p>Prefer a different view? The same songs are told five ways in <a href="/designs/">the designs</a>: a record crate, a gig poster, a mixing desk, radio listings and liner notes.</p>
+
 <h2 id="vote">Voting</h2>
-<p>Voting opens soon: three votes a day per browser, each signed in your browser, with nothing stored about you. Until then, the buttons above are off.</p>
+<p>Voting opens soon: three votes a day per browser. Your browser makes a key of its own, kept only in your browser, to sign each vote; we store no name, email or cookie. Until then, the Vote buttons are off.</p>
 
 <h2 id="fork">Make your own</h2>
 <p>This whole site is static files. To make one for your own songs: fork <a href="https://github.com/SovereignWebsite/Site__Platform__Suno">the repository</a>, make your songs public on Suno, put their ids, grouped into songs and versions, in <code>site/data/songs.json</code>, and turn on GitHub Pages. No server, no account with us.</p>
