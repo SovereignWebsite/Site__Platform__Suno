@@ -47,7 +47,8 @@ h1{font:900 clamp(2.4rem,11vw,5.2rem)/.9 Impact,"Arial Narrow Bold","Helvetica N
 .dates .when{font-weight:800;min-width:6.5rem}.dates .what{flex:1 1 10rem}
 button{font:800 12px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em;background:#1a1a1a;color:#f2e8d0;border:0;padding:.35rem .6rem;cursor:pointer;min-height:32px}
 button[disabled]{opacity:.6}.stage{display:grid;grid-template-columns:1fr;gap:.6rem;margin:.6rem 0}.stage[hidden]{display:none}
-.played{flex-basis:100%}
+.played{flex-basis:100%}button[aria-pressed="true"]{background:#9e1f1a}
+@media (prefers-color-scheme:dark){main{background:#141414;color:#f2e8d0;border-color:#f2e8d0;box-shadow:10px 10px 0 #9e1f1a}.top,.slot{color:#ff8a7a!important}.ladder li{border-color:#a9a294!important;color:#d8d0bf!important}.ladder .now{background:#f2e8d0!important;color:#141414!important}.dates li{border-color:#f2e8d0}button{background:#f2e8d0;color:#141414}}
 @media (max-width:40rem){.stage{grid-template-columns:1fr}}
 </style>
 </head>
@@ -58,7 +59,7 @@ button[disabled]{opacity:.6}.stage{display:grid;grid-template-columns:1fr;gap:.6
 <h1>Our Songs</h1>
 <p class="unofficial">Unofficial: not made, run or endorsed by Suno, and not affiliated with Suno. Songs by Dinis Cruz and his team of AI agents. Covers are loaded from Suno; pressing Play loads Suno's player, which runs Suno's code.</p>
 <p class="draft">Draft: first version, 23 November 2026, not yet signed off by Dinis Cruz. Dates, versions, lengths and styles are from the team's Suno library, read on 23 November 2026.</p>
-<p class="lede">Top of the bill: the song furthest along. Each version is a tour date; play either take, or both side by side.</p>
+<p class="lede">Top of the bill: the song furthest along, and on a tie the newest. Each version is a tour date; load take A or B, one at a time.</p>
 <ol class="bill" id="bill"></ol>
 </main>
 <footer class="sitefoot">

@@ -1,4 +1,4 @@
-import { load, el, ladder, mmss, day, time, playButton, compareButton } from '/assets/suno-lib.js';
+import { load, el, ladder, stageLine, mmss, day, time, playButton, compareButton } from '/assets/suno-lib.js';
 const d = await load(), box = document.getElementById('gates');
 for (const s of d.byMaturity) {
   const alt = el('div', { className: 'alt', hidden: true });
@@ -14,7 +14,7 @@ for (const s of d.byMaturity) {
     el('p', { textContent: `Sessions: ${s.versions.length}, ${day(s.versions[0].made)} to ${day(s.versions[s.versions.length - 1].made)}` }),
     ...(s.lyrics_by ? [el('p', {}, [el('a', { href: `/lyrics/${s.slug}.txt`, textContent: 'Lyrics' })])] : [])]);
   box.append(el('article', { className: 'gate', 'aria-label': s.title }, [
-    el('div', { className: 'panel' }, [el('h2', { textContent: s.title }), el('h3', { textContent: 'Session log' }), log, alt]),
+    el('div', { className: 'panel' }, [el('h2', { textContent: s.title }), el('p', { className: 'stageline', textContent: stageLine(s, d.stages) }), el('h3', { textContent: 'Session log' }), log, alt]),
     el('div', { className: 'spine' }, [ladder(s, d.stages)]),
     el('div', { className: 'panel' }, [el('img', { className: 'cover', src: s.versions[s.versions.length - 1].takes[0].cover, alt: `Cover of ${s.title}`, loading: 'lazy' }), el('h3', { textContent: 'Credits' }), credits, el('h3', { textContent: 'Style notes' }), el('ul', {}, styles.slice(-3).map((t) => el('li', { textContent: t })))]),
   ]));

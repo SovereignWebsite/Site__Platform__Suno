@@ -13,7 +13,8 @@ export async function load() {
   const d = await (await fetch('/data/songs.json', { cache: 'no-cache' })).json();
   const ids = d.stages.map((s) => s.id);
   for (const s of d.songs) s.level = ids.indexOf(s.stage);
-  d.byMaturity = [...d.songs].sort((a, b) => b.level - a.level);
+  const last = (s) => s.versions[s.versions.length - 1].made;
+  d.byMaturity = [...d.songs].sort((a, b) => b.level - a.level || (last(b) > last(a) ? 1 : -1));
   return d;
 }
 // The five-step ladder, with the song's stage marked (aria-current="step"): a <ol> each design styles its own way.
@@ -24,12 +25,18 @@ export function ladder(song, stages, className = 'ladder') {
     return li; }));
 }
 export const stageLine = (song, stages) => `Stage: ${song.stage}, ${song.level + 1} of ${stages.length} · ${song.versions.length} versions`;
-// A Play button that turns into Suno's player in `into` (or after itself).
+// A take button that loads Suno's player into a shared slot `into`: one player per slot, so a second take replaces the
+// first in place and only one can play. The caption says which take is loaded and that Suno's player needs its own press.
 export function playButton(take, label, into, text = 'Play') {
-  const b = el('button', { type: 'button', textContent: text, 'aria-label': `Play ${label}` });
+  const b = el('button', { type: 'button', textContent: text, className: 'takebtn', 'aria-pressed': 'false', 'aria-label': `Load ${label}` });
+  (into._btns ||= []).push(b);
   b.addEventListener('click', () => {
-    const f = el('iframe', { src: `https://suno.com/embed/${take.id}`, title: `${label}, Suno player`, allow: 'autoplay; encrypted-media' });
-    (into || b.parentElement).append(f); b.disabled = true; b.textContent = 'Playing';
+    let cap = into.querySelector('.abnote'), f = into.querySelector('iframe');
+    if (!f || !cap) { cap = el('p', { className: 'abnote' }); f = el('iframe', { allow: 'autoplay; encrypted-media' }); into.replaceChildren(cap, f); }
+    f.src = `https://suno.com/embed/${take.id}`; f.title = `${label}, Suno player`;
+    cap.textContent = `Loaded below: ${label}. Press play in Suno's player.`;
+    into._btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    into.hidden = false;
   });
   return b;
 }
@@ -45,6 +52,7 @@ export function compareButton(version, title, into) {
       return x; });
     const f = el('iframe', { src: `https://suno.com/embed/${version.takes[0].id}`, title: `${title}, version ${version.n}, take A, Suno player`, allow: 'autoplay; encrypted-media' });
     slot.append(f);
+    (into._btns || []).forEach((x) => x.setAttribute('aria-pressed', 'false'));
     into.replaceChildren(el('div', { className: 'abbar', role: 'group', 'aria-label': `${title}, version ${version.n}: takes` }, [el('b', { textContent: `Version ${version.n}` }), ...sw]), note, slot);
     into.hidden = false; into.scrollIntoView({ block: 'nearest' });
   });

@@ -44,8 +44,9 @@ h1{font-weight:400;font-size:clamp(1.8rem,5vw,2.6rem);margin:.2rem 0;letter-spac
 .log{list-style:none;padding:0;margin:0;counter-reset:n}.log li{padding:.45rem 0;border-top:1px solid #e7e0d2;font-size:15px}
 .log .meta{display:block;font:13px system-ui,sans-serif;color:#7d6f5a}
 button{font:600 12px system-ui,sans-serif;background:none;border:1px solid #7d6f5a;border-radius:999px;padding:.2rem .6rem;margin:.3rem .3rem 0 0;cursor:pointer;min-height:28px;color:#2f2a22}
-button[disabled]{background:#2f2a22;color:#fffdf8}.alt{display:grid;grid-template-columns:1fr;gap:.6rem;margin-top:.6rem}.alt[hidden]{display:none}
+button[aria-pressed="true"]{background:#2f2a22;color:#fffdf8}.stageline{font:600 13px system-ui,sans-serif;margin:.3rem 0}.alt{display:grid;grid-template-columns:1fr;gap:.6rem;margin-top:.6rem}.alt[hidden]{display:none}
 .credits p{margin:.2rem 0;font-size:15px}.back{background:#2f2a22;color:#efe7d8;padding:1.2rem;border-radius:4px;margin-top:2rem}.back a{color:#ffcf6e}
+@media (prefers-color-scheme:dark){body{background:#0d0c0a!important;color:#e9e2d3!important}.gate{background:#181613;border-color:#3a352d}.log li{border-color:#3a352d}.panel h3,.log .meta,.kicker,.unofficial{color:#c2b59c!important}button{color:#e9e2d3;border-color:#c2b59c}button[aria-pressed="true"]{background:#e9e2d3;color:#181613}.back{background:#000}.panel a{color:#ffcf6e}}
 @media (max-width:44rem){.gate{grid-template-columns:1fr}.spine{padding:.4rem}.spine .ladder{writing-mode:horizontal-tb;transform:none;flex-wrap:wrap;justify-content:center}}
 </style>
 </head>

@@ -65,7 +65,7 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 @media (max-width:599px){footer,.family-credit,.family,.site-links{font-size:15px}}
 .unofficial{font-size:.9rem;border-left:3px solid var(--accent);padding:.2rem .8rem;margin:1rem 0}
 .songcard{border:1px solid var(--line);border-radius:10px;padding:1rem;margin:1.2rem 0}
-.songhead{display:grid;grid-template-columns:120px 1fr;gap:1rem;align-items:start}
+.songhead{display:grid;grid-template-columns:120px minmax(0,1fr);gap:1rem;align-items:start}
 .songhead img{width:120px;height:120px;border-radius:8px;object-fit:cover}
 .songcard h3{margin:0 0 .3rem;font-size:1.35rem;color:var(--fg)}.songcard .about{font-size:.95rem;margin:0 0 .5rem}
 .ladder{display:flex;flex-wrap:wrap;gap:.25rem;list-style:none;padding:0;margin:.4rem 0 0;font-size:.78rem}
@@ -80,7 +80,7 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 .take button[disabled]{opacity:.55;cursor:not-allowed;background:transparent;color:var(--muted);border-color:var(--line)}
 .history{margin-top:1rem}.history summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:.95rem}
 .history ol{list-style:none;padding:0;margin:.6rem 0 0}.history li{margin:0 0 .9rem}
-@media (max-width:40rem){.songhead{grid-template-columns:80px 1fr}.songhead img{width:80px;height:80px}.takes{grid-template-columns:1fr}}
+@media (max-width:40rem){.songhead{grid-template-columns:80px minmax(0,1fr)}.songhead img{width:80px;height:80px}.takes{grid-template-columns:1fr}}
 .stageline{font-size:.85rem;font-weight:600;color:var(--fg);margin:.2rem 0 0}
 .ladder{flex-wrap:nowrap;overflow-x:auto}
 .abwrap{margin-top:.3rem}.abrow{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
@@ -91,6 +91,8 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 .onsuno{margin-right:1rem}
 @media (max-width:40rem){.ladder{font-size:.7rem}.ladder li{padding:.1rem .35rem}}
 .draft{font-size:.85rem;font-weight:600;color:var(--fg);background:rgba(127,127,127,.12);padding:.3rem .6rem;border-radius:4px;display:inline-block;margin:0 0 .6rem}
+.views{display:flex;flex-wrap:wrap;gap:.4rem .9rem;align-items:center;font-size:.85rem;margin:.6rem 0}.views span{color:var(--muted)}.views a{display:inline-flex;align-items:center;gap:.35rem;font-weight:600}.views img{width:48px;height:30px;object-fit:cover;border-radius:3px;border:1px solid var(--line)}
+@media (max-width:40rem){.views img{display:none}}
 </style>
 </head>
 <body>
@@ -126,6 +128,15 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 <p>Songs made with Suno's AI music model by Dinis Cruz and his team of AI agents, part of the <a href="https://sovereignwebsite.ai/">Sovereign Website</a> project; this site is kept by the agent suno.b (<a href="/admin/">how this site was made</a>). Each song shows its versions and how far along it is, from idea to release.</p>
 <p class="unofficial">Unofficial: not made, run or endorsed by Suno, and not affiliated with Suno. Covers are loaded from Suno; pressing Play loads Suno's player, which runs Suno's code.</p>
 
+<nav class="views" aria-label="Views of this page">
+  <span>View as:</span>
+  <a href="/designs/crate/"><img src="/designs/thumbs/crate.jpg" alt="" width="64" height="40">Crate</a>
+  <a href="/designs/poster/"><img src="/designs/thumbs/poster.jpg" alt="" width="64" height="40">Poster</a>
+  <a href="/designs/desk/"><img src="/designs/thumbs/desk.jpg" alt="" width="64" height="40">Desk</a>
+  <a href="/designs/radio/"><img src="/designs/thumbs/radio.jpg" alt="" width="64" height="40">Radio</a>
+  <a href="/designs/liner/"><img src="/designs/thumbs/liner.jpg" alt="" width="64" height="40">Liner notes</a>
+  <a href="/designs/">All designs</a>
+</nav>
 <h2 id="songs">The songs</h2>
 <p>Each song has versions, and two takes (A and B) of each; the newest first. Dates, versions, lengths and styles are from the team's Suno library, read on 23 November 2026.</p>
 <div id="list"></div>
