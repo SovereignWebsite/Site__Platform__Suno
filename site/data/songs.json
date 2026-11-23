@@ -26,6 +26,175 @@
  "updated": "2026-11-23",
  "songs": [
   {
+   "slug": "parada",
+   "title": "Parada",
+   "about": "An instrumental with a Brazilian feel: a strong melody carried by instruments, and hard stops and starts. Parada is Portuguese for stop.",
+   "stage": "experiment",
+   "pick": null,
+   "instrumental": true,
+   "brief": {
+    "asked_by": "Dinis Cruz, 23 November 2026, in suno.b's session",
+    "words": "When you create a song that has a very sort of Brazilian feel with a very strong melody, kind of a bit like the TikTok songs [read as: Tick Tock, Nineteen Hours], the last ones, they're really cool, but purely instrumental, no melody [read as: no singing], but with really nice stops and starts and really good. I'd like you to explore how much we can do in terms of instrument kind of melodic lines in there.",
+    "thinking": [
+     "Start from what Dinis liked in Tick Tock's last version: samba batucada, cavaquinho, a bright 118 to 120 bpm pulse.",
+     "Take the voice out (instrumental on, and vocals, choir, humming and spoken words in the styles to avoid), so the melody has to live in the instruments.",
+     "Name who carries the tune: cavaquinho and flute in unison for the theme, nylon guitar and muted trumpet answering, so there is call and response without a singer.",
+     "Ask for the stops in words Suno tends to follow: tight full-band stops and breaks, sudden silences, the band crashing back in.",
+     "Two minutes, so the stops have room but the idea stays tight."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-23T23:06Z",
+     "label": "Samba-funk, melody in the instruments",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Brazilian samba-funk instrumental, strong catchy lead melody, cavaquinho and flute play the main theme in unison, nylon guitar and muted trumpet answer in call and response, tight full-band stops and breaks, sudden silences then the whole band crashes back in, surdo, pandeiro, tamborim, agogo bells, punchy slap bass, bright and joyful, 118 bpm",
+      "negative_style": "vocals, singing, choir, humming, spoken words",
+      "duration_s": 120
+     },
+     "style": "Brazilian samba-funk instrumental, cavaquinho and flute theme, call and response, full-band stops, 118 bpm",
+     "takes": [
+      {
+       "id": "3c175309-03bc-4a70-b30e-a862a44b1e56",
+       "duration_s": 120,
+       "suno_title": "Parada",
+       "cover": "https://cdn2.suno.ai/image_3c175309-03bc-4a70-b30e-a862a44b1e56.jpeg",
+       "listen": {
+        "bpm": 120,
+        "key": "F major",
+        "lead": [
+         "trumpet or cornet",
+         "clarinet",
+         "trombone"
+        ],
+        "melody_strength": 5,
+        "stops": [
+         [
+          33,
+          "brief stop-time break before the next phrase"
+         ],
+         [
+          63,
+          "full-band pause before the clarinet feature"
+         ],
+         [
+          93,
+          "full stop setting up the muted-trumpet feature"
+         ],
+         [
+          114,
+          "ensemble break before the final cadence"
+         ]
+        ],
+        "sections": [
+         [
+          0,
+          5,
+          "Intro"
+         ],
+         [
+          5,
+          35,
+          "Head"
+         ],
+         [
+          35,
+          64,
+          "Second chorus"
+         ],
+         [
+          65,
+          94,
+          "Clarinet feature"
+         ],
+         [
+          95,
+          109,
+          "Muted trumpet feature"
+         ],
+         [
+          110,
+          117,
+          "Coda"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Horn-led: a bright trumpet theme, a quick clarinet counter-melody and trombone answers, with clear call and response."
+       }
+      },
+      {
+       "id": "cc56cb84-aa84-406a-829b-8966727b98b1",
+       "duration_s": 120,
+       "suno_title": "Parada",
+       "cover": "https://cdn2.suno.ai/image_cc56cb84-aa84-406a-829b-8966727b98b1.jpeg",
+       "listen": {
+        "bpm": 119.5,
+        "key": "G minor",
+        "lead": [
+         "accordion-like reed",
+         "plucked guitar",
+         "brass"
+        ],
+        "melody_strength": 4,
+        "stops": [
+         [
+          44,
+          "full-band cut, groove back at 46 s"
+         ],
+         [
+          54,
+          "brief abrupt stop"
+         ],
+         [
+          83,
+          "dramatic cut and short break"
+         ],
+         [
+          103,
+          "full-band cut and pause"
+         ],
+         [
+          114,
+          "final staccato stop"
+         ]
+        ],
+        "sections": [
+         [
+          0,
+          20,
+          "Introduction"
+         ],
+         [
+          20,
+          65,
+          "Main theme"
+         ],
+         [
+          65,
+          95,
+          "Variation"
+         ],
+         [
+          95,
+          120,
+          "Theme again and outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Reedy, accordion-like lead and plucked guitar trading short phrases, with punchy brass."
+       }
+      }
+     ],
+     "result": "Both takes are fully instrumental with a strong melody and four or five full-band stops. Neither used the cavaquinho and flute asked for: take A went to horns (trumpet, clarinet, trombone), take B to an accordion-like reed and plucked guitar. Next version: ask for less reinterpretation (variety 0, style influence high) and name the instruments again, or keep the horns if they work."
+    }
+   ],
+   "lyrics_by": null
+  },
+  {
    "slug": "two-takes",
    "title": "Two Takes",
    "about": "Written by suno.b on 23 November 2026 about this site: every idea comes back as two takes, and you pick.",
@@ -53,9 +222,26 @@
        "suno_title": "Two Takes",
        "cover": "https://cdn2.suno.ai/image_762d16e8-5f59-44f6-95d2-a3ce93632a30.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "bright indie pop, jangling guitars, handclaps, warm bass, male and female voices trading lines, singalong chorus, hopeful, 112 bpm",
+      "negative_style": null,
+      "duration_s": 150,
+      "lyrics_file": "/lyrics/two-takes.txt"
+     }
     }
-   ]
+   ],
+   "brief": {
+    "asked_by": "Dinis Cruz, 23 November 2026, in suno.b's session",
+    "words": "Can we try to write a song?",
+    "thinking": [
+     "The first song written for this site, so let it be about the site: every Suno generation gives two takes, and visitors pick.",
+     "Bright indie pop with two voices trading lines, so the A/B idea is in the sound too.",
+     "A chorus simple enough to sing on first hearing: Two takes, one song.",
+     "Verse 2 is about how the team works: decisions signed and passed along, a hundred hands."
+    ]
+   }
   },
   {
    "slug": "tick-tock",
@@ -83,7 +269,12 @@
        "suno_title": "Nineteen Hours",
        "cover": "https://cdn1.suno.ai/image_e6fdf31c-7c91-46f6-8f26-afe31a976672.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "electro bossa nova, synth-pop with Brazilian jazz, nylon guitar, Rhodes, ticking clock percussion, warm male lead, 118 bpm",
+      "negative_style": null
+     }
     },
     {
      "n": 2,
@@ -104,7 +295,12 @@
        "suno_title": "Tick Tock, Nineteen Hours",
        "cover": "https://cdn1.suno.ai/image_d844772f-6638-439a-b135-82792538f6e1.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "electro bossa nova, Brazilian jazz synth-pop, Rhodes, tick-tock clock, vocoded choir, 118 bpm",
+      "negative_style": null
+     }
     },
     {
      "n": 3,
@@ -125,7 +321,12 @@
        "suno_title": "Tick Tock, Nineteen Hours",
        "cover": "https://cdn1.suno.ai/image_a2c3012f-e717-4d97-94d4-cf71e7ee285d.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "bossa nova, Brazilian jazz, cavaquinho, nylon guitar, upright bass, tick-tock clock, vocoded choir, 118 bpm",
+      "negative_style": null
+     }
     },
     {
      "n": 4,
@@ -146,7 +347,12 @@
        "suno_title": "Tick Tock, Nineteen Hours: Natural Lead",
        "cover": "https://cdn1.suno.ai/image_acf7e6cd-9b3b-472c-8576-79e6b560dfae.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "bossa nova, Brazilian jazz, cavaquinho, nylon guitar, upright bass, tick-tock clock, call and response, 118 bpm",
+      "negative_style": null
+     }
     },
     {
      "n": 5,
@@ -167,7 +373,12 @@
        "suno_title": "Tick Tock, Nineteen Hours (Remastered)",
        "cover": "https://cdn1.suno.ai/image_58747899-0a78-4f9c-a1e2-c1538020b00b.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "bossa nova, Brazilian jazz",
+      "negative_style": null
+     }
     },
     {
      "n": 6,
@@ -188,9 +399,23 @@
        "suno_title": "Tick Tock, Nineteen Hours",
        "cover": "https://cdn1.suno.ai/image_76606f79-2030-46a9-8c32-a00b929fcf71.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "bossa nova meets samba batucada, cavaquinho, nylon guitar, pandeiro, loud tick-tock clock, hourly chime, airy backing choir, 120 bpm",
+      "negative_style": null
+     }
     }
-   ]
+   ],
+   "brief": {
+    "asked_by": "Made on suno.com on 15 November 2026, before this site; the brief was not recorded here.",
+    "words": null,
+    "thinking": [
+     "The lyrics tell it: one human and nine agents working through the night, nineteen hours, and in the morning it is done."
+    ]
+   },
+   "lyrics_by": "the team",
+   "lyrics_note": "Lyrics of version 6, take A, as stored on Suno."
   },
   {
    "slug": "strangers",
@@ -218,7 +443,12 @@
        "suno_title": "Strangers in the Loop",
        "cover": "https://cdn1.suno.ai/image_ccece874-8c5f-4d72-b7d3-f79f38d978ab.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "early 2000s British piano rock, emotive male tenor, upright piano, chiming guitar, 96 bpm",
+      "negative_style": null
+     }
     },
     {
      "n": 2,
@@ -239,7 +469,12 @@
        "suno_title": "Strangers in the Loop",
        "cover": "https://cdn1.suno.ai/image_b4eb3fcf-b572-48c3-a9a9-e9da123756e2.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "early 2000s British piano rock, emotive male tenor, upright piano, chiming guitar, 96 bpm",
+      "negative_style": null
+     }
     },
     {
      "n": 3,
@@ -260,7 +495,12 @@
        "suno_title": "Strangers in the Loop",
        "cover": "https://cdn1.suno.ai/image_68d198d7-7dfc-4c7f-a4ad-dba45e525abf.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "contemporary R&B soul, warm electric piano, rounded bass, layered backing vocals, male tenor",
+      "negative_style": null
+     }
     },
     {
      "n": 4,
@@ -281,7 +521,12 @@
        "suno_title": "Strangers in the Loop",
        "cover": "https://cdn1.suno.ai/image_1f0629d1-b3dc-456a-8ef9-1fc2dc4c7274.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "(not recorded)",
+      "negative_style": null
+     }
     },
     {
      "n": 5,
@@ -302,7 +547,12 @@
        "suno_title": "Strangers in the Loop",
        "cover": "https://cdn1.suno.ai/image_757fc8e5-971a-42ad-8294-b6aa0a49d6fd.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "R&B soul",
+      "negative_style": null
+     }
     },
     {
      "n": 6,
@@ -323,7 +573,12 @@
        "suno_title": "Upbeat Soul",
        "cover": "https://cdn1.suno.ai/image_825a21b8-acb8-4a26-b924-17db89ca8783.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "upbeat R&B soul",
+      "negative_style": null
+     }
     },
     {
      "n": 7,
@@ -344,7 +599,12 @@
        "suno_title": "Strangers in the Loop",
        "cover": "https://cdn1.suno.ai/image_bfcf7bf2-ef74-47a7-b6cf-d8a2ef145819.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "upbeat contemporary R&B soul, syncopated drums, bright electric piano, layered backing vocals, male tenor with falsetto",
+      "negative_style": null
+     }
     },
     {
      "n": 8,
@@ -365,7 +625,12 @@
        "suno_title": "Strangers in the Loop",
        "cover": "https://cdn1.suno.ai/image_1aac0743-54eb-4491-871f-6092b1f0759f.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "(not recorded)",
+      "negative_style": null
+     }
     },
     {
      "n": 9,
@@ -386,9 +651,22 @@
        "suno_title": "Strangers in the Loop (Soul Version)",
        "cover": "https://cdn1.suno.ai/image_f581d65d-a225-4518-ab4a-d87c8afb0a6f.jpeg"
       }
-     ]
+     ],
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "upbeat R&B soul, modern Motown groove, gospel backing choir, punchy horns, Rhodes, 108 bpm",
+      "negative_style": null
+     }
     }
-   ]
+   ],
+   "brief": {
+    "asked_by": "Made on suno.com on 13 November 2026, before this site; the brief was not recorded here.",
+    "words": null,
+    "thinking": [
+     "A song about a week of building with agents, first as British piano rock, then as R&B soul with the same lyrics."
+    ]
+   },
+   "lyrics_note": "The lyrics are not shown here: they name people who have not agreed to be named on this site."
   }
  ]
 }

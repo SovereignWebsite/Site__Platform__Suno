@@ -1,0 +1,38 @@
+{
+ "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
+ "read_at": "2026-11-23T23:07Z",
+ "plan": "Pro Plan",
+ "period": "month",
+ "renews_on": "2026-12-13",
+ "song_credits": {
+  "monthly_limit": 2500,
+  "used": 170,
+  "left": 2330
+ },
+ "download_credits": {
+  "left": 15
+ },
+ "cost": {
+  "generation": 10,
+  "download": 1
+ },
+ "log": [
+  {
+   "when": "2026-11-13 to 15",
+   "what": "15 generations, 30 takes (before this site)",
+   "song_credits": 150
+  },
+  {
+   "when": "2026-11-23T22:30Z",
+   "what": "Two Takes, version 1",
+   "song_credits": 10,
+   "asked_by": "Dinis: \"Can we try to write a song?\""
+  },
+  {
+   "when": "2026-11-23T23:06Z",
+   "what": "Parada, version 1",
+   "song_credits": 10,
+   "asked_by": "Dinis: a Brazilian instrumental with strong melodic lines and stops"
+  }
+ ]
+}

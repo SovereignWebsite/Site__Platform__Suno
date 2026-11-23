@@ -39,6 +39,10 @@
     abPlayer(v, `${s.title}, version ${v.n}`),
   ]);
   const stages = data.stages.map((x) => x.id);
+  fetch('/data/budget.json', { cache: 'no-cache' }).then((r) => r.json()).then((b) => {
+    const strip = document.getElementById('budgetline'); if (!strip) return;
+    strip.replaceChildren(document.createTextNode(`Credits: ${b.song_credits.left.toLocaleString('en-GB')} of ${b.song_credits.monthly_limit.toLocaleString('en-GB')} left this month (about ${Math.floor(b.song_credits.left / b.cost.generation)} more generations), ${b.download_credits.left} downloads left, renews ${b.renews_on}. `), el('a', { href: '/budget/', textContent: 'Budget' }));
+  }).catch(() => {});
   list.replaceChildren(...data.songs.map((s) => {
     const latest = s.versions[s.versions.length - 1], at = stages.indexOf(s.stage);
     const ladder = el('ol', { className: 'ladder', 'aria-label': 'Stage' }, data.stages.map((st, i) => {
@@ -49,11 +53,12 @@
     return el('article', { className: 'songcard', id: s.slug }, [
       el('div', { className: 'songhead' }, [
         el('img', { src: latest.takes[0].cover, alt: '', width: 120, height: 120, loading: 'lazy' }),
-        el('div', {}, [el('h3', { textContent: s.title }), el('p', { className: 'about', textContent: s.about }),
+        el('div', {}, [el('h3', {}, [el('a', { href: `/songs/${s.slug}/`, textContent: s.title })]), el('p', { className: 'about', textContent: s.about }),
           el('p', { className: 'stageline', textContent: `Stage: ${s.stage}, ${at + 1} of ${stages.length} · version ${latest.n} of ${s.versions.length}` }), ladder,
           ...(s.lyrics_by ? [el('p', { className: 'vmeta' }, [el('a', { href: `/lyrics/${s.slug}.txt`, textContent: 'Read the lyrics' })])] : [])]),
       ]),
       el('section', { className: 'latest' }, [version(latest, s, 'h4')]),
+      el('p', { className: 'vmeta' }, [el('a', { href: `/songs/${s.slug}/`, textContent: `The brief, the prompt, timings and feedback for ${s.title}` })]),
       ...(older.length ? [el('details', { className: 'history' }, [
         el('summary', { textContent: `Earlier versions (${older.length})` }),
         el('ol', {}, older.map((v) => el('li', {}, [version(v, s, 'h4')]))),

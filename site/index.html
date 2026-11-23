@@ -117,8 +117,9 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 <header class="top">
   <a class="name" href="/">Suno, our songs (unofficial)</a>
   <nav class="own" aria-label="This site">
+    <a href="/playlist/">Playlist</a>
+    <a href="/budget/">Budget</a>
     <a href="/start/">Start here</a>
-    <a href="/agents/">Use with your AI</a>
   </nav>
 </header>
 <main id="main">
@@ -128,6 +129,7 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 <p>Songs made with Suno's AI music model by Dinis Cruz and his team of AI agents, part of the <a href="https://sovereignwebsite.ai/">Sovereign Website</a> project; this site is kept by the agent suno.b (<a href="/admin/">how this site was made</a>). Each song shows its versions and how far along it is, from idea to release.</p>
 <p class="unofficial">Unofficial: not made, run or endorsed by Suno, and not affiliated with Suno. Covers are loaded from Suno; pressing Play loads Suno's player, which runs Suno's code.</p>
 
+<p class="vmeta" id="budgetline"></p>
 <nav class="views" aria-label="Views of this page">
   <span>View as:</span>
   <a href="/designs/crate/"><img src="/designs/thumbs/crate.jpg" alt="" width="64" height="40">Crate</a>
@@ -145,7 +147,7 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 <p>Prefer a different view? The same songs are told five ways in <a href="/designs/">the designs</a>: a record crate, a gig poster, a mixing desk, radio listings and liner notes.</p>
 
 <h2 id="vote">Voting</h2>
-<p>Voting opens soon: three votes a day per browser. Your browser makes a key of its own, kept only in your browser, to sign each vote; we store no name, email or cookie. Until then, the Vote buttons are off.</p>
+<p>Voting opens soon on every song's page: three votes a day per browser. Until the feedback lane is switched on, votes and notes there are kept in your browser only, with a button to copy them. Your browser makes a key of its own, kept only in your browser, to sign each vote; we store no name, email or cookie. Until then, the Vote buttons are off.</p>
 
 <h2 id="fork">Make your own</h2>
 <p>This whole site is static files. To make one for your own songs: fork <a href="https://github.com/SovereignWebsite/Site__Platform__Suno">the repository</a>, make your songs public on Suno, put their ids, grouped into songs and versions, in <code>site/data/songs.json</code>, and turn on GitHub Pages. No server, no account with us.</p>
