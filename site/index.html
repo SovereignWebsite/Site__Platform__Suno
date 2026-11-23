@@ -61,7 +61,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);font-si
 h2{font-size:1.25rem;margin:2rem 0 .5rem}ol,ul.plain{color:var(--muted);padding-left:1.2rem}li{margin:.35rem 0}
 pre{background:rgba(127,127,127,.1);padding:.8rem 1rem;border-radius:6px;white-space:pre-wrap;font-size:.9rem;color:var(--fg)}
 code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
-@media (max-width:40rem){.mark{display:none}}
+@media (max-width:40rem){.mark{display:none}h1{font-size:1.7rem;margin:.2rem 0 .5rem}main p{font-size:16px}.unofficial{margin:.5rem 0}.top{padding-top:1.6rem}h2{margin-top:1.2rem}}
 @media (max-width:599px){footer,.family-credit,.family,.site-links{font-size:15px}}
 .unofficial{font-size:.9rem;border-left:3px solid var(--accent);padding:.2rem .8rem;margin:1rem 0}
 .songcard{border:1px solid var(--line);border-radius:10px;padding:1rem;margin:1.2rem 0}
@@ -90,6 +90,7 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 .soon{font-size:.85rem;color:var(--muted)}.slot iframe{width:100%;height:240px;border:0;border-radius:6px;margin-top:.4rem}
 .onsuno{margin-right:1rem}
 @media (max-width:40rem){.ladder{font-size:.7rem}.ladder li{padding:.1rem .35rem}}
+.draft{font-size:.85rem;font-weight:600;color:var(--fg);background:rgba(127,127,127,.12);padding:.3rem .6rem;border-radius:4px;display:inline-block;margin:0 0 .6rem}
 </style>
 </head>
 <body>
@@ -121,11 +122,12 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 <main id="main">
 <div class="mark">suno.platform.sovereignweb.site</div>
 <h1>Suno, our songs (unofficial)</h1>
+<p class="draft">Draft: first version, 23 November 2026, not yet signed off by Dinis Cruz.</p>
 <p>Songs made with Suno's AI music model by Dinis Cruz and his team of AI agents, part of the <a href="https://sovereignwebsite.ai/">Sovereign Website</a> project; this site is kept by the agent suno.b (<a href="/admin/">how this site was made</a>). Each song shows its versions and how far along it is, from idea to release.</p>
 <p class="unofficial">Unofficial: not made, run or endorsed by Suno, and not affiliated with Suno. Covers are loaded from Suno; pressing Play loads Suno's player, which runs Suno's code.</p>
 
 <h2 id="songs">The songs</h2>
-<p>Each song has versions, and two takes (A and B) of each; the newest first.</p>
+<p>Each song has versions, and two takes (A and B) of each; the newest first. Dates, versions, lengths and styles are from the team's Suno library, read on 23 November 2026.</p>
 <div id="list"></div>
 <noscript><p>The songs need JavaScript. Every song, version and take is in <a href="/data/songs.json">data/songs.json</a>, and plays at suno.com/song/ followed by its id.</p></noscript>
 
