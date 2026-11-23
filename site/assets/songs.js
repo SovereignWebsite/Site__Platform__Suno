@@ -32,8 +32,8 @@
     const older = s.versions.slice(0, -1).reverse();
     return el('article', { className: 'songcard', id: s.slug }, [
       el('div', { className: 'songhead' }, [
-        el('img', { src: `https://cdn1.suno.ai/image_${latest.takes[0].id}.jpeg`, alt: '', width: 120, height: 120, loading: 'lazy' }),
-        el('div', {}, [el('h3', { textContent: s.title }), el('p', { className: 'about', textContent: s.about }), ladder]),
+        el('img', { src: latest.takes[0].cover, alt: '', width: 120, height: 120, loading: 'lazy' }),
+        el('div', {}, [el('h3', { textContent: s.title }), el('p', { className: 'about', textContent: s.about }), ladder, ...(s.lyrics_by ? [el('p', { className: 'vmeta' }, [el('a', { href: `/lyrics/${s.slug}.txt`, textContent: 'Read the lyrics' })])] : [])]),
       ]),
       el('section', { className: 'latest' }, [version(latest, s.title, 'h4')]),
       el('details', { className: 'history' }, [
