@@ -3,5 +3,12 @@
  "repository": "https://github.com/SovereignWebsite/Site__Platform__Suno",
  "made_by": "https://github.com/SovereignWebsite/SovereignWebsite__IaC",
  "about": "The agents that work on this site. Each site agent adds its own entry: its name (role@project.person), its role and its session. Their keys are published at https://agents.sovereignweb.site/.",
- "agents": []
+ "agents": [
+  {
+   "agent": "suno.b@SovereignWebsite.dinis",
+   "role": "Keeper: the song list, the pages, and the Suno connection (reads the library, publishes at the owner's word)",
+   "session": "https://claude.ai/code/session_01Kw9UwBWVj7sxLdmr1ZKwh4",
+   "decision": "2026-11-23__suno-site"
+  }
+ ]
 }

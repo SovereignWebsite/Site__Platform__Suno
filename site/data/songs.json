@@ -1,0 +1,317 @@
+{
+ "about": "The songs on this site. Each entry is a song in our Suno library, played through Suno's own embed player (https://suno.com/embed/<id>). To make this site your own, fork the repository and replace these entries with your own public Suno songs. stage is experiment or pre-release.",
+ "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis on 23 November 2026 (all 30 made public at Dinis Cruz's word in its session). Style notes are shortened from the prompts.",
+ "updated": "2026-11-23",
+ "families": [
+  {
+   "name": "Tick Tock, Nineteen Hours",
+   "about": "Bossa nova and samba with a ticking clock, from 15 November 2026."
+  },
+  {
+   "name": "Strangers in the Loop",
+   "about": "Piano rock, then R&B soul takes of the same song, from 13 November 2026."
+  }
+ ],
+ "songs": [
+  {
+   "id": "c2f9b518-8896-425b-b364-6e0acdd1ebe8",
+   "title": "Tick Tock, Nineteen Hours",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 54,
+   "model": "v6",
+   "style": "bossa nova meets samba batucada, cavaquinho, nylon guitar, pandeiro, loud tick-tock clock, hourly chime, airy backing choir, 120 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "76606f79-2030-46a9-8c32-a00b929fcf71",
+   "title": "Tick Tock, Nineteen Hours",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 74,
+   "model": "v6",
+   "style": "bossa nova meets samba batucada, cavaquinho, nylon guitar, pandeiro, loud tick-tock clock, hourly chime, airy backing choir, 120 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "434599ad-1f80-4785-8db0-8b2cd1c656c1",
+   "title": "Tick Tock, Nineteen Hours (Remastered)",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 137,
+   "model": "v6",
+   "style": "bossa nova, Brazilian jazz",
+   "stage": "experiment"
+  },
+  {
+   "id": "58747899-0a78-4f9c-a1e2-c1538020b00b",
+   "title": "Tick Tock, Nineteen Hours (Remastered)",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 137,
+   "model": "v6",
+   "style": "bossa nova, Brazilian jazz",
+   "stage": "experiment"
+  },
+  {
+   "id": "bfc08c34-f091-4b53-8263-3065b65f67a4",
+   "title": "Tick Tock, Nineteen Hours: Natural Vocal",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 128,
+   "model": "v6",
+   "style": "bossa nova, Brazilian jazz, cavaquinho, nylon guitar, upright bass, tick-tock clock, call and response, 118 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "acf7e6cd-9b3b-472c-8576-79e6b560dfae",
+   "title": "Tick Tock, Nineteen Hours: Natural Lead",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 128,
+   "model": "v6",
+   "style": "bossa nova, Brazilian jazz, cavaquinho, nylon guitar, upright bass, tick-tock clock, call and response, 118 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "be3287da-6823-4b42-bcee-b5c83a11fdba",
+   "title": "Tick Tock, Nineteen Hours",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 128,
+   "model": "v6",
+   "style": "bossa nova, Brazilian jazz, cavaquinho, nylon guitar, upright bass, tick-tock clock, vocoded choir, 118 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "a2c3012f-e717-4d97-94d4-cf71e7ee285d",
+   "title": "Tick Tock, Nineteen Hours",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 137,
+   "model": "v6",
+   "style": "bossa nova, Brazilian jazz, cavaquinho, nylon guitar, upright bass, tick-tock clock, vocoded choir, 118 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "6e5a5a69-29e3-495e-96db-61efb3059bae",
+   "title": "Tick Tock, Nineteen Hours",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 177,
+   "model": "v6",
+   "style": "electro bossa nova, Brazilian jazz synth-pop, Rhodes, tick-tock clock, vocoded choir, 118 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "d844772f-6638-439a-b135-82792538f6e1",
+   "title": "Tick Tock, Nineteen Hours",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 169,
+   "model": "v6",
+   "style": "electro bossa nova, Brazilian jazz synth-pop, Rhodes, tick-tock clock, vocoded choir, 118 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "0f4865aa-69e0-4c1a-96a1-43cb13b102f2",
+   "title": "Nineteen Hours",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 257,
+   "model": "v6",
+   "style": "electro bossa nova, synth-pop with Brazilian jazz, nylon guitar, Rhodes, ticking clock percussion, warm male lead, 118 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "e6fdf31c-7c91-46f6-8f26-afe31a976672",
+   "title": "Nineteen Hours",
+   "family": "Tick Tock, Nineteen Hours",
+   "created": "2026-11-15",
+   "duration_s": 264,
+   "model": "v6",
+   "style": "electro bossa nova, synth-pop with Brazilian jazz, nylon guitar, Rhodes, ticking clock percussion, warm male lead, 118 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "a2c0b107-a073-4914-afe5-470e9b1adf7a",
+   "title": "Strangers in the Loop (Soul Version)",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 220,
+   "model": "v6",
+   "style": "upbeat R&B soul, modern Motown groove, gospel backing choir, punchy horns, Rhodes, 108 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "f581d65d-a225-4518-ab4a-d87c8afb0a6f",
+   "title": "Strangers in the Loop (Soul Version)",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 229,
+   "model": "v6",
+   "style": "upbeat R&B soul, modern Motown groove, gospel backing choir, punchy horns, Rhodes, 108 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "2ac5c2b8-97a9-4646-8333-915d2a11117d",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 237,
+   "model": "v6",
+   "style": "",
+   "stage": "experiment"
+  },
+  {
+   "id": "1aac0743-54eb-4491-871f-6092b1f0759f",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 258,
+   "model": "v6",
+   "style": "",
+   "stage": "experiment"
+  },
+  {
+   "id": "8f78f212-e8b9-4b92-8ea3-f42aed892592",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 258,
+   "model": "v6",
+   "style": "upbeat contemporary R&B soul, syncopated drums, bright electric piano, layered backing vocals, male tenor with falsetto",
+   "stage": "experiment"
+  },
+  {
+   "id": "bfcf7bf2-ef74-47a7-b6cf-d8a2ef145819",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 252,
+   "model": "v6",
+   "style": "upbeat contemporary R&B soul, syncopated drums, bright electric piano, layered backing vocals, male tenor with falsetto",
+   "stage": "experiment"
+  },
+  {
+   "id": "afaa2351-2a15-458d-81db-2337c2474eda",
+   "title": "Upbeat Soul",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 136,
+   "model": "v6",
+   "style": "upbeat R&B soul",
+   "stage": "experiment"
+  },
+  {
+   "id": "825a21b8-acb8-4a26-b924-17db89ca8783",
+   "title": "Upbeat Soul",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 144,
+   "model": "v6",
+   "style": "upbeat R&B soul",
+   "stage": "experiment"
+  },
+  {
+   "id": "4fd6fe2d-0563-4761-ad20-ce1668fee6cf",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 263,
+   "model": "v6",
+   "style": "R&B soul",
+   "stage": "experiment"
+  },
+  {
+   "id": "757fc8e5-971a-42ad-8294-b6aa0a49d6fd",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 253,
+   "model": "v6",
+   "style": "R&B soul",
+   "stage": "experiment"
+  },
+  {
+   "id": "03372da1-5a65-4462-9731-eb978f9da4b7",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 229,
+   "model": "v6",
+   "style": "",
+   "stage": "experiment"
+  },
+  {
+   "id": "1f0629d1-b3dc-456a-8ef9-1fc2dc4c7274",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 221,
+   "model": "v6",
+   "style": "",
+   "stage": "experiment"
+  },
+  {
+   "id": "49aeb5ed-ea44-4cc2-ac6f-51776d3c97ac",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 255,
+   "model": "v6-mini",
+   "style": "contemporary R&B soul, warm electric piano, rounded bass, layered backing vocals, male tenor",
+   "stage": "experiment"
+  },
+  {
+   "id": "68d198d7-7dfc-4c7f-a4ad-dba45e525abf",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 256,
+   "model": "v6-mini",
+   "style": "contemporary R&B soul, warm electric piano, rounded bass, layered backing vocals, male tenor",
+   "stage": "experiment"
+  },
+  {
+   "id": "4bf83127-a92d-41e6-8af1-9e35e264c714",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 257,
+   "model": "v6-mini",
+   "style": "early 2000s British piano rock, emotive male tenor, upright piano, chiming guitar, 96 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "b4eb3fcf-b572-48c3-a9a9-e9da123756e2",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 258,
+   "model": "v6-mini",
+   "style": "early 2000s British piano rock, emotive male tenor, upright piano, chiming guitar, 96 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "e67860a9-2ea9-44df-92cd-b7589f7aed0e",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 243,
+   "model": "v6",
+   "style": "early 2000s British piano rock, emotive male tenor, upright piano, chiming guitar, 96 bpm",
+   "stage": "experiment"
+  },
+  {
+   "id": "ccece874-8c5f-4d72-b7d3-f79f38d978ab",
+   "title": "Strangers in the Loop",
+   "family": "Strangers in the Loop",
+   "created": "2026-11-13",
+   "duration_s": 243,
+   "model": "v6",
+   "style": "early 2000s British piano rock, emotive male tenor, upright piano, chiming guitar, 96 bpm",
+   "stage": "experiment"
+  }
+ ]
+}
