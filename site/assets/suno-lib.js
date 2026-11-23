@@ -16,11 +16,14 @@ export async function load() {
   d.byMaturity = [...d.songs].sort((a, b) => b.level - a.level);
   return d;
 }
-// The five-step ladder, with the song's stage marked: a <ol> each design styles its own way.
+// The five-step ladder, with the song's stage marked (aria-current="step"): a <ol> each design styles its own way.
 export function ladder(song, stages, className = 'ladder') {
-  return el('ol', { className, 'aria-label': `${song.title}: stage ${song.stage}` }, stages.map((st, i) =>
-    el('li', { className: i < song.level ? 'done' : i === song.level ? 'now' : 'todo', title: st.about, textContent: st.id })));
+  return el('ol', { className, 'aria-label': 'Stage' }, stages.map((st, i) => {
+    const li = el('li', { className: i < song.level ? 'done' : i === song.level ? 'now' : 'todo', title: st.about, textContent: st.id });
+    if (i === song.level) li.setAttribute('aria-current', 'step');
+    return li; }));
 }
+export const stageLine = (song, stages) => `Stage: ${song.stage}, ${song.level + 1} of ${stages.length} · ${song.versions.length} versions`;
 // A Play button that turns into Suno's player in `into` (or after itself).
 export function playButton(take, label, into, text = 'Play') {
   const b = el('button', { type: 'button', textContent: text, 'aria-label': `Play ${label}` });
@@ -30,13 +33,19 @@ export function playButton(take, label, into, text = 'Play') {
   });
   return b;
 }
-// One tap: both takes of a version side by side.
+// One tap to compare: one player slot with an A/B switch; B replaces A in place, so only one plays.
 export function compareButton(version, title, into) {
-  const b = el('button', { type: 'button', textContent: 'Compare A and B', 'aria-label': `Compare both takes of ${title}, version ${version.n}` });
+  const b = el('button', { type: 'button', textContent: 'Compare A and B', 'aria-label': `Compare the two takes of ${title}, version ${version.n}` });
   b.addEventListener('click', () => {
-    into.replaceChildren(...version.takes.map((t, i) => el('figure', { className: 'cmp' }, [
-      el('figcaption', { textContent: `Take ${'AB'[i]} · ${mmss(t.duration_s)}` }),
-      el('iframe', { src: `https://suno.com/embed/${t.id}`, title: `${title}, version ${version.n}, take ${'AB'[i]}, Suno player`, allow: 'autoplay; encrypted-media' })])));
+    const slot = el('div', { className: 'abslot' });
+    const note = el('p', { className: 'abnote', textContent: "Take A is loaded: press play in Suno's player, or switch to B." });
+    const sw = version.takes.map((t, i) => {
+      const x = el('button', { type: 'button', className: 'abswitch', 'aria-pressed': String(i === 0), textContent: `Take ${'AB'[i]} · ${mmss(t.duration_s)}` });
+      x.addEventListener('click', () => { sw.forEach((y) => y.setAttribute('aria-pressed', String(y === x))); f.src = `https://suno.com/embed/${t.id}`; f.title = `${title}, version ${version.n}, take ${'AB'[i]}, Suno player`; note.textContent = `Take ${'AB'[i]} is loaded: press play in Suno's player.`; });
+      return x; });
+    const f = el('iframe', { src: `https://suno.com/embed/${version.takes[0].id}`, title: `${title}, version ${version.n}, take A, Suno player`, allow: 'autoplay; encrypted-media' });
+    slot.append(f);
+    into.replaceChildren(el('div', { className: 'abbar', role: 'group', 'aria-label': `${title}, version ${version.n}: takes` }, [el('b', { textContent: `Version ${version.n}` }), ...sw]), note, slot);
     into.hidden = false; into.scrollIntoView({ block: 'nearest' });
   });
   return b;

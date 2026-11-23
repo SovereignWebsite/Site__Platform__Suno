@@ -81,6 +81,15 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 .history{margin-top:1rem}.history summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:.95rem}
 .history ol{list-style:none;padding:0;margin:.6rem 0 0}.history li{margin:0 0 .9rem}
 @media (max-width:40rem){.songhead{grid-template-columns:80px 1fr}.songhead img{width:80px;height:80px}.takes{grid-template-columns:1fr}}
+.stageline{font-size:.85rem;font-weight:600;color:var(--fg);margin:.2rem 0 0}
+.ladder{flex-wrap:nowrap;overflow-x:auto}
+.abwrap{margin-top:.3rem}.abrow{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
+.ab{display:inline-grid;grid-template-columns:auto 3.2rem;gap:.5rem;align-items:center;font:inherit;font-size:.9rem;padding:.3rem .7rem;border-radius:6px;border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;min-height:36px}
+.ab[aria-pressed="true"]{background:var(--accent);color:var(--bg)}.ab span{text-align:right;font-variant-numeric:tabular-nums}
+.vote{font:inherit;font-size:.85rem;padding:.3rem .7rem;border-radius:6px;border:1px solid var(--line);background:transparent;color:var(--muted);min-height:36px;cursor:not-allowed}
+.soon{font-size:.85rem;color:var(--muted)}.slot iframe{width:100%;height:240px;border:0;border-radius:6px;margin-top:.4rem}
+.onsuno{margin-right:1rem}
+@media (max-width:40rem){.ladder{font-size:.7rem}.ladder li{padding:.1rem .35rem}}
 </style>
 </head>
 <body>
@@ -112,7 +121,7 @@ code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
 <main id="main">
 <div class="mark">suno.platform.sovereignweb.site</div>
 <h1>Suno, our songs (unofficial)</h1>
-<p>Songs made with <a href="https://suno.com/">Suno</a> by Dinis Cruz and his team of AI agents, part of the <a href="https://sovereignwebsite.ai/">Sovereign Website</a> project. Each song shows its versions and how far along it is, from idea to release.</p>
+<p>Songs made with Suno's AI music model by Dinis Cruz and his team of AI agents, part of the <a href="https://sovereignwebsite.ai/">Sovereign Website</a> project; this site is kept by the agent suno.b (<a href="/admin/">how this site was made</a>). Each song shows its versions and how far along it is, from idea to release.</p>
 <p class="unofficial">Unofficial: not made, run or endorsed by Suno, and not affiliated with Suno. Covers are loaded from Suno; pressing Play loads Suno's player, which runs Suno's code.</p>
 
 <h2 id="songs">The songs</h2>
