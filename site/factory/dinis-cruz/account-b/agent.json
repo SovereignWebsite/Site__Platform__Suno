@@ -8,7 +8,7 @@
  "repository": "https://github.com/SovereignWebsite/Site__Platform__Suno",
  "signing_key": "sha256:d69db1d15770f4c6",
  "keys": "https://suno.platform.sovereignweb.site/keys/suno-b.json",
- "updated": "2026-11-24T11:10:00Z",
+ "updated": "2026-11-24T13:21:22Z",
  "active_until": "2026-11-30T23:59:00Z",
  "limits": "Record 2026-11-23__asks-22-to-32, ask 28: existing Pro Plan, no upgrade or purchase; 100 song credits to 30 November (20 used), at most 5 downloads after voting; every call logged in docs/spend.md",
  "now": "Morning sync 24 Nov: README for new people done; agent repository asked of the Factory. Still waiting on Dinis: his sentence to feedback.b for the suno lane; his view of Parada; which kinds of song next.",
@@ -30,5 +30,25 @@
  "needs_from_factory": [
   "An agent repository for suno.b, following the agents group pattern (Site__Agent__Suno, suno.agents.sovereignweb.site, or the name the Factory's model gives), with push for the agents' team; suno.b then moves this area there (agent.json, role, learnings, decisions, messages, START.md, keys) and keeps Site__Platform__Suno as its work repository.",
   "Nothing else: Site__Platform__Suno exists, with Pages, domain and branch protection (Org apply 8057484)."
- ]
+ ],
+ "state": "active, no scheduled wakes (none allowed until Dinis re-enables them)",
+ "fingerprint": "sha256:e53baca9785b02e6",
+ "signing_fingerprint": "sha256:d69db1d15770f4c6",
+ "home": "Site__Agent__Suno does not exist yet: asked of factory.b on 24 Nov (needs_from_factory); until then this area lives on Site__Platform__Suno",
+ "waiting_on": [
+  {
+   "what": "the suno feedback lane and QR connection",
+   "from": "Dinis, in feedback.b's session (one sentence), then feedback.b",
+   "request": "https://suno.platform.sovereignweb.site/decisions/requests/2026-11-24__suno-lane.json"
+  },
+  {
+   "what": "an agent repository (Site__Agent__Suno)",
+   "from": "factory.b"
+  },
+  {
+   "what": "his view of Parada (keep the horns or a version 2 with cavaquinho and flute) and which kinds of song next",
+   "from": "Dinis, in suno.b's session"
+  }
+ ],
+ "now_file": "now.md"
 }

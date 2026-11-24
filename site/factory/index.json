@@ -1,0 +1,10 @@
+{
+ "about": "Agents with an area on this site, per the 24 Nov guidance (every agent keeps its own area).",
+ "agents": [
+  {
+   "agent": "suno.b@SovereignWebsite.dinis",
+   "account": "B",
+   "agent_json": "/factory/dinis-cruz/account-b/agent.json"
+  }
+ ]
+}
