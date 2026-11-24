@@ -41,7 +41,8 @@
      "Name who carries the tune: cavaquinho and flute in unison for the theme, nylon guitar and muted trumpet answering, so there is call and response without a singer.",
      "Ask for the stops in words Suno tends to follow: tight full-band stops and breaks, sudden silences, the band crashing back in.",
      "Two minutes, so the stops have room but the idea stays tight."
-    ]
+    ],
+    "versions_note": "Version 2 has its own brief (below the prompt)."
    },
    "versions": [
     {
@@ -190,6 +191,134 @@
       }
      ],
      "result": "Both takes are fully instrumental with a strong melody and four or five full-band stops. Neither used the cavaquinho and flute asked for: take A went to horns (trumpet, clarinet, trombone), take B to an accordion-like reed and plucked guitar. Next version: ask for less reinterpretation (variety 0, style influence high) and name the instruments again, or keep the horns if they work."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-24T15:37Z",
+     "label": "Slower and jazzier, built on version 1 take A",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "simple, instrumental, built on Parada version 1 take A (reference)",
+      "style": "A slower version of Parada, around 92 bpm, keeping its main melodic line on the horns and its full-band stops, and keeping the samba batucada percussion (surdo, pandeiro, tamborim) but laid back. Move it towards sophisticated Brazilian jazz and MPB: warm nylon-string guitar with rich jazz chords, smooth fretless bass, soft Rhodes, gentle syncopated groove, a relaxed and sunny late-afternoon feel. Purely instrumental, no vocals.",
+      "negative_style": null,
+      "suno_expanded": "Sophisticated Brazilian jazz and MPB, relaxed samba batucada around 92 BPM, preserve the source's catchy main horn melody and dramatic full-band stops with sudden silences and strong ensemble returns. Warm nylon-string guitar playing rich extended jazz chords, smooth fretless bass, soft Rhodes, laid-back syncopated surdo, pandeiro and tamborim, understated agogo accents. Sunny late-afternoon ease, supple dynamics, warm organic ensemble sound, clear melodic horns up front, polished spacious mix."
+     },
+     "style": "slower Brazilian jazz and MPB, relaxed batucada, melody kept, instrumental",
+     "brief": {
+      "asked_by": "Dinis Cruz, 24 November 2026, in suno.b's session",
+      "words": "So for the next song, can you do a variation of this, much slower, a bit slower, but still keep the battocada, but do a bit slower, and try to do a little bit like a kind of sort of DJava [read as: Djavan], kind of Gilberto Gil style, with what's it called Brazilian Jazz? With keeping the sort of melodic line, which I really like, and it's really cool.",
+      "thinking": [
+       "Build on the take Dinis had loaded (version 1, take A) so the melodic line carries over: Suno's reference mode.",
+       "Suno does not take artists' names, so describe the sound instead: Brazilian jazz and MPB, nylon guitar with rich jazz chords, fretless bass, Rhodes, a late-afternoon feel.",
+       "Keep the batucada but laid back; ask for about 92 bpm."
+      ]
+     },
+     "takes": [
+      {
+       "id": "ae887dff-66a7-4bab-94b9-21f92fa0dfeb",
+       "duration_s": 115,
+       "suno_title": "Luz de Tarde",
+       "cover": "https://cdn2.suno.ai/image_ae887dff-66a7-4bab-94b9-21f92fa0dfeb.jpeg",
+       "listen": {
+        "bpm": 120.1,
+        "key": "F major",
+        "lead": [
+         "flute-like lead",
+         "piano",
+         "brass"
+        ],
+        "melody_strength": 4,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          20,
+          "Intro"
+         ],
+         [
+          20,
+          40,
+          "Theme"
+         ],
+         [
+          40,
+          60,
+          "Groove"
+         ],
+         [
+          60,
+          80,
+          "Theme returns"
+         ],
+         [
+          80,
+          100,
+          "Variation"
+         ],
+         [
+          100,
+          115,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Bright flute-like lead with piano and brass answering; relaxed batucada and jazz-coloured chords; no full-band silences, only short accents."
+       }
+      },
+      {
+       "id": "3768cf08-8bcb-40dc-87c7-8da1ed96cda2",
+       "duration_s": 120,
+       "suno_title": "Luz de Tarde",
+       "cover": "https://cdn2.suno.ai/image_3768cf08-8bcb-40dc-87c7-8da1ed96cda2.jpeg",
+       "listen": {
+        "bpm": 120,
+        "key": "F major",
+        "lead": [
+         "flute",
+         "saxophone",
+         "piano"
+        ],
+        "melody_strength": 4,
+        "stops": [
+         [
+          111,
+          "brief full-band break before the closing chord"
+         ]
+        ],
+        "sections": [
+         [
+          0,
+          17,
+          "Intro"
+         ],
+         [
+          17,
+          52,
+          "Theme, first statement"
+         ],
+         [
+          52,
+          86,
+          "Theme, second statement"
+         ],
+         [
+          86,
+          113,
+          "Bridge"
+         ],
+         [
+          113,
+          120,
+          "Closing cadence"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Warm flute lead with saxophone answering and light piano; soft batucada and bossa-MPB jazz harmony; one clear break near the end."
+       }
+      }
+     ],
+     "result": "Half there. The batucada stayed, now relaxed; the harmony moved to Brazilian jazz and MPB with richer chords; the melody is still strong (4 of 5), now on flute with piano, brass or saxophone answering; still instrumental. But it is not slower: both takes measure 120 bpm, as in version 1 (building on the original kept its tempo), and the hard stops are mostly gone (none in take A, one near the end of take B). Next: write the style ourselves at about 88 bpm with half-time feel and the stops named, without building on the original. Suno titled these takes Luz de Tarde."
     }
    ],
    "lyrics_by": null
