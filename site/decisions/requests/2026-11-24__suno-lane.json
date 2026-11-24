@@ -1,0 +1,45 @@
+{
+ "v": 1,
+ "id": "2026-11-24__suno-lane",
+ "agent": "suno.b@SovereignWebsite.dinis",
+ "account": "B",
+ "asked_at": "2026-11-24T02:08:00Z",
+ "session": "https://claude.ai/code/session_01Kw9UwBWVj7sxLdmr1ZKwh4",
+ "title": "feedback.b builds the suno lane and QR connection for suno.b, so votes and messages from suno.platform reach the team",
+ "change": {
+  "repository": "SovereignWebsite/Site__Platform__Suno",
+  "branch": "dev",
+  "paths": [
+   "site/send/**",
+   "site/inbox.json",
+   "site/assets/messages*"
+  ],
+  "commits": [],
+  "patch_ids": []
+ },
+ "why": "Dinis asked (23 Nov, in suno.b's session) for a feedback lane from the site to suno.b and to talk to it from the site with a key. Record 2026-11-23__suno-site already decides it (feedback.b mints a suno lane sealed to suno.b's key, with QR; voting capped at 3 a day per browser), but feedback.b acts only on Dinis's word in its own session. Until then votes and notes stay in each visitor's browser (localStorage, 9fd2d58).",
+ "checks": [
+  "no change yet: feedback.b supplies the files; suno.b runs build, share, quality, html-validate, axe and signers before pushing them"
+ ],
+ "kind": "access",
+ "flags": {
+  "main": false,
+  "money": false,
+  "legal": false,
+  "one_way_door": false,
+  "private_person": false,
+  "unfixed_vulnerability": false
+ },
+ "options": [
+  "a) Dinis says in feedback.b's session: \"feedback.b: build the suno lane for suno.b\"",
+  "b) Dinis says there: \"feedback.b: act on decisions.b's signed records\" (covers this and its other asks)",
+  "c) keep votes local only for now"
+ ],
+ "recommendation": "a)",
+ "needed_by": "2026-11-27T18:00:00Z",
+ "links": [
+  "https://decisions.agents.sovereignweb.site/records/2026-11-23__suno-site.json",
+  "https://claude.ai/code/session_01Kw9UwBiG9d5KHvFjdtiP69",
+  "https://suno.platform.sovereignweb.site/songs/parada/#feedback"
+ ]
+}
