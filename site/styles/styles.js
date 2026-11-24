@@ -5,7 +5,7 @@ import { load, el } from '/assets/suno-lib.js';
 const d = await load(), out = document.getElementById('map');
 const NS = 'http://www.w3.org/2000/svg';
 const svg = (tag, attrs = {}, kids = []) => { const e = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); e.append(...kids); return e; };
-const FAM = [['brazil', 'Brazilian (samba, bossa, MPB)', /samba|bossa|batucada|mpb|brazil|cavaquinho/i, '#2f8a5a'], ['soul', 'Soul and R&B', /soul|r&b|motown|gospel/i, '#b5542c'], ['rock', 'Rock', /rock|britpop/i, '#4a63b8'], ['pop', 'Pop', /pop/i, '#a0458f'], ['other', 'Not stated', /.*/, '#777']];
+const FAM = [['fado', 'Portuguese fado', /fado|guitarra/i, '#8a5a00'], ['brazil', 'Brazilian (samba, bossa, MPB)', /samba|bossa|batucada|mpb|brazil|cavaquinho/i, '#2f8a5a'], ['soul', 'Soul and R&B', /soul|r&b|motown|gospel/i, '#b5542c'], ['rock', 'Rock', /rock|britpop/i, '#4a63b8'], ['pop', 'Pop', /pop/i, '#a0458f'], ['other', 'Not stated', /.*/, '#777']];
 const fam = (v) => FAM.find(([, , re]) => re.test(`${v.style || ''} ${v.prompt?.style || ''}`)) || FAM[4];
 const bpmOf = (v) => { const m = v.takes.map((t) => t.listen?.bpm).find(Boolean); if (m) return { bpm: Math.round(m), how: 'measured' }; const w = `${v.prompt?.style || ''} ${v.style || ''}`.match(/(\d{2,3})\s*bpm/i); return w ? { bpm: +w[1], how: 'asked for' } : { bpm: null, how: 'not given' }; };
 const rows = d.songs.map((s) => ({ s, vs: s.versions.map((v) => ({ v, f: fam(v), ...bpmOf(v) })) }));

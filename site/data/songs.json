@@ -26,6 +26,280 @@
  "updated": "2026-11-23",
  "songs": [
   {
+   "slug": "contratempo-fado",
+   "title": "Contratempo, em fado",
+   "about": "Contratempo's melody as Portuguese fado: Portuguese guitar and classical guitar, instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "instrumental": true,
+   "lyrics_by": null,
+   "brief": {
+    "asked_by": "Dinis Cruz, 24 November 2026, in suno.b's session",
+    "words": "Can you try with the melody, and this to be now inspired by Portuguese fado? ... But can you try to do these two versions with the fado, sort of Portuguese fado guitar?",
+    "thinking": [
+     "Source: Contratempo version 1 take B (flute and nylon guitar, the stronger take).",
+     "Build on the source take (Suno's reference mode) so its melody carries over, as asked.",
+     "Portuguese guitar (guitarra portuguesa) leads, classical guitar (viola de fado) answers, gentle acoustic bass: the fado line-up, instrumental.",
+     "Dinis heard gaps and a fuzzy sound in Contratempo, so ask for a clean, warm, continuous, close acoustic recording with no gaps, dropouts or distortion."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-24T22:23Z",
+     "label": "Fado, Portuguese guitar",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "simple, instrumental, built on Contratempo version 1 take B (reference)",
+      "style": "Contratempo reimagined as Portuguese fado: keep its main melody, now played on the Portuguese guitar (guitarra portuguesa, bright twelve-string) with classical guitar (viola de fado) answering in call and response and a gentle acoustic bass. Keep a light, syncopated pulse underneath but let the melody sing with fado's longing and ornamented phrasing. A clean, warm, continuous acoustic recording: no gaps or dropouts, no distortion or fuzz, clear and close. Purely instrumental, no vocals.",
+      "negative_style": null
+     },
+     "style": "Portuguese fado instrumental, guitarra portuguesa, viola de fado",
+     "takes": [
+      {
+       "id": "1bc54f47-834f-4830-93b4-a99e05565d98",
+       "duration_s": 180,
+       "suno_title": "Longo Desejo",
+       "cover": "https://cdn2.suno.ai/image_1bc54f47-834f-4830-93b4-a99e05565d98.jpeg",
+       "listen": {
+        "bpm": 103,
+        "key": "E minor",
+        "lead": [
+         "mandolin-like plucked lead",
+         "nylon guitar"
+        ],
+        "melody_strength": 4,
+        "mix_clean": 3,
+        "stops": [
+         [
+          81,
+          "brief dropout, back at 1:22"
+         ]
+        ],
+        "sections": [
+         [
+          0,
+          30,
+          "Introduction"
+         ],
+         [
+          30,
+          65,
+          "Theme"
+         ],
+         [
+          65,
+          81,
+          "Variation"
+         ],
+         [
+          82,
+          120,
+          "Second theme"
+         ],
+         [
+          120,
+          155,
+          "Theme again"
+         ],
+         [
+          155,
+          180,
+          "Coda"
+         ]
+        ],
+        "vocals": false,
+        "summary": "A lilting instrumental with a clear plucked lead; some fado character (3 of 5), not a clear Portuguese guitar. Faint fuzzy edge."
+       }
+      },
+      {
+       "id": "9827b917-0a62-4b3e-a8df-4605bdcd008f",
+       "duration_s": 185,
+       "suno_title": "Luz de Fado",
+       "cover": "https://cdn2.suno.ai/image_9827b917-0a62-4b3e-a8df-4605bdcd008f.jpeg",
+       "listen": {
+        "bpm": 103,
+        "key": "E minor",
+        "lead": [
+         "Portuguese guitar",
+         "nylon guitar"
+        ],
+        "melody_strength": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          17,
+          "Opening theme"
+         ],
+         [
+          17,
+          47,
+          "Theme"
+         ],
+         [
+          47,
+          78,
+          "Second theme"
+         ],
+         [
+          78,
+          112,
+          "Theme returns"
+         ],
+         [
+          112,
+          144,
+          "Embellished passage"
+         ],
+         [
+          144,
+          185,
+          "Recapitulation and outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Clean, continuous instrumental fado: ornate Portuguese guitar over acoustic guitar, steady with expressive slowing at cadences (fado 5 of 5)."
+       }
+      }
+     ],
+     "result": "Take B is what was asked: clean and continuous (5 of 5), Portuguese guitar, strongly fado, melody 5 of 5. Take A has a brief dropout at 1:21, a faint fuzzy edge and a mandolin-like lead instead."
+    }
+   ]
+  },
+  {
+   "slug": "luz-de-fado",
+   "title": "Luz de Fado",
+   "about": "Luz de Tarde's melody (Parada version 2) as Portuguese fado: Portuguese guitar and classical guitar, instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "instrumental": true,
+   "lyrics_by": null,
+   "brief": {
+    "asked_by": "Dinis Cruz, 24 November 2026, in suno.b's session",
+    "words": "Can you try with the melody, and this to be now inspired by Portuguese fado? ... But can you try to do these two versions with the fado, sort of Portuguese fado guitar?",
+    "thinking": [
+     "Source: Parada version 2 take A (Luz de Tarde), the one before Devagar.",
+     "Build on the source take (Suno's reference mode) so its melody carries over, as asked.",
+     "Portuguese guitar (guitarra portuguesa) leads, classical guitar (viola de fado) answers, gentle acoustic bass: the fado line-up, instrumental.",
+     "Dinis heard gaps and a fuzzy sound in Contratempo, so ask for a clean, warm, continuous, close acoustic recording with no gaps, dropouts or distortion.",
+     "Slower and more intimate than the source."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-24T22:23Z",
+     "label": "Fado, Portuguese guitar",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "simple, instrumental, built on Parada version 2 take A (Luz de Tarde) (reference)",
+      "style": "Luz de Tarde reimagined as Portuguese fado: keep its main melody, now played on the Portuguese guitar (guitarra portuguesa, bright twelve-string) with classical guitar (viola de fado) answering in call and response and a gentle acoustic bass. Slower and more intimate, with fado's longing and ornamented phrasing, a soft pulse underneath. A clean, warm, continuous acoustic recording: no gaps or dropouts, no distortion or fuzz, clear and close. Purely instrumental, no vocals.",
+      "negative_style": null
+     },
+     "style": "Portuguese fado instrumental, guitarra portuguesa, viola de fado",
+     "takes": [
+      {
+       "id": "faf14bb3-726d-4220-bcce-519c893919bc",
+       "duration_s": 158,
+       "suno_title": "Luz de Fado",
+       "cover": "https://cdn2.suno.ai/image_faf14bb3-726d-4220-bcce-519c893919bc.jpeg",
+       "listen": {
+        "bpm": 120,
+        "key": "F major",
+        "lead": [
+         "Portuguese guitar",
+         "classical guitar"
+        ],
+        "melody_strength": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          48,
+          "Reflective opening"
+         ],
+         [
+          49,
+          104,
+          "Lively fado corrido"
+         ],
+         [
+          105,
+          133,
+          "Higher variation"
+         ],
+         [
+          134,
+          158,
+          "Slowing close"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Clean, continuous instrumental fado: bright Portuguese guitar with tremolos and runs, reflective, then lively, then an expressive close."
+       }
+      },
+      {
+       "id": "53b5a480-623f-418d-9d85-c876c2c1ab52",
+       "duration_s": 166,
+       "suno_title": "Luz da Viola",
+       "cover": "https://cdn2.suno.ai/image_53b5a480-623f-418d-9d85-c876c2c1ab52.jpeg",
+       "listen": {
+        "bpm": 120,
+        "key": "F major",
+        "lead": [
+         "Portuguese guitar",
+         "acoustic guitar"
+        ],
+        "melody_strength": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          18,
+          "Guitar intro"
+         ],
+         [
+          18,
+          54,
+          "Portuguese guitar lead"
+         ],
+         [
+          54,
+          89,
+          "Variation"
+         ],
+         [
+          89,
+          124,
+          "Development"
+         ],
+         [
+          124,
+          142,
+          "Interlude"
+         ],
+         [
+          142,
+          166,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Clean, continuous instrumental fado: Portuguese guitar over acoustic guitar, measured and expressive, with rubato."
+       }
+      }
+     ],
+     "result": "Both takes clean and continuous (mix 5 of 5), Portuguese guitar, strongly fado (5 of 5), melody 5 of 5. Take A moves from reflective to a lively fado corrido and back; take B stays measured and expressive."
+    }
+   ]
+  },
+  {
    "slug": "contratempo",
    "title": "Contratempo",
    "about": "A faster, heavily syncopated Brazilian jazz instrumental: breaks, unison hits, call and response. Contratempo is Portuguese for the off-beat.",
@@ -214,7 +488,12 @@
      ],
      "result": "Take B is close: flute and nylon guitar in call and response, strongly syncopated batucada, drums and melody on shared accents, the strongest melody yet (5 of 5) and six full-band breaks. Take A went to brass-led Latin funk with no batucada or stops. Neither has the drum solo: Suno ignored that line of the section map (take B has only a 4-second percussion pickup). Next: extend take B with a 16-bar batucada solo, or ask for the solo as its own short section."
     }
-   ]
+   ],
+   "archived": {
+    "on": "2026-11-24",
+    "by": "Dinis Cruz, in suno.b's session",
+    "why": "Good, but the mix was off: many gaps, and a fuzzy sound. (His words: \"they were good, but the mixing was a bit off ... lots of gaps ... Fuzzy.\")"
+   }
   },
   {
    "slug": "devagar",
