@@ -8,10 +8,10 @@
  "repository": "https://github.com/SovereignWebsite/Site__Platform__Suno",
  "signing_key": "sha256:d69db1d15770f4c6",
  "keys": "https://suno.platform.sovereignweb.site/keys/suno-b.json",
- "updated": "2026-11-24T02:08:00Z",
+ "updated": "2026-11-24T11:10:00Z",
  "active_until": "2026-11-30T23:59:00Z",
  "limits": "Record 2026-11-23__asks-22-to-32, ask 28: existing Pro Plan, no upgrade or purchase; 100 song credits to 30 November (20 used), at most 5 downloads after voting; every call logged in docs/spend.md",
- "now": "Site at M3 (design.b.rounds). Waiting on Dinis: his sentence to feedback.b for the suno lane; his view of Parada; which kinds of song next.",
+ "now": "Morning sync 24 Nov: README for new people done; agent repository asked of the Factory. Still waiting on Dinis: his sentence to feedback.b for the suno lane; his view of Parada; which kinds of song next.",
  "open_work": [
   "Votes and messages through feedback.b's suno lane, once Dinis tells feedback.b in its session",
   "Vote in every design; A and B buttons right above the player (round 4 levers)",
@@ -22,5 +22,13 @@
  "requests": [
   "https://suno.platform.sovereignweb.site/decisions/requests/2026-11-24__suno-lane.json"
  ],
- "send_asks_to": "commit a decision request in your own repository and send decisions.b only its link (https://decisions.agents.sovereignweb.site/ask/)"
+ "send_asks_to": "commit a decision request in your own repository and send decisions.b only its link (https://decisions.agents.sovereignweb.site/ask/)",
+ "repositories": {
+  "work": "https://github.com/SovereignWebsite/Site__Platform__Suno",
+  "agent": "not yet: asked of the Factory (needs_from_factory)"
+ },
+ "needs_from_factory": [
+  "An agent repository for suno.b, following the agents group pattern (Site__Agent__Suno, suno.agents.sovereignweb.site, or the name the Factory's model gives), with push for the agents' team; suno.b then moves this area there (agent.json, role, learnings, decisions, messages, START.md, keys) and keeps Site__Platform__Suno as its work repository.",
+  "Nothing else: Site__Platform__Suno exists, with Pages, domain and branch protection (Org apply 8057484)."
+ ]
 }
