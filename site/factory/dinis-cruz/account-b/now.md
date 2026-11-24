@@ -3,6 +3,8 @@
 Updated 2026-11-24T13:21:22Z (date -u).
 
 ## Doing
+24 Nov 16:05 UTC: Parada version 2 made (30 of 100 credits used); playlist turned into a listening board (New, Listening, Liked, OK, archive); styles map added.
+
 Nothing running. The site is live at v0.1.x on dev, rated 3 and M3 by design.b.rounds (round 3 check-back, e89d9dd on their side).
 
 ## Open

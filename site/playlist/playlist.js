@@ -1,84 +1,63 @@
-// The playlist: one Suno player, an "Up next" queue you can drag to reorder (or move with buttons), a record of what
-// you have listened to, and quick feedback on each track. Everything is kept in this browser only until the site's
-// feedback lane is switched on; nothing is sent. Suno's player cannot tell this page when a song ends, so Next is a press.
+// The listening board: every take moves through New -> Listening -> Liked / OK / Not for me (archived, hidden).
+// One Suno player; play the Listening column in order, or shuffle Liked on a loop. Drag cards between columns, or use
+// each card's buttons (keyboard and phones). Kept in this browser only until the site's feedback lane is switched on.
 import { load, el, mmss } from '/assets/suno-lib.js';
 const d = await load(), out = document.getElementById('pl');
-const KEY = 'suno-platform-playlist-v1';
-const st = (() => { try { return Object.assign({ heard: {}, fb: {}, queue: [] }, JSON.parse(localStorage.getItem(KEY)) || {}); } catch { return { heard: {}, fb: {}, queue: [] }; } })();
-const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch { /* storage blocked: works for this visit only */ } };
-const all = d.songs.flatMap((s) => s.versions.flatMap((v) => v.takes.map((t, i) => ({ id: t.id, s, v, t, name: `${s.title} · v${v.n} take ${'AB'[i]}` }))));
+const KEY = 'suno-platform-board-v1';
+const COLS = [['new', 'New', 'Not sorted yet, newest first: fresh songs from the pipeline land here.'], ['listening', 'Listening', 'Your queue, in your order.'], ['liked', 'Liked', 'Shuffle these on a loop.'], ['ok', 'OK', 'Fine, not a favourite.'], ['no', 'Not for me', 'Archived: hidden from the board, kept for the record.']];
+const st = (() => { try { return Object.assign({ col: {}, order: {}, notes: {}, heard: {} }, JSON.parse(localStorage.getItem(KEY)) || {}); } catch { return { col: {}, order: {}, notes: {}, heard: {} }; } })();
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch { /* storage blocked: this visit only */ } };
+const all = d.songs.flatMap((s) => s.versions.flatMap((v) => v.takes.map((t, i) => ({ id: t.id, s, v, t, side: 'AB'[i], made: v.made, sib: v.takes[1 - i]?.id, name: `${s.title} · v${v.n} take ${'AB'[i]}` })))).sort((a, b) => (a.made < b.made ? 1 : -1));
 const byId = new Map(all.map((x) => [x.id, x]));
-let scope = 'latest', current = null;
-const library = () => d.songs.flatMap((s) => (scope === 'all' ? s.versions : [s.versions[s.versions.length - 1]]).flatMap((v) => v.takes.map((t) => byId.get(t.id))));
-if (!st.queue.length) st.queue = library().map((x) => x.id);
-st.queue = st.queue.filter((id) => byId.has(id));
+const colOf = (id) => st.col[id] || 'new';
+const list = (c) => { const ids = all.filter((x) => colOf(x.id) === c).map((x) => x.id); const o = st.order[c] || []; return [...o.filter((id) => ids.includes(id)), ...ids.filter((id) => !o.includes(id))]; };
+const setCol = (id, c, at) => { const from = colOf(id); st.col[id] = c; st.order[from] = list(from).filter((x) => x !== id); const l = list(c).filter((x) => x !== id); l.splice(at ?? l.length, 0, id); st.order[c] = l; save(); draw(); };
+let mode = 'listening', current = null, showArchive = false;
 const frame = el('iframe', { title: 'Suno player', allow: 'autoplay; encrypted-media', hidden: true });
-const now = el('p', { className: 'now', 'aria-live': 'polite', textContent: 'Press a track, or Play from the top.' });
-const fbBox = el('div', { className: 'fbbox', hidden: true });
-const queueEl = el('ol', { className: 'tracks', 'aria-label': 'Up next' });
-const libEl = el('ul', { className: 'tracks lib', 'aria-label': 'All tracks' });
-const play = (id) => {
-  const x = byId.get(id); current = id; st.heard[id] = new Date().toISOString(); save();
-  frame.hidden = false; frame.src = `https://suno.com/embed/${id}`; frame.title = `${x.name}, Suno player`;
-  const pos = st.queue.indexOf(id);
-  now.textContent = `Loaded${pos >= 0 ? ` ${pos + 1} of ${st.queue.length}` : ''}: ${x.name}. Press play in Suno's player.`;
-  drawFeedback(); draw();
+const now = el('p', { className: 'now', 'aria-live': 'polite', textContent: 'Press Play on a card, or play your Listening column.' });
+const play = (id) => { const x = byId.get(id); current = id; st.heard[id] = new Date().toISOString(); save(); frame.hidden = false; frame.src = `https://suno.com/embed/${id}`; frame.title = `${x.name}, Suno player`; now.textContent = `Loaded: ${x.name}${mode === 'liked' ? ' (Liked, shuffled on a loop)' : ''}. Press play in Suno's player.`; draw(); };
+let shuffled = [];
+const next = (n = 1) => {
+  const l = mode === 'liked' ? (shuffled.length ? shuffled : (shuffled = list('liked').sort(() => Math.random() - 0.5))) : list('listening');
+  if (!l.length) { now.textContent = mode === 'liked' ? 'Nothing in Liked yet.' : 'Nothing in Listening: move cards there.'; return; }
+  const i = l.indexOf(current); play(l[(i + n + l.length) % l.length]);
 };
-const step = (n) => { if (!st.queue.length) return; const i = st.queue.indexOf(current); play(st.queue[(i < 0 ? 0 : (i + n + st.queue.length) % st.queue.length)]); };
-const move = (i, j) => { if (j < 0 || j >= st.queue.length) return; const [x] = st.queue.splice(i, 1); st.queue.splice(j, 0, x); save(); draw(); };
-const btn = (t, f, label) => { const b = el('button', { type: 'button', textContent: t }); if (label) b.setAttribute('aria-label', label); b.addEventListener('click', f); return b; };
-const mark = (id) => (st.fb[id]?.verdict === 'like' ? ' · liked' : st.fb[id]?.verdict === 'no' ? ' · not for me' : '') + (st.heard[id] ? ' · listened' : '');
-let dragFrom = null;
+const b = (t, f, label, cls) => { const x = el('button', { type: 'button', textContent: t, className: cls || '' }); if (label) x.setAttribute('aria-label', label); x.addEventListener('click', f); return x; };
+let drag = null;
+const card = (id, c) => {
+  const x = byId.get(id), note = el('textarea', { rows: 2, value: st.notes[id] || '', placeholder: 'A note for the next version' });
+  note.setAttribute('aria-label', `Note on ${x.name}`);
+  note.addEventListener('input', () => { st.notes[id] = note.value; save(); });
+  const moves = COLS.filter(([k]) => k !== c).map(([k, label]) => b(label, () => { setCol(id, k); if (k === 'liked' && x.sib && colOf(x.sib) !== 'no') offer(x); }, `Move ${x.name} to ${label}`, 'mv'));
+  const li = el('li', { className: 'card', draggable: true, 'aria-current': id === current ? 'true' : 'false' }, [
+    el('div', { className: 'chead' }, [el('img', { src: x.t.cover, alt: '', width: 44, height: 44, loading: 'lazy' }), el('div', {}, [el('b', { textContent: x.s.title }), el('span', { className: 'small', textContent: ` v${x.v.n} take ${x.side} · ${mmss(x.t.duration_s)}${st.heard[id] ? ' · listened' : ''}` })])]),
+    el('div', { className: 'row' }, [b('Play', () => play(id), `Play ${x.name}`, 'pl'), el('a', { href: `/songs/${x.s.slug}/`, textContent: 'Song page' })]),
+    el('details', {}, [el('summary', { textContent: 'Move or note' }), el('div', { className: 'row' }, moves), note]),
+  ]);
+  li.addEventListener('dragstart', (e) => { drag = id; e.dataTransfer.effectAllowed = 'move'; li.classList.add('dragging'); });
+  li.addEventListener('dragend', () => li.classList.remove('dragging'));
+  return li;
+};
+const offerBox = el('div', { className: 'offer', hidden: true, 'aria-live': 'polite' });
+const offer = (x) => { const s = byId.get(x.sib); offerBox.hidden = false; offerBox.replaceChildren(el('span', { textContent: `You liked take ${x.side}. Archive its sibling, ${s.name}? ` }), b('Archive it', () => { setCol(s.id, 'no'); offerBox.hidden = true; }), b('Keep it', () => { offerBox.hidden = true; })); };
+const board = el('div', { className: 'board' });
 const draw = () => {
-  queueEl.replaceChildren(...st.queue.map((id, i) => {
-    const x = byId.get(id);
-    const li = el('li', { className: 'qitem', draggable: true, 'aria-current': id === current ? 'true' : 'false' }, [
-      el('span', { className: 'grip', 'aria-hidden': 'true', textContent: '⋮⋮' }),
-      el('button', { type: 'button', className: 'track' }, [el('img', { src: x.t.cover, alt: '', width: 40, height: 40, loading: 'lazy' }), el('span', { textContent: x.name + mark(id) }), el('span', { className: 'len', textContent: mmss(x.t.duration_s) })]),
-      el('span', { className: 'moves' }, [btn('Up', () => move(i, i - 1), `Move ${x.name} up`), btn('Down', () => move(i, i + 1), `Move ${x.name} down`), btn('Remove', () => { st.queue.splice(i, 1); save(); draw(); }, `Remove ${x.name} from up next`)]),
-    ]);
-    li.querySelector('.track').addEventListener('click', () => play(id));
-    li.addEventListener('dragstart', (e) => { dragFrom = i; e.dataTransfer.effectAllowed = 'move'; li.classList.add('dragging'); });
-    li.addEventListener('dragend', () => li.classList.remove('dragging'));
-    li.addEventListener('dragover', (e) => { e.preventDefault(); li.classList.add('over'); });
-    li.addEventListener('dragleave', () => li.classList.remove('over'));
-    li.addEventListener('drop', (e) => { e.preventDefault(); li.classList.remove('over'); if (dragFrom !== null) move(dragFrom, i); dragFrom = null; });
-    return li;
+  board.replaceChildren(...COLS.filter(([k]) => k !== 'no' || showArchive).map(([k, label, about]) => {
+    const ids = list(k), ul = el('ol', { className: 'col-list' }, ids.map((id) => card(id, k)));
+    const col = el('section', { className: `col col-${k}`, 'aria-label': `${label}, ${ids.length}` }, [el('h2', { textContent: `${label} (${ids.length})` }), el('p', { className: 'small', textContent: about }), ul]);
+    col.addEventListener('dragover', (e) => { e.preventDefault(); col.classList.add('over'); });
+    col.addEventListener('dragleave', () => col.classList.remove('over'));
+    col.addEventListener('drop', (e) => { e.preventDefault(); col.classList.remove('over'); if (!drag) return; const cards = [...ul.children]; const at = cards.findIndex((li) => e.clientY < li.getBoundingClientRect().top + li.offsetHeight / 2); const x = byId.get(drag); setCol(drag, k, at < 0 ? undefined : at); if (k === 'liked' && x.sib && colOf(x.sib) !== 'no') offer(x); drag = null; });
+    return col;
   }));
-  libEl.replaceChildren(...library().map((x) => el('li', {}, [
-    el('span', { className: 'libname', textContent: x.name + mark(x.id) }),
-    btn('Play now', () => play(x.id), `Play ${x.name} now`),
-    btn('Play next', () => { st.queue = st.queue.filter((q) => q !== x.id); const at = Math.max(0, st.queue.indexOf(current) + 1); st.queue.splice(at, 0, x.id); save(); draw(); }, `Put ${x.name} next in up next`),
-    btn('Add to end', () => { if (!st.queue.includes(x.id)) { st.queue.push(x.id); save(); draw(); } }, `Add ${x.name} to the end of up next`),
-  ])));
+  archBtn.textContent = showArchive ? 'Hide the archive' : `Show the archive (${list('no').length})`;
 };
-const drawFeedback = () => {
-  const x = byId.get(current); if (!x) return;
-  const f = st.fb[current] || (st.fb[current] = { verdict: '', note: '' });
-  const v = (val, text) => { const b = el('button', { type: 'button', textContent: text, 'aria-pressed': String(f.verdict === val) }); b.addEventListener('click', () => { f.verdict = f.verdict === val ? '' : val; f.at = new Date().toISOString(); save(); drawFeedback(); draw(); }); return b; };
-  const ta = el('textarea', { id: 'pfb', rows: 3, value: f.note || '', placeholder: 'What to keep, what to change for the next version' });
-  const ok = el('span', { className: 'small', 'aria-live': 'polite' });
-  ta.addEventListener('input', () => { f.note = ta.value; f.at = new Date().toISOString(); save(); ok.textContent = 'Saved in this browser.'; });
-  fbBox.hidden = false;
-  fbBox.replaceChildren(el('h2', { textContent: `Your feedback on ${x.name}` }), el('div', { className: 'row' }, [v('like', 'I like this'), v('no', 'Not for me'), el('a', { href: `/songs/${x.s.slug}/`, textContent: 'Song page' })]), el('label', { htmlFor: 'pfb', textContent: 'A note for the next version' }), ta, ok);
-};
-const exportText = () => {
-  const lines = ['Playlist feedback for suno.platform.sovereignweb.site', `Written ${new Date().toISOString().slice(0, 16)} UTC`, ''];
-  for (const [id, f] of Object.entries(st.fb)) { const x = byId.get(id); if (x && (f.verdict || (f.note || '').trim())) lines.push(`${x.name}: ${f.verdict === 'like' ? 'liked' : f.verdict === 'no' ? 'not for me' : ''}${f.note ? `; ${f.note.trim()}` : ''}`); }
-  lines.push('', `Listened to ${Object.keys(st.heard).filter((id) => byId.has(id)).length} of ${all.length} takes.`);
-  return lines.join('\n');
-};
-const copyOut = el('pre', { hidden: true });
-const copyMsg = el('span', { className: 'small', 'aria-live': 'polite' });
-const scopeSel = el('select', { id: 'scope' }, [el('option', { value: 'latest', textContent: 'newest version of each song' }), el('option', { value: 'all', textContent: 'every version (all takes)' })]);
-scopeSel.addEventListener('change', () => { scope = scopeSel.value; draw(); });
+const archBtn = b('', () => { showArchive = !showArchive; draw(); });
+const copyMsg = el('span', { className: 'small', 'aria-live': 'polite' }), copyOut = el('pre', { hidden: true });
+const exportText = () => { const L = ['Listening board for suno.platform.sovereignweb.site', `Written ${new Date().toISOString().slice(0, 16)} UTC`, '']; for (const [k, label] of COLS) { const ids = list(k); if (k !== 'new' && ids.length) { L.push(`${label}:`); ids.forEach((id) => L.push(`- ${byId.get(id).name}${st.notes[id] ? `: ${st.notes[id].trim()}` : ''}`)); L.push(''); } } return L.join('\n'); };
 out.replaceChildren(
-  el('div', { className: 'controls' }, [btn('Play from the top', () => st.queue.length && play(st.queue[0])), btn('Previous', () => step(-1)), btn('Next', () => step(1)),
-    btn('Shuffle up next', () => { for (let i = st.queue.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [st.queue[i], st.queue[j]] = [st.queue[j], st.queue[i]]; } save(); draw(); }),
-    btn('Reset up next', () => { st.queue = library().map((x) => x.id); save(); draw(); })]),
-  now, frame, fbBox,
-  el('h2', { textContent: 'Up next' }), el('p', { className: 'small', textContent: 'Drag a track to move it, or use Up and Down. Your order, what you have listened to and your feedback are kept in this browser only.' }), queueEl,
-  el('div', { className: 'row' }, [btn('Copy my feedback', async () => { const t = exportText(); try { await navigator.clipboard.writeText(t); copyMsg.textContent = 'Copied: paste it to the team.'; } catch { copyOut.hidden = false; copyOut.textContent = t; copyMsg.textContent = 'Copy is blocked here: select the text below.'; } }), copyMsg]), copyOut,
-  el('h2', { textContent: 'All tracks' }), el('div', { className: 'controls' }, [el('label', { htmlFor: 'scope', textContent: 'Show:' }), scopeSel]), libEl,
+  el('div', { className: 'controls' }, [b('Play Listening in order', () => { mode = 'listening'; next(0); }), b('Shuffle Liked on a loop', () => { mode = 'liked'; shuffled = []; next(1); }), b('Previous', () => next(-1)), b('Next', () => next(1)), archBtn]),
+  now, frame, offerBox, board,
+  el('div', { className: 'row' }, [b('Copy my board and notes', async () => { const t = exportText(); try { await navigator.clipboard.writeText(t); copyMsg.textContent = 'Copied: paste it to the team.'; } catch { copyOut.hidden = false; copyOut.textContent = t; copyMsg.textContent = 'Copy is blocked here: select the text below.'; } }), copyMsg]), copyOut,
 );
 draw();
