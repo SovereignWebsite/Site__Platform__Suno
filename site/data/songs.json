@@ -1,5 +1,5 @@
 {
- "about": "Songs, not clips. Each song has versions (one Suno generation each, oldest first), and each version has two takes (Suno makes two per generation). stage is the song's maturity: idea, experiment, shortlist, pre-release, released. pick is the take chosen to carry the song forward (null until chosen). To make this site your own, fork the repository and replace these songs with your own public Suno songs.",
+ "about": "Songs, not clips. Each song has versions (one Suno generation each, oldest first), and each version has two takes (Suno makes two per generation). stage is the song's maturity: idea, experiment, shortlist, pre-release, released. pick is the take chosen to carry the song forward (null until chosen). To make this site your own, fork the repository and replace these songs with your own public Suno songs. A song with \"archived\" is kept for the record but left out of the home page, the designs and the styles map; its page stays.",
  "stages": [
   {
    "id": "idea",
@@ -25,6 +25,197 @@
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
  "updated": "2026-11-23",
  "songs": [
+  {
+   "slug": "contratempo",
+   "title": "Contratempo",
+   "about": "A faster, heavily syncopated Brazilian jazz instrumental: breaks, unison hits, call and response. Contratempo is Portuguese for the off-beat.",
+   "stage": "experiment",
+   "pick": null,
+   "instrumental": true,
+   "lyrics_by": null,
+   "brief": {
+    "asked_by": "Dinis Cruz, 24 November 2026, in suno.b's session",
+    "words": "Also, it needs to be a little bit faster. It needs to be much more syncopated, like with a lot of breaks, with a lot of like the kind of, again, Java style [read as: Djavan], Gilberto Gil style, like that kind of very interesting syncopation and lots of drums and melody doing the same thing at the same time and call response stuff, right? Just a bit faster, but the kind of same thing with the melody flying around, right? And maybe even like with the drum solo in the middle.",
+    "thinking": [
+     "Devagar was too slow (archived): go to 104 bpm, between Devagar's half-time and Parada's 120.",
+     "Name the syncopation in Suno's terms: samba-funk, stop-time hits, drums and melody on the same accents.",
+     "Give Suno a section map in the lyrics box (instrumental songs accept one) so the breaks, unison hits and the drum solo have a place.",
+     "Keep the flute, nylon guitar and trumpet in call and response; full batucada; steer away from slow, ambient and pads."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-24T22:14Z",
+     "label": "Syncopated samba-funk with a section map",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental, with a section map",
+      "style": "sophisticated Brazilian jazz and MPB instrumental, 104 bpm, heavily syncopated samba-funk groove, lots of breaks and stop-time hits, drums and melody playing the same syncopated accents in unison, busy agile melody flying around on flute, nylon guitar and trumpet in call and response, rich extended jazz chords, slap bass locked to the kick, full batucada (surdo, caixa, repinique, tamborim, agogo), a drum and percussion solo in the middle, joyful and intricate",
+      "negative_style": "vocals, singing, choir, humming, spoken words, slow ballad, ambient, synth pads",
+      "duration_s": 165,
+      "controls": "style influence 0.85, variety 1",
+      "section_map": "Intro (unison hits, stop) / Theme A (flute, guitar answers) / Break (one bar of silence) / Theme A (trumpet answers) / Unison break / Drum solo (surdo, caixa, repinique, tamborim; band out) / Band crashes back in / Theme B (call and response) / Stop-time hits / Final theme in unison / Three unison hits, silence"
+     },
+     "style": "syncopated Brazilian jazz, samba-funk, breaks, unison hits, 104 bpm",
+     "takes": [
+      {
+       "id": "560f5603-ed28-4c5b-9ded-ed25d5c3dd8e",
+       "duration_s": 165,
+       "suno_title": "Contratempo",
+       "cover": "https://cdn2.suno.ai/image_560f5603-ed28-4c5b-9ded-ed25d5c3dd8e.jpeg",
+       "listen": {
+        "bpm": 103,
+        "key": "D minor",
+        "lead": [
+         "brass",
+         "electric bass",
+         "keyboard"
+        ],
+        "melody_strength": 4,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          10,
+          "Percussion intro"
+         ],
+         [
+          10,
+          29,
+          "Groove and brass vamp"
+         ],
+         [
+          29,
+          49,
+          "Main theme"
+         ],
+         [
+          49,
+          68,
+          "Horn hook"
+         ],
+         [
+          68,
+          88,
+          "Percussion and bass breakdown"
+         ],
+         [
+          88,
+          107,
+          "Second theme"
+         ],
+         [
+          107,
+          126,
+          "Full band climax"
+         ],
+         [
+          126,
+          145,
+          "Main theme again"
+         ],
+         [
+          145,
+          165,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Brass-led, syncopated Latin funk with unison accents and call and response with the rhythm section; no batucada, no full-band stops, no drum solo."
+       }
+      },
+      {
+       "id": "02e1b6fa-d7ab-4c35-96d8-0b2a10de4ef5",
+       "duration_s": 165,
+       "suno_title": "Contratempo",
+       "cover": "https://cdn2.suno.ai/image_02e1b6fa-d7ab-4c35-96d8-0b2a10de4ef5.jpeg",
+       "listen": {
+        "bpm": 103,
+        "key": "E minor",
+        "lead": [
+         "flute",
+         "nylon guitar"
+        ],
+        "melody_strength": 5,
+        "stops": [
+         [
+          24,
+          "full-band break"
+         ],
+         [
+          42,
+          "full-band break"
+         ],
+         [
+          85,
+          "full-band break"
+         ],
+         [
+          105,
+          "full-band break"
+         ],
+         [
+          146,
+          "full-band break"
+         ],
+         [
+          156,
+          "final unison hit"
+         ]
+        ],
+        "sections": [
+         [
+          0,
+          25,
+          "Intro"
+         ],
+         [
+          25,
+          44,
+          "Theme 1"
+         ],
+         [
+          44,
+          65,
+          "Theme 2"
+         ],
+         [
+          65,
+          86,
+          "Bridge"
+         ],
+         [
+          86,
+          107,
+          "Melody variation"
+         ],
+         [
+          107,
+          128,
+          "Theme 1 again"
+         ],
+         [
+          128,
+          148,
+          "Theme 2, climax"
+         ],
+         [
+          148,
+          165,
+          "Coda"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Flute and nylon guitar in call and response over syncopated batucada (4 of 5), unison accents, six full-band breaks; only a 4-second percussion pickup, no drum solo."
+       }
+      }
+     ],
+     "result": "Take B is close: flute and nylon guitar in call and response, strongly syncopated batucada, drums and melody on shared accents, the strongest melody yet (5 of 5) and six full-band breaks. Take A went to brass-led Latin funk with no batucada or stops. Neither has the drum solo: Suno ignored that line of the section map (take B has only a 4-second percussion pickup). Next: extend take B with a 16-bar batucada solo, or ask for the solo as its own short section."
+    }
+   ]
+  },
   {
    "slug": "devagar",
    "title": "Devagar",
@@ -186,7 +377,12 @@
      ],
      "result": "Slow in feel: both takes play in half-time, about 62 bpm felt (Suno's beat tracker counts 125, the double). A new melody, memorable (4 of 5), but on Rhodes and synth rather than the flute and flugelhorn asked for. Take B has gentle batucada-like percussion; take A a soft kit groove instead. Two band breaks in each, at about 1:15 and near the end."
     }
-   ]
+   ],
+   "archived": {
+    "on": "2026-11-24",
+    "by": "Dinis Cruz, in suno.b's session",
+    "why": "Too slow. (His words: \"You can move it to the archive straight away ... that song was too slow.\")"
+   }
   },
   {
    "slug": "parada",

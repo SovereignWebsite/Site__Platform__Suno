@@ -63,7 +63,7 @@ TOP='''<nav class="crumbs" aria-label="Pages"><a href="/">All songs</a><a href="
 <p class="draft">Draft: first version, 23 November 2026, not yet signed off by Dinis Cruz.</p>
 '''
 SONGCSS='''.hero{display:grid;grid-template-columns:160px minmax(0,1fr);gap:1.2rem;align-items:start;margin-top:1rem}.hero img{width:160px;height:160px;object-fit:cover;border-radius:10px}
-.stageline{font-weight:600;font-size:.9rem;margin:.2rem 0}.ladder{display:flex;flex-wrap:wrap;gap:.25rem;list-style:none;padding:0;margin:.3rem 0;font-size:.78rem}
+.stageline{font-weight:600;font-size:.9rem;margin:.2rem 0}.archived{font-weight:600;border-left:3px solid #b3261e;padding-left:.6rem}.ladder{display:flex;flex-wrap:wrap;gap:.25rem;list-style:none;padding:0;margin:.3rem 0;font-size:.78rem}
 .ladder li{margin:0;padding:.1rem .5rem;border-radius:999px;border:1px solid var(--line);color:var(--muted)}.ladder .done{border-color:var(--accent);color:var(--accent)}.ladder .now{background:var(--accent);border-color:var(--accent);color:var(--bg);font-weight:600}
 .takes{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.take{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:.8rem}.take p{margin:.2rem 0 .4rem}
 .tl{position:relative;height:30px;border-radius:6px;background:var(--line);overflow:hidden;margin:.4rem 0}

@@ -3,7 +3,7 @@
 import { load, el, ladder, stageLine, mmss, day, time, playButton } from '/assets/suno-lib.js';
 import { vote, hasVoted, votesToday, note, saveNote, asText } from '/assets/local.js';
 const slug = document.querySelector('main').dataset.slug, out = document.getElementById('song');
-const d = await load(), s = d.songs.find((x) => x.slug === slug);
+const d = await load(), s = d.all.find((x) => x.slug === slug);
 if (!s) { out.textContent = 'This song is not in the list.'; } else {
   const latest = s.versions[s.versions.length - 1];
   const slot = el('div', { className: 'slot', hidden: true });
@@ -33,6 +33,7 @@ if (!s) { out.textContent = 'This song is not in the list.'; } else {
     el('dt', { textContent: 'Style' }), el('dd', {}, [el('code', { textContent: v.prompt.style || '(not recorded)' })]),
     ...(v.prompt.negative_style ? [el('dt', { textContent: 'Styles to avoid' }), el('dd', {}, [el('code', { textContent: v.prompt.negative_style })])] : []),
     ...(v.prompt.suno_expanded ? [el('dt', { textContent: 'Suno expanded it to' }), el('dd', {}, [el('code', { textContent: v.prompt.suno_expanded })])] : []),
+    ...(v.prompt.section_map ? [el('dt', { textContent: 'Section map' }), el('dd', { textContent: v.prompt.section_map })] : []),
     ...(v.prompt.controls ? [el('dt', { textContent: 'Controls' }), el('dd', { textContent: v.prompt.controls })] : []),
     ...(v.prompt.duration_s ? [el('dt', { textContent: 'Target length' }), el('dd', { textContent: mmss(v.prompt.duration_s) })] : []),
     el('dt', { textContent: 'Model' }), el('dd', { textContent: v.model }),
@@ -51,7 +52,7 @@ if (!s) { out.textContent = 'This song is not in the list.'; } else {
   const outbox = el('pre', { hidden: true });
   out.replaceChildren(
     el('header', { className: 'hero' }, [el('img', { src: latest.takes[0].cover, alt: `Cover of ${s.title}`, width: 160, height: 160 }),
-      el('div', {}, [el('h1', { textContent: s.title }), el('p', { textContent: s.about }), el('p', { className: 'stageline', textContent: stageLine(s, d.stages) }), ladder(s, d.stages)])]),
+      el('div', {}, [el('h1', { textContent: s.title }), el('p', { textContent: s.about }), el('p', { className: 'stageline', textContent: stageLine(s, d.stages) }), ladder(s, d.stages), ...(s.archived ? [el('p', { className: 'archived', textContent: `Archived on ${s.archived.on} by ${s.archived.by}: ${s.archived.why}` })] : [])])]),
     sec('Listen', [el('p', { className: 'small', textContent: `Newest: version ${latest.n}, ${latest.label}. One player: loading the other take replaces it.` }), el('div', { className: 'takes' }, latest.takes.map((t, i) => takeCard(latest, t, i))), slot], 'listen'),
     sec('The brief', [el('p', { className: 'small', textContent: s.brief?.asked_by || 'Not recorded.' }), ...(s.brief?.words ? [el('blockquote', { textContent: s.brief.words })] : []),
       ...(s.brief?.thinking?.length ? [el('h3', { textContent: 'The thinking' }), el('ol', {}, s.brief.thinking.map((x) => el('li', { textContent: x })))] : [])], 'brief'),

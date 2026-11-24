@@ -43,6 +43,10 @@
     const strip = document.getElementById('budgetline'); if (!strip) return;
     strip.replaceChildren(document.createTextNode(`Credits: ${b.song_credits.left.toLocaleString('en-GB')} of ${b.song_credits.monthly_limit.toLocaleString('en-GB')} left this month (about ${Math.floor(b.song_credits.left / b.cost.generation)} more generations), ${b.download_credits.left} downloads left, renews ${b.renews_on}. `), el('a', { href: '/budget/', textContent: 'Budget' }));
   }).catch(() => {});
+  const archived = data.songs.filter((s) => s.archived); data.songs = data.songs.filter((s) => !s.archived);
+  const arch = document.getElementById('archived');
+  if (arch && archived.length) arch.replaceChildren(el('summary', { textContent: `Archived songs (${archived.length})` }), el('ul', {}, archived.map((s) => el('li', {}, [el('a', { href: `/songs/${s.slug}/`, textContent: s.title }), document.createTextNode(`: ${s.archived.why}`)]))));
+  if (arch) arch.hidden = !archived.length;
   list.replaceChildren(...data.songs.map((s) => {
     const latest = s.versions[s.versions.length - 1], at = stages.indexOf(s.stage);
     const ladder = el('ol', { className: 'ladder', 'aria-label': 'Stage' }, data.stages.map((st, i) => {

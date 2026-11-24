@@ -11,8 +11,9 @@ export const day = (iso) => new Date(iso).toLocaleDateString('en-GB', { weekday:
 export const time = (iso) => new Date(iso).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'UTC' });
 export async function load() {
   const d = await (await fetch('/data/songs.json', { cache: 'no-cache' })).json();
+  d.all = d.songs; d.songs = d.all.filter((s) => !s.archived);
   const ids = d.stages.map((s) => s.id);
-  for (const s of d.songs) s.level = ids.indexOf(s.stage);
+  for (const s of d.all) s.level = ids.indexOf(s.stage);
   const last = (s) => s.versions[s.versions.length - 1].made;
   d.byMaturity = [...d.songs].sort((a, b) => b.level - a.level || (last(b) > last(a) ? 1 : -1));
   return d;
