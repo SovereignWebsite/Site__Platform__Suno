@@ -26,6 +26,169 @@
  "updated": "2026-11-23",
  "songs": [
   {
+   "slug": "devagar",
+   "title": "Devagar",
+   "about": "A new, slow Brazilian jazz instrumental with its own melody: Devagar is Portuguese for slowly.",
+   "stage": "experiment",
+   "pick": null,
+   "instrumental": true,
+   "lyrics_by": null,
+   "brief": {
+    "asked_by": "Dinis Cruz, 24 November 2026, in suno.b's session",
+    "words": "Okay, now can you make another similar song, Brazilian style, most of the same things, much slower, with a new melody, so not a variation of this song, a completely new song, but with a new melody.",
+    "thinking": [
+     "A new song, so no reference to Parada: nothing to carry over its melody or its 120 bpm.",
+     "Write the style ourselves: 80 bpm with a half-time feel, the batucada played gently, Brazilian jazz and MPB harmony.",
+     "Ask Suno to follow the style closely (style influence 0.85, variety 1), since earlier songs drifted on tempo and instruments.",
+     "Steer away from vocals, fast tempo and a big brass section, so it does not turn back into Parada."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-24T22:07Z",
+     "label": "Slow Brazilian jazz, new melody",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental, no reference",
+      "style": "slow Brazilian jazz and MPB instrumental, 80 bpm, half-time feel, soft samba batucada played gently (surdo, pandeiro, tamborim, shaker), warm nylon-string guitar with rich extended jazz chords, a new lyrical singable melody on flute and flugelhorn trading phrases in call and response, soft Rhodes, round fretless bass, short full-band stops before each return of the theme, unhurried late-evening warmth",
+      "negative_style": "vocals, singing, choir, humming, spoken words, fast tempo, frantic, big brass section",
+      "duration_s": 150,
+      "controls": "style influence 0.85, variety 1"
+     },
+     "style": "slow Brazilian jazz and MPB, half-time, gentle batucada, new melody, 80 bpm asked",
+     "takes": [
+      {
+       "id": "fd595bf8-27ef-4cc7-ad49-548d09f02056",
+       "duration_s": 151,
+       "suno_title": "Devagar",
+       "cover": "https://cdn2.suno.ai/image_fd595bf8-27ef-4cc7-ad49-548d09f02056.jpeg",
+       "listen": {
+        "bpm": 125,
+        "key": "G major",
+        "lead": [
+         "synth",
+         "Rhodes"
+        ],
+        "melody_strength": 4,
+        "stops": [
+         [
+          75,
+          "rhythm drops out, a chord rings until the beat returns at 1:17"
+         ],
+         [
+          136,
+          "drums and bass drop out, the final chord decays"
+         ]
+        ],
+        "sections": [
+         [
+          0,
+          15,
+          "Intro"
+         ],
+         [
+          15,
+          46,
+          "Theme A"
+         ],
+         [
+          46,
+          75,
+          "Theme B"
+         ],
+         [
+          75,
+          77,
+          "Break"
+         ],
+         [
+          77,
+          108,
+          "Theme A again"
+         ],
+         [
+          108,
+          136,
+          "Theme B, climax"
+         ],
+         [
+          136,
+          150,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "A lush, jazzy instrumental with a memorable synth and Rhodes melody over a relaxed half-time kit groove (feels about 62 bpm); not batucada."
+       }
+      },
+      {
+       "id": "b28d4ea6-6363-4e15-8c5d-c99c06a94e65",
+       "duration_s": 150,
+       "suno_title": "Devagar",
+       "cover": "https://cdn2.suno.ai/image_b28d4ea6-6363-4e15-8c5d-c99c06a94e65.jpeg",
+       "listen": {
+        "bpm": 126,
+        "key": "E minor",
+        "lead": [
+         "Rhodes",
+         "synth",
+         "piano"
+        ],
+        "melody_strength": 4,
+        "stops": [
+         [
+          74,
+          "the pulse stops briefly while the chord rings, back at 1:16"
+         ],
+         [
+          138,
+          "closing stop, keyboard decays"
+         ]
+        ],
+        "sections": [
+         [
+          0,
+          15,
+          "Intro"
+         ],
+         [
+          15,
+          76,
+          "Theme and variations"
+         ],
+         [
+          76,
+          91,
+          "Transition"
+         ],
+         [
+          91,
+          106,
+          "Keyboard solo"
+         ],
+         [
+          106,
+          138,
+          "Theme again"
+         ],
+         [
+          138,
+          150,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "A relaxed, half-time Brazilian jazz instrumental (feels about 63 bpm) with a catchy Rhodes and synth melody, lush harmony and gentle batucada-like percussion."
+       }
+      }
+     ],
+     "result": "Slow in feel: both takes play in half-time, about 62 bpm felt (Suno's beat tracker counts 125, the double). A new melody, memorable (4 of 5), but on Rhodes and synth rather than the flute and flugelhorn asked for. Take B has gentle batucada-like percussion; take A a soft kit groove instead. Two band breaks in each, at about 1:15 and near the end."
+    }
+   ]
+  },
+  {
    "slug": "parada",
    "title": "Parada",
    "about": "An instrumental with a Brazilian feel: a strong melody carried by instruments, and hard stops and starts. Parada is Portuguese for stop.",

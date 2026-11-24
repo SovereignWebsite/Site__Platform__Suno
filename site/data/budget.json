@@ -1,13 +1,13 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-24T15:38Z",
+ "read_at": "2026-11-24T22:07Z",
  "plan": "Pro Plan",
  "period": "month",
  "renews_on": "2026-12-13",
  "song_credits": {
   "monthly_limit": 2500,
-  "used": 180,
-  "left": 2320
+  "used": 190,
+  "left": 2310
  },
  "download_credits": {
   "left": 15
@@ -39,6 +39,12 @@
    "what": "Parada, version 2 (slower, Brazilian jazz), built on version 1 take A",
    "song_credits": 10,
    "asked_by": "Dinis: a slower variation, keep the batucada and the melodic line, Brazilian jazz"
+  },
+  {
+   "when": "2026-11-24T22:07Z",
+   "what": "Devagar, version 1 (new slow Brazilian jazz instrumental)",
+   "song_credits": 10,
+   "asked_by": "Dinis: a new Brazilian song, much slower, a completely new melody"
   }
  ]
 }

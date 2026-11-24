@@ -33,6 +33,7 @@ if (!s) { out.textContent = 'This song is not in the list.'; } else {
     el('dt', { textContent: 'Style' }), el('dd', {}, [el('code', { textContent: v.prompt.style || '(not recorded)' })]),
     ...(v.prompt.negative_style ? [el('dt', { textContent: 'Styles to avoid' }), el('dd', {}, [el('code', { textContent: v.prompt.negative_style })])] : []),
     ...(v.prompt.suno_expanded ? [el('dt', { textContent: 'Suno expanded it to' }), el('dd', {}, [el('code', { textContent: v.prompt.suno_expanded })])] : []),
+    ...(v.prompt.controls ? [el('dt', { textContent: 'Controls' }), el('dd', { textContent: v.prompt.controls })] : []),
     ...(v.prompt.duration_s ? [el('dt', { textContent: 'Target length' }), el('dd', { textContent: mmss(v.prompt.duration_s) })] : []),
     el('dt', { textContent: 'Model' }), el('dd', { textContent: v.model }),
     ...(v.prompt.lyrics_file ? [el('dt', { textContent: 'Lyrics' }), el('dd', {}, [el('a', { href: v.prompt.lyrics_file, textContent: 'as sent' })])] : []),
