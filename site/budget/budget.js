@@ -13,6 +13,7 @@ out.replaceChildren(
     el('div', { className: 'tile' }, [el('b', { textContent: n(b.download_credits.left) }), el('span', { textContent: 'full-quality downloads left (1 credit each)' })]),
     el('div', { className: 'tile' }, [el('b', { textContent: String(days) }), el('span', { textContent: `days until the credits renew (${b.renews_on})` })]),
   ]),
+  ...(b.limit_note ? [el('p', { textContent: b.limit_note })] : []),
   el('p', { textContent: `${n(sc.used)} of ${n(sc.monthly_limit)} song credits used this month (${pct}%), ${b.plan}. Read from Suno on ${b.read_at.replace('T', ' ').replace('Z', ' UTC')}.` }), meter,
   el('h2', { textContent: 'Every spend' }),
   el('table', {}, [el('thead', {}, [el('tr', {}, ['When (UTC)', 'What', 'Song credits', 'Asked by'].map((h) => el('th', { scope: 'col', textContent: h })))]),

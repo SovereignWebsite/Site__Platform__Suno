@@ -452,6 +452,134 @@
      ],
      "best": "b929d2eb-2d3b-4785-99c5-dbb82d2c75a3",
      "result": "Back in the fado style, all acoustic, Portuguese guitar leading (melody 5 of 5, fado 5 of 5), the bass restrained; but it overshot the other way: no funk (1 of 5). Take B is clean; take A has two short dropouts. Next, if wanted: the same, asking for a light syncopated groove from the guitars and percussion, in between this and Fado Funk."
+    },
+    {
+     "n": 3,
+     "made": "2026-11-25T13:02Z",
+     "label": "Halfway to funk: cajon, percussive guitar, quiet bass",
+     "model": "v6",
+     "credits": 10,
+     "brief": {
+      "asked_by": "suno.b's next step after version 2, within Dinis's ask of 25 November (\"a bit more funky, but within the sort of the style that you had before\"; \"that bass is quite over the top\")",
+      "words": "So just make it a bit more funky, but within the sort of the style that you had before.",
+      "thinking": [
+       "Version 2 had no funk at all: ask for a light, clearly syncopated groove from percussive guitar strums, cajon and shaker.",
+       "Keep the bass quiet and well back in the mix.",
+       "Still all acoustic and built on version 1 take B."
+      ]
+     },
+     "prompt": {
+      "mode": "simple, instrumental, built on Contratempo, em fado version 1 take B (reference)",
+      "style": "Keep this fado piece's melody, the Portuguese guitar lead and its ornamented phrasing, and the classical guitar answering. Add a light, clearly syncopated groove, halfway between gentle fado and funk: the classical guitar plays crisp, percussive syncopated strums with little muted stabs, a cajon and shaker play a steady off-beat pattern, and a soft acoustic upright bass walks quietly underneath, well back in the mix. All acoustic: no electric guitar, no synths, no horns, no drum kit, no slap bass. Clean, warm, continuous recording with no gaps or fuzz. Purely instrumental, no vocals.",
+      "negative_style": null
+     },
+     "style": "acoustic fado, light syncopated groove, cajon, quiet bass",
+     "takes": [
+      {
+       "id": "22c71890-b0b4-4b60-84d5-01ae446488ca",
+       "duration_s": 188,
+       "suno_title": "Luz de Lisboa",
+       "cover": "https://cdn2.suno.ai/image_22c71890-b0b4-4b60-84d5-01ae446488ca.jpeg",
+       "listen": {
+        "bpm": 102,
+        "key": "E minor",
+        "lead": [
+         "acoustic fingerstyle guitar",
+         "acoustic rhythm guitar"
+        ],
+        "melody_strength": 4,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          44,
+          "Theme A"
+         ],
+         [
+          44,
+          93,
+          "Theme B"
+         ],
+         [
+          93,
+          144,
+          "Theme A variation"
+         ],
+         [
+          144,
+          168,
+          "Bridge"
+         ],
+         [
+          168,
+          188,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Clean and fully acoustic, a lightly syncopated lilt (funk 2, syncopation 3), quiet bass; but the lead is ordinary acoustic guitar, not Portuguese guitar (fado 2 of 5)."
+       }
+      },
+      {
+       "id": "32ab33a7-5e30-4315-8710-893dec16d5b7",
+       "duration_s": 188,
+       "suno_title": "Fado de Lisboa",
+       "cover": "https://cdn2.suno.ai/image_32ab33a7-5e30-4315-8710-893dec16d5b7.jpeg",
+       "listen": {
+        "bpm": 102,
+        "key": "E minor",
+        "lead": [
+         "Portuguese guitar",
+         "classical guitar"
+        ],
+        "melody_strength": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          17,
+          "Introduction"
+         ],
+         [
+          17,
+          50,
+          "Theme A"
+         ],
+         [
+          50,
+          84,
+          "Theme B"
+         ],
+         [
+          84,
+          117,
+          "Theme A variations"
+         ],
+         [
+          117,
+          143,
+          "Interlude"
+         ],
+         [
+          143,
+          168,
+          "Climax"
+         ],
+         [
+          168,
+          188,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Clean, fully acoustic fado (5 of 5) led by Portuguese guitar, bass balanced (3 of 5), but still traditional: funk 1, syncopation 2."
+       }
+      }
+     ],
+     "best": "32ab33a7-5e30-4315-8710-893dec16d5b7",
+     "result": "Closer, but the funk still did not come through. Take B keeps the Portuguese guitar, a clean mix and a balanced bass, but stays traditional (funk 1). Take A has a little more lilt (funk 2, syncopation 3) but lost the Portuguese guitar. Building on the fado original pulls it back to the original's traditional feel. Next: write it from scratch (no reference), Portuguese guitar lead over an acoustic groove with the syncopation spelled out."
     }
    ]
   },

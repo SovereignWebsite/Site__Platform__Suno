@@ -1,13 +1,13 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-25T11:35Z",
+ "read_at": "2026-11-25T13:03Z",
  "plan": "Pro Plan",
  "period": "month",
  "renews_on": "2026-12-13",
  "song_credits": {
   "monthly_limit": 2500,
-  "used": 240,
-  "left": 2260
+  "used": 250,
+  "left": 2250
  },
  "download_credits": {
   "left": 15
@@ -69,6 +69,13 @@
    "what": "Contratempo, em fado, version 2 (a little funkier, all acoustic)",
    "song_credits": 10,
    "asked_by": "Dinis: less funk drums, no electric guitar, a bit more funky within the earlier style"
+  },
+  {
+   "when": "2026-11-25T13:02Z",
+   "what": "Contratempo, em fado, version 3 (halfway to funk)",
+   "song_credits": 10,
+   "asked_by": "Dinis: a bit more funky in the earlier style; use all the credits"
   }
- ]
+ ],
+ "limit_note": "No working limit: Dinis, 25 Nov, \"the point here is to use all the credits\". Downloads only for takes picked for release."
 }

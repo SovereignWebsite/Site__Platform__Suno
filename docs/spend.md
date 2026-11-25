@@ -7,7 +7,7 @@ Every call that spends Suno credits, with the balance read before and after (acc
 | 2026-11-13 to 15 | (before suno.b) | 15 generations, 30 takes | 150 | 2,350 | 15 | made on suno.com before this site |
 | 2026-11-23 22:30 | audio-create | "Two Takes", version 1, 2 takes, v6, 150 s | 10 | 2,340 | 15 | Dinis, in suno.b's session: "Can we try to write a song?" |
 
-Working limit (Dinis, ask 28, record 2026-11-23__asks-22-to-32): the existing Pro Plan, no upgrade or purchase; 100 song credits to 30 November and at most 5 downloads after voting. Counted from 23 November: 90 used (Two Takes, Parada v1 and v2, Devagar, Contratempo, two fado versions, Fado Funk, Contratempo em fado v2), 10 left.
+Limit: none of suno.b's own since 25 November. Dinis, in suno.b's session: "we should be using all credits ... the point here is to use all the credits. And yeah, if we then run out, then I'll get some more". The plan's 2,500 song credits a month are the limit; no upgrade or purchase by suno.b; downloads only for takes picked for release. (Before: 100 credits to 30 November, record 2026-11-23__asks-22-to-32, ask 28; 90 were used under it.)
 
 Measured: one generation (two takes) costs 10 song credits. Publishing, listing and reading spend nothing.
 | 2026-11-23 23:06 | audio-create | "Parada", version 1, 2 takes, v6, instrumental, 120 s | 10 | 2,330 | 15 | Dinis: a Brazilian instrumental with strong melodic lines and stops |
@@ -24,3 +24,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-25 03:31 | audio-listen x2 | guitar lead, funk, mix of both takes | 0 | 2,270 | 15 | for the song page |
 | 2026-11-25 11:34 | audio-create (reference: Contratempo em fado v1 B) | "Contratempo, em fado", version 2, 2 takes, v6, instrumental | 10 | 2,260 | 15 | Dinis: less funk drums, no electric guitar, a bit funkier in the earlier style |
 | 2026-11-25 11:35 | audio-listen x2 | acoustic, funk, mix of both takes | 0 | 2,260 | 15 | for the song page |
+| 2026-11-25 13:02 | audio-create (reference: Contratempo em fado v1 B) | "Contratempo, em fado", version 3, 2 takes, v6, instrumental | 10 | 2,250 | 15 | Dinis: a bit funkier in the earlier style; "use all the credits" |
+| 2026-11-25 13:03 | audio-listen x2 | lead, funk, bass, mix of both takes | 0 | 2,250 | 15 | for the song page |
