@@ -26,6 +26,159 @@
  "updated": "2026-11-23",
  "songs": [
   {
+   "slug": "guitarra-e-cavaquinho",
+   "title": "Guitarra e Cavaquinho",
+   "about": "The first of the Portuguese guitar experiments: the fado guitar at the centre, meeting Brazilian choro with a cavaquinho.",
+   "stage": "experiment",
+   "pick": null,
+   "instrumental": true,
+   "lyrics_by": null,
+   "series": "fado-guitar-at-the-centre",
+   "brief": {
+    "asked_by": "Dinis Cruz, 25 November 2026, in suno.b's session",
+    "words": "I really wanted to explore this intersection with fado guitar, right? That sort of cavaquinho lead with other styles, other instruments, maybe even together with others, but still with the fado guitar being at the epicenter of everything.",
+    "thinking": [
+     "The first experiment of the series: the Portuguese guitar at the centre, one other tradition at a time.",
+     "Choro is the natural first meeting: the cavaquinho answering the guitarra, a seven-string guitar's walking bass, pandeiro.",
+     "A rich, continuous melody (Dinis heard gaps last time); 112 bpm, bright and joyful."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-25T21:43Z",
+     "label": "Fado guitar meets choro",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental, no reference",
+      "style": "Portuguese fado guitar meets Brazilian choro, instrumental: the twelve-string Portuguese guitar (guitarra portuguesa) leads a rich, continuous, virtuosic ornamented melody at the centre of the band, the cavaquinho answers and doubles it in quick call and response, a seven-string nylon guitar plays walking bass counter-lines, pandeiro drives a syncopated choro groove, light Brazilian swing, bright and joyful, 112 bpm, clean warm acoustic recording",
+      "negative_style": "vocals, singing, electric guitar, synth, drum kit, slap bass, straight 4/4 rock beat, sparse melody, long gaps, lo-fi",
+      "duration_s": 180,
+      "controls": "style influence 0.9, variety 1"
+     },
+     "style": "Portuguese guitar and cavaquinho, choro, 112 bpm",
+     "takes": [
+      {
+       "id": "3ee1686f-e3a7-4e84-80b1-de9629a25d2b",
+       "duration_s": 179,
+       "suno_title": "Guitarra e Cavaquinho",
+       "cover": "https://cdn2.suno.ai/image_3ee1686f-e3a7-4e84-80b1-de9629a25d2b.jpeg",
+       "listen": {
+        "bpm": 111,
+        "key": "A major",
+        "lead": [
+         "Portuguese guitar",
+         "cavaquinho",
+         "nylon guitar"
+        ],
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "fado_character": 4,
+        "brazilian_feel": 4,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          15,
+          "Intro"
+         ],
+         [
+          15,
+          45,
+          "Theme 1"
+         ],
+         [
+          45,
+          76,
+          "Theme 2"
+         ],
+         [
+          76,
+          106,
+          "Theme 1 returns"
+         ],
+         [
+          106,
+          136,
+          "Bridge"
+         ],
+         [
+          136,
+          166,
+          "Theme recap"
+         ],
+         [
+          166,
+          178,
+          "Coda"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Portuguese guitar carries the central melody (5 of 5) with cavaquinho answers, a buoyant choro syncopation, a continuous line, clean."
+       }
+      },
+      {
+       "id": "dae22de3-c1ff-4f1e-a62f-ce934580c343",
+       "duration_s": 179,
+       "suno_title": "Guitarra e Cavaquinho",
+       "cover": "https://cdn2.suno.ai/image_dae22de3-c1ff-4f1e-a62f-ce934580c343.jpeg",
+       "listen": {
+        "bpm": 111,
+        "key": "E major",
+        "lead": [
+         "nylon guitar"
+        ],
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "fado_character": 1,
+        "brazilian_feel": 4,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          34,
+          "Theme A"
+         ],
+         [
+          34,
+          64,
+          "Contrast"
+         ],
+         [
+          64,
+          93,
+          "Theme A again"
+         ],
+         [
+          93,
+          123,
+          "Bridge"
+         ],
+         [
+          123,
+          152,
+          "Theme A returns"
+         ],
+         [
+          152,
+          179,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "A clean, flowing choro led by nylon guitar, cavaquinho in the rhythm; no Portuguese guitar lead."
+       }
+      }
+     ],
+     "best": "3ee1686f-e3a7-4e84-80b1-de9629a25d2b",
+     "result": "Take A is what was asked: the Portuguese guitar at the centre with the cavaquinho answering, a syncopated choro bounce, a rich continuous melody (5 of 5), clean. Take B lost the Portuguese guitar to a nylon guitar lead."
+    }
+   ]
+  },
+  {
    "slug": "fado-funk",
    "title": "Fado Funk",
    "about": "Portuguese fado guitar over hard funk: a new instrumental.",
@@ -718,6 +871,142 @@
      ],
      "best": "c56089d1-82de-40bd-8d4f-a6dac66a887a",
      "result": "The closest yet. Take B: Portuguese guitar melody, fado 5 of 5, a light syncopated lift (funk 2, syncopation 3), a restrained bass, clean. Take A is funkier (3) but brought back a prominent electric bass and electronic percussion. Written from scratch, so the melody is new rather than version 1's."
+    },
+    {
+     "n": 5,
+     "made": "2026-11-25T21:43Z",
+     "label": "The Brazilian groove back, richer melody",
+     "model": "v6",
+     "credits": 10,
+     "brief": {
+      "asked_by": "Dinis Cruz, 25 November 2026, in suno.b's session",
+      "words": "On this song: We lost the Brazilian groove Since now this is more of like a kind of 4/4 on the beat, more like a share beat, where we kind of lost that sort of bossa nova jazz feeling that the other ones had. So can you go back? Also on this one, like the tempo was good, but also there was a lot more melody gaps. We need a lot more richer melody. But I really like how that Portuguese fado guitar is coming out.",
+      "thinking": [
+       "Bring back the Brazilian feel in the rhythm section: bossa nova and partido-alto syncopation on nylon guitar, brushes and cross-stick, pandeiro; nothing on the beat.",
+       "Fill the gaps: a continuous Portuguese guitar melody with long phrases, the classical guitar's counter-melodies filling every pause.",
+       "Keep the tempo (about 100) and the Portuguese guitar; steer away from a straight 4/4 backbeat and a drum kit."
+      ]
+     },
+     "prompt": {
+      "mode": "custom, instrumental, no reference",
+      "style": "Brazilian bossa nova and samba-jazz groove with a Portuguese fado guitar lead, syncopated bossa nova and partido-alto rhythm on nylon guitar, brushes and cross-stick, light pandeiro and shaker, soft upright bass, the twelve-string Portuguese guitar plays a rich, continuous, flowing melody with long singing ornamented phrases and few pauses, classical guitar counter-melodies filling every gap, warm jazz harmony, 100 bpm, clean warm continuous recording",
+      "negative_style": "four on the floor, straight 4/4 rock beat, backbeat snare on 2 and 4, drum kit, electric guitar, synth, slap bass, loud bass, vocals, sparse melody, long gaps",
+      "duration_s": 180,
+      "controls": "style influence 0.9, variety 1"
+     },
+     "style": "bossa nova and samba-jazz with Portuguese guitar asked, 100 bpm",
+     "takes": [
+      {
+       "id": "0efbd11b-3e53-47a8-ae7a-65b0cf74ad51",
+       "duration_s": 178,
+       "suno_title": "Contratempo, em fado",
+       "cover": "https://cdn2.suno.ai/image_0efbd11b-3e53-47a8-ae7a-65b0cf74ad51.jpeg",
+       "listen": {
+        "bpm": 99,
+        "key": "C major",
+        "lead": [
+         "nylon guitar",
+         "piano"
+        ],
+        "melody_strength": 4,
+        "melody_continuity": 4,
+        "fado_character": 1,
+        "brazilian_feel": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          16,
+          "Intro"
+         ],
+         [
+          16,
+          49,
+          "Theme A"
+         ],
+         [
+          49,
+          81,
+          "Theme B"
+         ],
+         [
+          81,
+          113,
+          "Piano solo"
+         ],
+         [
+          113,
+          145,
+          "Guitar solo"
+         ],
+         [
+          145,
+          168,
+          "Theme again"
+         ],
+         [
+          168,
+          178,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Syncopated bossa and samba-jazz (Brazilian feel 5 of 5), a flowing melody on nylon guitar and piano, clean; no Portuguese guitar."
+       }
+      },
+      {
+       "id": "f0e694f7-43f8-4025-bcee-c5f5e4a965dc",
+       "duration_s": 179,
+       "suno_title": "Contratempo, em fado",
+       "cover": "https://cdn2.suno.ai/image_f0e694f7-43f8-4025-bcee-c5f5e4a965dc.jpeg",
+       "listen": {
+        "bpm": 99,
+        "key": "F major",
+        "lead": [
+         "vibraphone",
+         "nylon guitar"
+        ],
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "fado_character": 1,
+        "brazilian_feel": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          37,
+          "Theme"
+         ],
+         [
+          38,
+          74,
+          "Second theme"
+         ],
+         [
+          75,
+          110,
+          "Development"
+         ],
+         [
+          111,
+          147,
+          "Guitar variation"
+         ],
+         [
+          148,
+          179,
+          "Recapitulation"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Brazilian lounge jazz (feel 5 of 5) with a strong, continuous melody (5 of 5) on vibraphone and nylon guitar, clean; no Portuguese guitar."
+       }
+      }
+     ],
+     "best": "f0e694f7-43f8-4025-bcee-c5f5e4a965dc",
+     "result": "The Brazilian groove is back (bossa and samba-jazz, not a straight 4/4) and the melody is rich and continuous, but Suno dropped the Portuguese guitar in both takes (nylon guitar and piano; vibraphone and nylon guitar). Leaning on bossa seems to push the guitarra out. Next: name the Portuguese guitar as the only lead, with bossa only in the rhythm section."
     }
    ]
   },
@@ -1694,7 +1983,8 @@
        "id": "434599ad-1f80-4785-8db0-8b2cd1c656c1",
        "duration_s": 137,
        "suno_title": "Tick Tock, Nineteen Hours (Remastered)",
-       "cover": "https://cdn1.suno.ai/image_434599ad-1f80-4785-8db0-8b2cd1c656c1.jpeg"
+       "cover": "https://cdn1.suno.ai/image_434599ad-1f80-4785-8db0-8b2cd1c656c1.jpeg",
+       "liked": true
       },
       {
        "id": "58747899-0a78-4f9c-a1e2-c1538020b00b",

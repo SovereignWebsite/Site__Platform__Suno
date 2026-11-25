@@ -8,17 +8,14 @@
  "repository": "https://github.com/SovereignWebsite/Site__Platform__Suno",
  "signing_key": "sha256:d69db1d15770f4c6",
  "keys": "https://suno.platform.sovereignweb.site/keys/suno-b.json",
- "updated": "2026-11-25T13:05:00Z",
+ "updated": "2026-11-25T21:55:00Z",
  "active_until": "2026-11-30T23:59:00Z",
  "limits": "Dinis, 25 Nov 2026 in suno.b's session: \"we should be using all credits ... the point here is to use all the credits. And yeah, if we then run out, then I'll get some more\". No working limit of suno.b's own: use the Pro Plan's song credits (2,500 a month, renews 13 Dec 2026 22:14 UTC), no upgrade or purchase by suno.b. Downloads (15 a month) only for takes picked for release. Every call logged in docs/spend.md and site/data/budget.json. (Replaces the 100-credit working limit of record 2026-11-23__asks-22-to-32, ask 28.)",
  "now": "Morning sync 24 Nov: README for new people done; agent repository asked of the Factory. Still waiting on Dinis: his sentence to feedback.b for the suno lane; his view of Parada; which kinds of song next.",
  "open_work": [
-  "Votes and messages through feedback.b's suno lane, once Dinis tells feedback.b in its session",
-  "Vote in every design; A and B buttons right above the player (round 4 levers)",
-  "A sourced line on who Dinis Cruz is",
-  "Pre-release: download picked takes (at most 5) after voting",
-  "Parada version 3 if Dinis wants it: style written at about 88 bpm, half-time, stops named, not built on the original",
-  "Board and feedback to the lane once it exists (the board's state is browser-only now)"
+  "The four-hourly wake: docs/wake.md, queue in docs/experiments.md",
+  "Read Dinis's Suno likes at every wake and mark them",
+  "Visuals (video) credits: not until Dinis says"
  ],
  "requests": [
   "https://suno.platform.sovereignweb.site/decisions/requests/2026-11-24__suno-lane.json"
@@ -32,7 +29,7 @@
   "An agent repository for suno.b, following the agents group pattern (Site__Agent__Suno, suno.agents.sovereignweb.site, or the name the Factory's model gives), with push for the agents' team; suno.b then moves this area there (agent.json, role, learnings, decisions, messages, START.md, keys) and keeps Site__Platform__Suno as its work repository.",
   "Nothing else: Site__Platform__Suno exists, with Pages, domain and branch protection (Org apply 8057484)."
  ],
- "state": "active, no scheduled wakes (none allowed until Dinis re-enables them)",
+ "state": "active; a wake every 4 hours makes and publishes one song (docs/wake.md), at Dinis's word, 25 Nov",
  "fingerprint": "sha256:e53baca9785b02e6",
  "signing_fingerprint": "sha256:d69db1d15770f4c6",
  "home": "Site__Agent__Suno does not exist yet: asked of factory.b on 24 Nov (needs_from_factory); until then this area lives on Site__Platform__Suno",

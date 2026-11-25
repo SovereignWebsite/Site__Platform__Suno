@@ -9,7 +9,7 @@ const st = (() => { try { return Object.assign({ col: {}, order: {}, notes: {}, 
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch { /* storage blocked: this visit only */ } };
 const all = d.all.flatMap((s) => s.versions.flatMap((v) => v.takes.map((t, i) => ({ id: t.id, s, v, t, side: 'AB'[i], made: v.made, sib: v.takes[1 - i]?.id, name: `${s.title} · v${v.n} take ${'AB'[i]}` })))).sort((a, b) => (a.made < b.made ? 1 : -1));
 const byId = new Map(all.map((x) => [x.id, x]));
-const colOf = (id) => st.col[id] || (byId.get(id)?.s.archived ? 'no' : 'new');
+const colOf = (id) => st.col[id] || (byId.get(id)?.s.archived ? 'no' : byId.get(id)?.t.liked ? 'liked' : 'new');
 const list = (c) => { const ids = all.filter((x) => colOf(x.id) === c).map((x) => x.id); const o = st.order[c] || []; return [...o.filter((id) => ids.includes(id)), ...ids.filter((id) => !o.includes(id))]; };
 const setCol = (id, c, at) => { const from = colOf(id); st.col[id] = c; st.order[from] = list(from).filter((x) => x !== id); const l = list(c).filter((x) => x !== id); l.splice(at ?? l.length, 0, id); st.order[c] = l; save(); draw(); };
 let mode = 'listening', current = null, showArchive = false, seq = [], seqTimer = null;
