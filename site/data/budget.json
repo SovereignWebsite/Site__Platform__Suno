@@ -1,13 +1,13 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-24T22:24Z",
+ "read_at": "2026-11-25T03:31Z",
  "plan": "Pro Plan",
  "period": "month",
  "renews_on": "2026-12-13",
  "song_credits": {
   "monthly_limit": 2500,
-  "used": 220,
-  "left": 2280
+  "used": 230,
+  "left": 2270
  },
  "download_credits": {
   "left": 15
@@ -57,6 +57,12 @@
    "what": "Contratempo, em fado and Luz de Fado (two generations, built on Contratempo take B and Luz de Tarde take A)",
    "song_credits": 20,
    "asked_by": "Dinis: the last two as Portuguese fado guitar versions"
+  },
+  {
+   "when": "2026-11-25T03:30Z",
+   "what": "Fado Funk, version 1",
+   "song_credits": 10,
+   "asked_by": "Dinis: one more with an extreme funk feel, still with the Portuguese guitar"
   }
  ]
 }

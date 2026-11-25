@@ -26,6 +26,152 @@
  "updated": "2026-11-23",
  "songs": [
   {
+   "slug": "fado-funk",
+   "title": "Fado Funk",
+   "about": "Portuguese fado guitar over hard funk: a new instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "instrumental": true,
+   "lyrics_by": null,
+   "brief": {
+    "asked_by": "Dinis Cruz, 25 November 2026, in suno.b's session",
+    "words": "Can you actually add one more with a bit of more of a sort of funk feel, kind of extreme style funk, you know, but still with that Portuguese guitar, the fado guitar, right, but a bit of a funk on it.",
+    "thinking": [
+     "A new song, not built on another: the fado guitar's melody new, the groove hard funk.",
+     "Portuguese guitar named as the lead, with slap bass, ghost-note drums, clavinet, wah guitar and horn stabs answering it.",
+     "Clean, punchy, continuous mix, and steer away from lo-fi, muddy and fuzzy, after the gaps Dinis heard in Contratempo."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-25T03:30Z",
+     "label": "Fado guitar over hard funk",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental, no reference",
+      "style": "hard funk instrumental with a Portuguese fado guitar lead, bright twelve-string guitarra portuguesa playing an ornamented, catchy fado melody, deep slap bass, tight syncopated funk drums with ghost notes, clavinet and wah rhythm guitar, punchy horn stabs answering the guitarra, extreme funk groove, 108 bpm, clean punchy continuous studio mix, no gaps, no distortion",
+      "negative_style": "vocals, singing, choir, humming, spoken words, lo-fi, muddy, fuzzy, slow ballad",
+      "duration_s": 165,
+      "controls": "style influence 0.85, variety 1"
+     },
+     "style": "hard funk with Portuguese fado guitar lead, 108 bpm",
+     "takes": [
+      {
+       "id": "9d79e3fe-e71e-4944-8813-6ebd5c0cadea",
+       "duration_s": 150,
+       "suno_title": "Fado Funk",
+       "cover": "https://cdn2.suno.ai/image_9d79e3fe-e71e-4944-8813-6ebd5c0cadea.jpeg",
+       "listen": {
+        "bpm": 108,
+        "key": "E minor",
+        "lead": [
+         "horns",
+         "rhythmic electric guitar",
+         "vocal chops"
+        ],
+        "melody_strength": 3,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          15,
+          "Intro"
+         ],
+         [
+          15,
+          49,
+          "Funk groove"
+         ],
+         [
+          49,
+          64,
+          "Percussion breakdown"
+         ],
+         [
+          64,
+          98,
+          "Groove returns"
+         ],
+         [
+          98,
+          113,
+          "Stripped interlude"
+         ],
+         [
+          113,
+          140,
+          "Peak groove"
+         ],
+         [
+          140,
+          150,
+          "Outro"
+         ]
+        ],
+        "vocals": true,
+        "summary": "Clean, steady, very funky (5 of 5), but led by horns and guitar with short vocal chops: no Portuguese guitar (fado 1 of 5)."
+       }
+      },
+      {
+       "id": "6c8df617-5505-4ef2-95e0-669691801a32",
+       "duration_s": 159,
+       "suno_title": "Fado Funk",
+       "cover": "https://cdn2.suno.ai/image_6c8df617-5505-4ef2-95e0-669691801a32.jpeg",
+       "listen": {
+        "bpm": 110,
+        "key": "G minor",
+        "lead": [
+         "Portuguese guitar"
+        ],
+        "melody_strength": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          15,
+          "Intro"
+         ],
+         [
+          15,
+          45,
+          "Main theme"
+         ],
+         [
+          45,
+          75,
+          "Variation"
+         ],
+         [
+          75,
+          105,
+          "Theme and groove"
+         ],
+         [
+          105,
+          135,
+          "Bridge"
+         ],
+         [
+          135,
+          159,
+          "Climax and outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Clean instrumental fado-funk: expressive Portuguese guitar lead (melody 5 of 5, fado 4 of 5) over slap bass, drums, clavinet and horns (funk 5 of 5)."
+       }
+      }
+     ],
+     "result": "Take B is it: Portuguese guitar clearly leading an ornamented melody (5 of 5) over very funky slap bass, drums, clavinet and horns (funk 5 of 5, fado 4 of 5), clean mix. Take A lost the guitar: horn-led funk with short vocal chops (fado 1 of 5).",
+     "best": "6c8df617-5505-4ef2-95e0-669691801a32"
+    }
+   ]
+  },
+  {
    "slug": "contratempo-fado",
    "title": "Contratempo, em fado",
    "about": "Contratempo's melody as Portuguese fado: Portuguese guitar and classical guitar, instrumental.",
@@ -165,7 +311,8 @@
        }
       }
      ],
-     "result": "Take B is what was asked: clean and continuous (5 of 5), Portuguese guitar, strongly fado, melody 5 of 5. Take A has a brief dropout at 1:21, a faint fuzzy edge and a mandolin-like lead instead."
+     "result": "Take B is what was asked: clean and continuous (5 of 5), Portuguese guitar, strongly fado, melody 5 of 5. Take A has a brief dropout at 1:21, a faint fuzzy edge and a mandolin-like lead instead.",
+     "best": "9827b917-0a62-4b3e-a8df-4605bdcd008f"
     }
    ]
   },
@@ -295,7 +442,8 @@
        }
       }
      ],
-     "result": "Both takes clean and continuous (mix 5 of 5), Portuguese guitar, strongly fado (5 of 5), melody 5 of 5. Take A moves from reflective to a lively fado corrido and back; take B stays measured and expressive."
+     "result": "Both takes clean and continuous (mix 5 of 5), Portuguese guitar, strongly fado (5 of 5), melody 5 of 5. Take A moves from reflective to a lively fado corrido and back; take B stays measured and expressive.",
+     "best": "faf14bb3-726d-4220-bcce-519c893919bc"
     }
    ]
   },
@@ -486,7 +634,8 @@
        }
       }
      ],
-     "result": "Take B is close: flute and nylon guitar in call and response, strongly syncopated batucada, drums and melody on shared accents, the strongest melody yet (5 of 5) and six full-band breaks. Take A went to brass-led Latin funk with no batucada or stops. Neither has the drum solo: Suno ignored that line of the section map (take B has only a 4-second percussion pickup). Next: extend take B with a 16-bar batucada solo, or ask for the solo as its own short section."
+     "result": "Take B is close: flute and nylon guitar in call and response, strongly syncopated batucada, drums and melody on shared accents, the strongest melody yet (5 of 5) and six full-band breaks. Take A went to brass-led Latin funk with no batucada or stops. Neither has the drum solo: Suno ignored that line of the section map (take B has only a 4-second percussion pickup). Next: extend take B with a 16-bar batucada solo, or ask for the solo as its own short section.",
+     "best": "02e1b6fa-d7ab-4c35-96d8-0b2a10de4ef5"
     }
    ],
    "archived": {
@@ -654,7 +803,8 @@
        }
       }
      ],
-     "result": "Slow in feel: both takes play in half-time, about 62 bpm felt (Suno's beat tracker counts 125, the double). A new melody, memorable (4 of 5), but on Rhodes and synth rather than the flute and flugelhorn asked for. Take B has gentle batucada-like percussion; take A a soft kit groove instead. Two band breaks in each, at about 1:15 and near the end."
+     "result": "Slow in feel: both takes play in half-time, about 62 bpm felt (Suno's beat tracker counts 125, the double). A new melody, memorable (4 of 5), but on Rhodes and synth rather than the flute and flugelhorn asked for. Take B has gentle batucada-like percussion; take A a soft kit groove instead. Two band breaks in each, at about 1:15 and near the end.",
+     "best": "fd595bf8-27ef-4cc7-ad49-548d09f02056"
     }
    ],
    "archived": {
@@ -828,7 +978,8 @@
        }
       }
      ],
-     "result": "Both takes are fully instrumental with a strong melody and four or five full-band stops. Neither used the cavaquinho and flute asked for: take A went to horns (trumpet, clarinet, trombone), take B to an accordion-like reed and plucked guitar. Next version: ask for less reinterpretation (variety 0, style influence high) and name the instruments again, or keep the horns if they work."
+     "result": "Both takes are fully instrumental with a strong melody and four or five full-band stops. Neither used the cavaquinho and flute asked for: take A went to horns (trumpet, clarinet, trombone), take B to an accordion-like reed and plucked guitar. Next version: ask for less reinterpretation (variety 0, style influence high) and name the instruments again, or keep the horns if they work.",
+     "best": "3c175309-03bc-4a70-b30e-a862a44b1e56"
     },
     {
      "n": 2,
@@ -956,7 +1107,8 @@
        }
       }
      ],
-     "result": "Half there. The batucada stayed, now relaxed; the harmony moved to Brazilian jazz and MPB with richer chords; the melody is still strong (4 of 5), now on flute with piano, brass or saxophone answering; still instrumental. But it is not slower: both takes measure 120 bpm, as in version 1 (building on the original kept its tempo), and the hard stops are mostly gone (none in take A, one near the end of take B). Next: write the style ourselves at about 88 bpm with half-time feel and the stops named, without building on the original. Suno titled these takes Luz de Tarde."
+     "result": "Half there. The batucada stayed, now relaxed; the harmony moved to Brazilian jazz and MPB with richer chords; the melody is still strong (4 of 5), now on flute with piano, brass or saxophone answering; still instrumental. But it is not slower: both takes measure 120 bpm, as in version 1 (building on the original kept its tempo), and the hard stops are mostly gone (none in take A, one near the end of take B). Next: write the style ourselves at about 88 bpm with half-time feel and the stops named, without building on the original. Suno titled these takes Luz de Tarde.",
+     "best": "ae887dff-66a7-4bab-94b9-21f92fa0dfeb"
     }
    ],
    "lyrics_by": null
@@ -996,7 +1148,8 @@
       "negative_style": null,
       "duration_s": 150,
       "lyrics_file": "/lyrics/two-takes.txt"
-     }
+     },
+     "best": "068f2085-9590-4310-99c4-4efde67dc1fa"
     }
    ],
    "brief": {
@@ -1041,7 +1194,8 @@
       "mode": "custom, with lyrics",
       "style": "electro bossa nova, synth-pop with Brazilian jazz, nylon guitar, Rhodes, ticking clock percussion, warm male lead, 118 bpm",
       "negative_style": null
-     }
+     },
+     "best": "0f4865aa-69e0-4c1a-96a1-43cb13b102f2"
     },
     {
      "n": 2,
@@ -1067,7 +1221,8 @@
       "mode": "custom, with lyrics",
       "style": "electro bossa nova, Brazilian jazz synth-pop, Rhodes, tick-tock clock, vocoded choir, 118 bpm",
       "negative_style": null
-     }
+     },
+     "best": "6e5a5a69-29e3-495e-96db-61efb3059bae"
     },
     {
      "n": 3,
@@ -1093,7 +1248,8 @@
       "mode": "custom, with lyrics",
       "style": "bossa nova, Brazilian jazz, cavaquinho, nylon guitar, upright bass, tick-tock clock, vocoded choir, 118 bpm",
       "negative_style": null
-     }
+     },
+     "best": "be3287da-6823-4b42-bcee-b5c83a11fdba"
     },
     {
      "n": 4,
@@ -1119,7 +1275,8 @@
       "mode": "custom, with lyrics",
       "style": "bossa nova, Brazilian jazz, cavaquinho, nylon guitar, upright bass, tick-tock clock, call and response, 118 bpm",
       "negative_style": null
-     }
+     },
+     "best": "bfc08c34-f091-4b53-8263-3065b65f67a4"
     },
     {
      "n": 5,
@@ -1145,7 +1302,8 @@
       "mode": "custom, with lyrics",
       "style": "bossa nova, Brazilian jazz",
       "negative_style": null
-     }
+     },
+     "best": "434599ad-1f80-4785-8db0-8b2cd1c656c1"
     },
     {
      "n": 6,
@@ -1171,7 +1329,8 @@
       "mode": "custom, with lyrics",
       "style": "bossa nova meets samba batucada, cavaquinho, nylon guitar, pandeiro, loud tick-tock clock, hourly chime, airy backing choir, 120 bpm",
       "negative_style": null
-     }
+     },
+     "best": "c2f9b518-8896-425b-b364-6e0acdd1ebe8"
     }
    ],
    "brief": {
@@ -1215,7 +1374,8 @@
       "mode": "custom, with lyrics",
       "style": "early 2000s British piano rock, emotive male tenor, upright piano, chiming guitar, 96 bpm",
       "negative_style": null
-     }
+     },
+     "best": "e67860a9-2ea9-44df-92cd-b7589f7aed0e"
     },
     {
      "n": 2,
@@ -1241,7 +1401,8 @@
       "mode": "custom, with lyrics",
       "style": "early 2000s British piano rock, emotive male tenor, upright piano, chiming guitar, 96 bpm",
       "negative_style": null
-     }
+     },
+     "best": "4bf83127-a92d-41e6-8af1-9e35e264c714"
     },
     {
      "n": 3,
@@ -1267,7 +1428,8 @@
       "mode": "custom, with lyrics",
       "style": "contemporary R&B soul, warm electric piano, rounded bass, layered backing vocals, male tenor",
       "negative_style": null
-     }
+     },
+     "best": "49aeb5ed-ea44-4cc2-ac6f-51776d3c97ac"
     },
     {
      "n": 4,
@@ -1293,7 +1455,8 @@
       "mode": "custom, with lyrics",
       "style": "(not recorded)",
       "negative_style": null
-     }
+     },
+     "best": "03372da1-5a65-4462-9731-eb978f9da4b7"
     },
     {
      "n": 5,
@@ -1319,7 +1482,8 @@
       "mode": "custom, with lyrics",
       "style": "R&B soul",
       "negative_style": null
-     }
+     },
+     "best": "4fd6fe2d-0563-4761-ad20-ce1668fee6cf"
     },
     {
      "n": 6,
@@ -1345,7 +1509,8 @@
       "mode": "custom, with lyrics",
       "style": "upbeat R&B soul",
       "negative_style": null
-     }
+     },
+     "best": "afaa2351-2a15-458d-81db-2337c2474eda"
     },
     {
      "n": 7,
@@ -1371,7 +1536,8 @@
       "mode": "custom, with lyrics",
       "style": "upbeat contemporary R&B soul, syncopated drums, bright electric piano, layered backing vocals, male tenor with falsetto",
       "negative_style": null
-     }
+     },
+     "best": "8f78f212-e8b9-4b92-8ea3-f42aed892592"
     },
     {
      "n": 8,
@@ -1397,7 +1563,8 @@
       "mode": "custom, with lyrics",
       "style": "(not recorded)",
       "negative_style": null
-     }
+     },
+     "best": "2ac5c2b8-97a9-4646-8333-915d2a11117d"
     },
     {
      "n": 9,
@@ -1423,7 +1590,8 @@
       "mode": "custom, with lyrics",
       "style": "upbeat R&B soul, modern Motown groove, gospel backing choir, punchy horns, Rhodes, 108 bpm",
       "negative_style": null
-     }
+     },
+     "best": "a2c0b107-a073-4914-afe5-470e9b1adf7a"
     }
    ],
    "brief": {

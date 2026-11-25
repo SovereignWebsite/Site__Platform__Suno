@@ -12,12 +12,25 @@ const byId = new Map(all.map((x) => [x.id, x]));
 const colOf = (id) => st.col[id] || (byId.get(id)?.s.archived ? 'no' : 'new');
 const list = (c) => { const ids = all.filter((x) => colOf(x.id) === c).map((x) => x.id); const o = st.order[c] || []; return [...o.filter((id) => ids.includes(id)), ...ids.filter((id) => !o.includes(id))]; };
 const setCol = (id, c, at) => { const from = colOf(id); st.col[id] = c; st.order[from] = list(from).filter((x) => x !== id); const l = list(c).filter((x) => x !== id); l.splice(at ?? l.length, 0, id); st.order[c] = l; save(); draw(); };
-let mode = 'listening', current = null, showArchive = false;
+let mode = 'listening', current = null, showArchive = false, seq = [], seqTimer = null;
+// Newest first, archived songs left out; with "one take per version", each version's best take only.
+const newest = (n, onePer) => d.songs.flatMap((s) => s.versions.map((v) => ({ s, v }))).sort((a, b) => b.v.made.localeCompare(a.v.made)).slice(0, onePer ? n : undefined)
+  .flatMap(({ v }) => (onePer ? [v.best || v.takes[0].id] : v.takes.map((t) => t.id))).slice(0, n);
+const stopSeq = () => { clearTimeout(seqTimer); seqTimer = null; seq = []; seqNote.textContent = ''; };
+const runSeq = (i) => {
+  clearTimeout(seqTimer); if (i >= seq.length) { seqNote.textContent = `Finished the ${seq.length}.`; seq = []; return; }
+  mode = 'seq'; play(seq[i]);
+  const x = byId.get(seq[i]), wait = (x.t.duration_s + 3) * 1000;
+  seqNote.textContent = `Playing ${i + 1} of ${seq.length}. The next one loads by itself after ${mmss(x.t.duration_s)}; press play in Suno's player if it does not start.`;
+  seqTimer = setTimeout(() => runSeq(i + 1), wait); seq.at = i;
+};
+const seqNote = el('p', { className: 'small', 'aria-live': 'polite' });
 const frame = el('iframe', { title: 'Suno player', allow: 'autoplay; encrypted-media', hidden: true });
 const now = el('p', { className: 'now', 'aria-live': 'polite', textContent: 'Press Play on a card, or play your Listening column.' });
 const play = (id) => { const x = byId.get(id); current = id; st.heard[id] = new Date().toISOString(); save(); frame.hidden = false; frame.src = `https://suno.com/embed/${id}`; frame.title = `${x.name}, Suno player`; now.textContent = `Loaded: ${x.name}${mode === 'liked' ? ' (Liked, shuffled on a loop)' : ''}. Press play in Suno's player.`; draw(); };
 let shuffled = [];
 const next = (n = 1) => {
+  if (mode === 'seq' && seq.length) { runSeq(Math.max(0, Math.min(seq.length - 1, (seq.at ?? 0) + n))); return; }
   const l = mode === 'liked' ? (shuffled.length ? shuffled : (shuffled = list('liked').sort(() => Math.random() - 0.5))) : list('listening');
   if (!l.length) { now.textContent = mode === 'liked' ? 'Nothing in Liked yet.' : 'Nothing in Listening: move cards there.'; return; }
   const i = l.indexOf(current); play(l[(i + n + l.length) % l.length]);
@@ -55,8 +68,18 @@ const draw = () => {
 const archBtn = b('', () => { showArchive = !showArchive; draw(); });
 const copyMsg = el('span', { className: 'small', 'aria-live': 'polite' }), copyOut = el('pre', { hidden: true });
 const exportText = () => { const L = ['Listening board for suno.platform.sovereignweb.site', `Written ${new Date().toISOString().slice(0, 16)} UTC`, '']; for (const [k, label] of COLS) { const ids = list(k); if (k !== 'new' && ids.length) { L.push(`${label}:`); ids.forEach((id) => L.push(`- ${byId.get(id).name}${st.notes[id] ? `: ${st.notes[id].trim()}` : ''}`)); L.push(''); } } return L.join('\n'); };
+const one = el('input', { type: 'checkbox', id: 'oneper', checked: true });
+const seqBox = el('div', { className: 'seq' }, [
+  el('h2', { textContent: 'Play the newest in sequence' }),
+  el('div', { className: 'controls' }, [b('Play the newest 10', () => { seq = newest(10, one.checked); runSeq(0); }), b('Play the newest 20', () => { seq = newest(20, one.checked); runSeq(0); }), el('label', { htmlFor: 'oneper', className: 'chk' }, [one, document.createTextNode(' One take per version (the better one)')]), b('Stop', stopSeq)]),
+  seqNote,
+  el('p', { className: 'small', textContent: 'Suno\'s player does not let another page start it or tell it when a song ends, so here the next song loads after the last one\'s length, and you may need to press play each time. To play straight through without pressing, use the same lists as playlists on suno.com:' }),
+  el('ul', { className: 'small', id: 'sunolists' }),
+]);
+fetch('/data/playlists.json', { cache: 'no-cache' }).then((r) => r.json()).then((pl) => document.getElementById('sunolists').replaceChildren(...pl.playlists.map((x) => el('li', {}, [el('a', { href: x.url, textContent: x.name }), document.createTextNode(`, on suno.com, one take per version`)])))).catch(() => {});
 out.replaceChildren(
-  el('div', { className: 'controls' }, [b('Play Listening in order', () => { mode = 'listening'; next(0); }), b('Shuffle Liked on a loop', () => { mode = 'liked'; shuffled = []; next(1); }), b('Previous', () => next(-1)), b('Next', () => next(1)), archBtn]),
+  seqBox,
+  el('div', { className: 'controls' }, [b('Play Listening in order', () => { stopSeq(); mode = 'listening'; next(0); }), b('Shuffle Liked on a loop', () => { stopSeq(); mode = 'liked'; shuffled = []; next(1); }), b('Previous', () => next(-1)), b('Next', () => next(1)), archBtn]),
   now, frame, offerBox, board,
   el('div', { className: 'row' }, [b('Copy my board and notes', async () => { const t = exportText(); try { await navigator.clipboard.writeText(t); copyMsg.textContent = 'Copied: paste it to the team.'; } catch { copyOut.hidden = false; copyOut.textContent = t; copyMsg.textContent = 'Copy is blocked here: select the text below.'; } }), copyMsg]), copyOut,
 );
