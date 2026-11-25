@@ -26,3 +26,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-25 11:35 | audio-listen x2 | acoustic, funk, mix of both takes | 0 | 2,260 | 15 | for the song page |
 | 2026-11-25 13:02 | audio-create (reference: Contratempo em fado v1 B) | "Contratempo, em fado", version 3, 2 takes, v6, instrumental | 10 | 2,250 | 15 | Dinis: a bit funkier in the earlier style; "use all the credits" |
 | 2026-11-25 13:03 | audio-listen x2 | lead, funk, bass, mix of both takes | 0 | 2,250 | 15 | for the song page |
+| 2026-11-25 13:05 | audio-create | "Contratempo, em fado", version 4, 2 takes, v6, instrumental, from scratch, style influence 0.9 | 10 | 2,240 | 15 | Dinis: a bit funkier in the earlier style; "use all the credits" |
+| 2026-11-25 13:06 | audio-listen x2 | lead, funk, bass, mix of both takes | 0 | 2,240 | 15 | for the song page |

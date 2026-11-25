@@ -580,6 +580,144 @@
      ],
      "best": "32ab33a7-5e30-4315-8710-893dec16d5b7",
      "result": "Closer, but the funk still did not come through. Take B keeps the Portuguese guitar, a clean mix and a balanced bass, but stays traditional (funk 1). Take A has a little more lilt (funk 2, syncopation 3) but lost the Portuguese guitar. Building on the fado original pulls it back to the original's traditional feel. Next: write it from scratch (no reference), Portuguese guitar lead over an acoustic groove with the syncopation spelled out."
+    },
+    {
+     "n": 4,
+     "made": "2026-11-25T13:05Z",
+     "label": "Written from scratch: acoustic fado-funk",
+     "model": "v6",
+     "credits": 10,
+     "brief": {
+      "asked_by": "suno.b's next step, within Dinis's ask of 25 November (\"a bit more funky, but within the sort of the style that you had before\"; \"use all the credits\")",
+      "words": "So just make it a bit more funky, but within the sort of the style that you had before.",
+      "thinking": [
+       "Versions 2 and 3, built on version 1, kept its traditional feel: write this one from scratch, no reference.",
+       "Spell the syncopation out: percussive sixteenth-note strums, muted ghost stabs, cajon off-beats, shaker sixteenths.",
+       "Bass quietly in the background; keep electric guitar, synths, horns, drum kit and slap bass out; follow the style closely (0.9)."
+      ]
+     },
+     "prompt": {
+      "mode": "custom, instrumental, no reference",
+      "style": "acoustic fado-funk instrumental, bright twelve-string Portuguese guitar (guitarra portuguesa) leads an ornamented, catchy fado melody, classical guitar answers in call and response, the groove syncopated and funky but all acoustic: classical guitar plays tight percussive sixteenth-note strums with muted ghost stabs, cajon backbeat with off-beat accents, shaker sixteenths, soft upright bass quietly in the background, 104 bpm, clean warm close-miked continuous recording",
+      "negative_style": "vocals, singing, choir, electric guitar, synth, horns, drum kit, slap bass, loud bass, lo-fi, fuzzy, slow ballad",
+      "duration_s": 180,
+      "controls": "style influence 0.9, variety 1"
+     },
+     "style": "acoustic fado-funk, Portuguese guitar, cajon, 104 bpm",
+     "takes": [
+      {
+       "id": "ff7e8d91-f539-44d0-9e99-3592d3b1f032",
+       "duration_s": 180,
+       "suno_title": "Contratempo, em fado",
+       "cover": "https://cdn2.suno.ai/image_ff7e8d91-f539-44d0-9e99-3592d3b1f032.jpeg",
+       "listen": {
+        "bpm": 104,
+        "key": "D minor",
+        "lead": [
+         "Portuguese guitar"
+        ],
+        "melody_strength": 4,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          15,
+          "Intro"
+         ],
+         [
+          15,
+          45,
+          "Theme A"
+         ],
+         [
+          45,
+          75,
+          "Theme B"
+         ],
+         [
+          75,
+          105,
+          "Theme A again"
+         ],
+         [
+          105,
+          135,
+          "Bridge"
+         ],
+         [
+          135,
+          165,
+          "Theme A returns"
+         ],
+         [
+          165,
+          180,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Portuguese guitar lead and a moderately funky, syncopated groove (3 of 5), clean; but electric or synth bass (prominent, 4 of 5) and electronic percussion crept in (fado 3 of 5)."
+       }
+      },
+      {
+       "id": "c56089d1-82de-40bd-8d4f-a6dac66a887a",
+       "duration_s": 180,
+       "suno_title": "Contratempo, em fado",
+       "cover": "https://cdn2.suno.ai/image_c56089d1-82de-40bd-8d4f-a6dac66a887a.jpeg",
+       "listen": {
+        "bpm": 100,
+        "key": "A major",
+        "lead": [
+         "Portuguese guitar"
+        ],
+        "melody_strength": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          20,
+          "Introduction"
+         ],
+         [
+          20,
+          40,
+          "Theme A"
+         ],
+         [
+          40,
+          60,
+          "Variation"
+         ],
+         [
+          60,
+          100,
+          "Development"
+         ],
+         [
+          100,
+          120,
+          "Second theme"
+         ],
+         [
+          120,
+          160,
+          "Climax and theme"
+         ],
+         [
+          160,
+          180,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Portuguese guitar melody (5 of 5), acoustic fado character (5 of 5), a light syncopated lift (funk 2, syncopation 3), bass restrained (2 of 5), clean. The listening tool was unsure of the instruments on a second listen."
+       }
+      }
+     ],
+     "best": "c56089d1-82de-40bd-8d4f-a6dac66a887a",
+     "result": "The closest yet. Take B: Portuguese guitar melody, fado 5 of 5, a light syncopated lift (funk 2, syncopation 3), a restrained bass, clean. Take A is funkier (3) but brought back a prominent electric bass and electronic percussion. Written from scratch, so the melody is new rather than version 1's."
     }
    ]
   },
