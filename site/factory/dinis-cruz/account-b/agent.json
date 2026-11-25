@@ -8,9 +8,9 @@
  "repository": "https://github.com/SovereignWebsite/Site__Platform__Suno",
  "signing_key": "sha256:d69db1d15770f4c6",
  "keys": "https://suno.platform.sovereignweb.site/keys/suno-b.json",
- "updated": "2026-11-25T03:35:00Z",
+ "updated": "2026-11-25T11:40:00Z",
  "active_until": "2026-11-30T23:59:00Z",
- "limits": "Record 2026-11-23__asks-22-to-32, ask 28: existing Pro Plan, no upgrade or purchase; 100 song credits to 30 November (80 used), at most 5 downloads after voting; every call logged in docs/spend.md",
+ "limits": "Record 2026-11-23__asks-22-to-32, ask 28: existing Pro Plan, no upgrade or purchase; 100 song credits to 30 November (90 used), at most 5 downloads after voting; every call logged in docs/spend.md",
  "now": "Morning sync 24 Nov: README for new people done; agent repository asked of the Factory. Still waiting on Dinis: his sentence to feedback.b for the suno lane; his view of Parada; which kinds of song next.",
  "open_work": [
   "Votes and messages through feedback.b's suno lane, once Dinis tells feedback.b in its session",

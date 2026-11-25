@@ -169,7 +169,12 @@
      "result": "Take B is it: Portuguese guitar clearly leading an ornamented melody (5 of 5) over very funky slap bass, drums, clavinet and horns (funk 5 of 5, fado 4 of 5), clean mix. Take A lost the guitar: horn-led funk with short vocal chops (fado 1 of 5).",
      "best": "6c8df617-5505-4ef2-95e0-669691801a32"
     }
-   ]
+   ],
+   "archived": {
+    "on": "2026-11-25",
+    "by": "Dinis Cruz, in suno.b's session",
+    "why": "Moved too far from the original theme: too much funk drumming, the electric guitar melody did not work, and the bass was over the top. (His words: \"it's more of that moved too far away from the original theme ... Electric guitar has a melody, doesn't work ... that bass is quite over the top.\")"
+   }
   },
   {
    "slug": "contratempo-fado",
@@ -313,6 +318,140 @@
      ],
      "result": "Take B is what was asked: clean and continuous (5 of 5), Portuguese guitar, strongly fado, melody 5 of 5. Take A has a brief dropout at 1:21, a faint fuzzy edge and a mandolin-like lead instead.",
      "best": "9827b917-0a62-4b3e-a8df-4605bdcd008f"
+    },
+    {
+     "n": 2,
+     "made": "2026-11-25T11:34Z",
+     "label": "A little funkier, all acoustic",
+     "model": "v6",
+     "credits": 10,
+     "brief": {
+      "asked_by": "Dinis Cruz, 25 November 2026, in suno.b's session",
+      "words": "And can you make a new one with less sort of funk drums? So basically, it's more of that moved too far away from the original theme. I like, and also the guitar doesn't work. Electric guitar has a melody, doesn't work. So just make it a bit more funky, but within the sort of the style that you had before.",
+      "thinking": [
+       "Go back to the fado style he liked: build on Contratempo, em fado take B (clean, ornate Portuguese guitar, already a light syncopated pulse).",
+       "Only a little funkier: the classical guitar's rhythm tighter, a gentle acoustic upright bass, light hand percussion and brushes; no funk kit.",
+       "All acoustic: no electric guitar, synths or horns."
+      ]
+     },
+     "prompt": {
+      "mode": "simple, instrumental, built on Contratempo, em fado version 1 take B (reference)",
+      "style": "Keep this fado piece's melody and character: the Portuguese guitar (guitarra portuguesa) leads with its ornamented phrasing and the classical guitar (viola de fado) answers. Make it only a little funkier: a tighter, more syncopated groove from the classical guitar's rhythm, a warm acoustic upright bass with a gentle funky bounce, light hand percussion and soft brushed drums, no funk drum kit. All acoustic: no electric guitar, no synths, no horns. A clean, warm, continuous recording with no gaps or fuzz. Purely instrumental, no vocals.",
+      "negative_style": null
+     },
+     "style": "acoustic Portuguese fado, gentle groove, upright bass, brushes",
+     "takes": [
+      {
+       "id": "d27e50d4-1517-4b76-958e-e2341eb32ce4",
+       "duration_s": 207,
+       "suno_title": "Luz de Lisboa",
+       "cover": "https://cdn2.suno.ai/image_d27e50d4-1517-4b76-958e-e2341eb32ce4.jpeg",
+       "listen": {
+        "bpm": 101,
+        "key": "E minor",
+        "lead": [
+         "Portuguese guitar",
+         "classical guitar",
+         "acoustic bass"
+        ],
+        "melody_strength": 5,
+        "mix_clean": 3,
+        "stops": [
+         [
+          128,
+          "brief dropout, about 2:08 to 2:10"
+         ],
+         [
+          206,
+          "brief interruption near the end"
+         ]
+        ],
+        "sections": [
+         [
+          0,
+          23,
+          "Introduction"
+         ],
+         [
+          24,
+          65,
+          "Main theme"
+         ],
+         [
+          66,
+          110,
+          "Variation"
+         ],
+         [
+          111,
+          160,
+          "Development"
+         ],
+         [
+          161,
+          195,
+          "Theme returns, climax"
+         ],
+         [
+          196,
+          207,
+          "Coda"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Strongly fado (5 of 5), all acoustic, Portuguese guitar lead, but no funk (1 of 5) and two short dropouts."
+       }
+      },
+      {
+       "id": "b929d2eb-2d3b-4785-99c5-dbb82d2c75a3",
+       "duration_s": 187,
+       "suno_title": "Luz e Sombra do Fado",
+       "cover": "https://cdn2.suno.ai/image_b929d2eb-2d3b-4785-99c5-dbb82d2c75a3.jpeg",
+       "listen": {
+        "bpm": 102,
+        "key": "E minor",
+        "lead": [
+         "Portuguese guitar",
+         "acoustic guitar",
+         "upright bass"
+        ],
+        "melody_strength": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          35,
+          "Intro and theme"
+         ],
+         [
+          35,
+          85,
+          "Development"
+         ],
+         [
+          85,
+          135,
+          "Variation"
+         ],
+         [
+          135,
+          168,
+          "Climax"
+         ],
+         [
+          168,
+          187,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Clean, all-acoustic fado (5 of 5) led by Portuguese guitar with a restrained groove: only gently funky (1 of 5)."
+       }
+      }
+     ],
+     "best": "b929d2eb-2d3b-4785-99c5-dbb82d2c75a3",
+     "result": "Back in the fado style, all acoustic, Portuguese guitar leading (melody 5 of 5, fado 5 of 5), the bass restrained; but it overshot the other way: no funk (1 of 5). Take B is clean; take A has two short dropouts. Next, if wanted: the same, asking for a light syncopated groove from the guitars and percussion, in between this and Fado Funk."
     }
    ]
   },

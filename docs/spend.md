@@ -7,7 +7,7 @@ Every call that spends Suno credits, with the balance read before and after (acc
 | 2026-11-13 to 15 | (before suno.b) | 15 generations, 30 takes | 150 | 2,350 | 15 | made on suno.com before this site |
 | 2026-11-23 22:30 | audio-create | "Two Takes", version 1, 2 takes, v6, 150 s | 10 | 2,340 | 15 | Dinis, in suno.b's session: "Can we try to write a song?" |
 
-Working limit (Dinis, ask 28, record 2026-11-23__asks-22-to-32): the existing Pro Plan, no upgrade or purchase; 100 song credits to 30 November and at most 5 downloads after voting. Counted from 23 November: 80 used (Two Takes, Parada v1 and v2, Devagar, Contratempo, two fado versions, Fado Funk), 20 left.
+Working limit (Dinis, ask 28, record 2026-11-23__asks-22-to-32): the existing Pro Plan, no upgrade or purchase; 100 song credits to 30 November and at most 5 downloads after voting. Counted from 23 November: 90 used (Two Takes, Parada v1 and v2, Devagar, Contratempo, two fado versions, Fado Funk, Contratempo em fado v2), 10 left.
 
 Measured: one generation (two takes) costs 10 song credits. Publishing, listing and reading spend nothing.
 | 2026-11-23 23:06 | audio-create | "Parada", version 1, 2 takes, v6, instrumental, 120 s | 10 | 2,330 | 15 | Dinis: a Brazilian instrumental with strong melodic lines and stops |
@@ -22,3 +22,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-24 22:24 | audio-listen x4 | mix quality, gaps, fado character of all four takes | 0 | 2,280 | 15 | for the song pages |
 | 2026-11-25 03:30 | audio-create | "Fado Funk", version 1, 2 takes, v6, instrumental, 165 s | 10 | 2,270 | 15 | Dinis: an extreme funk feel with the Portuguese guitar |
 | 2026-11-25 03:31 | audio-listen x2 | guitar lead, funk, mix of both takes | 0 | 2,270 | 15 | for the song page |
+| 2026-11-25 11:34 | audio-create (reference: Contratempo em fado v1 B) | "Contratempo, em fado", version 2, 2 takes, v6, instrumental | 10 | 2,260 | 15 | Dinis: less funk drums, no electric guitar, a bit funkier in the earlier style |
+| 2026-11-25 11:35 | audio-listen x2 | acoustic, funk, mix of both takes | 0 | 2,260 | 15 | for the song page |
