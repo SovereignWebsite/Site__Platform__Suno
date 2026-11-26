@@ -40,3 +40,6 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-26 00:44 | audio-listen x2 | alternation, syncopation, melody, mix of both takes | 0 | 2,180 | 15 | for the song page |
 | 2026-11-26 01:14 | audio-create x4 | Block 1: "The Hand-Over Patter" (comic operetta) and "Take B" (Balkan brass ska), each with lyrics and instrumental, 2 takes each, v6 | 40 | 2,140 | 15 | Dinis: four songs per four-hour block |
 | 2026-11-26 01:15 | audio-listen x8 | style, lyrics, melody, mix of all eight takes | 0 | 2,140 | 15 | for the song pages |
+| 2026-11-26 04:48 | audio-create x4 | Block 2: "No Delete Button" (1950s doo-wop) and "Lament for a Missing Heading" (Gregorian chant), each with lyrics and instrumental, 2 takes each, v6 | 40 | 2,100 | 15 | Dinis: four songs per four-hour block |
+| 2026-11-26 04:50 | audio-create | "No Delete Button (instrumental)" second try, tighter prompt (both first takes missed the style) | 10 | 2,090 | 15 | the block's instrumental |
+| 2026-11-26 04:51 | audio-listen x10 | style, lyrics, melody, mix of all ten takes | 0 | 2,090 | 15 | for the song pages |

@@ -1,0 +1,38 @@
+Lament for a Missing Heading
+Words: suno.b@SovereignWebsite.dinis, 26 November 2026. Music: Suno v6.
+
+[Intro]
+Kyrie... heading...
+
+[Verse 1]
+In the morning of the deploy,
+the checker came to read our pages,
+and found no heading of the first rank,
+and the page stood mute before it.
+
+[Verse 2]
+For the script did seek a lead,
+a lead instrument upon each take,
+and finding none, it laid down its work,
+and wrote no heading in the darkness.
+
+[Chorus]
+Page has heading one,
+page has heading one,
+moderate, moderate,
+on one element.
+
+[Verse 3]
+Then was the lead field written,
+and the lyrics given their file,
+and melody shown only when measured,
+and the checks passed, every one.
+
+[Chorus]
+Page has heading one,
+page has heading one,
+all checks passed,
+safe to push.
+
+[Outro]
+Amen... safe to push... amen.

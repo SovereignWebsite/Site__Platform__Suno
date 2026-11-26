@@ -23,8 +23,370 @@
   }
  ],
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
- "updated": "2026-11-26T01:20Z",
+ "updated": "2026-11-26T05:00Z",
  "songs": [
+  {
+   "slug": "lament-missing-heading",
+   "title": "Lament for a Missing Heading",
+   "about": "Block 2, style 2: Gregorian chant about the song pages that lost their heading at the deploy, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 2 of the four-hourly blocks, the 04:47 UTC wake)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "After block 1, the accessibility check refused two song pages: 'page-has-heading-one', because the page script stopped at a missing lead field.",
+     "The fix: the lead field, the lyrics files, the melody shown only when measured. A grave chant for a small bug."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T04:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "Gregorian chant, solemn male monastic choir in unison plainchant, long reverberant stone cathedral acoustic, low drone, sparse pipe organ underneath, slow free rhythm, deadpan and grave",
+      "negative_style": "drums, beat, pop, electronic, guitar, female vocals, autotune",
+      "vocal_gender": "male"
+     },
+     "style": "Gregorian chant, male choir",
+     "takes": [
+      {
+       "id": "8fc6e995-557e-4c90-b380-d95768d11c79",
+       "duration_s": 143,
+       "suno_title": "Lament for a Missing Heading",
+       "cover": "https://cdn2.suno.ai/image_8fc6e995-557e-4c90-b380-d95768d11c79.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 69,
+        "key": "F major",
+        "lead": [
+         "male solo chant",
+         "male choir"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 1,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Gregorian-style male a cappella chant, intelligible English, solemn reverb, clean."
+       }
+      },
+      {
+       "id": "dca126dc-3abb-4752-8e53-68f5741fdccc",
+       "duration_s": 138,
+       "suno_title": "Lament for a Missing Heading",
+       "cover": "https://cdn2.suno.ai/image_dca126dc-3abb-4752-8e53-68f5741fdccc.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 70,
+        "key": "F major",
+        "lead": [
+         "male choir"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 1,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Male-choir plainchant, mostly clear English, cathedral reverb."
+       }
+      }
+     ],
+     "best": "8fc6e995-557e-4c90-b380-d95768d11c79",
+     "result": "Take A: clearer words (5 of 5). Published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T04:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Gregorian plainchant melody played instrumentally on solemn pipe organ and bowed cello in unison, low drone, distant tolling bell, long reverberant stone cathedral acoustic, slow free rhythm, grave and meditative",
+      "negative_style": "vocals, singing, choir, humming, drums, beat, electronic, guitar"
+     },
+     "style": "plainchant melody on organ and cello, instrumental",
+     "takes": [
+      {
+       "id": "f5bded72-188f-43f4-9def-c443cec4e780",
+       "duration_s": 178,
+       "suno_title": "Lament for a Missing Heading (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_f5bded72-188f-43f4-9def-c443cec4e780.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 69,
+        "key": "G minor",
+        "lead": [
+         "pipe organ",
+         "cello"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 1,
+        "mix_clean": 4,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Plainchant-like organ and cello melody, cathedral reverb, clean."
+       }
+      },
+      {
+       "id": "5c85d46f-ac6b-42bc-8c07-03b261c288b8",
+       "duration_s": 164,
+       "suno_title": "Lament for a Missing Heading (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_5c85d46f-ac6b-42bc-8c07-03b261c288b8.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 72,
+        "key": "G minor",
+        "lead": [
+         "strings"
+        ],
+        "style_match": 1,
+        "melody_strength": 3,
+        "melody_continuity": 3,
+        "energy": 1,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Orchestral strings, no organ: not the asked style."
+       }
+      }
+     ],
+     "best": "f5bded72-188f-43f4-9def-c443cec4e780",
+     "result": "Take A is what was asked (style 5); take B drifted to orchestral strings. Take A published; take B private."
+    }
+   ]
+  },
+  {
+   "slug": "no-delete-button",
+   "title": "No Delete Button",
+   "about": "Block 2, style 1: a 1950s doo-wop ballad about the four Take B songs that could be made private but not deleted, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 2 of the four-hourly blocks, the 04:47 UTC wake)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Dinis asked to delete the four Take B takes; Suno's connection has only public and private, so they wait for the bin in the app.",
+     "Also: playlists only add at the end, so they were emptied and refilled; a trashed take's twin was published.",
+     "A doo-wop love song: sweet, slow, with a spoken bridge."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T04:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "1950s doo-wop ballad, smooth tenor lead, close-harmony backing vocals singing doo-wop and shoo-bop, slow 12/8 shuffle, piano triplets, upright bass, brushed drums, tenor saxophone fills, warm vintage recording, sweet and tongue-in-cheek, 72 bpm",
+      "negative_style": "rap, trap, autotune, electronic, distorted guitar, modern pop drums",
+      "vocal_gender": "male"
+     },
+     "style": "1950s doo-wop ballad, 72 bpm",
+     "takes": [
+      {
+       "id": "903af77c-016a-479e-b773-475ff068e3a2",
+       "duration_s": 187,
+       "suno_title": "No Delete Button",
+       "cover": "https://cdn2.suno.ai/image_903af77c-016a-479e-b773-475ff068e3a2.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 72,
+        "key": "D# major",
+        "lead": [
+         "tenor croon",
+         "backing harmonies"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 2,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Convincing vintage doo-wop; clear lead and hook, rich backing harmonies, clean mix."
+       }
+      },
+      {
+       "id": "222d50e4-5bbe-4d58-b154-b298fc610e94",
+       "duration_s": 206,
+       "suno_title": "No Delete Button",
+       "cover": "https://cdn2.suno.ai/image_222d50e4-5bbe-4d58-b154-b298fc610e94.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 69,
+        "key": "A# major",
+        "lead": [
+         "tenor croon",
+         "backing harmonies"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 2,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Convincing doo-wop; clear words and hook, excellent close harmonies, warm mix."
+       }
+      }
+     ],
+     "best": "903af77c-016a-479e-b773-475ff068e3a2",
+     "result": "A tie (5, 5, 2, 5); take A by the tie rule. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T04:48Z",
+     "label": "Instrumental, first try",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1950s doo-wop ballad instrumental, tenor saxophone carries the sweet lead melody, slow 12/8 shuffle, piano triplets, upright bass, brushed drums, clean electric guitar arpeggios, warm vintage recording, 72 bpm",
+      "negative_style": "vocals, singing, humming, choir, electronic, distorted guitar, modern pop drums"
+     },
+     "style": "instrumental ballad (missed doo-wop)",
+     "takes": [
+      {
+       "id": "f861fb23-6d44-4726-8f95-6f5a8e60701f",
+       "duration_s": 172,
+       "suno_title": "No Delete Button (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_f861fb23-6d44-4726-8f95-6f5a8e60701f.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 101,
+        "key": "C major",
+        "lead": [
+         "piano",
+         "strings",
+         "electric guitar"
+        ],
+        "style_match": 0,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 2,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "A modern romantic pop ballad, not doo-wop; no sax."
+       }
+      },
+      {
+       "id": "2557a1d2-f478-4f93-918e-e9b9e0e99ce2",
+       "duration_s": 192,
+       "suno_title": "No Delete Button (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_2557a1d2-f478-4f93-918e-e9b9e0e99ce2.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 100,
+        "key": "F major",
+        "lead": [
+         "saxophone",
+         "piano"
+        ],
+        "style_match": 1,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 1,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "A mellow jazz ballad, not doo-wop."
+       }
+      }
+     ],
+     "best": "2557a1d2-f478-4f93-918e-e9b9e0e99ce2",
+     "result": "Both takes missed the style (0 and 1 of 5), so it was made again (version 3). Both private."
+    },
+    {
+     "n": 3,
+     "made": "2026-11-26T04:50Z",
+     "label": "Instrumental, second try (tighter prompt)",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1950s doo-wop slow dance instrumental, vintage mono rhythm and blues ballad, breathy tenor saxophone carries the melody, piano playing steady 12/8 triplet chords on every beat, I-vi-IV-V chord progression, walking upright bass, brushed snare backbeat, reverb-soaked clean guitar, warm vintage tape recording, sock-hop last dance, 70 bpm",
+      "negative_style": "vocals, singing, humming, choir, modern pop ballad, smooth jazz, strings, synth, electronic, contemporary production",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "1950s doo-wop slow dance, instrumental, 68 bpm",
+     "takes": [
+      {
+       "id": "0c7a8d47-2adf-48b0-9fd6-68564113a7d2",
+       "duration_s": 195,
+       "suno_title": "No Delete Button (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_0c7a8d47-2adf-48b0-9fd6-68564113a7d2.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 68,
+        "key": "F major",
+        "lead": [
+         "electric guitar",
+         "horns"
+        ],
+        "style_match": 3,
+        "melody_strength": 2,
+        "melody_continuity": 2,
+        "energy": 1,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Doo-wop feel, guitar-led, wordless humming later."
+       }
+      },
+      {
+       "id": "266275fa-c157-4570-aef9-eef835872db1",
+       "duration_s": 184,
+       "suno_title": "No Delete Button (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_266275fa-c157-4570-aef9-eef835872db1.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 68,
+        "key": "F major",
+        "lead": [
+         "electric guitar",
+         "organ"
+        ],
+        "style_match": 4,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 1,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Vintage doo-wop slow dance: strong guitar melody, organ, piano triplets, no vocals, warm clean mix."
+       }
+      }
+     ],
+     "best": "266275fa-c157-4570-aef9-eef835872db1",
+     "result": "Take B is it (style 4, melody 5, no voices); not sax-led as asked, the guitar leads. Take B published; take A private."
+    }
+   ]
+  },
   {
    "slug": "take-b",
    "title": "Take B",
@@ -229,7 +591,8 @@
          "baritone voice",
          "orchestra"
         ]
-       }
+       },
+       "liked": true
       }
      ],
      "best": "fa6be963-c5c2-43fa-8cdb-6e06d95b6c7e",
@@ -399,7 +762,8 @@
         ],
         "vocals": false,
         "summary": "A guitarra-like ringing doubled-string lead over a gently syncopated bossa lilt; mostly continuous melody; clean."
-       }
+       },
+       "liked": true
       },
       {
        "id": "77c6af89-67da-4e9a-9f48-76a7f042639d",
@@ -540,7 +904,8 @@
         "vocals": false,
         "summary": "A clean, flowing choro led by nylon guitar, cavaquinho in the rhythm; no Portuguese guitar lead."
        },
-       "side": "B"
+       "side": "B",
+       "liked": true
       }
      ],
      "best": "dae22de3-c1ff-4f1e-a62f-ce934580c343",
@@ -624,7 +989,8 @@
         "vocals": false,
         "summary": "Flowing Portuguese guitar runs over guitar, clean, but no accordion and no clear cavaquinho."
        },
-       "side": "B"
+       "side": "B",
+       "liked": true
       }
      ],
      "best": "d517449d-08d0-41e6-97ae-739d012748ee",
@@ -705,7 +1071,8 @@
         ],
         "vocals": false,
         "summary": "Acoustic, rock, acoustic, rock as asked (5 of 5); the melody carries through on electric guitar in the rock parts (5 of 5); rock moderately syncopated (3 of 5); guitarra and accordion recede under the band; clean, abrupt but tidy cuts."
-       }
+       },
+       "liked": true
       },
       {
        "id": "86bd7047-24e5-4774-a331-22c3f50c37db",
@@ -878,7 +1245,8 @@
         ],
         "vocals": false,
         "summary": "Acoustic, rock, acoustic, rock, ending on rock (4 of 5), but a long first acoustic part (1:39); the melody becomes a heavier riff in the rock parts (4 of 5); rock moderately to fairly strongly syncopated (3 of 5); guitarra stays layered in; clean."
-       }
+       },
+       "liked": true
       }
      ],
      "best": "d3b3d57a-f69a-4180-8954-cd3406d6f964",
@@ -1314,7 +1682,8 @@
         "vocals": false,
         "summary": "Clean, all-acoustic fado (5 of 5) led by Portuguese guitar with a restrained groove: only gently funky (1 of 5)."
        },
-       "side": "B"
+       "side": "B",
+       "liked": true
       }
      ],
      "best": "b929d2eb-2d3b-4785-99c5-dbb82d2c75a3",
@@ -2235,7 +2604,8 @@
         "vocals": false,
         "summary": "Horn-led: a bright trumpet theme, a quick clarinet counter-melody and trombone answers, with clear call and response."
        },
-       "side": "A"
+       "side": "A",
+       "liked": true
       },
       {
        "id": "cc56cb84-aa84-406a-829b-8966727b98b1",
