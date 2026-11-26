@@ -23,7 +23,7 @@
   }
  ],
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
- "updated": "2026-11-26T00:40Z",
+ "updated": "2026-11-26T00:50Z",
  "songs": [
   {
    "slug": "guitarra-em-bossa",
@@ -457,6 +457,130 @@
      ],
      "best": "2b78128b-a265-4b64-96e1-abc0de97b382",
      "result": "Take A is it: the Portuguese guitar and an accordion trading lively corridinho phrases (5 of 5), the cavaquinho in the backing, a rich continuous melody, clean; more Portuguese folk dance than fado. Take B kept the guitarra but has no accordion. Suno titled both takes Branco de Alentejo (the wrong region: corridinho is the Algarve's)."
+    },
+    {
+     "n": 3,
+     "made": "2026-11-26T00:35Z",
+     "label": "Branco de Alentejo, acoustic and rock and roll in turn",
+     "model": "v6",
+     "credits": 10,
+     "brief": {
+      "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session",
+      "words": "your branco de Alentejo that you created? It's really cool. Can you literally just add the middle section, so the A, B sections that you have? One is normal, one is rock and roll. One is normal, one is rock and roll. Like same stuff, but introduce like some guitar playing the same melody and a band playing the same melody with quite a bit of syncopation and where possible.",
+      "thinking": [
+       "Build on version 2 take A (Branco de Alentejo) as a reference, so the melody, key and tempo carry over.",
+       "Alternate: the A and B sections as they are, then the same A and B as rock and roll (electric guitar on the melody, doubled by the guitarra, drum kit, electric bass, rhythm guitar), then acoustic, then rock again.",
+       "Ask for syncopation in the rock parts: off-beat accents and pushed notes, not a straight beat."
+      ]
+     },
+     "prompt": {
+      "mode": "simple, instrumental, built on Guitarra e Cavaquinho version 2 take A, Branco de Alentejo (reference)",
+      "style": "Make a new version of Branco de Alentejo that keeps its melody, its key and its tempo, and alternates its sections: first the A and B sections exactly as they are (Portuguese guitar lead, accordion in the corridinho style, cavaquinho, all acoustic), then the same A and B melody again as rock and roll: an electric guitar plays the same melody, doubled by the Portuguese guitar, with a full band (drum kit, electric bass, rhythm guitar) playing the same tune with plenty of syncopation, accents on the off-beats and pushed notes, not a straight beat; then the acoustic version again; then the rock and roll version again to finish. Normal, rock and roll, normal, rock and roll. The melody stays continuous with no gaps, and the mix is clean. Purely instrumental, no vocals.",
+      "negative_style": null
+     },
+     "style": "Branco de Alentejo, acoustic and rock and roll in turn, 111 bpm",
+     "takes": [
+      {
+       "id": "078dfda8-59f8-42ff-b856-87070559e282",
+       "duration_s": 175,
+       "suno_title": "Passada de Matriz",
+       "cover": "https://cdn2.suno.ai/image_078dfda8-59f8-42ff-b856-87070559e282.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 111,
+        "key": "A major",
+        "lead": [
+         "Portuguese guitar",
+         "accordion",
+         "cavaquinho",
+         "electric guitar"
+        ],
+        "alternation_works": 5,
+        "rock_syncopation": 3,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          54,
+          "Folk 1 (acoustic)"
+         ],
+         [
+          54,
+          109,
+          "Rock 1 (rock)"
+         ],
+         [
+          109,
+          136,
+          "Folk 2 (acoustic)"
+         ],
+         [
+          136,
+          174,
+          "Rock 2 and outro (rock)"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Acoustic, rock, acoustic, rock as asked (5 of 5); the melody carries through on electric guitar in the rock parts (5 of 5); rock moderately syncopated (3 of 5); guitarra and accordion recede under the band; clean, abrupt but tidy cuts."
+       }
+      },
+      {
+       "id": "86bd7047-24e5-4774-a331-22c3f50c37db",
+       "duration_s": 172,
+       "suno_title": "Voz do Algarve",
+       "cover": "https://cdn2.suno.ai/image_86bd7047-24e5-4774-a331-22c3f50c37db.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 112,
+        "key": "A major",
+        "lead": [
+         "Portuguese guitar",
+         "accordion",
+         "cavaquinho"
+        ],
+        "alternation_works": 4,
+        "rock_syncopation": 3,
+        "melody_strength": 4,
+        "melody_continuity": 4,
+        "mix_clean": 4,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          40,
+          "Folk 1 (acoustic)"
+         ],
+         [
+          40,
+          79,
+          "Folk-rock 1 (rock)"
+         ],
+         [
+          79,
+          119,
+          "Folk 2 (acoustic)"
+         ],
+         [
+          119,
+          158,
+          "Folk-rock 2 (rock)"
+         ],
+         [
+          158,
+          174,
+          "Acoustic outro (acoustic)"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Four even blocks, acoustic and folk-rock in turn (4 of 5), plus an acoustic tag; melody recognisable (4 of 5); rock moderately syncopated (3 of 5); folk instruments stay audible; clean, smooth changes."
+       }
+      }
+     ],
+     "best": "078dfda8-59f8-42ff-b856-87070559e282",
+     "result": "Take A does what was asked most clearly: acoustic, rock, acoustic, rock, the same melody on electric guitar in the rock parts, clean (alternation 5, melody 5, mix 5); the rock is only moderately syncopated (3 of 5) and the guitarra and accordion recede under the band. Take B has more even sections, keeps the folk instruments audible throughout and ends with an acoustic tag (alternation 4). Take B is not yet public: this session's permission check refused publishing it."
     }
    ]
   },
