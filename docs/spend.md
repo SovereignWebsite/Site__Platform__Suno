@@ -32,3 +32,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-25 21:44 | audio-listen x4 | groove, lead, melody, mix of all four takes | 0 | 2,220 | 15 | for the song pages |
 | 2026-11-26 00:08 | audio-create (reference: Guitarra e Cavaquinho v1 A) | "Guitarra e Cavaquinho", version 2, Algarve corridinho accordion, 2 takes, v6, instrumental | 10 | 2,210 | 15 | Dinis: the same, plus a corridinho accordion |
 | 2026-11-26 00:09 | audio-listen x2 | lead, accordion, corridinho feel, mix | 0 | 2,210 | 15 | for the song page |
+| 2026-11-26 00:30 | audio-create | "Guitarra em Bossa", version 1, 2 takes, v6, instrumental, 180 s, style influence 0.9 | 10 | 2,200 | 15 | Dinis: "can we create a new song?"; experiment 2 |
+| 2026-11-26 00:31 | audio-listen x2 | lead, groove, melody, mix of both takes | 0 | 2,200 | 15 | for the song page; new session (session_01Kw9UwAwZ5JHkJXJQh9Ym17) |

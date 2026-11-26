@@ -23,8 +23,152 @@
   }
  ],
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
- "updated": "2026-11-23",
+ "updated": "2026-11-26T00:40Z",
  "songs": [
+  {
+   "slug": "guitarra-em-bossa",
+   "title": "Guitarra em Bossa",
+   "about": "The second Portuguese guitar experiment: the fado guitar as the only lead, over a bossa nova rhythm section.",
+   "stage": "experiment",
+   "pick": null,
+   "instrumental": true,
+   "lyrics_by": null,
+   "series": "fado-guitar-at-the-centre",
+   "brief": {
+    "asked_by": "Dinis Cruz, 25 November 2026, in suno.b's session (the experiments queue, line 2); made 26 November at \"can we create a new song?\"",
+    "words": "I really wanted to explore this intersection with fado guitar ... but still with the fado guitar being at the epicenter of everything.",
+    "thinking": [
+     "Line 2 of the queue: bossa nova in the rhythm section only, so Suno keeps the guitarra as the lead.",
+     "Nylon guitar comping, brushes and cross-stick, soft upright bass, 100 bpm; no snare backbeat (Dinis did not like a straight 4/4 on the beat).",
+     "Same controls as the choro experiment: style influence 0.9, variety 1."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T00:30Z",
+     "label": "Fado guitar over a bossa rhythm section",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental, no reference",
+      "style": "Portuguese fado guitar over a bossa nova rhythm section, instrumental: the twelve-string Portuguese guitar (guitarra portuguesa) is the only lead and plays a rich, continuous, ornamented melody from start to end, with tremolo and fado ornaments; the rhythm section only is bossa nova: nylon-string guitar comping with syncopated bossa chords, soft brushes and cross-stick, warm soft upright bass, gentle Brazilian syncopation, intimate and warm, 100 bpm, clean warm acoustic recording",
+      "negative_style": "vocals, singing, electric guitar, saxophone lead, piano lead, synth, slap bass, straight 4/4 rock beat, snare backbeat, sparse melody, long gaps, lo-fi",
+      "duration_s": 180,
+      "controls": "style influence 0.9, variety 1"
+     },
+     "style": "Portuguese guitar over bossa nova, 99 bpm",
+     "takes": [
+      {
+       "id": "171b783e-fe02-4183-b578-cdda317a619f",
+       "duration_s": 179,
+       "suno_title": "Guitarra em Bossa",
+       "cover": "https://cdn2.suno.ai/image_171b783e-fe02-4183-b578-cdda317a619f.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 99,
+        "key": "B minor",
+        "lead": [
+         "Portuguese guitar (likely)"
+        ],
+        "groove": "gently syncopated, bossa-nova-like",
+        "melody_continuity_note": "mostly continuous, brief gaps between phrases",
+        "mix_note": "clean, balanced, well separated",
+        "stops": [],
+        "sections": [
+         [
+          0,
+          10,
+          "Intro"
+         ],
+         [
+          10,
+          39,
+          "A"
+         ],
+         [
+          39,
+          68,
+          "B"
+         ],
+         [
+          68,
+          97,
+          "A again"
+         ],
+         [
+          97,
+          126,
+          "B again"
+         ],
+         [
+          126,
+          155,
+          "Guitar solo"
+         ],
+         [
+          155,
+          179,
+          "Coda"
+         ]
+        ],
+        "vocals": false,
+        "summary": "A guitarra-like ringing doubled-string lead over a gently syncopated bossa lilt; mostly continuous melody; clean."
+       }
+      },
+      {
+       "id": "77c6af89-67da-4e9a-9f48-76a7f042639d",
+       "duration_s": 180,
+       "suno_title": "Guitarra em Bossa",
+       "cover": "https://cdn2.suno.ai/image_77c6af89-67da-4e9a-9f48-76a7f042639d.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 99,
+        "key": "B minor",
+        "lead": [
+         "Portuguese guitar (likely)"
+        ],
+        "groove": "gently to moderately syncopated; not a strict bossa nova pattern",
+        "melody_continuity_note": "phrased, with brief gaps and ringing tails",
+        "mix_note": "clean, warm, well separated",
+        "stops": [],
+        "sections": [
+         [
+          0,
+          11,
+          "Intro"
+         ],
+         [
+          11,
+          54,
+          "Theme A"
+         ],
+         [
+          54,
+          96,
+          "Theme B"
+         ],
+         [
+          96,
+          139,
+          "Theme A returns"
+         ],
+         [
+          139,
+          176,
+          "Outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "The same guitarra-like lead, a looser groove that is not quite bossa, more gaps in the melody; clean."
+       }
+      }
+     ],
+     "best": "171b783e-fe02-4183-b578-cdda317a619f",
+     "result": "Take A is closer: a guitarra-like lead (Suno's listener says likely, not certain) over a gently syncopated bossa lilt, a mostly continuous melody and a guitar solo from 2:06; clean. Take B has the same lead but a looser groove and more gaps. Take B is not yet public: this session's permission check refused publishing it."
+    }
+   ]
+  },
   {
    "slug": "guitarra-e-cavaquinho",
    "title": "Guitarra e Cavaquinho",
