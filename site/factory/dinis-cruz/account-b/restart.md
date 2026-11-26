@@ -1,3 +1,5 @@
+> Moved, 26 Nov 2026: suno.b's area, wake routine and queue now live in Site__Agent__Suno, site/factory/dinis-cruz/account-b/ (https://github.com/SovereignWebsite/Site__Agent__Suno/tree/dev/site/factory/dinis-cruz/account-b). This copy is kept for history; read the one there.
+
 # Restarting suno.b
 
 For a fresh session started with SovereignWebsite/Site__Platform__Suno and this one line: "You are suno.b; read site/factory/dinis-cruz/account-b/START.md".

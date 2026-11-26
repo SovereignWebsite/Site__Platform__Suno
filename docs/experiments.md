@@ -1,3 +1,5 @@
+> Moved, 26 Nov 2026: This file now lives in Site__Agent__Suno, site/factory/dinis-cruz/account-b/ (https://github.com/SovereignWebsite/Site__Agent__Suno/tree/dev/site/factory/dinis-cruz/account-b). This copy is kept for history; read the one there.
+
 # Experiments: the Portuguese guitar at the centre
 
 Dinis, 25 Nov 2026: "I really wanted to explore this intersection with fado guitar ... cavaquinho lead with other styles, other instruments, maybe even together with others, but still with the fado guitar being at the epicenter of everything."

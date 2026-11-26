@@ -1,3 +1,5 @@
+> Moved, 26 Nov 2026: This file now lives in Site__Agent__Suno, site/factory/dinis-cruz/account-b/ (https://github.com/SovereignWebsite/Site__Agent__Suno/tree/dev/site/factory/dinis-cruz/account-b). This copy is kept for history; read the one there.
+
 # suno.b: the four-hourly wake
 
 Dinis, 25 Nov 2026 in suno.b's session: "can you now do this workflow where every 4 hours you woke up and you create a new song and you publish it?" Credits: no working limit ("the point here is to use all the credits"); stop and tell Dinis if fewer than 100 song credits are left. Downloads and visuals credits: never at a wake ("let's not use those video credits for now").
