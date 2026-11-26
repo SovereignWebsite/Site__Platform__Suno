@@ -499,67 +499,6 @@
      "style": "Portuguese guitar and cavaquinho, choro, 112 bpm",
      "takes": [
       {
-       "id": "3ee1686f-e3a7-4e84-80b1-de9629a25d2b",
-       "duration_s": 179,
-       "suno_title": "Guitarra e Cavaquinho",
-       "cover": "https://cdn2.suno.ai/image_3ee1686f-e3a7-4e84-80b1-de9629a25d2b.jpeg",
-       "listen": {
-        "bpm": 111,
-        "key": "A major",
-        "lead": [
-         "Portuguese guitar",
-         "cavaquinho",
-         "nylon guitar"
-        ],
-        "melody_strength": 5,
-        "melody_continuity": 5,
-        "fado_character": 4,
-        "brazilian_feel": 4,
-        "mix_clean": 5,
-        "stops": [],
-        "sections": [
-         [
-          0,
-          15,
-          "Intro"
-         ],
-         [
-          15,
-          45,
-          "Theme 1"
-         ],
-         [
-          45,
-          76,
-          "Theme 2"
-         ],
-         [
-          76,
-          106,
-          "Theme 1 returns"
-         ],
-         [
-          106,
-          136,
-          "Bridge"
-         ],
-         [
-          136,
-          166,
-          "Theme recap"
-         ],
-         [
-          166,
-          178,
-          "Coda"
-         ]
-        ],
-        "vocals": false,
-        "summary": "Portuguese guitar carries the central melody (5 of 5) with cavaquinho answers, a buoyant choro syncopation, a continuous line, clean."
-       },
-       "side": "A"
-      },
-      {
        "id": "dae22de3-c1ff-4f1e-a62f-ce934580c343",
        "duration_s": 179,
        "suno_title": "Guitarra e Cavaquinho",
@@ -614,8 +553,16 @@
        "side": "B"
       }
      ],
-     "best": "3ee1686f-e3a7-4e84-80b1-de9629a25d2b",
-     "result": "Take A is what was asked: the Portuguese guitar at the centre with the cavaquinho answering, a syncopated choro bounce, a rich continuous melody (5 of 5), clean. Take B lost the Portuguese guitar to a nylon guitar lead."
+     "best": "dae22de3-c1ff-4f1e-a62f-ce934580c343",
+     "result": "Take A is what was asked: the Portuguese guitar at the centre with the cavaquinho answering, a syncopated choro bounce, a rich continuous melody (5 of 5), clean. Take B lost the Portuguese guitar to a nylon guitar lead.",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "3ee1686f-e3a7-4e84-80b1-de9629a25d2b",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 2,
@@ -1536,70 +1483,19 @@
       "controls": "style influence 0.9, variety 1"
      },
      "style": "acoustic fado-funk, Portuguese guitar, cajon, 104 bpm",
-     "takes": [
-      {
-       "id": "ff7e8d91-f539-44d0-9e99-3592d3b1f032",
-       "duration_s": 180,
-       "suno_title": "Contratempo, em fado",
-       "cover": "https://cdn2.suno.ai/image_ff7e8d91-f539-44d0-9e99-3592d3b1f032.jpeg",
-       "listen": {
-        "bpm": 104,
-        "key": "D minor",
-        "lead": [
-         "Portuguese guitar"
-        ],
-        "melody_strength": 4,
-        "mix_clean": 5,
-        "stops": [],
-        "sections": [
-         [
-          0,
-          15,
-          "Intro"
-         ],
-         [
-          15,
-          45,
-          "Theme A"
-         ],
-         [
-          45,
-          75,
-          "Theme B"
-         ],
-         [
-          75,
-          105,
-          "Theme A again"
-         ],
-         [
-          105,
-          135,
-          "Bridge"
-         ],
-         [
-          135,
-          165,
-          "Theme A returns"
-         ],
-         [
-          165,
-          180,
-          "Outro"
-         ]
-        ],
-        "vocals": false,
-        "summary": "Portuguese guitar lead and a moderately funky, syncopated groove (3 of 5), clean; but electric or synth bass (prominent, 4 of 5) and electronic percussion crept in (fado 3 of 5)."
-       },
-       "side": "A"
-      }
-     ],
-     "best": "ff7e8d91-f539-44d0-9e99-3592d3b1f032",
+     "takes": [],
+     "best": null,
      "result": "The closest yet. Take B: Portuguese guitar melody, fado 5 of 5, a light syncopated lift (funk 2, syncopation 3), a restrained bass, clean. Take A is funkier (3) but brought back a prominent electric bass and electronic percussion. Written from scratch, so the melody is new rather than version 1's.",
      "trashed": [
       {
        "side": "B",
        "id": "c56089d1-82de-40bd-8d4f-a6dac66a887a",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      },
+      {
+       "side": "A",
+       "id": "ff7e8d91-f539-44d0-9e99-3592d3b1f032",
        "on": "2026-11-26",
        "by": "Dinis Cruz, in the Suno app"
       }
