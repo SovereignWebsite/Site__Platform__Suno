@@ -345,66 +345,6 @@
      "style": "Portuguese guitar, cavaquinho, Algarve corridinho accordion, 111 bpm",
      "takes": [
       {
-       "id": "2b78128b-a265-4b64-96e1-abc0de97b382",
-       "duration_s": 175,
-       "suno_title": "Branco de Alentejo",
-       "cover": "https://cdn2.suno.ai/image_2b78128b-a265-4b64-96e1-abc0de97b382.jpeg",
-       "listen": {
-        "bpm": 111,
-        "key": "A major",
-        "lead": [
-         "Portuguese guitar",
-         "accordion"
-        ],
-        "melody_strength": 5,
-        "melody_continuity": 5,
-        "fado_character": 2,
-        "corridinho_feel": 5,
-        "mix_clean": 5,
-        "stops": [],
-        "sections": [
-         [
-          0,
-          15,
-          "Intro"
-         ],
-         [
-          15,
-          46,
-          "Theme A"
-         ],
-         [
-          46,
-          77,
-          "Theme B, call and response"
-         ],
-         [
-          77,
-          107,
-          "Theme A variation"
-         ],
-         [
-          107,
-          138,
-          "Theme C, solos"
-         ],
-         [
-          138,
-          160,
-          "Theme B again"
-         ],
-         [
-          160,
-          175,
-          "Theme A and outro"
-         ]
-        ],
-        "vocals": false,
-        "summary": "Portuguese guitar and accordion trading lively corridinho phrases (5 of 5) over cavaquinho backing; rich, continuous melody, clean; more Portuguese folk dance than fado."
-       },
-       "side": "A"
-      },
-      {
        "id": "d517449d-08d0-41e6-97ae-739d012748ee",
        "duration_s": 191,
        "suno_title": "Branco de Alentejo",
@@ -455,8 +395,16 @@
        "side": "B"
       }
      ],
-     "best": "2b78128b-a265-4b64-96e1-abc0de97b382",
-     "result": "Take A is it: the Portuguese guitar and an accordion trading lively corridinho phrases (5 of 5), the cavaquinho in the backing, a rich continuous melody, clean; more Portuguese folk dance than fado. Take B kept the guitarra but has no accordion. Suno titled both takes Branco de Alentejo (the wrong region: corridinho is the Algarve's)."
+     "best": "d517449d-08d0-41e6-97ae-739d012748ee",
+     "result": "Take A is it: the Portuguese guitar and an accordion trading lively corridinho phrases (5 of 5), the cavaquinho in the backing, a rich continuous melody, clean; more Portuguese folk dance than fado. Take B kept the guitarra but has no accordion. Suno titled both takes Branco de Alentejo (the wrong region: corridinho is the Algarve's). Dinis trashed take A on Suno and said take B is the version he liked (26 Nov).",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "2b78128b-a265-4b64-96e1-abc0de97b382",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 3,
@@ -581,6 +529,128 @@
      ],
      "best": "078dfda8-59f8-42ff-b856-87070559e282",
      "result": "Take A does what was asked most clearly: acoustic, rock, acoustic, rock, the same melody on electric guitar in the rock parts, clean (alternation 5, melody 5, mix 5); the rock is only moderately syncopated (3 of 5) and the guitarra and accordion recede under the band. Take B has more even sections, keeps the folk instruments audible throughout and ends with an acoustic tag (alternation 4). Take B is not yet public: this session's permission check refused publishing it."
+    },
+    {
+     "n": 4,
+     "made": "2026-11-26T00:42Z",
+     "label": "Branco de Alentejo take B, acoustic and rock and roll in turn",
+     "model": "v6",
+     "credits": 10,
+     "brief": {
+      "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session",
+      "words": "yes, redo it from take B since that is the version I liked",
+      "thinking": [
+       "Version 3 was built on take A, which Dinis had trashed; this is the same idea built on take B, the Branco de Alentejo he liked.",
+       "Same alternation: acoustic, rock and roll, acoustic, rock and roll, the same melody, syncopated rock parts."
+      ]
+     },
+     "prompt": {
+      "mode": "simple, instrumental, built on Guitarra e Cavaquinho version 2 take B, Branco de Alentejo (reference)",
+      "style": "Make a new version of Branco de Alentejo that keeps its melody, its key and its tempo, and alternates its sections: first the A and B sections exactly as they are (the Portuguese guitar lead with its flowing runs, the acoustic guitars underneath, all acoustic), then the same A and B melody again as rock and roll: an electric guitar plays the same melody, doubled by the Portuguese guitar, with a full band (drum kit, electric bass, rhythm guitar) playing the same tune with plenty of syncopation, accents on the off-beats and pushed notes, not a straight beat; then the acoustic version again; then the rock and roll version again to finish. Normal, rock and roll, normal, rock and roll. The melody stays continuous with no gaps, and the mix is clean. Purely instrumental, no vocals.",
+      "negative_style": null
+     },
+     "style": "Branco de Alentejo (take B), acoustic and rock and roll in turn, 112 bpm",
+     "takes": [
+      {
+       "id": "c3144425-690f-4db4-b05d-17f26f56f214",
+       "duration_s": 192,
+       "suno_title": "Algarve Corridinho",
+       "cover": "https://cdn2.suno.ai/image_c3144425-690f-4db4-b05d-17f26f56f214.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 112,
+        "key": "A major",
+        "lead": [
+         "Portuguese guitar",
+         "acoustic guitar",
+         "electric guitar"
+        ],
+        "alternation_works": 4,
+        "rock_syncopation": 2,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "mix_clean": 4,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          38,
+          "Folk 1 (acoustic)"
+         ],
+         [
+          38,
+          76,
+          "Rock 1 (rock)"
+         ],
+         [
+          76,
+          113,
+          "Folk 2 (acoustic)"
+         ],
+         [
+          113,
+          151,
+          "Rock 2 (rock)"
+         ],
+         [
+          151,
+          192,
+          "Outro (acoustic)"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Even acoustic and rock blocks in order plus an acoustic outro (4 of 5); the guitarra lead carries the same melody throughout, audible in the rock parts (5 of 5); rock fairly straight (2 of 5); clean, abrupt cuts."
+       }
+      },
+      {
+       "id": "d3b3d57a-f69a-4180-8954-cd3406d6f964",
+       "duration_s": 192,
+       "suno_title": "Algarve Fado Choro",
+       "cover": "https://cdn2.suno.ai/image_d3b3d57a-f69a-4180-8954-cd3406d6f964.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 112,
+        "key": "A major",
+        "lead": [
+         "Portuguese guitar",
+         "acoustic guitar",
+         "electric guitar"
+        ],
+        "alternation_works": 4,
+        "rock_syncopation": 3,
+        "melody_strength": 4,
+        "melody_continuity": 4,
+        "mix_clean": 4,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          99,
+          "Folk 1 (acoustic)"
+         ],
+         [
+          99,
+          129,
+          "Rock 1 (rock)"
+         ],
+         [
+          129,
+          158,
+          "Folk 2 (acoustic)"
+         ],
+         [
+          158,
+          192,
+          "Rock 2 (rock)"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Acoustic, rock, acoustic, rock, ending on rock (4 of 5), but a long first acoustic part (1:39); the melody becomes a heavier riff in the rock parts (4 of 5); rock moderately to fairly strongly syncopated (3 of 5); guitarra stays layered in; clean."
+       }
+      }
+     ],
+     "best": "d3b3d57a-f69a-4180-8954-cd3406d6f964",
+     "result": "Both takes alternate as asked. Take B is picked for the syncopation Dinis asked for (3 of 5) and ends on rock as asked, but its first acoustic part is long (1:39). Take A has even blocks and keeps the melody best (5 of 5) but its rock is fairly straight (2 of 5). Neither take is public yet: this session's permission check refused publishing them."
     }
    ]
   },

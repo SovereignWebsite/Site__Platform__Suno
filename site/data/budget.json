@@ -6,8 +6,8 @@
  "renews_on": "2026-12-13",
  "song_credits": {
   "monthly_limit": 2500,
-  "used": 310,
-  "left": 2190
+  "used": 320,
+  "left": 2180
  },
  "download_credits": {
   "left": 15
@@ -105,6 +105,12 @@
    "what": "Guitarra e Cavaquinho, version 3 (Branco de Alentejo, acoustic and rock and roll in turn)",
    "song_credits": 10,
    "asked_by": "Dinis: Branco de Alentejo with its A and B sections alternating normal and rock and roll"
+  },
+  {
+   "when": "2026-11-26T00:42Z",
+   "what": "Guitarra e Cavaquinho, version 4 (Branco de Alentejo take B, acoustic and rock and roll in turn)",
+   "song_credits": 10,
+   "asked_by": "Dinis: redo it from take B, the version he liked"
   }
  ],
  "limit_note": "No working limit: Dinis, 25 Nov, \"the point here is to use all the credits\". Downloads only for takes picked for release."

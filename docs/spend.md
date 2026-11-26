@@ -36,3 +36,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-26 00:31 | audio-listen x2 | lead, groove, melody, mix of both takes | 0 | 2,200 | 15 | for the song page; new session (session_01Kw9UwAwZ5JHkJXJQh9Ym17) |
 | 2026-11-26 00:35 | audio-create (reference: Guitarra e Cavaquinho v2 A, Branco de Alentejo) | "Guitarra e Cavaquinho", version 3, acoustic and rock and roll in turn, 2 takes, v6, instrumental | 10 | 2,190 | 15 | Dinis: Branco de Alentejo, normal and rock and roll in turn |
 | 2026-11-26 00:37 | audio-listen x2 | alternation, syncopation, melody, mix of both takes | 0 | 2,190 | 15 | for the song page |
+| 2026-11-26 00:42 | audio-create (reference: Guitarra e Cavaquinho v2 B, Branco de Alentejo) | "Guitarra e Cavaquinho", version 4, acoustic and rock and roll in turn, 2 takes, v6, instrumental | 10 | 2,180 | 15 | Dinis: redo it from take B |
+| 2026-11-26 00:44 | audio-listen x2 | alternation, syncopation, melody, mix of both takes | 0 | 2,180 | 15 | for the song page |
