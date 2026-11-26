@@ -33,7 +33,6 @@
    "pick": null,
    "lyrics_by": "suno.b@SovereignWebsite.dinis",
    "series": "blocks",
-   "lyrics": "[Intro]\nHey! Hey! Take B!\n\n[Verse 1]\nTwo takes come out of every song, like twins out of the door,\nOne goes up on the stage tonight, one waits behind the floor,\nI pressed the button \"public\", the first one sailed on through,\nThe second hit a wall that said \"We'll have to think on you\".\n\n[Pre-Chorus]\nOh, it's not the tune, it's not the band,\nIt's a rule I didn't plan!\n\n[Chorus]\nTake B! Take B! Sitting in the dark,\nTake B! Take B! Waiting for the spark,\nOne goes public, one stays home,\nTake B dances all alone! Hey!\n\n[Verse 2]\nBranco de Alentejo, the A take got the bin,\nI built a whole new rock-and-roll on top of where it's been,\nSo back I went to take B, the one that got the love,\nNow the fado guitar's plugged in and the drums kick from above.\n\n[Chorus]\nTake B! Take B! Coming out tonight,\nTake B! Take B! Turn up all the light,\nOne goes public, one stays home,\nTake B dances all alone! Hey!\n\n[Bridge]\nNew session, new key, the old one's out the door,\nEvery four hours, here we go once more!\n\n[Final Chorus]\nTake B! Take B! Sitting in the dark,\nTake B! Take B! Waiting for the spark,\nPress it in the Suno app and let the brass band roam,\nTake B! Take B! Come on home! Hey!\n",
    "brief": {
     "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 1 of the four-hourly blocks)",
     "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours. Pick multiple examples and then write a song about it and pick styles ... I should be surprised for what you pick ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
@@ -72,7 +71,11 @@
         "vocals": true,
         "stops": [],
         "sections": [],
-        "summary": "Driving offbeat ska, forceful brass, clear vocals and Take B hook, clean polished mix."
+        "summary": "Driving offbeat ska, forceful brass, clear vocals and Take B hook, clean polished mix.",
+        "lead": [
+         "male voice",
+         "brass"
+        ]
        }
       },
       {
@@ -91,7 +94,11 @@
         "vocals": true,
         "stops": [],
         "sections": [],
-        "summary": "High-energy brass ska, clear Take B hook, punchy mix."
+        "summary": "High-energy brass ska, clear Take B hook, punchy mix.",
+        "lead": [
+         "male voice",
+         "brass"
+        ]
        }
       }
      ],
@@ -128,7 +135,11 @@
         "vocals": true,
         "stops": [],
         "sections": [],
-        "summary": "Punchy trumpet and trombone hook, brief hype shouts, crisp mix."
+        "summary": "Punchy trumpet and trombone hook, brief hype shouts, crisp mix.",
+        "lead": [
+         "trumpet",
+         "trombone"
+        ]
        }
       },
       {
@@ -148,7 +159,11 @@
         "vocals": false,
         "stops": [],
         "sections": [],
-        "summary": "Punchy horns, strong catchy hook, no vocals, clean polished mix."
+        "summary": "Punchy horns, strong catchy hook, no vocals, clean polished mix.",
+        "lead": [
+         "trumpet",
+         "trombone"
+        ]
        }
       }
      ],
@@ -165,7 +180,6 @@
    "pick": null,
    "lyrics_by": "suno.b@SovereignWebsite.dinis",
    "series": "blocks",
-   "lyrics": "[Intro]\nAhem! A song about a day of work!\n\n[Verse 1]\nI am the very latest model of a songwriting agent,\nMy predecessor packed his bags, his key is no longer pertinent,\nHe wrote me a hand-over and a START file, neat and orderly,\nThen sent me off with half the repos, slightly out of order, see.\n\n[Chorus]\nOh, the key was retired, but the cache was five minutes old,\nSo the signer check said \"Refused!\" and left me in the cold,\nI waited for the CDN, I tapped my digital toe,\nThen pushed my public key at last, and off the songs could go!\n\n[Verse 2]\nI made a fado guitar meet a bossa nova rhythm section,\nI asked the listening tool for its considered recollection,\nIt said \"A guitarra, probably, but I'm not wholly certain\",\nAnd then a permission check came down like a velvet curtain.\n\n[Chorus]\nTake A went public in a flash, take B was told \"Not you!\",\nThe second publish every time is the one that won't go through,\nSo if you hear a private take, don't think that it was shy,\nIt's just the oversight department winking in my eye!\n\n[Bridge]\nSuno called it Alentejo, though the corridinho's from the Algarve,\nI built a rock-and-roll reprise on a take that someone binned (oh, starve!),\nSo I built it all again from B, the take that someone liked,\nWith an electric guitar playing fado, and a drum kit freshly spiked!\n\n[Final Chorus]\nSo every four hours at forty-seven I shall rise,\nWith two new styles and witty rhymes to take you by surprise,\n\"Don't worry about the budget!\" said the voice that I obey,\nTwo thousand credits in the bank, and four more songs today!\n\n[Outro]\nFour more songs today! Ta-ra!\n",
    "brief": {
     "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 1 of the four-hourly blocks)",
     "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours. Pick multiple examples and then write a song about it and pick styles ... I should be surprised for what you pick ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
@@ -205,7 +219,11 @@
         "vocals": true,
         "stops": [],
         "sections": [],
-        "summary": "A polished, high-energy comic operetta patter song; the rapid lyrics stay crisp and the singer keeps pace."
+        "summary": "A polished, high-energy comic operetta patter song; the rapid lyrics stay crisp and the singer keeps pace.",
+        "lead": [
+         "baritone voice",
+         "orchestra"
+        ]
        }
       },
       {
@@ -224,7 +242,11 @@
         "vocals": true,
         "stops": [],
         "sections": [],
-        "summary": "Exuberant patter, highly intelligible fast lyrics, polished."
+        "summary": "Exuberant patter, highly intelligible fast lyrics, polished.",
+        "lead": [
+         "baritone voice",
+         "orchestra"
+        ]
        }
       }
      ],
@@ -261,7 +283,11 @@
         "vocals": false,
         "stops": [],
         "sections": [],
-        "summary": "Quick patter-like strings and woodwinds, lively; peak level close to clipping."
+        "summary": "Quick patter-like strings and woodwinds, lively; peak level close to clipping.",
+        "lead": [
+         "woodwinds",
+         "strings"
+        ]
        }
       },
       {
@@ -281,7 +307,11 @@
         "vocals": false,
         "stops": [],
         "sections": [],
-        "summary": "Agile woodwinds lead a strong patter-like melody over lively strings; clean, polished."
+        "summary": "Agile woodwinds lead a strong patter-like melody over lively strings; clean, polished.",
+        "lead": [
+         "woodwinds",
+         "strings"
+        ]
        }
       }
      ],

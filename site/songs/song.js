@@ -24,7 +24,7 @@ if (!s) { out.textContent = 'This song is not in the list.'; } else {
     return el('div', { className: 'take' }, [
       el('h3', { textContent: `${name} · ${mmss(t.duration_s)}` }),
       L ? el('p', { textContent: L.summary }) : el('p', { className: 'small', textContent: 'Not yet listened to by Suno\'s listening tool.' }),
-      ...(L ? [el('p', { className: 'small', textContent: `${L.bpm} bpm · ${L.key} · lead: ${L.lead.join(', ')} · melody ${L.melody_strength} of 5 · ${L.vocals ? 'with vocals' : 'no vocals'}` }), timeline(t)] : []),
+      ...(L ? [el('p', { className: 'small', textContent: `${L.bpm} bpm · ${L.key} · lead: ${L.lead.join(', ')} · ${L.melody_strength != null ? `melody ${L.melody_strength} of 5 · ` : ""}${L.vocals ? 'with vocals' : 'no vocals'}` }), timeline(t)] : []),
       el('div', { className: 'row' }, [playButton(t, label, slot, `Load ${name}`), vb, el('a', { href: `https://suno.com/song/${t.id}`, textContent: 'On Suno' }), vmsg]),
     ]);
   };
