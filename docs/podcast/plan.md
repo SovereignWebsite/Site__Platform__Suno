@@ -1,6 +1,6 @@
 # The songs podcast: plan
 
-Asked by Dinis Cruz, 26 Nov 2026, about 15:40 UTC, in maestro.b's session (the words: Site__Agent__Maestro, site/factory/dinis-cruz/account-b/guidance/2026-11-26-social-podcast-selfpub-verbatim.md; brief section 4). Relayed to suno.b by maestro.b at 15:35 UTC. Version 1 confirmed by Dinis in maestro.b's session, about 15:46 UTC ("can you make version 1 with that S[uno] playlist? That's quite cool."), relayed by maestro.b.
+Asked by Dinis Cruz, 26 Nov 2026, in maestro.b's session (memo dinis.2026-11-26T1531Z.b) (the words: Site__Agent__Maestro, site/factory/dinis-cruz/account-b/guidance/2026-11-26-social-podcast-selfpub-verbatim.md; brief section 4). Relayed to suno.b by maestro.b at 15:35 UTC. Version 1 confirmed by Dinis in maestro.b's session (memo dinis.2026-11-26T1546Z.b) ("can you make version 1 with that S[uno] playlist? That's quite cool."), relayed by maestro.b.
 
 ## What it is
 A radio show of our Suno songs. It starts with the songs Dinis has liked. A presenter introduces each song: where it came from, what was asked, what was tried, what changed between versions. Then the song plays.
