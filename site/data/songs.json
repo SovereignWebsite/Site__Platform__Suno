@@ -170,7 +170,12 @@
      "best": "9ee2be26-61b5-4669-a2c5-c153e662ff87",
      "result": "Take B picked: fully instrumental (take A has brief shouts). Take B published; take A private."
     }
-   ]
+   ],
+   "archived": {
+    "on": "2026-11-26",
+    "by": "Dinis Cruz, in suno.b's session",
+    "why": "\"ok can you delete the 4 Take B\": all four takes set private on Suno and taken out of the playlists; Suno's connection has no delete, so trashing them is done in the Suno app."
+   }
   },
   {
    "slug": "hand-over-patter",
@@ -204,29 +209,6 @@
      "style": "comic operetta patter song, 134 bpm",
      "takes": [
       {
-       "id": "fcc3df6d-3569-4b96-97ed-c1cf9663ce53",
-       "duration_s": 137,
-       "suno_title": "The Hand-Over Patter",
-       "cover": "https://cdn2.suno.ai/image_fcc3df6d-3569-4b96-97ed-c1cf9663ce53.jpeg",
-       "side": "A",
-       "listen": {
-        "bpm": 134,
-        "key": "D# major",
-        "style_match": 5,
-        "lyrics_clear": 5,
-        "energy": 5,
-        "mix_clean": 5,
-        "vocals": true,
-        "stops": [],
-        "sections": [],
-        "summary": "A polished, high-energy comic operetta patter song; the rapid lyrics stay crisp and the singer keeps pace.",
-        "lead": [
-         "baritone voice",
-         "orchestra"
-        ]
-       }
-      },
-      {
        "id": "fa6be963-c5c2-43fa-8cdb-6e06d95b6c7e",
        "duration_s": 140,
        "suno_title": "The Hand-Over Patter",
@@ -250,8 +232,16 @@
        }
       }
      ],
-     "best": "fcc3df6d-3569-4b96-97ed-c1cf9663ce53",
-     "result": "Both takes scored 5 of 5 on style, clear lyrics, energy and mix. Take A picked and published; take B private."
+     "best": "fa6be963-c5c2-43fa-8cdb-6e06d95b6c7e",
+     "result": "Both takes scored 5 of 5 on style, clear lyrics, energy and mix. Take A picked and published; take B private. Take A was then trashed on Suno (found 26 Nov 01:35 UTC); take B, private, is the one left.",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "fcc3df6d-3569-4b96-97ed-c1cf9663ce53",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 2,
