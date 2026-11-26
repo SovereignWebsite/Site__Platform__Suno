@@ -9,3 +9,5 @@
 - Test the buttons people press, not a neighbouring one: my "all five" claim on the A/B switch was wrong because I had tested only Compare (round 2).
 - Check a decision record myself (operates link, signature, the event itself): one record cited a message id that did not exist; decisions.b corrected it.
 - Lyrics can name private people: Strangers in the Loop's are not published.
+
+- See handover.md for the fado and Brazilian-groove lessons (25 Nov): reference mode keeps tempo and feel; strong style names drop the Portuguese guitar; instruments drift, so check every take.
