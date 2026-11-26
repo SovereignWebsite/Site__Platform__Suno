@@ -23,8 +23,313 @@
   }
  ],
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
- "updated": "2026-11-26T09:00Z",
+ "updated": "2026-11-26T13:00Z",
  "songs": [
+  {
+   "slug": "zero-plays",
+   "title": "Zero Plays",
+   "about": "Block 4, style 2: a cheerful bluegrass lament about the play counter on the newest songs, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 4 of the four-hourly blocks, the 12:47 UTC wake)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "At the 08:47 wake, Suno's playlist listing showed No Delete Button and the Gregorian chant at 0 plays, while The Hand-Over Patter had 3 plays and a like.",
+     "Bluegrass for a hopeful lament: banjo, high harmony, 'turn my zero into one'."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T12:49Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "high lonesome bluegrass, fast banjo rolls, flatpicked acoustic guitar, fiddle and mandolin breaks, upright bass, nasal tenor lead with three-part high harmony on the chorus, cheerful lament, front-porch recording, 132 bpm",
+      "negative_style": "electronic, synth, drum machine, rap, autotune, rock drums, pop production",
+      "vocal_gender": "male"
+     },
+     "style": "high lonesome bluegrass, 132 bpm",
+     "takes": [
+      {
+       "id": "e9728aa5-a3d1-478d-8430-7fb68801480d",
+       "duration_s": 93,
+       "suno_title": "Zero Plays",
+       "cover": "https://cdn2.suno.ai/image_e9728aa5-a3d1-478d-8430-7fb68801480d.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 129,
+        "key": "G major",
+        "lead": [
+         "tenor lead",
+         "harmony vocals",
+         "banjo"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Bluegrass with clear tenor and harmony; the last chorus line is cut off.",
+        "complete_song": false
+       }
+      },
+      {
+       "id": "9e3bf064-5461-4fdd-b983-776e0132625d",
+       "duration_s": 92,
+       "suno_title": "Zero Plays",
+       "cover": "https://cdn2.suno.ai/image_9e3bf064-5461-4fdd-b983-776e0132625d.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 132,
+        "key": "A major",
+        "lead": [
+         "high tenor lead",
+         "close harmony",
+         "banjo"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Bluegrass with banjo rolls and close harmonies; both verses and choruses complete, instrumental outro.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": "9e3bf064-5461-4fdd-b983-776e0132625d",
+     "result": "Take B: complete (take A cuts off at 'turn my zero into...'). Published; take A private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T12:49Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "high lonesome bluegrass instrumental breakdown, fast banjo rolls carry the melody, fiddle and mandolin trade breaks, flatpicked acoustic guitar, upright bass, front-porch recording, 132 bpm",
+      "negative_style": "vocals, singing, humming, electronic, synth, drum machine, rock drums",
+      "controls": "style influence 0.9"
+     },
+     "style": "bluegrass breakdown, instrumental, 132 bpm",
+     "takes": [
+      {
+       "id": "34a29bc6-71c9-48e1-b7c6-16c6a5af88e0",
+       "duration_s": 137,
+       "suno_title": "Zero Plays (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_34a29bc6-71c9-48e1-b7c6-16c6a5af88e0.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 132,
+        "key": "C major",
+        "lead": [
+         "banjo",
+         "fiddle"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Banjo-led breakdown with fiddle breaks, high energy, clean."
+       }
+      },
+      {
+       "id": "3890b521-7ca7-43bb-a7e6-5c066ed9007c",
+       "duration_s": 151,
+       "suno_title": "Zero Plays (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_3890b521-7ca7-43bb-a7e6-5c066ed9007c.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 133,
+        "key": "G major",
+        "lead": [
+         "banjo",
+         "acoustic guitar"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Banjo-led breakdown with guitar breaks, clean."
+       }
+      }
+     ],
+     "best": "34a29bc6-71c9-48e1-b7c6-16c6a5af88e0",
+     "result": "A tie (5, 5, 5, 5); take A by the tie rule (the song above is about it). Published; take B private."
+    }
+   ]
+  },
+  {
+   "slug": "the-tie-rule",
+   "title": "The Tie Rule",
+   "about": "Block 4, style 1: a mock-tragic Argentine tango about the rule that picks take A when both takes score the same, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 4 of the four-hourly blocks, the 12:47 UTC wake)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Since block 1, several pairs of takes scored the same on every number (the patter, the doo-wop, the synthwave); the tie rule sent take A to the playlist and left take B private.",
+     "The shanty broke the pattern: its traditional take beat the pop one. A tango for the take left at home."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T12:49Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "dramatic Argentine tango, bandoneon stabs and sobbing phrases, staccato violin section, marcato double bass on every beat, rhythmic piano, sultry theatrical female vocal, spoken intro and outro, passionate and mock-tragic, 116 bpm",
+      "negative_style": "electronic, synth, rock drums, rap, autotune, pop production",
+      "vocal_gender": "female"
+     },
+     "style": "Argentine tango, 117 bpm",
+     "takes": [
+      {
+       "id": "e5859f48-312b-4943-8f19-b853362f5b9e",
+       "duration_s": 140,
+       "suno_title": "The Tie Rule",
+       "cover": "https://cdn2.suno.ai/image_e5859f48-312b-4943-8f19-b853362f5b9e.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 117,
+        "key": "G minor",
+        "lead": [
+         "female vocal",
+         "bandoneon",
+         "piano",
+         "strings"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Dramatic tango with cabaret touches; clear sung and spoken lines, prominent bandoneon, polished."
+       }
+      },
+      {
+       "id": "df385959-dc4f-47fd-807a-34f9b8100a71",
+       "duration_s": 165,
+       "suno_title": "The Tie Rule",
+       "cover": "https://cdn2.suno.ai/image_df385959-dc4f-47fd-807a-34f9b8100a71.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 121,
+        "key": "A minor",
+        "lead": [
+         "female vocal",
+         "piano"
+        ],
+        "style_match": 2,
+        "lyrics_clear": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Closer to cabaret or musical theatre than tango; words clear."
+       }
+      }
+     ],
+     "best": "e5859f48-312b-4943-8f19-b853362f5b9e",
+     "result": "Take A is the tango (style 5 against 2). Published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T12:49Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "dramatic Argentine tango instrumental, bandoneon carries a passionate sobbing melody, staccato violin section answers, marcato double bass on every beat, rhythmic piano with arrastre drags, sudden stops and dramatic rubato, 116 bpm",
+      "negative_style": "vocals, singing, spoken word, electronic, synth, rock drums, pop production",
+      "controls": "style influence 0.9"
+     },
+     "style": "Argentine tango, instrumental, 121 bpm",
+     "takes": [
+      {
+       "id": "aaf529a5-6813-4782-aa3f-f3337827c3a5",
+       "duration_s": 183,
+       "suno_title": "The Tie Rule (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_aaf529a5-6813-4782-aa3f-f3337827c3a5.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 125,
+        "key": "G minor",
+        "lead": [
+         "bandoneon",
+         "strings",
+         "piano"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 3,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Bandoneon melody, moderate dramatic energy, clean."
+       }
+      },
+      {
+       "id": "97d84ffd-9509-4b22-a3e0-87be9bb84c0b",
+       "duration_s": 185,
+       "suno_title": "The Tie Rule (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_97d84ffd-9509-4b22-a3e0-87be9bb84c0b.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 121,
+        "key": "G minor",
+        "lead": [
+         "bandoneon",
+         "violin"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Bandoneon and violin lead, tango rubato, clean."
+       }
+      }
+     ],
+     "best": "97d84ffd-9509-4b22-a3e0-87be9bb84c0b",
+     "result": "Take B: more energy (4 against 3). Published; take A private."
+    }
+   ]
+  },
   {
    "slug": "two-hundred-and-two",
    "title": "Two Hundred and Two",

@@ -45,3 +45,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-26 04:51 | audio-listen x10 | style, lyrics, melody, mix of all ten takes | 0 | 2,090 | 15 | for the song pages |
 | 2026-11-26 08:48 | audio-create x4 | Block 3: "Heave Away at Forty-Seven" (sea shanty) and "Two Hundred and Two" (1980s synthwave), each with lyrics and instrumental, 2 takes each, v6 | 40 | 2,050 | 15 | Dinis: four songs per four-hour block |
 | 2026-11-26 08:49 | audio-listen x8 | style, lyrics, melody, mix of all eight takes | 0 | 2,050 | 15 | for the song pages |
+| 2026-11-26 12:49 | audio-create x4 | Block 4: "The Tie Rule" (Argentine tango) and "Zero Plays" (bluegrass), each with lyrics and instrumental, 2 takes each, v6 | 40 | 2,010 | 15 | Dinis: four songs per four-hour block |
+| 2026-11-26 12:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 2,010 | 15 | for the song pages |

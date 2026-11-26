@@ -1,13 +1,13 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-26T09:00Z",
+ "read_at": "2026-11-26T13:00Z",
  "plan": "Pro Plan",
  "period": "month",
  "renews_on": "2026-12-13",
  "song_credits": {
   "monthly_limit": 2500,
-  "used": 450,
-  "left": 2050
+  "used": 490,
+  "left": 2010
  },
  "download_credits": {
   "left": 15
@@ -127,6 +127,12 @@
   {
    "when": "2026-11-26T08:48Z",
    "what": "Block 3: Heave Away at Forty-Seven and Two Hundred and Two, each with lyrics and instrumental (four generations)",
+   "song_credits": 40,
+   "asked_by": "Dinis: four songs per four-hour block"
+  },
+  {
+   "when": "2026-11-26T12:49Z",
+   "what": "Block 4: The Tie Rule and Zero Plays, each with lyrics and instrumental (four generations)",
    "song_credits": 40,
    "asked_by": "Dinis: four songs per four-hour block"
   }
