@@ -23,8 +23,308 @@
   }
  ],
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
- "updated": "2026-11-26T05:00Z",
+ "updated": "2026-11-26T09:00Z",
  "songs": [
+  {
+   "slug": "two-hundred-and-two",
+   "title": "Two Hundred and Two",
+   "about": "Block 3, style 2: 1980s synthwave about the beat tracker that heard a slow ballad at 202.8 bpm, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 3 of the four-hourly blocks, the 08:47 UTC wake)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "In block 2, Suno's beat tracker read a slow instrumental ballad (C major) at 202.8 bpm; the listening tool said that was likely a double-time reading.",
+     "The record keeps the felt tempo and now also the measured number, in a note (as the lyric says)."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T08:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "1980s synthwave, retro analogue synth pads and arpeggios, gated reverb snare, driving bass sequencer, neon night drive, dreamy female lead vocal with breathy hooks, vocoder on the intro, 108 bpm",
+      "negative_style": "acoustic, folk, orchestral, rap, trap, lo-fi, country",
+      "vocal_gender": "female"
+     },
+     "style": "1980s synthwave, 109 bpm",
+     "takes": [
+      {
+       "id": "fe2e098a-b2c8-4ff7-ab46-c8218e020f7d",
+       "duration_s": 188,
+       "suno_title": "Two Hundred and Two",
+       "cover": "https://cdn2.suno.ai/image_fe2e098a-b2c8-4ff7-ab46-c8218e020f7d.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 109,
+        "key": "D# major",
+        "lead": [
+         "female lead vocal",
+         "retro synths"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Strong 1980s synthwave; clear female lead and hook, clean polished mix."
+       }
+      },
+      {
+       "id": "7ed15cc0-f8ba-47b8-9007-0bd2b484a5ff",
+       "duration_s": 198,
+       "suno_title": "Two Hundred and Two",
+       "cover": "https://cdn2.suno.ai/image_7ed15cc0-f8ba-47b8-9007-0bd2b484a5ff.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 110,
+        "key": "A# major",
+        "lead": [
+         "female lead vocal",
+         "retro synths"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Strong synthwave; clear vocal and hook, clean mix."
+       }
+      }
+     ],
+     "best": "fe2e098a-b2c8-4ff7-ab46-c8218e020f7d",
+     "result": "A tie (5, 5, 4, 5); take A by the tie rule. Published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T08:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1980s synthwave instrumental, lead analogue synth carries a soaring catchy melody, retro arpeggios, gated reverb snare, driving bass sequencer, lush pads, neon night drive, 108 bpm",
+      "negative_style": "vocals, singing, humming, choir, vocoder, acoustic, orchestral, lo-fi",
+      "controls": "style influence 0.9"
+     },
+     "style": "1980s synthwave, instrumental, 110 bpm",
+     "takes": [
+      {
+       "id": "cc86f302-5aea-409b-ab3c-a44862ac484f",
+       "duration_s": 184,
+       "suno_title": "Two Hundred and Two (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_cc86f302-5aea-409b-ab3c-a44862ac484f.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 110,
+        "key": "D major",
+        "lead": [
+         "lead synth",
+         "synth brass"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Catchy lead-synth hook, arpeggios, no voices, clean."
+       }
+      },
+      {
+       "id": "9601a675-32dd-4464-8a70-2d04ee9adaf0",
+       "duration_s": 204,
+       "suno_title": "Two Hundred and Two (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_9601a675-32dd-4464-8a70-2d04ee9adaf0.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 111,
+        "key": "A minor",
+        "lead": [
+         "lead synth",
+         "synth bass"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Catchy lead-synth hook, driving bass and drums, punchy clean mix."
+       }
+      }
+     ],
+     "best": "9601a675-32dd-4464-8a70-2d04ee9adaf0",
+     "result": "Take B: more energy (5 against 4). Published; take A private."
+    }
+   ]
+  },
+  {
+   "slug": "heave-away-forty-seven",
+   "title": "Heave Away at Forty-Seven",
+   "about": "Block 3, style 1: a sea shanty about the four-hourly wake at 47 minutes past, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 3 of the four-hourly blocks, the 08:47 UTC wake)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "The wake fires at 47 minutes past every fourth hour; the work is a crew's routine: two takes, the listening tool picks, publish the best.",
+     "Block 2's doo-wop instrumental came back as a jazz ballad and was made again; 2,090 credits left, the plan renews on 13 December."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T08:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "traditional sea shanty, rousing call-and-response, gruff male lead with full crew gang vocals on every chorus, foot stomps and hand claps, fiddle, concertina, bodhran, tin whistle, pub singalong energy, 6/8 lilt, 104 bpm",
+      "negative_style": "electronic, synth, autotune, rock drums, trap, pop production, female lead",
+      "vocal_gender": "male"
+     },
+     "style": "sea shanty, 107 bpm",
+     "takes": [
+      {
+       "id": "06c4c08c-0a25-45ec-b76c-432262e74b33",
+       "duration_s": 142,
+       "suno_title": "Heave Away at Forty-Seven",
+       "cover": "https://cdn2.suno.ai/image_06c4c08c-0a25-45ec-b76c-432262e74b33.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 107,
+        "key": "G major",
+        "lead": [
+         "male baritone lead",
+         "gang vocals"
+        ],
+        "style_match": 4,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "A sea-shanty and pop hybrid, polished; clear words, hearty gang choruses."
+       }
+      },
+      {
+       "id": "1aa53c63-ee24-42cd-ab38-0ec64ecb2b92",
+       "duration_s": 135,
+       "suno_title": "Heave Away at Forty-Seven",
+       "cover": "https://cdn2.suno.ai/image_1aa53c63-ee24-42cd-ab38-0ec64ecb2b92.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 107,
+        "key": "G major",
+        "lead": [
+         "baritone lead",
+         "crew chorus",
+         "concertina",
+         "fiddle"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Traditional-sounding shanty: clear solo verses, gang-vocal chorus, strong singalong energy, clean."
+       }
+      }
+     ],
+     "best": "1aa53c63-ee24-42cd-ab38-0ec64ecb2b92",
+     "result": "Take B is more traditional (style 5 against 4). Published; take A private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T08:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "traditional sea shanty instrumental, fiddle and concertina carry a rousing singable melody, tin whistle answers, bodhran and foot stomps, hand claps, acoustic guitar strum, pub session energy, 6/8 lilt, 104 bpm",
+      "negative_style": "vocals, singing, shouting, chanting, electronic, synth, rock drums, pop production",
+      "controls": "style influence 0.9"
+     },
+     "style": "sea shanty, instrumental, 106 bpm",
+     "takes": [
+      {
+       "id": "ba050342-96cc-4814-95bd-765f1b8537fb",
+       "duration_s": 128,
+       "suno_title": "Heave Away at Forty-Seven (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_ba050342-96cc-4814-95bd-765f1b8537fb.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 106,
+        "key": "G major",
+        "lead": [
+         "fiddle",
+         "concertina"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Fiddle-led nautical folk dance, no voices, clean."
+       }
+      },
+      {
+       "id": "73329438-aaa6-4f15-a157-9ac321f87b26",
+       "duration_s": 127,
+       "suno_title": "Heave Away at Forty-Seven (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_73329438-aaa6-4f15-a157-9ac321f87b26.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 105,
+        "key": "A major",
+        "lead": [
+         "fiddle",
+         "concertina"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Fiddle and concertina trade the melody; no voices; clean."
+       }
+      }
+     ],
+     "best": "ba050342-96cc-4814-95bd-765f1b8537fb",
+     "result": "A tie (5, 5, 4, 5); take A by the tie rule, same key as the sung version. Published; take B private."
+    }
+   ]
+  },
   {
    "slug": "lament-missing-heading",
    "title": "Lament for a Missing Heading",
@@ -288,7 +588,9 @@
         "vocals": false,
         "stops": [],
         "sections": [],
-        "summary": "A modern romantic pop ballad, not doo-wop; no sax."
+        "summary": "A modern romantic pop ballad, not doo-wop; no sax.",
+        "bpm_measured": 202.8,
+        "bpm_note": "The beat tracker read 202.8 bpm; the listening tool called it a double-time reading of a slow ballad, so bpm is the felt tempo (about half)."
        }
       },
       {
@@ -312,7 +614,9 @@
         "vocals": false,
         "stops": [],
         "sections": [],
-        "summary": "A mellow jazz ballad, not doo-wop."
+        "summary": "A mellow jazz ballad, not doo-wop.",
+        "bpm_measured": 200.6,
+        "bpm_note": "The beat tracker read 200.6 bpm; the listening tool called it a double-time reading of a slow ballad, so bpm is the felt tempo (about half)."
        }
       }
      ],
