@@ -1,0 +1,92 @@
+{
+ "episode": 1,
+ "title": "Our songs show, episode 1: the liked songs",
+ "made": "2026-11-26T15:50Z",
+ "playlist": "https://suno.com/playlist/b2d2b845-75cc-4483-bf3d-654d3e12d595",
+ "asked_by": "Dinis Cruz, in maestro.b's session, 26 Nov 2026 about 15:46 UTC (relayed by maestro.b, source dinis.2026-11-26T1546Z.b): \"can you make version 1 with that S[uno] playlist? That's quite cool.\"",
+ "presenter": "Suno speech-create, stock voice (no voice_id), female, labelled synthetic in the opening, the close, every clip title and the playlist description",
+ "order": [
+  {
+   "presenter": "Opening",
+   "clip": "e1374215-89da-4136-ae49-9233bb3a8c88",
+   "duration_s": 38
+  },
+  {
+   "song": "434599ad-1f80-4785-8db0-8b2cd1c656c1"
+  },
+  {
+   "presenter": "1 Tick Tock, Nineteen Hours",
+   "clip": "e7ab70a8-ad16-4566-864f-1c8a04bdbd93",
+   "duration_s": 30
+  },
+  {
+   "song": "3c175309-03bc-4a70-b30e-a862a44b1e56"
+  },
+  {
+   "presenter": "2 Parada",
+   "clip": "024fe7c3-e58b-476d-8ac8-f4e82e60a8c3",
+   "duration_s": 35
+  },
+  {
+   "song": "b929d2eb-2d3b-4785-99c5-dbb82d2c75a3"
+  },
+  {
+   "presenter": "3 Luz e Sombra do Fado",
+   "clip": "c20bd633-9bc9-4a88-a52d-9768e4b888ae",
+   "duration_s": 35
+  },
+  {
+   "song": "dae22de3-c1ff-4f1e-a62f-ce934580c343"
+  },
+  {
+   "presenter": "4 Guitarra e Cavaquinho",
+   "clip": "8d3d3726-8b15-47bd-8878-fc5daa90dbe8",
+   "duration_s": 30
+  },
+  {
+   "song": "d517449d-08d0-41e6-97ae-739d012748ee"
+  },
+  {
+   "presenter": "5 Branco de Alentejo",
+   "clip": "ddd15b4d-dbdf-4b98-b17e-00b47c3b4832",
+   "duration_s": 26
+  },
+  {
+   "song": "171b783e-fe02-4183-b578-cdda317a619f"
+  },
+  {
+   "presenter": "6 Guitarra em Bossa",
+   "clip": "006b9bf7-8a8f-4e63-83f4-30b79647bdd1",
+   "duration_s": 30
+  },
+  {
+   "song": "078dfda8-59f8-42ff-b856-87070559e282"
+  },
+  {
+   "presenter": "7 Passada de Matriz",
+   "clip": "30b2b7dd-9bb9-4106-af67-4875a93d426c",
+   "duration_s": 30
+  },
+  {
+   "song": "d3b3d57a-f69a-4180-8954-cd3406d6f964"
+  },
+  {
+   "presenter": "8 Algarve Fado Choro",
+   "clip": "f4fd2ce7-7a3d-4fb6-acbe-5dd2bbffcd23",
+   "duration_s": 25
+  },
+  {
+   "song": "fa6be963-c5c2-43fa-8cdb-6e06d95b6c7e"
+  },
+  {
+   "presenter": "9 The Hand-Over Patter",
+   "clip": "7b884913-a495-40fd-9271-5df2bb9c5db4",
+   "duration_s": 32
+  },
+  {
+   "presenter": "Close",
+   "clip": "947f606c-40f1-4616-933a-7661b500eb00",
+   "duration_s": 20
+  }
+ ]
+}

@@ -1,7 +1,21 @@
 {
  "about": "Public playlists on suno.com, which play straight through in sequence (Suno's own player). One take per version (each version's best take, by Suno's listening tool where it was asked, else take A), newest first. Made by suno.b on 25 November 2026.",
  "playlists": [
-  {"name": "Our songs: newest 10", "url": "https://suno.com/playlist/6d4e3484-fe41-453b-b673-436a86812281", "count": 10},
-  {"name": "Our songs: newest 20", "url": "https://suno.com/playlist/de5af6a0-b2f5-4f98-b666-57d80e44b4f8", "count": 20}
+  {
+   "name": "Our songs: newest 10",
+   "url": "https://suno.com/playlist/6d4e3484-fe41-453b-b673-436a86812281",
+   "count": 10
+  },
+  {
+   "name": "Our songs: newest 20",
+   "url": "https://suno.com/playlist/de5af6a0-b2f5-4f98-b666-57d80e44b4f8",
+   "count": 20
+  },
+  {
+   "name": "Our songs show, episode 1: the liked songs",
+   "url": "https://suno.com/playlist/b2d2b845-75cc-4483-bf3d-654d3e12d595",
+   "count": 20,
+   "note": "Nine liked songs, each introduced by a synthetic presenter (Suno speech, labelled)."
+  }
  ]
 }
