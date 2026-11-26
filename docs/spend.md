@@ -53,3 +53,6 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-26 16:50 to 16:53 | audio-listen x14 | style, lyrics, completeness, melody, mix of all fourteen takes | 0 | 1,820 | 15 | to pick the best takes |
 | 2026-11-26 20:49 | audio-create x4 | Block 6: Cite the Memo by Its Id (madrigal, sung and instrumental) and Ten Credits Gone (Afrobeat, sung and instrumental) | 40 | 1,780 | 15 | Dinis: four songs every four hours |
 | 2026-11-26 20:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,780 | 15 | to pick the best takes |
+| 2026-11-26 21:20 | speech-create x2 | Songs show v2 samples: the opening with a music bed, two styles for a neutral voice | 20 | 1,760 | 15 | Dinis's episode 1 feedback, relayed by maestro.b |
+| 2026-11-26 21:21 | audio-listen x4 | voice, music bed, fades of the four sample takes | 0 | 1,760 | 15 | to choose the voice |
+| 2026-11-26 21:21 | audio-download (no confirm) x1 | checked the cost: requires_credit, nothing downloaded | 0 | 1,760 | 15 | for the vault question |

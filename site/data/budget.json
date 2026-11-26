@@ -1,13 +1,13 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-26T20:52Z",
+ "read_at": "2026-11-26T21:22Z",
  "plan": "Pro Plan",
  "period": "month",
  "renews_on": "2026-12-13",
  "song_credits": {
   "monthly_limit": 2500,
-  "used": 720,
-  "left": 1780
+  "used": 740,
+  "left": 1760
  },
  "download_credits": {
   "left": 15
@@ -153,6 +153,12 @@
    "what": "Block 6: English Renaissance madrigal and 1970s Afrobeat, each sung and instrumental; 4 generations, every take on style, no retry. The counter fell by exactly 40",
    "song_credits": 40,
    "asked_by": "Dinis: four songs every four hours, budget no object"
+  },
+  {
+   "when": "2026-11-26T21:20Z",
+   "what": "Songs show v2 samples: the opening clip twice (speech-create with a music bed, two takes each), to test a neutral voice, a music bed and fades",
+   "song_credits": 20,
+   "asked_by": "Dinis's feedback on episode 1, relayed by maestro.b (c.maestro's session, about 20:00 UTC)"
   }
  ],
  "limit_note": "No working limit: Dinis, 25 Nov, \"the point here is to use all the credits\". Downloads only for takes picked for release."
