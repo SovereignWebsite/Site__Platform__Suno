@@ -8,7 +8,7 @@ for (const s of d.byMaturity) {
     pulled.replaceChildren(
       el('img', { src: v.takes[0].cover, alt: '', width: 140, height: 140 }),
       el('div', {}, [el('h3', { textContent: `Version ${v.n}: ${v.label}` }), el('p', { textContent: `${day(v.made)}, ${time(v.made)} UTC · ${v.model}${v.style ? ' · ' + v.style : ''}` }), compareButton(v, s.title, cmp)]),
-      el('div', { className: 'sides' }, v.takes.map((t, i) => el('div', { className: 'side' }, [el('b', { textContent: `Side ${'AB'[i]} · ${mmss(t.duration_s)} ` }), playButton(t, `${s.title}, version ${v.n}, side ${'AB'[i]}`, cmp, `Drop the needle on ${'AB'[i]}`)]))),
+      el('div', { className: 'sides' }, v.takes.map((t, i) => el('div', { className: 'side' }, [el('b', { textContent: `Side ${(t.side || 'AB'[i])} · ${mmss(t.duration_s)} ` }), playButton(t, `${s.title}, version ${v.n}, side ${(t.side || 'AB'[i])}`, cmp, `Drop the needle on ${(t.side || 'AB'[i])}`)]))),
       cmp);
   };
   const sleeves = el('div', { className: 'sleeves', role: 'group', 'aria-label': `${s.title}: versions` }, s.versions.map((v) => {

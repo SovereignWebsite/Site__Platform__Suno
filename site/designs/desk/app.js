@@ -5,7 +5,7 @@ for (const s of d.byMaturity) {
   const mon = el('div', { className: 'mon', hidden: true, 'aria-live': 'polite' });
   const strips = el('div', { className: 'strips', role: 'group', 'aria-label': `${s.title}: channels` }, [...s.versions].reverse().map((v) => {
     const faders = el('div', { className: 'faders', 'aria-hidden': 'true' }, v.takes.map((t) => { const f = el('div', { className: 'fader' }); const k = el('i'); k.style.bottom = `${Math.round((t.duration_s / max) * 78)}px`; f.append(k); return f; }));
-    const lr = el('div', { className: 'lr' }, v.takes.map((t, i) => playButton(t, `${s.title}, version ${v.n}, take ${'AB'[i]}`, mon, 'LR'[i])));
+    const lr = el('div', { className: 'lr' }, v.takes.map((t, i) => playButton(t, `${s.title}, version ${v.n}, take ${(t.side || 'AB'[i])}`, mon, 'LR'[i])));
     lr.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => { mon.hidden = false; }));
     const both = compareButton(v, s.title, mon); both.textContent = 'LR';
     lr.append(both);

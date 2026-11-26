@@ -48,8 +48,8 @@ export function compareButton(version, title, into) {
     const slot = el('div', { className: 'abslot' });
     const note = el('p', { className: 'abnote', textContent: "Take A is loaded: press play in Suno's player, or switch to B." });
     const sw = version.takes.map((t, i) => {
-      const x = el('button', { type: 'button', className: 'abswitch', 'aria-pressed': String(i === 0), textContent: `Take ${'AB'[i]} · ${mmss(t.duration_s)}` });
-      x.addEventListener('click', () => { sw.forEach((y) => y.setAttribute('aria-pressed', String(y === x))); f.src = `https://suno.com/embed/${t.id}`; f.title = `${title}, version ${version.n}, take ${'AB'[i]}, Suno player`; note.textContent = `Take ${'AB'[i]} is loaded: press play in Suno's player.`; });
+      const x = el('button', { type: 'button', className: 'abswitch', 'aria-pressed': String(i === 0), textContent: `Take ${(t.side || 'AB'[i])} · ${mmss(t.duration_s)}` });
+      x.addEventListener('click', () => { sw.forEach((y) => y.setAttribute('aria-pressed', String(y === x))); f.src = `https://suno.com/embed/${t.id}`; f.title = `${title}, version ${version.n}, take ${(t.side || 'AB'[i])}, Suno player`; note.textContent = `Take ${(t.side || 'AB'[i])} is loaded: press play in Suno's player.`; });
       return x; });
     const f = el('iframe', { src: `https://suno.com/embed/${version.takes[0].id}`, title: `${title}, version ${version.n}, take A, Suno player`, allow: 'autoplay; encrypted-media' });
     slot.append(f);

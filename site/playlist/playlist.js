@@ -7,7 +7,7 @@ const KEY = 'suno-platform-board-v1';
 const COLS = [['new', 'New', 'Not sorted yet, newest first: fresh songs from the pipeline land here.'], ['listening', 'Listening', 'Your queue, in your order.'], ['liked', 'Liked', 'Shuffle these on a loop.'], ['ok', 'OK', 'Fine, not a favourite.'], ['no', 'Not for me', 'Archived: hidden from the board, kept for the record.']];
 const st = (() => { try { return Object.assign({ col: {}, order: {}, notes: {}, heard: {} }, JSON.parse(localStorage.getItem(KEY)) || {}); } catch { return { col: {}, order: {}, notes: {}, heard: {} }; } })();
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch { /* storage blocked: this visit only */ } };
-const all = d.all.flatMap((s) => s.versions.flatMap((v) => v.takes.map((t, i) => ({ id: t.id, s, v, t, side: 'AB'[i], made: v.made, sib: v.takes[1 - i]?.id, name: `${s.title} · v${v.n} take ${'AB'[i]}` })))).sort((a, b) => (a.made < b.made ? 1 : -1));
+const all = d.all.flatMap((s) => s.versions.flatMap((v) => v.takes.map((t, i) => ({ id: t.id, s, v, t, side: (t.side || 'AB'[i]), made: v.made, sib: v.takes[1 - i]?.id, name: `${s.title} · v${v.n} take ${(t.side || 'AB'[i])}` })))).sort((a, b) => (a.made < b.made ? 1 : -1));
 const byId = new Map(all.map((x) => [x.id, x]));
 const colOf = (id) => st.col[id] || (byId.get(id)?.s.archived ? 'no' : byId.get(id)?.t.liked ? 'liked' : 'new');
 const list = (c) => { const ids = all.filter((x) => colOf(x.id) === c).map((x) => x.id); const o = st.order[c] || []; return [...o.filter((id) => ids.includes(id)), ...ids.filter((id) => !o.includes(id))]; };

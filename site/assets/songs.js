@@ -17,12 +17,12 @@
     const slot = el('div', { className: 'slot' });
     const note = el('p', { className: 'vmeta', textContent: "Loads Suno's player, which runs Suno's code." });
     const btns = v.takes.map((t, i) => {
-      const b = el('button', { type: 'button', className: 'ab', 'aria-pressed': 'false', 'aria-label': `Play ${title}, take ${'AB'[i]}, ${mmss(t.duration_s)}` }, [el('b', { textContent: `Take ${'AB'[i]}` }), el('span', { textContent: mmss(t.duration_s) })]);
+      const b = el('button', { type: 'button', className: 'ab', 'aria-pressed': 'false', 'aria-label': `Play ${title}, take ${(t.side || 'AB'[i])}, ${mmss(t.duration_s)}` }, [el('b', { textContent: `Take ${(t.side || 'AB'[i])}` }), el('span', { textContent: mmss(t.duration_s) })]);
       b.addEventListener('click', () => {
         btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
         const f = slot.querySelector('iframe') || slot.appendChild(el('iframe', { allow: 'autoplay; encrypted-media' }));
-        f.title = `${title}, take ${'AB'[i]}, Suno player`; f.src = `https://suno.com/embed/${t.id}`;
-        note.textContent = `Take ${'AB'[i]} is loaded below: press play in Suno's player.`;
+        f.title = `${title}, take ${(t.side || 'AB'[i])}, Suno player`; f.src = `https://suno.com/embed/${t.id}`;
+        note.textContent = `Take ${(t.side || 'AB'[i])} is loaded below: press play in Suno's player.`;
       });
       return b;
     });
@@ -30,7 +30,7 @@
     return el('div', { className: 'abwrap' }, [
       el('div', { className: 'abrow', role: 'group', 'aria-label': `${title}: takes` }, [...btns, vote, el('span', { className: 'soon', textContent: 'Voting opens soon' })]),
       note, slot,
-      el('p', { className: 'vmeta' }, v.takes.map((t, i) => el('a', { href: `https://suno.com/song/${t.id}`, textContent: `Take ${'AB'[i]} on Suno`, className: 'onsuno' }))),
+      el('p', { className: 'vmeta' }, v.takes.map((t, i) => el('a', { href: `https://suno.com/song/${t.id}`, textContent: `Take ${(t.side || 'AB'[i])} on Suno`, className: 'onsuno' }))),
     ]);
   };
   const version = (v, s, heading) => el('div', {}, [

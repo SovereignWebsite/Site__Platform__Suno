@@ -16,7 +16,7 @@ if (!s) { out.textContent = 'This song is not in the list.'; } else {
     return el('div', {}, [bar, el('ul', { className: 'stops' }, t.listen.stops.map(([x, w]) => el('li', { textContent: `${mmss(x)}: ${w}` })))]);
   };
   const takeCard = (v, t, i) => {
-    const name = `Take ${'AB'[i]}`, label = `${s.title}, version ${v.n}, ${name.toLowerCase()}`;
+    const name = `Take ${(t.side || 'AB'[i])}`, label = `${s.title}, version ${v.n}, ${name.toLowerCase()}`;
     const vb = el('button', { type: 'button', className: 'vote', textContent: hasVoted(t.id) ? 'Voted' : 'Vote', disabled: hasVoted(t.id) });
     const vmsg = el('span', { className: 'small', 'aria-live': 'polite' });
     vb.addEventListener('click', () => { const r = vote(s.slug, v.n, t.id); if (r.ok) { vb.textContent = 'Voted'; vb.disabled = true; vmsg.textContent = 'Saved in this browser.'; } else vmsg.textContent = r.why; });
@@ -60,7 +60,7 @@ if (!s) { out.textContent = 'This song is not in the list.'; } else {
     sec('Lyrics', [lyr], 'lyrics'),
     sec(`Versions (${s.versions.length})`, [el('ol', { className: 'versions', reversed: true }, [...s.versions].reverse().map((v) => el('li', {}, [
       el('b', { textContent: `Version ${v.n}: ${v.label}` }), el('span', { className: 'small', textContent: ` · ${day(v.made)} ${time(v.made)} UTC · ${v.takes.map((t) => mmss(t.duration_s)).join(' and ')}${v.credits != null ? ` · ${v.credits} credits` : ''}` }),
-      el('details', {}, [el('summary', { textContent: 'Prompt, result and takes' }), prompt(v), ...(v.result ? [el('p', { textContent: v.result })] : []), el('div', { className: 'row' }, v.takes.map((t, i) => playButton(t, `${s.title}, version ${v.n}, take ${'AB'[i]}`, slot, `Load take ${'AB'[i]}`)))])])))], 'versions'),
+      el('details', {}, [el('summary', { textContent: 'Prompt, result and takes' }), prompt(v), ...(v.result ? [el('p', { textContent: v.result })] : []), el('div', { className: 'row' }, v.takes.map((t, i) => playButton(t, `${s.title}, version ${v.n}, take ${(t.side || 'AB'[i])}`, slot, `Load take ${(t.side || 'AB'[i])}`)))])])))], 'versions'),
     sec('What it cost', [el('p', { textContent: `${credits} song credits for the versions made here${unknown ? `; ${unknown} earlier version${unknown === 1 ? '' : 's'} made on suno.com before this site, at about 10 credits each` : ''}. ` }, [el('a', { href: '/budget/', textContent: 'The whole budget' })])], 'cost'),
     sec('Your feedback', [el('p', { className: 'small', textContent: `Votes and notes stay in this browser for now (${votesToday()} of 3 votes used today); nothing is sent. Use "Copy my feedback" to pass them on.` }),
       el('label', { htmlFor: 'fb', textContent: `Notes on ${s.title}: what to keep, what to change, ideas for the next version` }), ta, el('div', { className: 'row' }, [copy, saved]), outbox], 'feedback'),

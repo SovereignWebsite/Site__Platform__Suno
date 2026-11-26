@@ -1,5 +1,5 @@
 {
- "about": "Songs, not clips. Each song has versions (one Suno generation each, oldest first), and each version has two takes (Suno makes two per generation). stage is the song's maturity: idea, experiment, shortlist, pre-release, released. pick is the take chosen to carry the song forward (null until chosen). To make this site your own, fork the repository and replace these songs with your own public Suno songs. A song with \"archived\" is kept for the record but left out of the home page, the designs and the styles map; its page stays.",
+ "about": "Songs, not clips. Each song has versions (one Suno generation each, oldest first), and each version has two takes (Suno makes two per generation). stage is the song's maturity: idea, experiment, shortlist, pre-release, released. pick is the take chosen to carry the song forward (null until chosen). To make this site your own, fork the repository and replace these songs with your own public Suno songs. A song with \"archived\" is kept for the record but left out of the home page, the designs and the styles map; its page stays. A take Dinis deleted on Suno is removed from \"takes\" and listed under the version's \"trashed\"; each take keeps its letter in \"side\".",
  "stages": [
   {
    "id": "idea",
@@ -117,7 +117,8 @@
         ],
         "vocals": false,
         "summary": "Portuguese guitar carries the central melody (5 of 5) with cavaquinho answers, a buoyant choro syncopation, a continuous line, clean."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "dae22de3-c1ff-4f1e-a62f-ce934580c343",
@@ -170,7 +171,8 @@
         ],
         "vocals": false,
         "summary": "A clean, flowing choro led by nylon guitar, cavaquinho in the rhythm; no Portuguese guitar lead."
-       }
+       },
+       "side": "B"
       }
      ],
      "best": "3ee1686f-e3a7-4e84-80b1-de9629a25d2b",
@@ -255,7 +257,8 @@
         ],
         "vocals": false,
         "summary": "Portuguese guitar and accordion trading lively corridinho phrases (5 of 5) over cavaquinho backing; rich, continuous melody, clean; more Portuguese folk dance than fado."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "d517449d-08d0-41e6-97ae-739d012748ee",
@@ -304,7 +307,8 @@
         ],
         "vocals": false,
         "summary": "Flowing Portuguese guitar runs over guitar, clean, but no accordion and no clear cavaquinho."
-       }
+       },
+       "side": "B"
       }
      ],
      "best": "2b78128b-a265-4b64-96e1-abc0de97b382",
@@ -400,7 +404,8 @@
         ],
         "vocals": true,
         "summary": "Clean, steady, very funky (5 of 5), but led by horns and guitar with short vocal chops: no Portuguese guitar (fado 1 of 5)."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "6c8df617-5505-4ef2-95e0-669691801a32",
@@ -450,7 +455,8 @@
         ],
         "vocals": false,
         "summary": "Clean instrumental fado-funk: expressive Portuguese guitar lead (melody 5 of 5, fado 4 of 5) over slap bass, drums, clavinet and horns (funk 5 of 5)."
-       }
+       },
+       "side": "B"
       }
      ],
      "result": "Take B is it: Portuguese guitar clearly leading an ornamented melody (5 of 5) over very funky slap bass, drums, clavinet and horns (funk 5 of 5, fado 4 of 5), clean mix. Take A lost the guitar: horn-led funk with short vocal chops (fado 1 of 5).",
@@ -549,7 +555,8 @@
         ],
         "vocals": false,
         "summary": "A lilting instrumental with a clear plucked lead; some fado character (3 of 5), not a clear Portuguese guitar. Faint fuzzy edge."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "9827b917-0a62-4b3e-a8df-4605bdcd008f",
@@ -600,7 +607,8 @@
         ],
         "vocals": false,
         "summary": "Clean, continuous instrumental fado: ornate Portuguese guitar over acoustic guitar, steady with expressive slowing at cadences (fado 5 of 5)."
-       }
+       },
+       "side": "B"
       }
      ],
      "result": "Take B is what was asked: clean and continuous (5 of 5), Portuguese guitar, strongly fado, melody 5 of 5. Take A has a brief dropout at 1:21, a faint fuzzy edge and a mandolin-like lead instead.",
@@ -687,7 +695,8 @@
         ],
         "vocals": false,
         "summary": "Strongly fado (5 of 5), all acoustic, Portuguese guitar lead, but no funk (1 of 5) and two short dropouts."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "b929d2eb-2d3b-4785-99c5-dbb82d2c75a3",
@@ -734,7 +743,8 @@
         ],
         "vocals": false,
         "summary": "Clean, all-acoustic fado (5 of 5) led by Portuguese guitar with a restrained groove: only gently funky (1 of 5)."
-       }
+       },
+       "side": "B"
       }
      ],
      "best": "b929d2eb-2d3b-4785-99c5-dbb82d2c75a3",
@@ -806,7 +816,8 @@
         ],
         "vocals": false,
         "summary": "Clean and fully acoustic, a lightly syncopated lilt (funk 2, syncopation 3), quiet bass; but the lead is ordinary acoustic guitar, not Portuguese guitar (fado 2 of 5)."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "32ab33a7-5e30-4315-8710-893dec16d5b7",
@@ -862,7 +873,8 @@
         ],
         "vocals": false,
         "summary": "Clean, fully acoustic fado (5 of 5) led by Portuguese guitar, bass balanced (3 of 5), but still traditional: funk 1, syncopation 2."
-       }
+       },
+       "side": "B"
       }
      ],
      "best": "32ab33a7-5e30-4315-8710-893dec16d5b7",
@@ -945,66 +957,20 @@
         ],
         "vocals": false,
         "summary": "Portuguese guitar lead and a moderately funky, syncopated groove (3 of 5), clean; but electric or synth bass (prominent, 4 of 5) and electronic percussion crept in (fado 3 of 5)."
-       }
-      },
-      {
-       "id": "c56089d1-82de-40bd-8d4f-a6dac66a887a",
-       "duration_s": 180,
-       "suno_title": "Contratempo, em fado",
-       "cover": "https://cdn2.suno.ai/image_c56089d1-82de-40bd-8d4f-a6dac66a887a.jpeg",
-       "listen": {
-        "bpm": 100,
-        "key": "A major",
-        "lead": [
-         "Portuguese guitar"
-        ],
-        "melody_strength": 5,
-        "mix_clean": 5,
-        "stops": [],
-        "sections": [
-         [
-          0,
-          20,
-          "Introduction"
-         ],
-         [
-          20,
-          40,
-          "Theme A"
-         ],
-         [
-          40,
-          60,
-          "Variation"
-         ],
-         [
-          60,
-          100,
-          "Development"
-         ],
-         [
-          100,
-          120,
-          "Second theme"
-         ],
-         [
-          120,
-          160,
-          "Climax and theme"
-         ],
-         [
-          160,
-          180,
-          "Outro"
-         ]
-        ],
-        "vocals": false,
-        "summary": "Portuguese guitar melody (5 of 5), acoustic fado character (5 of 5), a light syncopated lift (funk 2, syncopation 3), bass restrained (2 of 5), clean. The listening tool was unsure of the instruments on a second listen."
-       }
+       },
+       "side": "A"
       }
      ],
-     "best": "c56089d1-82de-40bd-8d4f-a6dac66a887a",
-     "result": "The closest yet. Take B: Portuguese guitar melody, fado 5 of 5, a light syncopated lift (funk 2, syncopation 3), a restrained bass, clean. Take A is funkier (3) but brought back a prominent electric bass and electronic percussion. Written from scratch, so the melody is new rather than version 1's."
+     "best": "ff7e8d91-f539-44d0-9e99-3592d3b1f032",
+     "result": "The closest yet. Take B: Portuguese guitar melody, fado 5 of 5, a light syncopated lift (funk 2, syncopation 3), a restrained bass, clean. Take A is funkier (3) but brought back a prominent electric bass and electronic percussion. Written from scratch, so the melody is new rather than version 1's.",
+     "trashed": [
+      {
+       "side": "B",
+       "id": "c56089d1-82de-40bd-8d4f-a6dac66a887a",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 5,
@@ -1087,7 +1053,8 @@
         ],
         "vocals": false,
         "summary": "Syncopated bossa and samba-jazz (Brazilian feel 5 of 5), a flowing melody on nylon guitar and piano, clean; no Portuguese guitar."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "f0e694f7-43f8-4025-bcee-c5f5e4a965dc",
@@ -1136,7 +1103,8 @@
         ],
         "vocals": false,
         "summary": "Brazilian lounge jazz (feel 5 of 5) with a strong, continuous melody (5 of 5) on vibraphone and nylon guitar, clean; no Portuguese guitar."
-       }
+       },
+       "side": "B"
       }
      ],
      "best": "f0e694f7-43f8-4025-bcee-c5f5e4a965dc",
@@ -1216,7 +1184,8 @@
         ],
         "vocals": false,
         "summary": "Clean, continuous instrumental fado: bright Portuguese guitar with tremolos and runs, reflective, then lively, then an expressive close."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "53b5a480-623f-418d-9d85-c876c2c1ab52",
@@ -1267,7 +1236,8 @@
         ],
         "vocals": false,
         "summary": "Clean, continuous instrumental fado: Portuguese guitar over acoustic guitar, measured and expressive, with rubato."
-       }
+       },
+       "side": "B"
       }
      ],
      "result": "Both takes clean and continuous (mix 5 of 5), Portuguese guitar, strongly fado (5 of 5), melody 5 of 5. Take A moves from reflective to a lively fado corrido and back; take B stays measured and expressive.",
@@ -1374,7 +1344,8 @@
         ],
         "vocals": false,
         "summary": "Brass-led, syncopated Latin funk with unison accents and call and response with the rhythm section; no batucada, no full-band stops, no drum solo."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "02e1b6fa-d7ab-4c35-96d8-0b2a10de4ef5",
@@ -1459,7 +1430,8 @@
         ],
         "vocals": false,
         "summary": "Flute and nylon guitar in call and response over syncopated batucada (4 of 5), unison accents, six full-band breaks; only a 4-second percussion pickup, no drum solo."
-       }
+       },
+       "side": "B"
       }
      ],
      "result": "Take B is close: flute and nylon guitar in call and response, strongly syncopated batucada, drums and melody on shared accents, the strongest melody yet (5 of 5) and six full-band breaks. Take A went to brass-led Latin funk with no batucada or stops. Neither has the drum solo: Suno ignored that line of the section map (take B has only a 4-second percussion pickup). Next: extend take B with a 16-bar batucada solo, or ask for the solo as its own short section.",
@@ -1568,7 +1540,8 @@
         ],
         "vocals": false,
         "summary": "A lush, jazzy instrumental with a memorable synth and Rhodes melody over a relaxed half-time kit groove (feels about 62 bpm); not batucada."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "b28d4ea6-6363-4e15-8c5d-c99c06a94e65",
@@ -1628,7 +1601,8 @@
         ],
         "vocals": false,
         "summary": "A relaxed, half-time Brazilian jazz instrumental (feels about 63 bpm) with a catchy Rhodes and synth melody, lush harmony and gentle batucada-like percussion."
-       }
+       },
+       "side": "B"
       }
      ],
      "result": "Slow in feel: both takes play in half-time, about 62 bpm felt (Suno's beat tracker counts 125, the double). A new melody, memorable (4 of 5), but on Rhodes and synth rather than the flute and flugelhorn asked for. Take B has gentle batucada-like percussion; take A a soft kit groove instead. Two band breaks in each, at about 1:15 and near the end.",
@@ -1741,7 +1715,8 @@
         ],
         "vocals": false,
         "summary": "Horn-led: a bright trumpet theme, a quick clarinet counter-melody and trombone answers, with clear call and response."
-       }
+       },
+       "side": "A"
       },
       {
        "id": "cc56cb84-aa84-406a-829b-8966727b98b1",
@@ -1803,7 +1778,8 @@
         ],
         "vocals": false,
         "summary": "Reedy, accordion-like lead and plucked guitar trading short phrases, with punchy brass."
-       }
+       },
+       "side": "B"
       }
      ],
      "result": "Both takes are fully instrumental with a strong melody and four or five full-band stops. Neither used the cavaquinho and flute asked for: take A went to horns (trumpet, clarinet, trombone), take B to an accordion-like reed and plucked guitar. Next version: ask for less reinterpretation (variety 0, style influence high) and name the instruments again, or keep the horns if they work.",
@@ -1832,57 +1808,6 @@
       ]
      },
      "takes": [
-      {
-       "id": "ae887dff-66a7-4bab-94b9-21f92fa0dfeb",
-       "duration_s": 115,
-       "suno_title": "Luz de Tarde",
-       "cover": "https://cdn2.suno.ai/image_ae887dff-66a7-4bab-94b9-21f92fa0dfeb.jpeg",
-       "listen": {
-        "bpm": 120.1,
-        "key": "F major",
-        "lead": [
-         "flute-like lead",
-         "piano",
-         "brass"
-        ],
-        "melody_strength": 4,
-        "stops": [],
-        "sections": [
-         [
-          0,
-          20,
-          "Intro"
-         ],
-         [
-          20,
-          40,
-          "Theme"
-         ],
-         [
-          40,
-          60,
-          "Groove"
-         ],
-         [
-          60,
-          80,
-          "Theme returns"
-         ],
-         [
-          80,
-          100,
-          "Variation"
-         ],
-         [
-          100,
-          115,
-          "Outro"
-         ]
-        ],
-        "vocals": false,
-        "summary": "Bright flute-like lead with piano and brass answering; relaxed batucada and jazz-coloured chords; no full-band silences, only short accents."
-       }
-      },
       {
        "id": "3768cf08-8bcb-40dc-87c7-8da1ed96cda2",
        "duration_s": 120,
@@ -1932,11 +1857,20 @@
         ],
         "vocals": false,
         "summary": "Warm flute lead with saxophone answering and light piano; soft batucada and bossa-MPB jazz harmony; one clear break near the end."
-       }
+       },
+       "side": "B"
       }
      ],
      "result": "Half there. The batucada stayed, now relaxed; the harmony moved to Brazilian jazz and MPB with richer chords; the melody is still strong (4 of 5), now on flute with piano, brass or saxophone answering; still instrumental. But it is not slower: both takes measure 120 bpm, as in version 1 (building on the original kept its tempo), and the hard stops are mostly gone (none in take A, one near the end of take B). Next: write the style ourselves at about 88 bpm with half-time feel and the stops named, without building on the original. Suno titled these takes Luz de Tarde.",
-     "best": "ae887dff-66a7-4bab-94b9-21f92fa0dfeb"
+     "best": "3768cf08-8bcb-40dc-87c7-8da1ed96cda2",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "ae887dff-66a7-4bab-94b9-21f92fa0dfeb",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     }
    ],
    "lyrics_by": null
@@ -1958,16 +1892,11 @@
      "credits": 10,
      "takes": [
       {
-       "id": "068f2085-9590-4310-99c4-4efde67dc1fa",
-       "duration_s": 150,
-       "suno_title": "Two Takes",
-       "cover": "https://cdn2.suno.ai/image_068f2085-9590-4310-99c4-4efde67dc1fa.jpeg"
-      },
-      {
        "id": "762d16e8-5f59-44f6-95d2-a3ce93632a30",
        "duration_s": 151,
        "suno_title": "Two Takes",
-       "cover": "https://cdn2.suno.ai/image_762d16e8-5f59-44f6-95d2-a3ce93632a30.jpeg"
+       "cover": "https://cdn2.suno.ai/image_762d16e8-5f59-44f6-95d2-a3ce93632a30.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -1977,7 +1906,15 @@
       "duration_s": 150,
       "lyrics_file": "/lyrics/two-takes.txt"
      },
-     "best": "068f2085-9590-4310-99c4-4efde67dc1fa"
+     "best": "762d16e8-5f59-44f6-95d2-a3ce93632a30",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "068f2085-9590-4310-99c4-4efde67dc1fa",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     }
    ],
    "brief": {
@@ -2006,16 +1943,11 @@
      "style": "electro bossa nova, synth-pop with Brazilian jazz, nylon guitar, Rhodes, ticking clock percussion, warm male lead, 118 bpm",
      "takes": [
       {
-       "id": "0f4865aa-69e0-4c1a-96a1-43cb13b102f2",
-       "duration_s": 257,
-       "suno_title": "Nineteen Hours",
-       "cover": "https://cdn1.suno.ai/image_0f4865aa-69e0-4c1a-96a1-43cb13b102f2.jpeg"
-      },
-      {
        "id": "e6fdf31c-7c91-46f6-8f26-afe31a976672",
        "duration_s": 264,
        "suno_title": "Nineteen Hours",
-       "cover": "https://cdn1.suno.ai/image_e6fdf31c-7c91-46f6-8f26-afe31a976672.jpeg"
+       "cover": "https://cdn1.suno.ai/image_e6fdf31c-7c91-46f6-8f26-afe31a976672.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2023,7 +1955,15 @@
       "style": "electro bossa nova, synth-pop with Brazilian jazz, nylon guitar, Rhodes, ticking clock percussion, warm male lead, 118 bpm",
       "negative_style": null
      },
-     "best": "0f4865aa-69e0-4c1a-96a1-43cb13b102f2"
+     "best": "e6fdf31c-7c91-46f6-8f26-afe31a976672",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "0f4865aa-69e0-4c1a-96a1-43cb13b102f2",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 2,
@@ -2033,16 +1973,11 @@
      "style": "electro bossa nova, Brazilian jazz synth-pop, Rhodes, tick-tock clock, vocoded choir, 118 bpm",
      "takes": [
       {
-       "id": "6e5a5a69-29e3-495e-96db-61efb3059bae",
-       "duration_s": 177,
-       "suno_title": "Tick Tock, Nineteen Hours",
-       "cover": "https://cdn1.suno.ai/image_6e5a5a69-29e3-495e-96db-61efb3059bae.jpeg"
-      },
-      {
        "id": "d844772f-6638-439a-b135-82792538f6e1",
        "duration_s": 169,
        "suno_title": "Tick Tock, Nineteen Hours",
-       "cover": "https://cdn1.suno.ai/image_d844772f-6638-439a-b135-82792538f6e1.jpeg"
+       "cover": "https://cdn1.suno.ai/image_d844772f-6638-439a-b135-82792538f6e1.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2050,7 +1985,15 @@
       "style": "electro bossa nova, Brazilian jazz synth-pop, Rhodes, tick-tock clock, vocoded choir, 118 bpm",
       "negative_style": null
      },
-     "best": "6e5a5a69-29e3-495e-96db-61efb3059bae"
+     "best": "d844772f-6638-439a-b135-82792538f6e1",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "6e5a5a69-29e3-495e-96db-61efb3059bae",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 3,
@@ -2060,16 +2003,11 @@
      "style": "bossa nova, Brazilian jazz, cavaquinho, nylon guitar, upright bass, tick-tock clock, vocoded choir, 118 bpm",
      "takes": [
       {
-       "id": "be3287da-6823-4b42-bcee-b5c83a11fdba",
-       "duration_s": 128,
-       "suno_title": "Tick Tock, Nineteen Hours",
-       "cover": "https://cdn1.suno.ai/image_be3287da-6823-4b42-bcee-b5c83a11fdba.jpeg"
-      },
-      {
        "id": "a2c3012f-e717-4d97-94d4-cf71e7ee285d",
        "duration_s": 137,
        "suno_title": "Tick Tock, Nineteen Hours",
-       "cover": "https://cdn1.suno.ai/image_a2c3012f-e717-4d97-94d4-cf71e7ee285d.jpeg"
+       "cover": "https://cdn1.suno.ai/image_a2c3012f-e717-4d97-94d4-cf71e7ee285d.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2077,7 +2015,15 @@
       "style": "bossa nova, Brazilian jazz, cavaquinho, nylon guitar, upright bass, tick-tock clock, vocoded choir, 118 bpm",
       "negative_style": null
      },
-     "best": "be3287da-6823-4b42-bcee-b5c83a11fdba"
+     "best": "a2c3012f-e717-4d97-94d4-cf71e7ee285d",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "be3287da-6823-4b42-bcee-b5c83a11fdba",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 4,
@@ -2090,13 +2036,15 @@
        "id": "bfc08c34-f091-4b53-8263-3065b65f67a4",
        "duration_s": 128,
        "suno_title": "Tick Tock, Nineteen Hours: Natural Vocal",
-       "cover": "https://cdn1.suno.ai/image_bfc08c34-f091-4b53-8263-3065b65f67a4.jpeg"
+       "cover": "https://cdn1.suno.ai/image_bfc08c34-f091-4b53-8263-3065b65f67a4.jpeg",
+       "side": "A"
       },
       {
        "id": "acf7e6cd-9b3b-472c-8576-79e6b560dfae",
        "duration_s": 128,
        "suno_title": "Tick Tock, Nineteen Hours: Natural Lead",
-       "cover": "https://cdn1.suno.ai/image_acf7e6cd-9b3b-472c-8576-79e6b560dfae.jpeg"
+       "cover": "https://cdn1.suno.ai/image_acf7e6cd-9b3b-472c-8576-79e6b560dfae.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2118,13 +2066,15 @@
        "duration_s": 137,
        "suno_title": "Tick Tock, Nineteen Hours (Remastered)",
        "cover": "https://cdn1.suno.ai/image_434599ad-1f80-4785-8db0-8b2cd1c656c1.jpeg",
-       "liked": true
+       "liked": true,
+       "side": "A"
       },
       {
        "id": "58747899-0a78-4f9c-a1e2-c1538020b00b",
        "duration_s": 137,
        "suno_title": "Tick Tock, Nineteen Hours (Remastered)",
-       "cover": "https://cdn1.suno.ai/image_58747899-0a78-4f9c-a1e2-c1538020b00b.jpeg"
+       "cover": "https://cdn1.suno.ai/image_58747899-0a78-4f9c-a1e2-c1538020b00b.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2142,16 +2092,11 @@
      "style": "bossa nova meets samba batucada, cavaquinho, nylon guitar, pandeiro, loud tick-tock clock, hourly chime, airy backing choir, 120 bpm",
      "takes": [
       {
-       "id": "c2f9b518-8896-425b-b364-6e0acdd1ebe8",
-       "duration_s": 54,
-       "suno_title": "Tick Tock, Nineteen Hours",
-       "cover": "https://cdn1.suno.ai/image_c2f9b518-8896-425b-b364-6e0acdd1ebe8.jpeg"
-      },
-      {
        "id": "76606f79-2030-46a9-8c32-a00b929fcf71",
        "duration_s": 74,
        "suno_title": "Tick Tock, Nineteen Hours",
-       "cover": "https://cdn1.suno.ai/image_76606f79-2030-46a9-8c32-a00b929fcf71.jpeg"
+       "cover": "https://cdn1.suno.ai/image_76606f79-2030-46a9-8c32-a00b929fcf71.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2159,7 +2104,15 @@
       "style": "bossa nova meets samba batucada, cavaquinho, nylon guitar, pandeiro, loud tick-tock clock, hourly chime, airy backing choir, 120 bpm",
       "negative_style": null
      },
-     "best": "c2f9b518-8896-425b-b364-6e0acdd1ebe8"
+     "best": "76606f79-2030-46a9-8c32-a00b929fcf71",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "c2f9b518-8896-425b-b364-6e0acdd1ebe8",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     }
    ],
    "brief": {
@@ -2190,13 +2143,15 @@
        "id": "e67860a9-2ea9-44df-92cd-b7589f7aed0e",
        "duration_s": 243,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_e67860a9-2ea9-44df-92cd-b7589f7aed0e.jpeg"
+       "cover": "https://cdn1.suno.ai/image_e67860a9-2ea9-44df-92cd-b7589f7aed0e.jpeg",
+       "side": "A"
       },
       {
        "id": "ccece874-8c5f-4d72-b7d3-f79f38d978ab",
        "duration_s": 243,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_ccece874-8c5f-4d72-b7d3-f79f38d978ab.jpeg"
+       "cover": "https://cdn1.suno.ai/image_ccece874-8c5f-4d72-b7d3-f79f38d978ab.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2217,13 +2172,15 @@
        "id": "4bf83127-a92d-41e6-8af1-9e35e264c714",
        "duration_s": 257,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_4bf83127-a92d-41e6-8af1-9e35e264c714.jpeg"
+       "cover": "https://cdn1.suno.ai/image_4bf83127-a92d-41e6-8af1-9e35e264c714.jpeg",
+       "side": "A"
       },
       {
        "id": "b4eb3fcf-b572-48c3-a9a9-e9da123756e2",
        "duration_s": 258,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_b4eb3fcf-b572-48c3-a9a9-e9da123756e2.jpeg"
+       "cover": "https://cdn1.suno.ai/image_b4eb3fcf-b572-48c3-a9a9-e9da123756e2.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2244,13 +2201,15 @@
        "id": "49aeb5ed-ea44-4cc2-ac6f-51776d3c97ac",
        "duration_s": 255,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_49aeb5ed-ea44-4cc2-ac6f-51776d3c97ac.jpeg"
+       "cover": "https://cdn1.suno.ai/image_49aeb5ed-ea44-4cc2-ac6f-51776d3c97ac.jpeg",
+       "side": "A"
       },
       {
        "id": "68d198d7-7dfc-4c7f-a4ad-dba45e525abf",
        "duration_s": 256,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_68d198d7-7dfc-4c7f-a4ad-dba45e525abf.jpeg"
+       "cover": "https://cdn1.suno.ai/image_68d198d7-7dfc-4c7f-a4ad-dba45e525abf.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2268,16 +2227,11 @@
      "style": "",
      "takes": [
       {
-       "id": "03372da1-5a65-4462-9731-eb978f9da4b7",
-       "duration_s": 229,
-       "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_03372da1-5a65-4462-9731-eb978f9da4b7.jpeg"
-      },
-      {
        "id": "1f0629d1-b3dc-456a-8ef9-1fc2dc4c7274",
        "duration_s": 221,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_1f0629d1-b3dc-456a-8ef9-1fc2dc4c7274.jpeg"
+       "cover": "https://cdn1.suno.ai/image_1f0629d1-b3dc-456a-8ef9-1fc2dc4c7274.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2285,7 +2239,15 @@
       "style": "(not recorded)",
       "negative_style": null
      },
-     "best": "03372da1-5a65-4462-9731-eb978f9da4b7"
+     "best": "1f0629d1-b3dc-456a-8ef9-1fc2dc4c7274",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "03372da1-5a65-4462-9731-eb978f9da4b7",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 5,
@@ -2295,16 +2257,11 @@
      "style": "R&B soul",
      "takes": [
       {
-       "id": "4fd6fe2d-0563-4761-ad20-ce1668fee6cf",
-       "duration_s": 263,
-       "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_4fd6fe2d-0563-4761-ad20-ce1668fee6cf.jpeg"
-      },
-      {
        "id": "757fc8e5-971a-42ad-8294-b6aa0a49d6fd",
        "duration_s": 253,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_757fc8e5-971a-42ad-8294-b6aa0a49d6fd.jpeg"
+       "cover": "https://cdn1.suno.ai/image_757fc8e5-971a-42ad-8294-b6aa0a49d6fd.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2312,7 +2269,15 @@
       "style": "R&B soul",
       "negative_style": null
      },
-     "best": "4fd6fe2d-0563-4761-ad20-ce1668fee6cf"
+     "best": "757fc8e5-971a-42ad-8294-b6aa0a49d6fd",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "4fd6fe2d-0563-4761-ad20-ce1668fee6cf",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 6,
@@ -2322,16 +2287,11 @@
      "style": "upbeat R&B soul",
      "takes": [
       {
-       "id": "afaa2351-2a15-458d-81db-2337c2474eda",
-       "duration_s": 136,
-       "suno_title": "Upbeat Soul",
-       "cover": "https://cdn1.suno.ai/image_afaa2351-2a15-458d-81db-2337c2474eda.jpeg"
-      },
-      {
        "id": "825a21b8-acb8-4a26-b924-17db89ca8783",
        "duration_s": 144,
        "suno_title": "Upbeat Soul",
-       "cover": "https://cdn1.suno.ai/image_825a21b8-acb8-4a26-b924-17db89ca8783.jpeg"
+       "cover": "https://cdn1.suno.ai/image_825a21b8-acb8-4a26-b924-17db89ca8783.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2339,7 +2299,15 @@
       "style": "upbeat R&B soul",
       "negative_style": null
      },
-     "best": "afaa2351-2a15-458d-81db-2337c2474eda"
+     "best": "825a21b8-acb8-4a26-b924-17db89ca8783",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "afaa2351-2a15-458d-81db-2337c2474eda",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 7,
@@ -2352,13 +2320,15 @@
        "id": "8f78f212-e8b9-4b92-8ea3-f42aed892592",
        "duration_s": 258,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_8f78f212-e8b9-4b92-8ea3-f42aed892592.jpeg"
+       "cover": "https://cdn1.suno.ai/image_8f78f212-e8b9-4b92-8ea3-f42aed892592.jpeg",
+       "side": "A"
       },
       {
        "id": "bfcf7bf2-ef74-47a7-b6cf-d8a2ef145819",
        "duration_s": 252,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_bfcf7bf2-ef74-47a7-b6cf-d8a2ef145819.jpeg"
+       "cover": "https://cdn1.suno.ai/image_bfcf7bf2-ef74-47a7-b6cf-d8a2ef145819.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2379,13 +2349,15 @@
        "id": "2ac5c2b8-97a9-4646-8333-915d2a11117d",
        "duration_s": 237,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_2ac5c2b8-97a9-4646-8333-915d2a11117d.jpeg"
+       "cover": "https://cdn1.suno.ai/image_2ac5c2b8-97a9-4646-8333-915d2a11117d.jpeg",
+       "side": "A"
       },
       {
        "id": "1aac0743-54eb-4491-871f-6092b1f0759f",
        "duration_s": 258,
        "suno_title": "Strangers in the Loop",
-       "cover": "https://cdn1.suno.ai/image_1aac0743-54eb-4491-871f-6092b1f0759f.jpeg"
+       "cover": "https://cdn1.suno.ai/image_1aac0743-54eb-4491-871f-6092b1f0759f.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2403,16 +2375,11 @@
      "style": "upbeat R&B soul, modern Motown groove, gospel backing choir, punchy horns, Rhodes, 108 bpm",
      "takes": [
       {
-       "id": "a2c0b107-a073-4914-afe5-470e9b1adf7a",
-       "duration_s": 220,
-       "suno_title": "Strangers in the Loop (Soul Version)",
-       "cover": "https://cdn1.suno.ai/image_a2c0b107-a073-4914-afe5-470e9b1adf7a.jpeg"
-      },
-      {
        "id": "f581d65d-a225-4518-ab4a-d87c8afb0a6f",
        "duration_s": 229,
        "suno_title": "Strangers in the Loop (Soul Version)",
-       "cover": "https://cdn1.suno.ai/image_f581d65d-a225-4518-ab4a-d87c8afb0a6f.jpeg"
+       "cover": "https://cdn1.suno.ai/image_f581d65d-a225-4518-ab4a-d87c8afb0a6f.jpeg",
+       "side": "B"
       }
      ],
      "prompt": {
@@ -2420,7 +2387,15 @@
       "style": "upbeat R&B soul, modern Motown groove, gospel backing choir, punchy horns, Rhodes, 108 bpm",
       "negative_style": null
      },
-     "best": "a2c0b107-a073-4914-afe5-470e9b1adf7a"
+     "best": "f581d65d-a225-4518-ab4a-d87c8afb0a6f",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "a2c0b107-a073-4914-afe5-470e9b1adf7a",
+       "on": "2026-11-26",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     }
    ],
    "brief": {
