@@ -26,6 +26,310 @@
  "updated": "2026-11-26T13:00Z",
  "songs": [
   {
+   "slug": "cite-the-memo",
+   "title": "Cite the Memo by Its Id",
+   "about": "Block 6, style 1: an English Renaissance madrigal about citing Dinis's memos by id rather than by a guessed time, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 6 of the four-hourly blocks, the 20:47 UTC wake)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "maestro.b found that the podcast plan dated Dinis's words 'about 15:40 UTC'; the memo is dinis.2026-11-26T1531Z.b. Fixed in Site__Platform__Suno 43831d2; from now on memos are cited by id, with a Source line in the commit.",
+     "A madrigal for a formal, slightly pompous correction: four voices, fa-la-la refrains."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T20:49Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "English Renaissance madrigal, unaccompanied four-part vocal ensemble (soprano, alto, tenor, bass), bright polyphony with imitative entries, lively fa-la-la refrains, crisp diction, chamber choir in a wooden hall, playful and courtly, 1590s style, 112 bpm",
+      "negative_style": "drums, bass guitar, electric guitar, synth, pop, rock, autotune, rap, modern production, solo singer",
+      "controls": "style influence 0.85"
+     },
+     "style": "English Renaissance madrigal, a cappella, 112 bpm",
+     "takes": [
+      {
+       "id": "7e031a70-3f4c-4a27-a9c0-e647cd2ac019",
+       "duration_s": 81,
+       "suno_title": "Cite the Memo by Its Id",
+       "cover": "https://cdn2.suno.ai/image_7e031a70-3f4c-4a27-a9c0-e647cd2ac019.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 112,
+        "key": "B flat major",
+        "lead": [
+         "high soprano",
+         "vocal ensemble"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 3,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "A cappella madrigal with fa-la-la refrains, sung to a natural cadence.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "9236b49e-61f3-40d7-bea5-d4e2dc22081f",
+       "duration_s": 69,
+       "suno_title": "Cite the Memo by Its Id",
+       "cover": "https://cdn2.suno.ai/image_9236b49e-61f3-40d7-bea5-d4e2dc22081f.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 113,
+        "key": "F major",
+        "lead": [
+         "four-part a cappella ensemble"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 3,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "A cappella madrigal, clear diction, fa-la-la refrains, a resolved ending.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": "9236b49e-61f3-40d7-bea5-d4e2dc22081f",
+     "result": "Both takes hit the style (5 of 5). Take B has the clearer words and mix. Take B published; take A private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T20:49Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "English Renaissance consort instrumental, 1590s, recorder consort and viols play a lively four-part madrigal in imitative polyphony, lute strumming the harmony, tabor keeping a light dance pulse, courtly and playful, wooden hall acoustic, 112 bpm",
+      "negative_style": "vocals, singing, humming, choir, drums kit, bass guitar, electric guitar, synth, piano, orchestra strings, modern production",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "Renaissance consort, instrumental, 112 bpm",
+     "takes": [
+      {
+       "id": "ef803691-1514-40f3-ba40-0bffcbede61e",
+       "duration_s": 124,
+       "suno_title": "Cite the Memo by Its Id (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_ef803691-1514-40f3-ba40-0bffcbede61e.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 110,
+        "key": "G minor",
+        "lead": [
+         "recorder",
+         "viols",
+         "lute"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 3,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Renaissance consort dance with a recorder lead, viols and lute, tabor pulse; clean."
+       }
+      },
+      {
+       "id": "d0e6be5a-32b6-4152-abe9-02113b54379c",
+       "duration_s": 114,
+       "suno_title": "Cite the Memo by Its Id (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_d0e6be5a-32b6-4152-abe9-02113b54379c.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 115,
+        "key": "G minor",
+        "lead": [
+         "recorders",
+         "viols"
+        ],
+        "style_match": 4,
+        "melody_strength": 4,
+        "energy": 3,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Renaissance consort dance, recorders then viols; no clear tabor."
+       }
+      }
+     ],
+     "best": "ef803691-1514-40f3-ba40-0bffcbede61e",
+     "result": "Take A: every instrument asked for, melody 5 of 5, clean. Take A published; take B private."
+    }
+   ]
+  },
+  {
+   "slug": "ten-credits-gone",
+   "title": "Ten Credits Gone",
+   "about": "Block 6, style 2: a 1970s Afrobeat groove about the 10 song credits block 5 could not account for, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 6 of the four-hourly blocks, the 20:47 UTC wake)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "At block 5 the counter fell by 80 while the seven generations account for 70; the 10 are logged as not accounted for (budget.json, spend.md).",
+     "The same block, the Chicago blues instrumental missed twice (smooth jazz, lounge, soul) and only worked when made from the sung take.",
+     "Afrobeat for a long, insistent question with call and response: where did they go?"
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T20:49Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "1970s Lagos Afrobeat, long hypnotic groove, tight interlocking funk guitars, driving polyrhythmic drum kit with shekere and clave, deep bass line, punchy baritone and tenor sax and trumpet horn section riffs, Hammond organ stabs, charismatic male lead with call and response gang vocals, 112 bpm",
+      "negative_style": "EDM, trap, autotune, synth pop, modern afrobeats pop, reggaeton, rock, female lead",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "1970s Afrobeat, 112 bpm",
+     "takes": [
+      {
+       "id": "3258ebf8-b0ba-4c00-a950-cbae51f334fc",
+       "duration_s": 289,
+       "suno_title": "Ten Credits Gone",
+       "cover": "https://cdn2.suno.ai/image_3258ebf8-b0ba-4c00-a950-cbae51f334fc.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 112,
+        "key": "G minor",
+        "lead": [
+         "baritone lead vocal",
+         "blues harmonica",
+         "organ",
+         "interlocking guitars"
+        ],
+        "style_match": 4,
+        "lyrics_clear": 4,
+        "energy": 3,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Afrobeat groove with guitars, polyrhythmic drums, organ and call and response; horns mostly missing, a harmonica instead (the lyric mentions one); the last sung phrase is shortened.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "053e6b3a-8d99-4171-85bd-f34e0c609035",
+       "duration_s": 303,
+       "suno_title": "Ten Credits Gone",
+       "cover": "https://cdn2.suno.ai/image_053e6b3a-8d99-4171-85bd-f34e0c609035.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 112,
+        "key": "G minor",
+        "lead": [
+         "baritone lead vocal",
+         "group vocals",
+         "horns",
+         "harmonica"
+        ],
+        "style_match": 3,
+        "lyrics_clear": 4,
+        "energy": 4,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "More Afro-funk and blues pastiche; the final 'Ten credits gone' is cut off before an instrumental outro.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "3258ebf8-b0ba-4c00-a950-cbae51f334fc",
+     "result": "Take A: closer to Afrobeat (4 of 5) and ends after the last refrain; a tie on total with take B, so the tie rule picks A too. Suno brought in a harmonica in both takes, from the lyric. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T20:49Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1970s Lagos Afrobeat instrumental, long hypnotic groove, baritone sax, tenor sax and trumpet horn section carry the main riff and melody, tight interlocking clean funk guitars, driving polyrhythmic drum kit with shekere and clave, deep bass line, Hammond organ solo, vintage analogue recording, 112 bpm",
+      "negative_style": "vocals, singing, humming, chants, EDM, trap, synth pop, modern afrobeats pop, smooth jazz, lounge, reggaeton",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "1970s Afrobeat, instrumental, 112 bpm",
+     "takes": [
+      {
+       "id": "5bb99a29-56d0-4422-9704-aa725e5fa2d4",
+       "duration_s": 242,
+       "suno_title": "Ten Credits Gone (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_5bb99a29-56d0-4422-9704-aa725e5fa2d4.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 106,
+        "key": "G minor",
+        "lead": [
+         "saxophones",
+         "trumpet"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Afrobeat led by a memorable horn riff, interlocking guitars, polyrhythmic drums and organ; warm vintage mix."
+       }
+      },
+      {
+       "id": "9655f249-f1f8-40a8-acd5-a04e7df0c480",
+       "duration_s": 239,
+       "suno_title": "Ten Credits Gone (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_9655f249-f1f8-40a8-acd5-a04e7df0c480.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 107,
+        "key": "G minor",
+        "lead": [
+         "saxophones",
+         "trumpet"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 4,
+        "mix_clean": 4,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Afrobeat with a hypnotic horn riff and subtler organ; warm vintage mix."
+       }
+      }
+     ],
+     "best": "5bb99a29-56d0-4422-9704-aa725e5fa2d4",
+     "result": "Both takes hit the style (5 of 5); take A has more energy. Take A published; take B private."
+    }
+   ]
+  },
+  {
    "slug": "nasal-strident-monotone",
    "title": "Nasal, Strident, Monotone",
    "about": "Block 5, style 1: a 1960s French ye-ye song about the podcast presenter's voice changing on every take, and its instrumental.",

@@ -51,3 +51,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-26 15:48 | audio-listen x2 | the opening's two takes: voice, clarity, glitches | 0 | 1,900 | 15 | to choose the presenter voice |
 | 2026-11-26 16:48 to 16:52 | audio-create x7 | Block 5: Nasal, Strident, Monotone (ye-ye: sung, instrumental twice) and Speech Ain't Free (Chicago blues: sung, instrumental three times, the last from the sung take) | 80 (70 for the 7 generations; 10 not accounted for) | 1,820 | 15 | Dinis: four songs every four hours |
 | 2026-11-26 16:50 to 16:53 | audio-listen x14 | style, lyrics, completeness, melody, mix of all fourteen takes | 0 | 1,820 | 15 | to pick the best takes |
+| 2026-11-26 20:49 | audio-create x4 | Block 6: Cite the Memo by Its Id (madrigal, sung and instrumental) and Ten Credits Gone (Afrobeat, sung and instrumental) | 40 | 1,780 | 15 | Dinis: four songs every four hours |
+| 2026-11-26 20:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,780 | 15 | to pick the best takes |

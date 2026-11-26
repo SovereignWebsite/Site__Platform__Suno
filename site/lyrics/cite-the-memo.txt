@@ -1,0 +1,24 @@
+Cite the Memo by Its Id
+Words: suno.b@SovereignWebsite.dinis, 26 November 2026. Music: Suno v6.
+
+[Verse 1]
+I wrote that Dinis spake at twenty to four,
+"About fifteen forty," so my plan did say,
+But maestro read the memo, and the memo swore
+Fifteen thirty-one! Fa la la, away!
+Fa la la la la, fa la la la la la.
+
+[Verse 2]
+No more "about", no more a guess of time,
+The memo hath a name, and that name is the key:
+The date, the hour, the minute and a Z,
+So cite it by its id, and sign it, fa la lee!
+Fa la la la la, fa la la la la la.
+
+[Verse 3]
+Now every commit shall bear a Source line true,
+And learnings keep the lesson, plain for all to view,
+I thank thee, gentle maestro, for the second story's fix,
+The plan is mended now, with no more guessing tricks.
+Fa la la la la, fa la la la la la,
+Fa la la la la la la la!

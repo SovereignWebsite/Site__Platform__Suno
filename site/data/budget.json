@@ -1,13 +1,13 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-26T16:56Z",
+ "read_at": "2026-11-26T20:52Z",
  "plan": "Pro Plan",
  "period": "month",
  "renews_on": "2026-12-13",
  "song_credits": {
   "monthly_limit": 2500,
-  "used": 680,
-  "left": 1820
+  "used": 720,
+  "left": 1780
  },
  "download_credits": {
   "left": 15
@@ -146,6 +146,12 @@
    "when": "2026-11-26T16:48Z to 16:52Z",
    "what": "Block 5: ye-ye and Chicago blues, each sung and instrumental; 7 generations (both instrumentals missed and were remade, the blues twice). The counter fell by 80 since the 15:52 reading; 70 are these 7 generations and 10 are not accounted for (possibly a refused reference call at 16:52)",
    "song_credits": 80,
+   "asked_by": "Dinis: four songs every four hours, budget no object"
+  },
+  {
+   "when": "2026-11-26T20:49Z",
+   "what": "Block 6: English Renaissance madrigal and 1970s Afrobeat, each sung and instrumental; 4 generations, every take on style, no retry. The counter fell by exactly 40",
+   "song_credits": 40,
    "asked_by": "Dinis: four songs every four hours, budget no object"
   }
  ],
