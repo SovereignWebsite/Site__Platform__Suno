@@ -30,3 +30,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-25 13:06 | audio-listen x2 | lead, funk, bass, mix of both takes | 0 | 2,240 | 15 | for the song page |
 | 2026-11-25 21:43 | audio-create x2 | "Contratempo, em fado" v5 and "Guitarra e Cavaquinho" v1, 2 takes each, v6, instrumental | 20 | 2,220 | 15 | Dinis: the redo with the Brazilian groove; the first fado-guitar experiment |
 | 2026-11-25 21:44 | audio-listen x4 | groove, lead, melody, mix of all four takes | 0 | 2,220 | 15 | for the song pages |
+| 2026-11-26 00:08 | audio-create (reference: Guitarra e Cavaquinho v1 A) | "Guitarra e Cavaquinho", version 2, Algarve corridinho accordion, 2 takes, v6, instrumental | 10 | 2,210 | 15 | Dinis: the same, plus a corridinho accordion |
+| 2026-11-26 00:09 | audio-listen x2 | lead, accordion, corridinho feel, mix | 0 | 2,210 | 15 | for the song page |

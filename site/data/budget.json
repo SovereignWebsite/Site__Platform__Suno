@@ -1,13 +1,13 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-25T21:44Z",
+ "read_at": "2026-11-26T00:09Z",
  "plan": "Pro Plan",
  "period": "month",
  "renews_on": "2026-12-13",
  "song_credits": {
   "monthly_limit": 2500,
-  "used": 280,
-  "left": 2220
+  "used": 290,
+  "left": 2210
  },
  "download_credits": {
   "left": 15
@@ -87,6 +87,12 @@
    "what": "Contratempo, em fado v5 and Guitarra e Cavaquinho v1 (two generations)",
    "song_credits": 20,
    "asked_by": "Dinis: the redo with the Brazilian groove, and the first fado-guitar experiment"
+  },
+  {
+   "when": "2026-11-26T00:08Z",
+   "what": "Guitarra e Cavaquinho, version 2 (Algarve corridinho accordion)",
+   "song_credits": 10,
+   "asked_by": "Dinis: the same, plus an accordion in the corridinho style"
   }
  ],
  "limit_note": "No working limit: Dinis, 25 Nov, \"the point here is to use all the credits\". Downloads only for takes picked for release."

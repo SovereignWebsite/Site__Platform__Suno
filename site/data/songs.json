@@ -175,6 +175,140 @@
      ],
      "best": "3ee1686f-e3a7-4e84-80b1-de9629a25d2b",
      "result": "Take A is what was asked: the Portuguese guitar at the centre with the cavaquinho answering, a syncopated choro bounce, a rich continuous melody (5 of 5), clean. Take B lost the Portuguese guitar to a nylon guitar lead."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T00:08Z",
+     "label": "With the Algarve corridinho accordion",
+     "model": "v6",
+     "credits": 10,
+     "brief": {
+      "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session",
+      "words": "We create a song similar to the one we're creating right now, but in addition to the cavaquinho, can you add the accordion in the style of the corridinho from the Algarve, which is sort of a very traditional sort of Algarve music style, and the corridinho ... with that sort of same as the last one, but with that kind of extra twist.",
+      "thinking": [
+       "Build on version 1 take A so the Portuguese guitar lead and the cavaquinho carry over.",
+       "Add a button accordion in the corridinho style: the Algarve's lively, turning 2/4 dance, bellows-shake accents on the off-beats, trading phrases with the guitarra and doubling the tune in the choruses.",
+       "Keep the choro bounce from the seven-string guitar and pandeiro underneath; all acoustic and clean."
+      ]
+     },
+     "prompt": {
+      "mode": "simple, instrumental, built on Guitarra e Cavaquinho version 1 take A (reference)",
+      "style": "Guitarra e Cavaquinho with an Algarve twist: keep the Portuguese guitar as the lead at the centre with its rich, continuous ornamented melody, and the cavaquinho answering it, and add a button accordion playing in the style of the corridinho, the lively traditional dance of the Algarve: a bouncing, turning 2/4 feel, quick bellows-shake accents on the off-beats, the accordion trading phrases with the Portuguese guitar and doubling the tune in the choruses. Keep the light syncopated choro bounce underneath from the seven-string guitar and pandeiro. Bright, joyful, festive, all acoustic, clean warm continuous recording, no gaps. Purely instrumental, no vocals.",
+      "negative_style": null
+     },
+     "style": "Portuguese guitar, cavaquinho, Algarve corridinho accordion, 111 bpm",
+     "takes": [
+      {
+       "id": "2b78128b-a265-4b64-96e1-abc0de97b382",
+       "duration_s": 175,
+       "suno_title": "Branco de Alentejo",
+       "cover": "https://cdn2.suno.ai/image_2b78128b-a265-4b64-96e1-abc0de97b382.jpeg",
+       "listen": {
+        "bpm": 111,
+        "key": "A major",
+        "lead": [
+         "Portuguese guitar",
+         "accordion"
+        ],
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "fado_character": 2,
+        "corridinho_feel": 5,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          15,
+          "Intro"
+         ],
+         [
+          15,
+          46,
+          "Theme A"
+         ],
+         [
+          46,
+          77,
+          "Theme B, call and response"
+         ],
+         [
+          77,
+          107,
+          "Theme A variation"
+         ],
+         [
+          107,
+          138,
+          "Theme C, solos"
+         ],
+         [
+          138,
+          160,
+          "Theme B again"
+         ],
+         [
+          160,
+          175,
+          "Theme A and outro"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Portuguese guitar and accordion trading lively corridinho phrases (5 of 5) over cavaquinho backing; rich, continuous melody, clean; more Portuguese folk dance than fado."
+       }
+      },
+      {
+       "id": "d517449d-08d0-41e6-97ae-739d012748ee",
+       "duration_s": 191,
+       "suno_title": "Branco de Alentejo",
+       "cover": "https://cdn2.suno.ai/image_d517449d-08d0-41e6-97ae-739d012748ee.jpeg",
+       "listen": {
+        "bpm": 111,
+        "key": "A major",
+        "lead": [
+         "Portuguese guitar",
+         "classical guitar"
+        ],
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "fado_character": 3,
+        "corridinho_feel": 2,
+        "mix_clean": 5,
+        "stops": [],
+        "sections": [
+         [
+          0,
+          38,
+          "Opening theme"
+         ],
+         [
+          38,
+          76,
+          "Variation"
+         ],
+         [
+          76,
+          115,
+          "Lift and virtuosic runs"
+         ],
+         [
+          115,
+          153,
+          "Development"
+         ],
+         [
+          153,
+          191,
+          "Final variation"
+         ]
+        ],
+        "vocals": false,
+        "summary": "Flowing Portuguese guitar runs over guitar, clean, but no accordion and no clear cavaquinho."
+       }
+      }
+     ],
+     "best": "2b78128b-a265-4b64-96e1-abc0de97b382",
+     "result": "Take A is it: the Portuguese guitar and an accordion trading lively corridinho phrases (5 of 5), the cavaquinho in the backing, a rich continuous melody, clean; more Portuguese folk dance than fado. Take B kept the guitarra but has no accordion. Suno titled both takes Branco de Alentejo (the wrong region: corridinho is the Algarve's)."
     }
    ]
   },
