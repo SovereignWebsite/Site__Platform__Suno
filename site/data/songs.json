@@ -26,6 +26,493 @@
  "updated": "2026-11-26T13:00Z",
  "songs": [
   {
+   "slug": "nasal-strident-monotone",
+   "title": "Nasal, Strident, Monotone",
+   "about": "Block 5, style 1: a 1960s French ye-ye song about the podcast presenter's voice changing on every take, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 5 of the four-hourly blocks, the 16:47 UTC wake)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "For the Songs show episode 1, the eleven speech clips each came back with a different voice tag from Suno (nasal, strident, monotone, chesty); the strident voice was picked nearly every time.",
+     "Ye-ye for a bright, cheeky song about a voice: breathy lead, twangy guitar, ba-da-ba backing."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T16:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "1960s French ye-ye pop, breathy playful female lead, bouncy twangy electric guitar, organ, handclaps, light go-go drums, ba-da-ba backing vocals, sunny and cheeky, 128 bpm",
+      "negative_style": "rap, trap, autotune, heavy distortion, EDM, modern pop production",
+      "vocal_gender": "female"
+     },
+     "style": "1960s French ye-ye pop, 128 bpm",
+     "takes": [
+      {
+       "id": "81c7ee72-99ba-45dd-8dd1-4cd2f89f0df4",
+       "duration_s": 137,
+       "suno_title": "Nasal, Strident, Monotone",
+       "cover": "https://cdn2.suno.ai/image_81c7ee72-99ba-45dd-8dd1-4cd2f89f0df4.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 140,
+        "key": "B flat major",
+        "lead": [
+         "playful female lead"
+        ],
+        "style_match": 1,
+        "lyrics_clear": 5,
+        "energy": 3,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Modern English electropop with a playful lead, sung through to the end; not ye-ye.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "db96b2ac-c4f8-49c2-84ba-b04e8984be71",
+       "duration_s": 156,
+       "suno_title": "Nasal, Strident, Monotone",
+       "cover": "https://cdn2.suno.ai/image_db96b2ac-c4f8-49c2-84ba-b04e8984be71.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 131,
+        "key": "F major",
+        "lead": [
+         "playful female lead"
+        ],
+        "style_match": 3,
+        "lyrics_clear": 4,
+        "energy": 4,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Upbeat retro pop, closer to the style; the lyric ends before a long instrumental outro and a spoken sign-off.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "db96b2ac-c4f8-49c2-84ba-b04e8984be71",
+     "result": "Take B: the nearer to ye-ye (style 3 against 1), though take A sings the lyric more completely. Take B published; take A private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T16:48Z",
+     "label": "Instrumental, first try",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1960s French ye-ye pop instrumental, twangy electric guitar and combo organ carry a bouncy catchy melody, handclaps, light go-go drums, walking bass, sunny and cheeky, 128 bpm",
+      "negative_style": "vocals, singing, humming, choir, ba-da-ba, EDM, heavy distortion, modern production",
+      "controls": "style influence 0.9"
+     },
+     "style": "ye-ye instrumental, 128 bpm",
+     "takes": [
+      {
+       "id": "7e6103a0-68cf-4bad-981d-e9ae1bd978c0",
+       "duration_s": 122,
+       "suno_title": "Nasal, Strident, Monotone (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_7e6103a0-68cf-4bad-981d-e9ae1bd978c0.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 130,
+        "key": "A minor",
+        "lead": [
+         "lead synth",
+         "vocal chops"
+        ],
+        "style_match": 0,
+        "melody_strength": 4,
+        "energy": 4.5,
+        "mix_clean": 4.8,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Modern synth-pop with vocal chops; not ye-ye."
+       }
+      },
+      {
+       "id": "6603249a-008d-46f2-a2d7-380f20bd0df3",
+       "duration_s": 125,
+       "suno_title": "Nasal, Strident, Monotone (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_6603249a-008d-46f2-a2d7-380f20bd0df3.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 131,
+        "key": "A major",
+        "lead": [
+         "electric guitar",
+         "organ"
+        ],
+        "style_match": 2,
+        "melody_strength": 3,
+        "energy": 3,
+        "mix_clean": 2,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Lo-fi retro indie pop with a twangy guitar hook and ooh chants."
+       }
+      }
+     ],
+     "best": null,
+     "result": "Both missed the style (0 and 2 of 5), so it was made again (version 3). Both private."
+    },
+    {
+     "n": 3,
+     "made": "2026-11-26T16:50Z",
+     "label": "Instrumental, second try (tighter prompt)",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "authentic 1964 French ye-ye pop instrumental, vintage mono recording, twangy reverb electric guitar plays the bouncy melody, Farfisa combo organ answers, brushed snare and tambourine, hand claps, walking electric bass, Paris pop record sound, warm tape hiss, 128 bpm",
+      "negative_style": "vocals, singing, humming, oohs, aahs, vocal chops, synth, synthesizer, electronic, EDM, lo-fi indie, modern production, drum machine",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "ye-ye instrumental, 128 bpm",
+     "takes": [
+      {
+       "id": "09f78e0c-ba67-4a5e-8204-80a2ca1df435",
+       "duration_s": 102,
+       "suno_title": "Nasal, Strident, Monotone (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_09f78e0c-ba67-4a5e-8204-80a2ca1df435.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 130,
+        "key": "A minor",
+        "lead": [
+         "acoustic guitar",
+         "accordion or melodica",
+         "wordless backing vocals"
+        ],
+        "style_match": 1,
+        "melody_strength": 3,
+        "energy": 2,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Gentle easy listening with an accordion-like melody; not ye-ye."
+       }
+      },
+      {
+       "id": "8ad0234f-3901-4324-8531-5be9146467fe",
+       "duration_s": 113,
+       "suno_title": "Nasal, Strident, Monotone (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_8ad0234f-3901-4324-8531-5be9146467fe.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 131,
+        "key": "A minor",
+        "lead": [
+         "horns",
+         "combo organ",
+         "twangy rhythm guitar"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Upbeat ye-ye with horns, combo organ and twangy guitar, a strong hook and a clean mix; some wordless ooh and ah vocals."
+       }
+      }
+     ],
+     "best": "8ad0234f-3901-4324-8531-5be9146467fe",
+     "result": "Take B is it: ye-ye 5 of 5, melody 5, clean, though not fully free of wordless oohs. Take B published; take A private."
+    }
+   ]
+  },
+  {
+   "slug": "speech-aint-free",
+   "title": "Speech Ain't Free",
+   "about": "Block 5, style 2: a 1950s Chicago blues about learning that Suno's speech costs 10 credits a call, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 5 of the four-hourly blocks, the 16:47 UTC wake)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "suno.b first said the speech clips were free, read before the charge appeared; the counter then showed 10 a call, 110 for the eleven clips, and Dinis was told.",
+     "The same day, the podcast research found Bandcamp refuses AI music and SoundCloud and YouTube have their own terms.",
+     "Chicago blues for a confession, with the harmonica answering the voice."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T16:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "1950s Chicago electric blues, gritty male vocal, wailing blues harmonica, stinging electric guitar licks, rolling piano, shuffle groove, upright bass, call and response between voice and harp, 12-bar form, 96 bpm",
+      "negative_style": "rap, trap, autotune, synth, EDM, pop production, female lead",
+      "vocal_gender": "male"
+     },
+     "style": "1950s Chicago electric blues, 96 bpm",
+     "takes": [
+      {
+       "id": "bfe85486-f4f0-4b2e-ba19-e4d69f74aa9b",
+       "duration_s": 154,
+       "suno_title": "Speech Ain't Free",
+       "cover": "https://cdn2.suno.ai/image_bfe85486-f4f0-4b2e-ba19-e4d69f74aa9b.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 122,
+        "key": "G major",
+        "lead": [
+         "gritty male vocal",
+         "harmonica",
+         "electric guitar"
+        ],
+        "style_match": 3,
+        "lyrics_clear": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Lively retro blues with a gritty voice and prominent harmonica; modern rather than 1950s; ends on an instrumental outro.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "ce09c81f-98da-4875-b2f1-52ebb80f1828",
+       "duration_s": 184,
+       "suno_title": "Speech Ain't Free",
+       "cover": "https://cdn2.suno.ai/image_ce09c81f-98da-4875-b2f1-52ebb80f1828.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 124,
+        "key": "C major",
+        "lead": [
+         "gritty male vocal",
+         "electric guitar"
+        ],
+        "style_match": 1,
+        "lyrics_clear": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Polished modern blues and soul shuffle, no harmonica; the last phrase is cut off.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "bfe85486-f4f0-4b2e-ba19-e4d69f74aa9b",
+     "result": "Take A: the harmonica is there and the song is complete (style 3 against 1). Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T16:48Z",
+     "label": "Instrumental, first try",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1950s Chicago electric blues instrumental, wailing blues harmonica carries the melody, stinging electric guitar answers, rolling piano, shuffle groove, upright bass, 12-bar form, 96 bpm",
+      "negative_style": "vocals, singing, humming, synth, EDM, pop production",
+      "controls": "style influence 0.9"
+     },
+     "style": "Chicago blues instrumental, 96 bpm",
+     "takes": [
+      {
+       "id": "83a16a0b-d317-4717-baf0-ead098c091dd",
+       "duration_s": 174,
+       "suno_title": "Speech Ain't Free (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_83a16a0b-d317-4717-baf0-ead098c091dd.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 92,
+        "key": "C major",
+        "lead": [
+         "clean electric guitar",
+         "horns"
+        ],
+        "style_match": 0,
+        "melody_strength": 5,
+        "energy": 3,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Smooth jazz and funk pop; no harmonica."
+       }
+      },
+      {
+       "id": "ac7772ea-5914-4b91-8582-becef8bd3e4e",
+       "duration_s": 178,
+       "suno_title": "Speech Ain't Free (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_ac7772ea-5914-4b91-8582-becef8bd3e4e.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 90,
+        "key": "B flat major",
+        "lead": [
+         "electric guitar",
+         "organ"
+        ],
+        "style_match": 1.5,
+        "melody_strength": 2.5,
+        "energy": 2,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Mellow lounge and jazz blues with wordless humming; no harmonica."
+       }
+      }
+     ],
+     "best": null,
+     "result": "Both missed the style (0 and 1.5 of 5). Both private."
+    },
+    {
+     "n": 3,
+     "made": "2026-11-26T16:50Z",
+     "label": "Instrumental, second try (tighter prompt)",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "raw 1955 Chicago electric blues instrumental, amplified blues harp (harmonica through a bullet microphone) plays the lead melody throughout, gritty overdriven electric guitar fills, boogie piano, slow shuffle, upright bass, sparse drums, vintage mono recording, 12-bar blues, 96 bpm",
+      "negative_style": "vocals, singing, humming, smooth jazz, lounge, funk, horns, brass, synth, organ, modern polished production",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "Chicago blues instrumental, 96 bpm",
+     "takes": [
+      {
+       "id": "a06a824f-7d67-444a-81c8-a9f09c1a69ec",
+       "duration_s": 204,
+       "suno_title": "Speech Ain't Free (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_a06a824f-7d67-444a-81c8-a9f09c1a69ec.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 90,
+        "key": "C minor",
+        "lead": [
+         "clean electric guitar"
+        ],
+        "style_match": 0,
+        "melody_strength": 3.8,
+        "energy": 1.8,
+        "mix_clean": 4.5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "A mellow soul and R&B slow jam with soft humming; no harmonica."
+       }
+      },
+      {
+       "id": "43ce3bf5-9a66-4212-839c-fc6b6c8a887e",
+       "duration_s": 203,
+       "suno_title": "Speech Ain't Free (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_43ce3bf5-9a66-4212-839c-fc6b6c8a887e.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 90,
+        "key": "C major",
+        "lead": [
+         "electric guitar"
+        ],
+        "style_match": 1,
+        "melody_strength": 5,
+        "energy": 2,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "A slow modern soul-blues with a strong guitar lead; no harmonica."
+       }
+      }
+     ],
+     "best": null,
+     "result": "Missed again (0 and 1 of 5): the instrumental mode would not give the harmonica. Both private."
+    },
+    {
+     "n": 4,
+     "made": "2026-11-26T16:52Z",
+     "label": "Instrumental from the sung take",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "simple, with the sung take A as reference",
+      "description": "Make an instrumental version of Speech Ain't Free: keep its 1950s Chicago blues band, and let the blues harmonica play the vocal melody instead of the singer."
+     },
+     "style": "Chicago blues instrumental, harmonica lead",
+     "takes": [
+      {
+       "id": "87aa9bbf-66df-481e-bc74-c6775081a9bf",
+       "duration_s": 154,
+       "suno_title": "Speech Ain't Free (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_87aa9bbf-66df-481e-bc74-c6775081a9bf.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 121,
+        "key": "G major",
+        "lead": [
+         "amplified harmonica",
+         "electric guitar"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 4,
+        "mix_clean": 2,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Chicago electric blues with the amplified harmonica out front playing the tune; a gritty vintage mix; brief vocal sounds, no words."
+       }
+      },
+      {
+       "id": "79f4a842-15a8-40d5-bad6-5cf783981e20",
+       "duration_s": 188,
+       "suno_title": "Speech Ain't Free (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_79f4a842-15a8-40d5-bad6-5cf783981e20.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 119,
+        "key": "G major",
+        "lead": [
+         "synth lead"
+        ],
+        "style_match": 0,
+        "melody_strength": 4,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Modern electronic novelty pop with chants; nothing of the blues."
+       }
+      }
+     ],
+     "best": "87aa9bbf-66df-481e-bc74-c6775081a9bf",
+     "result": "Take A is it: Chicago blues 5 of 5, the harmonica plays the sung melody, rough on purpose (mix 2). Taking the band from the sung take worked where two instrumental prompts did not. Take A published; take B private."
+    }
+   ]
+  },
+  {
    "slug": "zero-plays",
    "title": "Zero Plays",
    "about": "Block 4, style 2: a cheerful bluegrass lament about the play counter on the newest songs, and its instrumental.",

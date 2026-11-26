@@ -49,3 +49,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-26 12:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 2,010 | 15 | for the song pages |
 | 2026-11-26 15:48 | speech-create x11 | Songs show episode 1: opening, nine introductions, close; 2 takes each; stock voice | 110 | 1,900 | 15 | Dinis (via maestro.b): version 1, the Suno playlist. Speech costs 10 a call, measured |
 | 2026-11-26 15:48 | audio-listen x2 | the opening's two takes: voice, clarity, glitches | 0 | 1,900 | 15 | to choose the presenter voice |
+| 2026-11-26 16:48 to 16:52 | audio-create x7 | Block 5: Nasal, Strident, Monotone (ye-ye: sung, instrumental twice) and Speech Ain't Free (Chicago blues: sung, instrumental three times, the last from the sung take) | 80 (70 for the 7 generations; 10 not accounted for) | 1,820 | 15 | Dinis: four songs every four hours |
+| 2026-11-26 16:50 to 16:53 | audio-listen x14 | style, lyrics, completeness, melody, mix of all fourteen takes | 0 | 1,820 | 15 | to pick the best takes |
