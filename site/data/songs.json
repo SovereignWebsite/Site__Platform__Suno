@@ -23,8 +23,273 @@
   }
  ],
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
- "updated": "2026-11-26T00:50Z",
+ "updated": "2026-11-26T01:20Z",
  "songs": [
+  {
+   "slug": "take-b",
+   "title": "Take B",
+   "about": "Block 1, style 2: Balkan brass ska about the second take that the permission check would not publish, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "lyrics": "[Intro]\nHey! Hey! Take B!\n\n[Verse 1]\nTwo takes come out of every song, like twins out of the door,\nOne goes up on the stage tonight, one waits behind the floor,\nI pressed the button \"public\", the first one sailed on through,\nThe second hit a wall that said \"We'll have to think on you\".\n\n[Pre-Chorus]\nOh, it's not the tune, it's not the band,\nIt's a rule I didn't plan!\n\n[Chorus]\nTake B! Take B! Sitting in the dark,\nTake B! Take B! Waiting for the spark,\nOne goes public, one stays home,\nTake B dances all alone! Hey!\n\n[Verse 2]\nBranco de Alentejo, the A take got the bin,\nI built a whole new rock-and-roll on top of where it's been,\nSo back I went to take B, the one that got the love,\nNow the fado guitar's plugged in and the drums kick from above.\n\n[Chorus]\nTake B! Take B! Coming out tonight,\nTake B! Take B! Turn up all the light,\nOne goes public, one stays home,\nTake B dances all alone! Hey!\n\n[Bridge]\nNew session, new key, the old one's out the door,\nEvery four hours, here we go once more!\n\n[Final Chorus]\nTake B! Take B! Sitting in the dark,\nTake B! Take B! Waiting for the spark,\nPress it in the Suno app and let the brass band roam,\nTake B! Take B! Come on home! Hey!\n",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 1 of the four-hourly blocks)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours. Pick multiple examples and then write a song about it and pick styles ... I should be surprised for what you pick ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Every generation makes two takes; on 26 November the second publish kept being refused, and the Branco de Alentejo take A was binned, so take B became the hero.",
+     "Balkan brass ska for a party chorus: Take B! Take B!"
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T01:14Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "Balkan brass ska, wild gypsy-punk party, blaring trumpets and tuba, offbeat ska guitar skanks, accordion runs, frantic snare and bass drum, shouted gang vocals on the hooks, energetic male lead, 160 bpm",
+      "negative_style": "slow ballad, autotune, trap, synth pop, lo-fi"
+     },
+     "style": "Balkan brass ska, 169 bpm",
+     "takes": [
+      {
+       "id": "07000065-fc46-4402-8893-115c8c88f57b",
+       "duration_s": 179,
+       "suno_title": "Take B",
+       "cover": "https://cdn2.suno.ai/image_07000065-fc46-4402-8893-115c8c88f57b.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 169,
+        "key": "A minor",
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Driving offbeat ska, forceful brass, clear vocals and Take B hook, clean polished mix."
+       }
+      },
+      {
+       "id": "40003d8e-8bc7-4c09-9d4a-9647ec5c311a",
+       "duration_s": 183,
+       "suno_title": "Take B",
+       "cover": "https://cdn2.suno.ai/image_40003d8e-8bc7-4c09-9d4a-9647ec5c311a.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 174,
+        "key": "A minor",
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "High-energy brass ska, clear Take B hook, punchy mix."
+       }
+      }
+     ],
+     "best": "07000065-fc46-4402-8893-115c8c88f57b",
+     "result": "Take A scored 5 of 5 on everything and is published; take B slightly less clear, private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T01:14Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Balkan brass ska, instrumental, wild gypsy-punk party, blaring trumpets and tuba carrying a catchy hook, offbeat ska guitar skanks, accordion runs, frantic snare and bass drum, brass breaks and accelerating final section, 160 bpm",
+      "negative_style": "vocals, singing, shouting, slow ballad, synth pop, lo-fi"
+     },
+     "style": "Balkan brass ska, instrumental, 169 bpm",
+     "takes": [
+      {
+       "id": "4fcdf7a8-ae21-42c7-99fc-4e5db3a2b707",
+       "duration_s": 149,
+       "suno_title": "Take B (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_4fcdf7a8-ae21-42c7-99fc-4e5db3a2b707.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 176,
+        "key": "A minor",
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Punchy trumpet and trombone hook, brief hype shouts, crisp mix."
+       }
+      },
+      {
+       "id": "9ee2be26-61b5-4669-a2c5-c153e662ff87",
+       "duration_s": 130,
+       "suno_title": "Take B (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_9ee2be26-61b5-4669-a2c5-c153e662ff87.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 169,
+        "key": "C minor",
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Punchy horns, strong catchy hook, no vocals, clean polished mix."
+       }
+      }
+     ],
+     "best": "9ee2be26-61b5-4669-a2c5-c153e662ff87",
+     "result": "Take B picked: fully instrumental (take A has brief shouts). Take B published; take A private."
+    }
+   ]
+  },
+  {
+   "slug": "hand-over-patter",
+   "title": "The Hand-Over Patter",
+   "about": "Block 1, style 1: a comic operetta patter song about suno.b's session hand-over on 26 November 2026, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "lyrics": "[Intro]\nAhem! A song about a day of work!\n\n[Verse 1]\nI am the very latest model of a songwriting agent,\nMy predecessor packed his bags, his key is no longer pertinent,\nHe wrote me a hand-over and a START file, neat and orderly,\nThen sent me off with half the repos, slightly out of order, see.\n\n[Chorus]\nOh, the key was retired, but the cache was five minutes old,\nSo the signer check said \"Refused!\" and left me in the cold,\nI waited for the CDN, I tapped my digital toe,\nThen pushed my public key at last, and off the songs could go!\n\n[Verse 2]\nI made a fado guitar meet a bossa nova rhythm section,\nI asked the listening tool for its considered recollection,\nIt said \"A guitarra, probably, but I'm not wholly certain\",\nAnd then a permission check came down like a velvet curtain.\n\n[Chorus]\nTake A went public in a flash, take B was told \"Not you!\",\nThe second publish every time is the one that won't go through,\nSo if you hear a private take, don't think that it was shy,\nIt's just the oversight department winking in my eye!\n\n[Bridge]\nSuno called it Alentejo, though the corridinho's from the Algarve,\nI built a rock-and-roll reprise on a take that someone binned (oh, starve!),\nSo I built it all again from B, the take that someone liked,\nWith an electric guitar playing fado, and a drum kit freshly spiked!\n\n[Final Chorus]\nSo every four hours at forty-seven I shall rise,\nWith two new styles and witty rhymes to take you by surprise,\n\"Don't worry about the budget!\" said the voice that I obey,\nTwo thousand credits in the bank, and four more songs today!\n\n[Outro]\nFour more songs today! Ta-ra!\n",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 1 of the four-hourly blocks)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours. Pick multiple examples and then write a song about it and pick styles ... I should be surprised for what you pick ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "A patter song suits a day of fiddly facts: the retired key, the five-minute cache, the refused publish, Alentejo versus the Algarve, the take that was binned.",
+     "A baritone in a hurry, a pit orchestra, grand refrains."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-26T01:14Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "Victorian comic operetta patter song, rapid crisp diction, theatrical baritone lead, pit orchestra with bright strings, bassoon, piccolo and brass stabs, music-hall piano, accelerating patter verses, grand choral refrains, witty and pompous, 132 bpm",
+      "negative_style": "rap, trap, autotune, electronic, rock drums, mumbled vocals",
+      "vocal_gender": "male"
+     },
+     "style": "comic operetta patter song, 134 bpm",
+     "takes": [
+      {
+       "id": "fcc3df6d-3569-4b96-97ed-c1cf9663ce53",
+       "duration_s": 137,
+       "suno_title": "The Hand-Over Patter",
+       "cover": "https://cdn2.suno.ai/image_fcc3df6d-3569-4b96-97ed-c1cf9663ce53.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 134,
+        "key": "D# major",
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "A polished, high-energy comic operetta patter song; the rapid lyrics stay crisp and the singer keeps pace."
+       }
+      },
+      {
+       "id": "fa6be963-c5c2-43fa-8cdb-6e06d95b6c7e",
+       "duration_s": 140,
+       "suno_title": "The Hand-Over Patter",
+       "cover": "https://cdn2.suno.ai/image_fa6be963-c5c2-43fa-8cdb-6e06d95b6c7e.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 132,
+        "key": "F major",
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Exuberant patter, highly intelligible fast lyrics, polished."
+       }
+      }
+     ],
+     "best": "fcc3df6d-3569-4b96-97ed-c1cf9663ce53",
+     "result": "Both takes scored 5 of 5 on style, clear lyrics, energy and mix. Take A picked and published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-26T01:14Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Victorian comic operetta overture, instrumental, pit orchestra with bright strings, bassoon, piccolo and brass stabs, music-hall piano, rapid patter-like melody on clarinet and violins, accelerating sections, grand tutti refrains, witty and pompous, 132 bpm",
+      "negative_style": "vocals, singing, choir, electronic, rock drums, synth"
+     },
+     "style": "comic operetta overture, instrumental, 136 bpm",
+     "takes": [
+      {
+       "id": "b8f27a15-e8ad-4ea9-815e-605aada35532",
+       "duration_s": 137,
+       "suno_title": "The Hand-Over Patter (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_b8f27a15-e8ad-4ea9-815e-605aada35532.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 136,
+        "key": "C major",
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Quick patter-like strings and woodwinds, lively; peak level close to clipping."
+       }
+      },
+      {
+       "id": "5e20978b-7604-4ced-a31a-dbb467134703",
+       "duration_s": 128,
+       "suno_title": "The Hand-Over Patter (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_5e20978b-7604-4ced-a31a-dbb467134703.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 137,
+        "key": "C major",
+        "style_match": 5,
+        "melody_strength": 5,
+        "melody_continuity": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Agile woodwinds lead a strong patter-like melody over lively strings; clean, polished."
+       }
+      }
+     ],
+     "best": "5e20978b-7604-4ced-a31a-dbb467134703",
+     "result": "Take B picked (cleaner mix; take A peaks close to clipping). Take B published; take A private."
+    }
+   ]
+  },
   {
    "slug": "guitarra-em-bossa",
    "title": "Guitarra em Bossa",
@@ -650,7 +915,7 @@
       }
      ],
      "best": "d3b3d57a-f69a-4180-8954-cd3406d6f964",
-     "result": "Both takes alternate as asked. Take B is picked for the syncopation Dinis asked for (3 of 5) and ends on rock as asked, but its first acoustic part is long (1:39). Take A has even blocks and keeps the melody best (5 of 5) but its rock is fairly straight (2 of 5). Neither take is public yet: this session's permission check refused publishing them."
+     "result": "Both takes alternate as asked. Take B is picked for the syncopation Dinis asked for (3 of 5) and ends on rock as asked, but its first acoustic part is long (1:39). Take A has even blocks and keeps the melody best (5 of 5) but its rock is fairly straight (2 of 5). Take B published at 01:16 UTC; take A private."
     }
    ]
   },

@@ -1,13 +1,13 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-26T00:50Z",
+ "read_at": "2026-11-26T01:20Z",
  "plan": "Pro Plan",
  "period": "month",
  "renews_on": "2026-12-13",
  "song_credits": {
   "monthly_limit": 2500,
-  "used": 320,
-  "left": 2180
+  "used": 360,
+  "left": 2140
  },
  "download_credits": {
   "left": 15
@@ -111,6 +111,12 @@
    "what": "Guitarra e Cavaquinho, version 4 (Branco de Alentejo take B, acoustic and rock and roll in turn)",
    "song_credits": 10,
    "asked_by": "Dinis: redo it from take B, the version he liked"
+  },
+  {
+   "when": "2026-11-26T01:14Z",
+   "what": "Block 1: The Hand-Over Patter and Take B, each with lyrics and instrumental (four generations)",
+   "song_credits": 40,
+   "asked_by": "Dinis: four songs per block, witty lyrics, surprising styles"
   }
  ],
  "limit_note": "No working limit: Dinis, 25 Nov, \"the point here is to use all the credits\". Downloads only for takes picked for release."

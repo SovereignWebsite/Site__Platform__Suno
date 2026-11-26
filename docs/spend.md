@@ -38,3 +38,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-26 00:37 | audio-listen x2 | alternation, syncopation, melody, mix of both takes | 0 | 2,190 | 15 | for the song page |
 | 2026-11-26 00:42 | audio-create (reference: Guitarra e Cavaquinho v2 B, Branco de Alentejo) | "Guitarra e Cavaquinho", version 4, acoustic and rock and roll in turn, 2 takes, v6, instrumental | 10 | 2,180 | 15 | Dinis: redo it from take B |
 | 2026-11-26 00:44 | audio-listen x2 | alternation, syncopation, melody, mix of both takes | 0 | 2,180 | 15 | for the song page |
+| 2026-11-26 01:14 | audio-create x4 | Block 1: "The Hand-Over Patter" (comic operetta) and "Take B" (Balkan brass ska), each with lyrics and instrumental, 2 takes each, v6 | 40 | 2,140 | 15 | Dinis: four songs per four-hour block |
+| 2026-11-26 01:15 | audio-listen x8 | style, lyrics, melody, mix of all eight takes | 0 | 2,140 | 15 | for the song pages |
