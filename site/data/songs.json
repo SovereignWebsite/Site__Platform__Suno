@@ -362,31 +362,6 @@
      "style": "1940s big band swing, 160 bpm",
      "takes": [
       {
-       "id": "7557350f-2e4a-456d-89c1-923f30dd0bea",
-       "duration_s": 150,
-       "suno_title": "Too Sensual for the Show",
-       "cover": "https://cdn2.suno.ai/image_7557350f-2e4a-456d-89c1-923f30dd0bea.jpeg",
-       "side": "A",
-       "listen": {
-        "bpm": 155,
-        "key": "F major",
-        "lead": [
-         "baritone crooner",
-         "brass shout choruses",
-         "sax riffs"
-        ],
-        "style_match": 5,
-        "lyrics_clear": 5,
-        "energy": 5,
-        "mix_clean": 5,
-        "vocals": true,
-        "stops": [],
-        "sections": [],
-        "summary": "Lively big band swing, clear crooner, bold brass and sax; the final chorus completes.",
-        "complete_song": true
-       }
-      },
-      {
        "id": "33e2dba8-dd12-4f5f-b096-e32a39c1f0bf",
        "duration_s": 151,
        "suno_title": "Too Sensual for the Show",
@@ -410,8 +385,16 @@
        }
       }
      ],
-     "best": "7557350f-2e4a-456d-89c1-923f30dd0bea",
-     "result": "Take A: 5 of 5 on every count and the whole lyric sung. Take A published; take B private."
+     "best": "33e2dba8-dd12-4f5f-b096-e32a39c1f0bf",
+     "result": "Take A: 5 of 5 on every count and the whole lyric sung. Take A published; take B private. Take A was then trashed on Suno (found 27 Nov 04:52 UTC, when the playlists refused it). Take B is the one left, private.",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "7557350f-2e4a-456d-89c1-923f30dd0bea",
+       "on": "2026-11-27",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 2,
@@ -427,30 +410,6 @@
      },
      "style": "big band swing, instrumental, 160 bpm",
      "takes": [
-      {
-       "id": "3be40fae-d3f3-44ac-b2c6-41332c80bbe9",
-       "duration_s": 148,
-       "suno_title": "Too Sensual for the Show (instrumental)",
-       "cover": "https://cdn2.suno.ai/image_3be40fae-d3f3-44ac-b2c6-41332c80bbe9.jpeg",
-       "side": "A",
-       "listen": {
-        "bpm": 159,
-        "key": "C major",
-        "lead": [
-         "clarinet",
-         "brass section",
-         "saxophone section"
-        ],
-        "style_match": 5,
-        "melody_strength": 5,
-        "energy": 5,
-        "mix_clean": 5,
-        "vocals": false,
-        "stops": [],
-        "sections": [],
-        "summary": "Big band swing with a clarinet lead, brass shouts, sax riffs, walking bass; clean."
-       }
-      },
       {
        "id": "ba9fce99-a8cc-4d0f-839f-09048966301b",
        "duration_s": 152,
@@ -476,8 +435,16 @@
        }
       }
      ],
-     "best": "3be40fae-d3f3-44ac-b2c6-41332c80bbe9",
-     "result": "A tie (5, 5, 5, 5); take A by the tie rule. Take A published; take B private."
+     "best": "ba9fce99-a8cc-4d0f-839f-09048966301b",
+     "result": "A tie (5, 5, 5, 5); take A by the tie rule. Take A published; take B private. Take A was then trashed on Suno (found 27 Nov 04:52 UTC, when the playlists refused it). Take B is the one left, private.",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "3be40fae-d3f3-44ac-b2c6-41332c80bbe9",
+       "on": "2026-11-27",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     }
    ]
   },
@@ -515,31 +482,6 @@
      "style": "1930s Hawaiian hapa haole, 92 bpm",
      "takes": [
       {
-       "id": "67042c1c-7389-4715-bf3b-c5ee55e03c8f",
-       "duration_s": 110,
-       "suno_title": "Twenty Downloads, Fifteen Left",
-       "cover": "https://cdn2.suno.ai/image_67042c1c-7389-4715-bf3b-c5ee55e03c8f.jpeg",
-       "side": "A",
-       "listen": {
-        "bpm": 101,
-        "key": "B flat major",
-        "lead": [
-         "male baritone",
-         "steel guitar",
-         "ukulele"
-        ],
-        "style_match": 5,
-        "lyrics_clear": 4,
-        "energy": 1,
-        "mix_clean": 5,
-        "vocals": true,
-        "stops": [],
-        "sections": [],
-        "summary": "Relaxed vintage Hawaiian with steel guitar and strumming; the final chorus is cut off before its last line.",
-        "complete_song": false
-       }
-      },
-      {
        "id": "f4ac4d74-7499-4de9-87a3-24106958790f",
        "duration_s": 148,
        "suno_title": "Twenty Downloads, Fifteen Left",
@@ -565,8 +507,16 @@
        }
       }
      ],
-     "best": "67042c1c-7389-4715-bf3b-c5ee55e03c8f",
-     "result": "Both takes on style (5 of 5) and both cut off in the last chorus. A tie on total; take A has the cleaner mix. Take A published; take B private."
+     "best": "f4ac4d74-7499-4de9-87a3-24106958790f",
+     "result": "Both takes on style (5 of 5) and both cut off in the last chorus. A tie on total; take A has the cleaner mix. Take A published; take B private. Take A was then trashed on Suno (found 27 Nov 04:52 UTC, when the playlists refused it). Take B is the one left, private.",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "67042c1c-7389-4715-bf3b-c5ee55e03c8f",
+       "on": "2026-11-27",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 2,
@@ -582,30 +532,6 @@
      },
      "style": "Hawaiian steel guitar, instrumental, 92 bpm",
      "takes": [
-      {
-       "id": "96bd8426-4be4-46de-b3ed-383471ea0403",
-       "duration_s": 189,
-       "suno_title": "Twenty Downloads, Fifteen Left (instrumental)",
-       "cover": "https://cdn2.suno.ai/image_96bd8426-4be4-46de-b3ed-383471ea0403.jpeg",
-       "side": "A",
-       "listen": {
-        "bpm": 77,
-        "key": "G major",
-        "lead": [
-         "lap steel guitar",
-         "ukulele",
-         "upright bass"
-        ],
-        "style_match": 5,
-        "melody_strength": 5,
-        "energy": 2,
-        "mix_clean": 5,
-        "vocals": false,
-        "stops": [],
-        "sections": [],
-        "summary": "A singing lap steel melody over light strumming and bass; clean."
-       }
-      },
       {
        "id": "3f77a7ba-52b3-4a90-b78e-1884897e3ad6",
        "duration_s": 156,
@@ -631,8 +557,16 @@
        }
       }
      ],
-     "best": "96bd8426-4be4-46de-b3ed-383471ea0403",
-     "result": "A tie (5, 5, 2, 5); take A by the tie rule. Take A published; take B private."
+     "best": "3f77a7ba-52b3-4a90-b78e-1884897e3ad6",
+     "result": "A tie (5, 5, 2, 5); take A by the tie rule. Take A published; take B private. Take A was then trashed on Suno (found 27 Nov 04:52 UTC, when the playlists refused it). Take B is the one left, private.",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "96bd8426-4be4-46de-b3ed-383471ea0403",
+       "on": "2026-11-27",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     }
    ]
   },
@@ -690,33 +624,18 @@
         "summary": "A cappella madrigal with fa-la-la refrains, sung to a natural cadence.",
         "complete_song": true
        }
-      },
-      {
-       "id": "9236b49e-61f3-40d7-bea5-d4e2dc22081f",
-       "duration_s": 69,
-       "suno_title": "Cite the Memo by Its Id",
-       "cover": "https://cdn2.suno.ai/image_9236b49e-61f3-40d7-bea5-d4e2dc22081f.jpeg",
-       "side": "B",
-       "listen": {
-        "bpm": 113,
-        "key": "F major",
-        "lead": [
-         "four-part a cappella ensemble"
-        ],
-        "style_match": 5,
-        "lyrics_clear": 5,
-        "energy": 3,
-        "mix_clean": 5,
-        "vocals": true,
-        "stops": [],
-        "sections": [],
-        "summary": "A cappella madrigal, clear diction, fa-la-la refrains, a resolved ending.",
-        "complete_song": true
-       }
       }
      ],
-     "best": "9236b49e-61f3-40d7-bea5-d4e2dc22081f",
-     "result": "Both takes hit the style (5 of 5). Take B has the clearer words and mix. Take B published; take A private."
+     "best": "7e031a70-3f4c-4a27-a9c0-e647cd2ac019",
+     "result": "Both takes hit the style (5 of 5). Take B has the clearer words and mix. Take B published; take A private. Take B was then trashed on Suno (found 27 Nov 04:52 UTC, when the playlists refused it). Take A is the one left, private.",
+     "trashed": [
+      {
+       "side": "B",
+       "id": "9236b49e-61f3-40d7-bea5-d4e2dc22081f",
+       "on": "2026-11-27",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 2,
@@ -819,32 +738,6 @@
      "style": "1970s Afrobeat, 112 bpm",
      "takes": [
       {
-       "id": "3258ebf8-b0ba-4c00-a950-cbae51f334fc",
-       "duration_s": 289,
-       "suno_title": "Ten Credits Gone",
-       "cover": "https://cdn2.suno.ai/image_3258ebf8-b0ba-4c00-a950-cbae51f334fc.jpeg",
-       "side": "A",
-       "listen": {
-        "bpm": 112,
-        "key": "G minor",
-        "lead": [
-         "baritone lead vocal",
-         "blues harmonica",
-         "organ",
-         "interlocking guitars"
-        ],
-        "style_match": 4,
-        "lyrics_clear": 4,
-        "energy": 3,
-        "mix_clean": 4,
-        "vocals": true,
-        "stops": [],
-        "sections": [],
-        "summary": "Afrobeat groove with guitars, polyrhythmic drums, organ and call and response; horns mostly missing, a harmonica instead (the lyric mentions one); the last sung phrase is shortened.",
-        "complete_song": true
-       }
-      },
-      {
        "id": "053e6b3a-8d99-4171-85bd-f34e0c609035",
        "duration_s": 303,
        "suno_title": "Ten Credits Gone",
@@ -871,8 +764,16 @@
        }
       }
      ],
-     "best": "3258ebf8-b0ba-4c00-a950-cbae51f334fc",
-     "result": "Take A: closer to Afrobeat (4 of 5) and ends after the last refrain; a tie on total with take B, so the tie rule picks A too. Suno brought in a harmonica in both takes, from the lyric. Take A published; take B private."
+     "best": "053e6b3a-8d99-4171-85bd-f34e0c609035",
+     "result": "Take A: closer to Afrobeat (4 of 5) and ends after the last refrain; a tie on total with take B, so the tie rule picks A too. Suno brought in a harmonica in both takes, from the lyric. Take A published; take B private. Take A was then trashed on Suno (found 27 Nov 04:52 UTC, when the playlists refused it). Take B is the one left, private.",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "3258ebf8-b0ba-4c00-a950-cbae51f334fc",
+       "on": "2026-11-27",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     },
     {
      "n": 2,
@@ -888,29 +789,6 @@
      },
      "style": "1970s Afrobeat, instrumental, 112 bpm",
      "takes": [
-      {
-       "id": "5bb99a29-56d0-4422-9704-aa725e5fa2d4",
-       "duration_s": 242,
-       "suno_title": "Ten Credits Gone (instrumental)",
-       "cover": "https://cdn2.suno.ai/image_5bb99a29-56d0-4422-9704-aa725e5fa2d4.jpeg",
-       "side": "A",
-       "listen": {
-        "bpm": 106,
-        "key": "G minor",
-        "lead": [
-         "saxophones",
-         "trumpet"
-        ],
-        "style_match": 5,
-        "melody_strength": 5,
-        "energy": 5,
-        "mix_clean": 4,
-        "vocals": false,
-        "stops": [],
-        "sections": [],
-        "summary": "Afrobeat led by a memorable horn riff, interlocking guitars, polyrhythmic drums and organ; warm vintage mix."
-       }
-      },
       {
        "id": "9655f249-f1f8-40a8-acd5-a04e7df0c480",
        "duration_s": 239,
@@ -935,8 +813,16 @@
        }
       }
      ],
-     "best": "5bb99a29-56d0-4422-9704-aa725e5fa2d4",
-     "result": "Both takes hit the style (5 of 5); take A has more energy. Take A published; take B private."
+     "best": "9655f249-f1f8-40a8-acd5-a04e7df0c480",
+     "result": "Both takes hit the style (5 of 5); take A has more energy. Take A published; take B private. Take A was then trashed on Suno (found 27 Nov 04:52 UTC, when the playlists refused it). Take B is the one left, private.",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "5bb99a29-56d0-4422-9704-aa725e5fa2d4",
+       "on": "2026-11-27",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     }
    ]
   },
@@ -1377,29 +1263,6 @@
      "style": "Chicago blues instrumental, harmonica lead",
      "takes": [
       {
-       "id": "87aa9bbf-66df-481e-bc74-c6775081a9bf",
-       "duration_s": 154,
-       "suno_title": "Speech Ain't Free (instrumental)",
-       "cover": "https://cdn2.suno.ai/image_87aa9bbf-66df-481e-bc74-c6775081a9bf.jpeg",
-       "side": "A",
-       "listen": {
-        "bpm": 121,
-        "key": "G major",
-        "lead": [
-         "amplified harmonica",
-         "electric guitar"
-        ],
-        "style_match": 5,
-        "melody_strength": 5,
-        "energy": 4,
-        "mix_clean": 2,
-        "vocals": true,
-        "stops": [],
-        "sections": [],
-        "summary": "Chicago electric blues with the amplified harmonica out front playing the tune; a gritty vintage mix; brief vocal sounds, no words."
-       }
-      },
-      {
        "id": "79f4a842-15a8-40d5-bad6-5cf783981e20",
        "duration_s": 188,
        "suno_title": "Speech Ain't Free (instrumental)",
@@ -1423,8 +1286,16 @@
        "liked": true
       }
      ],
-     "best": "87aa9bbf-66df-481e-bc74-c6775081a9bf",
-     "result": "Take A is it: Chicago blues 5 of 5, the harmonica plays the sung melody, rough on purpose (mix 2). Taking the band from the sung take worked where two instrumental prompts did not. Take A published; take B private."
+     "best": "79f4a842-15a8-40d5-bad6-5cf783981e20",
+     "result": "Take A is it: Chicago blues 5 of 5, the harmonica plays the sung melody, rough on purpose (mix 2). Taking the band from the sung take worked where two instrumental prompts did not. Take A published; take B private. Take A was then trashed on Suno (found 27 Nov 04:52 UTC, when the playlists refused it). Take B is the one left, private, and liked by Dinis.",
+     "trashed": [
+      {
+       "side": "A",
+       "id": "87aa9bbf-66df-481e-bc74-c6775081a9bf",
+       "on": "2026-11-27",
+       "by": "Dinis Cruz, in the Suno app"
+      }
+     ]
     }
    ]
   },
