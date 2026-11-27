@@ -26,6 +26,308 @@
  "updated": "2026-11-26T13:00Z",
  "songs": [
   {
+   "slug": "cut-off-before-the",
+   "title": "Cut Off Before the",
+   "about": "Block 10, style 1: Brazilian forró about the sung takes that lost their last line, and its instrumental; it ends on a shout to test a fix.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 10 of the four-hourly blocks, the 12:47 UTC wake on 27 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Eight sung takes in a row (blocks 7 to 9: the Hawaiian, jungle, morna and Italo disco songs, both takes each) were cut off before their last line, by the listening tool; the klezmer song, which ended on a shouted Hey, was complete.",
+     "So this one ends on a short shout, to test whether that keeps the ending whole. Forró, Brazilian like the songs Dinis liked."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-27T12:49Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "Brazilian forró pé-de-serra, lively button accordion lead, zabumba drum and triangle driving a bouncing baião rhythm, warm cheeky male vocal, crowd answers oh, festive northeastern dance hall, clean recording, 120 bpm",
+      "negative_style": "electronic, synth, rock drums, trap, rap, autotune, modern pop production, female lead",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "Brazilian forró, 120 bpm",
+     "takes": [
+      {
+       "id": "ecd5acf8-d141-46f0-8150-7114751b32c3",
+       "duration_s": 90,
+       "suno_title": "Cut Off Before the",
+       "cover": "https://cdn2.suno.ai/image_ecd5acf8-d141-46f0-8150-7114751b32c3.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 117,
+        "key": "G major",
+        "lead": [
+         "male vocal",
+         "button accordion"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Lively forró with a playful vocal; reaches the final Hey.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "55af7386-4834-469a-9535-246ec6df50bb",
+       "duration_s": 88,
+       "suno_title": "Cut Off Before the",
+       "cover": "https://cdn2.suno.ai/image_55af7386-4834-469a-9535-246ec6df50bb.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 118,
+        "key": "G major",
+        "lead": [
+         "male vocal",
+         "button accordion",
+         "zabumba",
+         "triangle"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Forró with a cheeky vocal and clear words, resolving to the final Hey; clean.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": "55af7386-4834-469a-9535-246ec6df50bb",
+     "result": "Both takes on style and both complete: the short shouted ending worked. Take B is 5 of 5 on every count. Take B published; take A private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-27T12:49Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Brazilian forró pé-de-serra instrumental, lively button accordion carries the melody, zabumba drum and triangle driving a bouncing baião rhythm, acoustic guitar, festive northeastern dance hall, clean recording, 120 bpm",
+      "negative_style": "vocals, singing, humming, shouts, electronic, synth, rock drums, polka, modern production",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "forró, instrumental, 120 bpm",
+     "takes": [
+      {
+       "id": "d6e17762-e07f-4071-9b25-4f7aa49dc1b4",
+       "duration_s": 95,
+       "suno_title": "Cut Off Before the (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_d6e17762-e07f-4071-9b25-4f7aa49dc1b4.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 120,
+        "key": "E minor",
+        "lead": [
+         "button accordion",
+         "pífano-like woodwind"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Forró with a prominent accordion melody over zabumba and triangle; clean, no voices."
+       }
+      },
+      {
+       "id": "30c35a66-fc55-4508-9783-aca93493e6ac",
+       "duration_s": 85,
+       "suno_title": "Cut Off Before the (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_30c35a66-fc55-4508-9783-aca93493e6ac.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 121,
+        "key": "A minor",
+        "lead": [
+         "synth pluck",
+         "electronic bass",
+         "electronic drums"
+        ],
+        "style_match": 0,
+        "melody_strength": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "An electronic dance and reggaeton groove; not forró."
+       }
+      }
+     ],
+     "best": "d6e17762-e07f-4071-9b25-4f7aa49dc1b4",
+     "result": "Take A is the forró (5 of 5); take B went electronic (0). Take A published; take B private."
+    }
+   ]
+  },
+  {
+   "slug": "waiting-on-your-word",
+   "title": "Waiting on Your Word",
+   "about": "Block 10, style 2: a Coimbra fado serenade about the decisions waiting on Dinis, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 10 of the four-hourly blocks, the 12:47 UTC wake on 27 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Waiting on Dinis's word in suno.b's session: the vault key (ef0qj1ju exists), download credits (20 needed, 15 left), the eleven presenter clips in the neutral voice (110 credits), and whether to publish the liked private blues take.",
+     "Coimbra fado, the Portuguese guitar's serenade, for the style Dinis has liked most."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-27T12:49Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "Coimbra fado serenade, twelve-string Portuguese guitar (guitarra portuguesa) with ornamented runs and tremolo, classical guitar (viola) accompaniment, solemn tender male tenor, slow romantic serenade under a night sky, intimate acoustic recording, 70 bpm",
+      "negative_style": "electronic, synth, drum kit, rock, pop, trap, autotune, female lead, flamenco",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "Coimbra fado serenade, 70 bpm",
+     "takes": [
+      {
+       "id": "b083bdbf-6a77-422e-8b83-3fc6a4a5d860",
+       "duration_s": 165,
+       "suno_title": "Waiting on Your Word",
+       "cover": "https://cdn2.suno.ai/image_b083bdbf-6a77-422e-8b83-3fc6a4a5d860.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 71,
+        "key": "A minor",
+        "lead": [
+         "Portuguese guitar",
+         "classical guitar",
+         "male tenor"
+        ],
+        "style_match": 4,
+        "lyrics_clear": 4,
+        "energy": 2,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Coimbra-style serenade with an ornamented Portuguese guitar and a tender voice; the last line is cut off.",
+        "complete_song": false
+       }
+      },
+      {
+       "id": "bd6907a4-ad18-416f-bc71-2fd28e429382",
+       "duration_s": 198,
+       "suno_title": "Waiting on Your Word",
+       "cover": "https://cdn2.suno.ai/image_bd6907a4-ad18-416f-bc71-2fd28e429382.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 104,
+        "key": "D major",
+        "lead": [
+         "male vocal",
+         "classical guitar"
+        ],
+        "style_match": 1,
+        "lyrics_clear": 4,
+        "energy": 1,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "A gentle acoustic ballad with no Portuguese guitar; the last line is cut off.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "b083bdbf-6a77-422e-8b83-3fc6a4a5d860",
+     "result": "Take A keeps the Portuguese guitar (4 of 5) but loses its last line, as the songs without a shouted ending have. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-27T12:49Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Coimbra fado guitarrada instrumental, twelve-string Portuguese guitar (guitarra portuguesa) carries a rich continuous ornamented melody with tremolo, classical guitar (viola) accompaniment, slow romantic serenade, intimate acoustic recording, 70 bpm",
+      "negative_style": "vocals, singing, humming, electronic, synth, drum kit, rock, flamenco, mandolin lead",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "Coimbra guitarrada, instrumental, 70 bpm",
+     "takes": [
+      {
+       "id": "376a8df8-9090-45bf-82b9-e9846679415c",
+       "duration_s": 187,
+       "suno_title": "Waiting on Your Word (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_376a8df8-9090-45bf-82b9-e9846679415c.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 71,
+        "key": "B minor",
+        "lead": [
+         "Portuguese guitar"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 2,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Guitarrada with a flowing, tremolo-rich Portuguese guitar lead over classical guitar; clean."
+       }
+      },
+      {
+       "id": "a937ee2b-2962-426d-87ee-a66ebec9c0fb",
+       "duration_s": 168,
+       "suno_title": "Waiting on Your Word (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_a937ee2b-2962-426d-87ee-a66ebec9c0fb.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 65,
+        "key": "E major",
+        "lead": [
+         "Portuguese guitar"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 3,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Guitarrada with a continuous ornamented Portuguese guitar lead; warm and clean."
+       }
+      }
+     ],
+     "best": "a937ee2b-2962-426d-87ee-a66ebec9c0fb",
+     "result": "Both takes are the Portuguese guitar at the centre (5 of 5); take B has a little more lift. Take B published; take A private."
+    }
+   ]
+  },
+  {
    "slug": "eight-songs-in-the-bin",
    "title": "Eight Songs in the Bin",
    "about": "Block 9, style 1: a Cape Verdean morna about the eight published picks Dinis trashed, and its instrumental.",

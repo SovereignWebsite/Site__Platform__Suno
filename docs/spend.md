@@ -62,3 +62,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-27 04:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,680 | 15 | to pick the best takes |
 | 2026-11-27 08:48 | audio-create x4 | Block 9: Eight Songs in the Bin (morna, sung and instrumental) and Zero Out of Five (Italo disco, sung and instrumental) | 40 | 1,640 | 15 | Dinis: four songs every four hours |
 | 2026-11-27 08:49 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,640 | 15 | to pick the best takes |
+| 2026-11-27 12:49 | audio-create x4 | Block 10: Cut Off Before the (forró, sung and instrumental) and Waiting on Your Word (Coimbra fado, sung and instrumental) | 40 | 1,600 | 15 | Dinis: four songs every four hours |
+| 2026-11-27 12:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,600 | 15 | to pick the best takes |
