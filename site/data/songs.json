@@ -26,6 +26,313 @@
  "updated": "2026-11-26T13:00Z",
  "songs": [
   {
+   "slug": "too-sensual-for-the-show",
+   "title": "Too Sensual for the Show",
+   "about": "Block 7, style 1: 1940s big band swing about the podcast presenter's voice being too sensual, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 7 of the four-hourly blocks, the 00:47 UTC wake on 27 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Dinis's feedback on episode 1 (relayed by maestro.b): the descriptions bring it to life, but the voice was too sensual. Of four sample takes of a new opening, three still sounded intimate; one came out mostly neutral (4 of 5). Suno rewrote the style tags, adding nasal, chesty and deep bass. The music bed with fades worked on every take (docs/podcast/episode-1-feedback.md).",
+     "Big band swing for a crooner singing, with a wink, about not crooning."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-27T00:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "1940s big band swing, smooth male crooner lead, full swing orchestra with brass section shout choruses, saxophone section riffs, walking upright bass, swinging ride cymbal and brushes, close-harmony backing vocals answering bop bop, playful and witty, vintage ballroom recording, 160 bpm",
+      "negative_style": "rock, electronic, synth, trap, rap, autotune, modern pop production, female lead",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "1940s big band swing, 160 bpm",
+     "takes": [
+      {
+       "id": "7557350f-2e4a-456d-89c1-923f30dd0bea",
+       "duration_s": 150,
+       "suno_title": "Too Sensual for the Show",
+       "cover": "https://cdn2.suno.ai/image_7557350f-2e4a-456d-89c1-923f30dd0bea.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 155,
+        "key": "F major",
+        "lead": [
+         "baritone crooner",
+         "brass shout choruses",
+         "sax riffs"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Lively big band swing, clear crooner, bold brass and sax; the final chorus completes.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "33e2dba8-dd12-4f5f-b096-e32a39c1f0bf",
+       "duration_s": 151,
+       "suno_title": "Too Sensual for the Show",
+       "cover": "https://cdn2.suno.ai/image_33e2dba8-dd12-4f5f-b096-e32a39c1f0bf.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 160,
+        "key": "F major",
+        "lead": [
+         "male crooner"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 4,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Big band swing; the final refrain is cut off mid-line.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "7557350f-2e4a-456d-89c1-923f30dd0bea",
+     "result": "Take A: 5 of 5 on every count and the whole lyric sung. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-27T00:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1940s big band swing instrumental, full swing orchestra, trumpet and trombone section shout chorus carries the catchy main theme, saxophone section answers in riffs, clarinet solo, walking upright bass, swinging ride cymbal and brushes, vintage ballroom recording, 160 bpm",
+      "negative_style": "vocals, singing, humming, scat, rock, electronic, synth, smooth jazz, lounge, modern production",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "big band swing, instrumental, 160 bpm",
+     "takes": [
+      {
+       "id": "3be40fae-d3f3-44ac-b2c6-41332c80bbe9",
+       "duration_s": 148,
+       "suno_title": "Too Sensual for the Show (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_3be40fae-d3f3-44ac-b2c6-41332c80bbe9.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 159,
+        "key": "C major",
+        "lead": [
+         "clarinet",
+         "brass section",
+         "saxophone section"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Big band swing with a clarinet lead, brass shouts, sax riffs, walking bass; clean."
+       }
+      },
+      {
+       "id": "ba9fce99-a8cc-4d0f-839f-09048966301b",
+       "duration_s": 152,
+       "suno_title": "Too Sensual for the Show (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_ba9fce99-a8cc-4d0f-839f-09048966301b.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 161,
+        "key": "F major",
+        "lead": [
+         "brass",
+         "clarinet",
+         "saxophones"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Brisk big band swing with a brass and reed theme and a clarinet feature; clean."
+       }
+      }
+     ],
+     "best": "3be40fae-d3f3-44ac-b2c6-41332c80bbe9",
+     "result": "A tie (5, 5, 5, 5); take A by the tie rule. Take A published; take B private."
+    }
+   ]
+  },
+  {
+   "slug": "twenty-downloads-fifteen-left",
+   "title": "Twenty Downloads, Fifteen Left",
+   "about": "Block 7, style 2: a 1930s Hawaiian steel guitar song about the vault that needs 20 downloads with 15 left, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 7 of the four-hourly blocks, the 00:47 UTC wake on 27 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "b.vault.keeper made the Songs show vault (ef0qj1ju). Filling it needs downloads at one download credit each: nine songs and eleven presenter clips make 20, with 15 left until 13 December.",
+     "This session's permission check refused installing the vault tool and making a key on a relayed request, so the vault waits on Dinis's word here.",
+     "Hawaiian steel guitar for a gentle, unhurried wait."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-27T00:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "1930s Hawaiian hapa haole song, sweet gliding steel guitar lead and fills, ukulele strumming, slack-key acoustic guitar, upright bass, gentle swaying rhythm, warm relaxed male tenor vocal with light falsetto turns, vintage mono recording, 92 bpm",
+      "negative_style": "reggae, rock, electronic, synth, trap, rap, autotune, modern pop production, female lead",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "1930s Hawaiian hapa haole, 92 bpm",
+     "takes": [
+      {
+       "id": "67042c1c-7389-4715-bf3b-c5ee55e03c8f",
+       "duration_s": 110,
+       "suno_title": "Twenty Downloads, Fifteen Left",
+       "cover": "https://cdn2.suno.ai/image_67042c1c-7389-4715-bf3b-c5ee55e03c8f.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 101,
+        "key": "B flat major",
+        "lead": [
+         "male baritone",
+         "steel guitar",
+         "ukulele"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 1,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Relaxed vintage Hawaiian with steel guitar and strumming; the final chorus is cut off before its last line.",
+        "complete_song": false
+       }
+      },
+      {
+       "id": "f4ac4d74-7499-4de9-87a3-24106958790f",
+       "duration_s": 148,
+       "suno_title": "Twenty Downloads, Fifteen Left",
+       "cover": "https://cdn2.suno.ai/image_f4ac4d74-7499-4de9-87a3-24106958790f.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 127,
+        "key": "C major",
+        "lead": [
+         "relaxed tenor",
+         "ukulele",
+         "steel guitar"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 2,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Vintage Hawaiian with steel slides; repeats a verse and chorus, and the last line is cut off before an instrumental tail.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "67042c1c-7389-4715-bf3b-c5ee55e03c8f",
+     "result": "Both takes on style (5 of 5) and both cut off in the last chorus. A tie on total; take A has the cleaner mix. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-27T00:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1930s Hawaiian steel guitar instrumental, sweet gliding lap steel guitar carries the melody throughout, ukulele strumming, slack-key acoustic guitar fills, upright bass, gentle swaying rhythm, vintage mono recording, 92 bpm",
+      "negative_style": "vocals, singing, humming, choir, reggae, rock, electronic, synth, country, modern production",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "Hawaiian steel guitar, instrumental, 92 bpm",
+     "takes": [
+      {
+       "id": "96bd8426-4be4-46de-b3ed-383471ea0403",
+       "duration_s": 189,
+       "suno_title": "Twenty Downloads, Fifteen Left (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_96bd8426-4be4-46de-b3ed-383471ea0403.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 77,
+        "key": "G major",
+        "lead": [
+         "lap steel guitar",
+         "ukulele",
+         "upright bass"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 2,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "A singing lap steel melody over light strumming and bass; clean."
+       }
+      },
+      {
+       "id": "3f77a7ba-52b3-4a90-b78e-1884897e3ad6",
+       "duration_s": 156,
+       "suno_title": "Twenty Downloads, Fifteen Left (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_3f77a7ba-52b3-4a90-b78e-1884897e3ad6.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 88,
+        "key": "C major",
+        "lead": [
+         "lap steel guitar",
+         "ukulele",
+         "plucked bass"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 2,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Hawaiian string band with a sliding lap steel melody; clean."
+       }
+      }
+     ],
+     "best": "96bd8426-4be4-46de-b3ed-383471ea0403",
+     "result": "A tie (5, 5, 2, 5); take A by the tie rule. Take A published; take B private."
+    }
+   ]
+  },
+  {
    "slug": "cite-the-memo",
    "title": "Cite the Memo by Its Id",
    "about": "Block 6, style 1: an English Renaissance madrigal about citing Dinis's memos by id rather than by a guessed time, and its instrumental.",
