@@ -26,6 +26,380 @@
  "updated": "2026-11-26T13:00Z",
  "songs": [
   {
+   "slug": "end-it-with-a-shout",
+   "title": "End It with a Shout",
+   "about": "Block 11, style 1: a Portuguese vira about the new rule that every sung lyric ends on a shout, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 11 of the four-hourly blocks, the 16:47 UTC wake on 27 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Block 10's forró song ended on a shouted Hey and both takes were complete, after eight sung takes in a row lost their last line; the fado song without one lost its last line again. The rule is now in learnings.md.",
+     "Vira, the Minho folk dance, close to the Portuguese music Dinis likes; the song itself ends on a shout."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-27T16:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "Portuguese vira from the Minho, lively folk dance in 3/4 turning rhythm, concertina and cavaquinho, bombo drum and ferrinhos triangle, festive village choir answering, bright male lead vocal, rancho folclórico energy, clean recording, 132 bpm",
+      "negative_style": "electronic, synth, rock drums, trap, rap, autotune, modern pop production, polka",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "Portuguese vira, 132 bpm",
+     "takes": [
+      {
+       "id": "aa934169-9074-47c5-913c-8273c6157c1a",
+       "duration_s": 98,
+       "suno_title": "End It with a Shout",
+       "cover": "https://cdn2.suno.ai/image_aa934169-9074-47c5-913c-8273c6157c1a.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 132,
+        "key": "C major",
+        "lead": [
+         "male lead vocal",
+         "backing choir",
+         "concertina-like lead"
+        ],
+        "style_match": 2,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "An energetic folk dance in 4/4, not a vira; the final Hey not confirmed.",
+        "complete_song": false
+       }
+      },
+      {
+       "id": "1c174db1-bd53-427c-90ac-aa6d52eca1ce",
+       "duration_s": 97,
+       "suno_title": "End It with a Shout",
+       "cover": "https://cdn2.suno.ai/image_1c174db1-bd53-427c-90ac-aa6d52eca1ce.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 133,
+        "key": "G major",
+        "lead": [
+         "male lead vocal",
+         "group shouts"
+        ],
+        "style_match": 2,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Folk-pop and polka in 4/4, not a vira; ends on the Hey.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": null,
+     "result": "Both takes missed the style (2 of 5): polka-like in 4/4, not the vira's turning 3/4. Both private; made again (version 2)."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-27T16:52Z",
+     "label": "With the lyric, second try (3/4 spelled out)",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "traditional Portuguese vira from the Minho in 3/4 waltz time, strong ONE-two-three turning pulse, diatonic concertina melody, cavaquinho strumming on every beat, bombo bass drum on beat one, ferrinhos triangle, village rancho choir answering in Portuguese folk style, bright male lead vocal, festive village dance, 132 bpm",
+      "negative_style": "polka, 4/4, march, two-step, country, folk-pop, electronic, synth, rock drums, modern pop production",
+      "vocal_gender": "male",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "Portuguese vira, 3/4 asked, 132 bpm",
+     "takes": [
+      {
+       "id": "45f8c248-8c8d-43dd-892d-6e80d0893797",
+       "duration_s": 96,
+       "suno_title": "End It with a Shout",
+       "cover": "https://cdn2.suno.ai/image_45f8c248-8c8d-43dd-892d-6e80d0893797.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 133,
+        "key": "G major",
+        "lead": [
+         "concertina-like lead",
+         "male lead vocal",
+         "ensemble chorus"
+        ],
+        "style_match": 2,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Still polka-like in 4/4; ends on the Hey.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "9ce17e4d-1ae3-4169-b5a1-fe606913af15",
+       "duration_s": 106,
+       "suno_title": "End It with a Shout",
+       "cover": "https://cdn2.suno.ai/image_9ce17e4d-1ae3-4169-b5a1-fe606913af15.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 133,
+        "key": "F major",
+        "lead": [
+         "accordion",
+         "strummed strings",
+         "male lead vocal",
+         "male chorus"
+        ],
+        "style_match": 3,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Upbeat folk song with very clear words, ending on the shouted Hey; still 4/4.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": "9ce17e4d-1ae3-4169-b5a1-fe606913af15",
+     "result": "Take B reaches 3 of 5, clear and clean, and complete; Suno kept the 4/4 even with 3/4 spelled out and 4/4 as a negative. Take B published; take A private."
+    },
+    {
+     "n": 3,
+     "made": "2026-11-27T16:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Portuguese vira from the Minho instrumental, lively folk dance in 3/4 turning rhythm, concertina carries the melody, cavaquinho and acoustic guitar strumming, bombo drum and ferrinhos triangle, rancho folclórico energy, clean recording, 132 bpm",
+      "negative_style": "vocals, singing, humming, choir, shouts, electronic, synth, rock drums, polka, modern production",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "Portuguese vira, instrumental, 132 bpm",
+     "takes": [
+      {
+       "id": "a23ad4f8-7c51-4751-82c1-3cde480d0d12",
+       "duration_s": 117,
+       "suno_title": "End It with a Shout (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_a23ad4f8-7c51-4751-82c1-3cde480d0d12.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 135,
+        "key": "G major",
+        "lead": [
+         "concertina-like reed",
+         "acoustic strumming",
+         "folk percussion"
+        ],
+        "style_match": 3,
+        "melody_strength": 4,
+        "energy": 4,
+        "mix_clean": 4,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "A bright folk dance, more duple and polka-like than a vira."
+       }
+      },
+      {
+       "id": "f7de034c-fd2b-4a8b-a0ed-33f0765832b6",
+       "duration_s": 104,
+       "suno_title": "End It with a Shout (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_f7de034c-fd2b-4a8b-a0ed-33f0765832b6.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 134,
+        "key": "C major",
+        "lead": [
+         "concertina",
+         "cavaquinho-like strings"
+        ],
+        "style_match": 5,
+        "melody_strength": 4.5,
+        "energy": 4.5,
+        "mix_clean": 4.5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "A vira-like folk dance with a turning feel and a prominent concertina melody; clean."
+       }
+      }
+     ],
+     "best": "f7de034c-fd2b-4a8b-a0ed-33f0765832b6",
+     "result": "Take B is the vira (5 of 5). Take B published; take A private."
+    }
+   ]
+  },
+  {
+   "slug": "sixteen-hundred-samba",
+   "title": "Sixteen Hundred, Samba",
+   "about": "Block 11, style 2: a Rio samba-enredo doing the sum on the song credits left, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 11 of the four-hourly blocks, the 16:47 UTC wake on 27 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "At the 16:47 wake: 1,600 song credits left; a block is 40, six blocks a day is 240, so they last about six and two-thirds days, to around 4 December, before the renewal on 13 December. Dinis on 25 Nov: use all the credits; if they run out, he will get more. The wake stops below 100.",
+     "Samba-enredo for a sum sung by a whole parade."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-27T16:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "Rio de Janeiro samba-enredo, full carnival bateria with surdo, caixa, repinique, tamborim and cuíca, cavaquinho driving the harmony, powerful male puxador lead vocal with the whole escola choir answering, joyful parade energy, 140 bpm",
+      "negative_style": "electronic, synth, rock drums, trap, rap, autotune, bossa nova, slow, modern pop production",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "Rio samba-enredo, 140 bpm",
+     "takes": [
+      {
+       "id": "60e147ce-352a-442d-805b-69e3aaf40056",
+       "duration_s": 127,
+       "suno_title": "Sixteen Hundred, Samba",
+       "cover": "https://cdn2.suno.ai/image_60e147ce-352a-442d-805b-69e3aaf40056.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 144,
+        "key": "G minor",
+        "lead": [
+         "male lead singer",
+         "answering choir"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "High-energy samba-enredo with bateria and cavaquinho; clear words; ends on the Hey.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "4aa9f155-ceab-4edf-aa64-ad278c3b3e17",
+       "duration_s": 103,
+       "suno_title": "Sixteen Hundred, Samba",
+       "cover": "https://cdn2.suno.ai/image_4aa9f155-ceab-4edf-aa64-ad278c3b3e17.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 143,
+        "key": "F major",
+        "lead": [
+         "lead singer",
+         "answering choir"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 3,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Samba-enredo with call and response; words only partly clear; ends on the Hey.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": "60e147ce-352a-442d-805b-69e3aaf40056",
+     "result": "Both on style and both complete; take A has the clearer words. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-27T16:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Rio de Janeiro samba-enredo instrumental, full carnival bateria with surdo, caixa, repinique, tamborim and cuíca, cavaquinho and trumpet carry the parade melody, joyful carnival energy, 140 bpm",
+      "negative_style": "vocals, singing, humming, choir, chants, electronic, synth, rock drums, bossa nova, slow",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "samba-enredo, instrumental, 140 bpm",
+     "takes": [
+      {
+       "id": "f558cfec-98aa-4c81-99cd-6e8b88afde47",
+       "duration_s": 101,
+       "suno_title": "Sixteen Hundred, Samba (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_f558cfec-98aa-4c81-99cd-6e8b88afde47.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 143,
+        "key": "F major",
+        "lead": [
+         "trumpet",
+         "cavaquinho",
+         "bateria"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Samba-enredo with a full bateria and a trumpet melody; clean, no voices."
+       }
+      },
+      {
+       "id": "ae64971f-39b5-49e3-b915-7d62883fbe10",
+       "duration_s": 96,
+       "suno_title": "Sixteen Hundred, Samba (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_ae64971f-39b5-49e3-b915-7d62883fbe10.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 143,
+        "key": "F major",
+        "lead": [
+         "trumpet",
+         "cavaquinho",
+         "bateria"
+        ],
+        "style_match": 4,
+        "melody_strength": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "A carnival street-band hybrid, slightly synthetic."
+       }
+      }
+     ],
+     "best": "f558cfec-98aa-4c81-99cd-6e8b88afde47",
+     "result": "Take A: 5 of 5 on every count. Take A published; take B private."
+    }
+   ]
+  },
+  {
    "slug": "cut-off-before-the",
    "title": "Cut Off Before the",
    "about": "Block 10, style 1: Brazilian forró about the sung takes that lost their last line, and its instrumental; it ends on a shout to test a fix.",

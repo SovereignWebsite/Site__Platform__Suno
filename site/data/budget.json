@@ -1,13 +1,13 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-27T12:52Z",
+ "read_at": "2026-11-27T16:54Z",
  "plan": "Pro Plan",
  "period": "month",
  "renews_on": "2026-12-13",
  "song_credits": {
   "monthly_limit": 2500,
-  "used": 900,
-  "left": 1600
+  "used": 950,
+  "left": 1550
  },
  "download_credits": {
   "left": 15
@@ -182,6 +182,12 @@
    "when": "2026-11-27T12:49Z",
    "what": "Block 10: Brazilian forró and Coimbra fado, each sung and instrumental; 4 generations, a best take on style in each, no retry. The counter fell by exactly 40",
    "song_credits": 40,
+   "asked_by": "Dinis: four songs every four hours, budget no object"
+  },
+  {
+   "when": "2026-11-27T16:48Z to 16:52Z",
+   "what": "Block 11: Portuguese vira and Rio samba-enredo, each sung and instrumental; 5 generations (the vira song missed and was made again). The counter fell by exactly 50",
+   "song_credits": 50,
    "asked_by": "Dinis: four songs every four hours, budget no object"
   }
  ],
