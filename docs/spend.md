@@ -66,3 +66,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-27 12:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,600 | 15 | to pick the best takes |
 | 2026-11-27 16:48 to 16:52 | audio-create x5 | Block 11: End It with a Shout (vira: sung twice, instrumental) and Sixteen Hundred, Samba (samba-enredo, sung and instrumental) | 50 | 1,550 | 15 | Dinis: four songs every four hours |
 | 2026-11-27 16:49 to 16:53 | audio-listen x10 | style, lyrics, completeness, melody, mix of all ten takes | 0 | 1,550 | 15 | to pick the best takes |
+| 2026-11-27 20:49 | audio-create x4 | Block 12: One Song, One Download (kuduro, sung and instrumental) and Out by the Fourth (surf rock, sung and instrumental) | 40 | 1,510 | 15 | Dinis: four songs every four hours |
+| 2026-11-27 20:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,510 | 15 | to pick the best takes |

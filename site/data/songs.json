@@ -23,8 +23,308 @@
   }
  ],
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
- "updated": "2026-11-26T13:00Z",
+ "updated": "2026-11-27T21:00Z",
  "songs": [
+  {
+   "slug": "one-song-one-download",
+   "title": "One Song, One Download",
+   "about": "Block 12, style 1: an Angolan kuduro on Suno's download rule (any format counts as one download, and MP3 costs a credit too), and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 12 of the four-hourly blocks, the 20:47 UTC wake on 27 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Dinis asked, through elevenlabs.b, whether the songs can go to SoundCloud several a day without the download limit. On account B both MP3 and WAV asked for a download credit (15 left); Suno's help centre says Pro has 20 downloads a month, Premier 60, and several formats of one song count as one download; the terms make commercial use depend on a proper download and forbid stream ripping.",
+     "Kuduro: Angolan, Lusophone and electronic, close to what Dinis keeps."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-27T20:49Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "Angolan kuduro, Luanda street dance, hard fast electronic kuduro beat with heavy kick and snappy snares, buzzing synth bass, stabbing synth riff, energetic shouted male MC-style lead vocal, crowd chants answering, party energy, 135 bpm",
+      "negative_style": "acoustic, folk, ballad, slow, orchestral, rock guitar, country, lo-fi, female lead",
+      "controls": "style influence 0.85"
+     },
+     "style": "Angolan kuduro, 135 bpm",
+     "takes": [
+      {
+       "id": "df3980be-d514-4ae7-b141-7d2437c5ea53",
+       "duration_s": 132,
+       "suno_title": "One Song, One Download",
+       "cover": "https://cdn2.suno.ai/image_df3980be-d514-4ae7-b141-7d2437c5ea53.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 136,
+        "key": "G minor",
+        "lead": [
+         "male MC-style vocal",
+         "chant-like responses"
+        ],
+        "style_match": 3,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Kuduro-like electronic dance with English words; the vocal stops on a clipped line before the end, no final Hey.",
+        "complete_song": false
+       }
+      },
+      {
+       "id": "cd07e0d6-2dd8-42fa-a2c0-31ba329ed794",
+       "duration_s": 131,
+       "suno_title": "One Song, One Download",
+       "cover": "https://cdn2.suno.ai/image_cd07e0d6-2dd8-42fa-a2c0-31ba329ed794.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 137,
+        "key": "D major",
+        "lead": [
+         "male chant-style vocal",
+         "synth bass",
+         "electronic percussion"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Kuduro, high energy, clear chanted words; the vocal ends before the final Hey and the outro cuts off.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "cd07e0d6-2dd8-42fa-a2c0-31ba329ed794",
+     "result": "Take B: on style (5 of 5), but both takes stopped before the final Hey, the first miss since the shout rule. Take B published; take A private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-27T20:49Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Angolan kuduro instrumental, Luanda street dance, hard fast electronic kuduro beat with heavy kick and snappy snares, buzzing synth bass, catchy stabbing synth lead carries the melody, percussion breaks, party energy, 135 bpm",
+      "negative_style": "vocals, singing, humming, MC, rap, chants, vocal chops, acoustic, folk, slow, orchestral, rock guitar, lo-fi",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "Angolan kuduro, instrumental, 135 bpm",
+     "takes": [
+      {
+       "id": "323cfbb8-14f3-4cd8-b7cf-21c02a83bb2e",
+       "duration_s": 124,
+       "suno_title": "One Song, One Download (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_323cfbb8-14f3-4cd8-b7cf-21c02a83bb2e.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 136,
+        "key": "E minor",
+        "lead": [
+         "synth riffs",
+         "synth stabs"
+        ],
+        "style_match": 5,
+        "melody_strength": 2,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Kuduro instrumental, hard and clean, but the synth lead comes in short riffs, not a continuous melody."
+       }
+      },
+      {
+       "id": "d74ab203-b6c7-43ed-a05b-d200cf8c6c62",
+       "duration_s": 133,
+       "suno_title": "One Song, One Download (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_d74ab203-b6c7-43ed-a05b-d200cf8c6c62.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 134,
+        "key": "G major",
+        "lead": [
+         "synth lead melody",
+         "buzzing synth bass"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Kuduro instrumental with a persistent synth melody; clean, no voices."
+       }
+      }
+     ],
+     "best": "d74ab203-b6c7-43ed-a05b-d200cf8c6c62",
+     "result": "Take B: 5 of 5 on every count. Take B published; take A private."
+    }
+   ]
+  },
+  {
+   "slug": "out-by-the-fourth",
+   "title": "Out by the Fourth",
+   "about": "Block 12, style 2: early 1960s surf rock on the song credits running out around 4 December, nine days before the renewal, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 12 of the four-hourly blocks, the 20:47 UTC wake on 27 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "At the 20:47 wake: 1,550 song credits left; 40 a block, six blocks a day is 240, so they run out around 4 December; the renewal is on 13 December. The wake stops and tells Dinis below 100.",
+     "Surf rock: a beach to wait on."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-27T20:49Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "early 1960s California surf rock, twangy reverb-drenched electric guitar, fast tremolo-picked runs, driving surf drum beat with tom fills, Fender bass, bright male lead vocal with close harmony backing singers, beach party energy, clean vintage recording, 160 bpm",
+      "negative_style": "electronic, synth, trap, rap, autotune, modern pop production, heavy metal, distortion, acoustic folk, slow ballad",
+      "controls": "style influence 0.85"
+     },
+     "style": "early 1960s surf rock, 160 bpm",
+     "takes": [
+      {
+       "id": "0c26b01c-158b-438d-be79-2dfbc9dc4c04",
+       "duration_s": 69,
+       "suno_title": "Out by the Fourth",
+       "cover": "https://cdn2.suno.ai/image_0c26b01c-158b-438d-be79-2dfbc9dc4c04.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 156,
+        "key": "E major",
+        "lead": [
+         "male lead vocal",
+         "close harmonies",
+         "reverb guitar"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Surf rock, clear words; the end cuts off abruptly after the final Hey.",
+        "complete_song": false
+       }
+      },
+      {
+       "id": "c521f21c-a2a0-41e7-bfcc-8dbcef90e0ef",
+       "duration_s": 107,
+       "suno_title": "Out by the Fourth",
+       "cover": "https://cdn2.suno.ai/image_c521f21c-a2a0-41e7-bfcc-8dbcef90e0ef.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 160,
+        "key": "E major",
+        "lead": [
+         "male lead vocal",
+         "close harmonies"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Surf rock with twangy reverb guitar and surf drums; complete, ending on the Hey.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": "c521f21c-a2a0-41e7-bfcc-8dbcef90e0ef",
+     "result": "Take B: on style and complete. Take B published; take A (69 s, cut off) private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-27T20:49Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "early 1960s California surf rock instrumental, twangy reverb-drenched lead electric guitar carries the melody, fast tremolo-picked runs, driving surf drum beat with tom fills, Fender bass, rhythm guitar, beach party energy, clean vintage recording, 160 bpm",
+      "negative_style": "vocals, singing, humming, choir, shouts, electronic, synth, modern production, distortion, heavy metal, slow",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "early 1960s surf rock, instrumental, 160 bpm",
+     "takes": [
+      {
+       "id": "0839bb38-70d6-433a-a82e-f37d85174331",
+       "duration_s": 122,
+       "suno_title": "Out by the Fourth (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_0839bb38-70d6-433a-a82e-f37d85174331.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 164,
+        "key": "E major",
+        "lead": [
+         "reverb electric lead guitar",
+         "tremolo-picked runs"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Surf rock instrumental with a continuous reverb guitar melody; clean, no voices."
+       }
+      },
+      {
+       "id": "b8be2200-5d1d-4dee-bb4d-6756bcccdced",
+       "duration_s": 119,
+       "suno_title": "Out by the Fourth (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_b8be2200-5d1d-4dee-bb4d-6756bcccdced.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 168,
+        "key": "E major",
+        "lead": [
+         "reverb electric guitar",
+         "tremolo-picked runs"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Surf rock instrumental, continuous guitar melody, driving drums; no voices."
+       }
+      }
+     ],
+     "best": "0839bb38-70d6-433a-a82e-f37d85174331",
+     "result": "Both takes 5 of 5 on every count; a tie, so take A. Take A published; take B private."
+    }
+   ]
+  },
   {
    "slug": "end-it-with-a-shout",
    "title": "End It with a Shout",
