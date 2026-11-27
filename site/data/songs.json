@@ -26,6 +26,310 @@
  "updated": "2026-11-26T13:00Z",
  "songs": [
   {
+   "slug": "the-wrong-take",
+   "title": "The Wrong Take",
+   "about": "Block 8, style 1: a klezmer song about Dinis liking the take the listening tool scored zero, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 8 of the four-hourly blocks, the 04:47 UTC wake on 27 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "At the 04:47 wake, Dinis's likes on Suno included Speech Ain't Free v4 take B (79f4a842): the private take the listening tool called modern electronic novelty pop with chants, style 0 of 5. Take A (5 of 5) was the one published.",
+     "Klezmer for a wry, bittersweet shrug: the tool measures tempo, the listener decides."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-27T04:49Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "traditional klezmer, wailing clarinet with krekhts ornaments, fiddle, accordion, tuba and upright bass, tsimbl, bulgar dance rhythm that accelerates, freylekhs, theatrical male lead with a wry comic delivery, band shouts Hey, joyful and bittersweet, 120 bpm",
+      "negative_style": "electronic, synth, trap, rap, autotune, rock drums, modern pop production, female lead",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "traditional klezmer, 120 bpm",
+     "takes": [
+      {
+       "id": "ab7e34fc-04e4-4f34-9bf0-6d5226f80ca9",
+       "duration_s": 102,
+       "suno_title": "The Wrong Take",
+       "cover": "https://cdn2.suno.ai/image_ab7e34fc-04e4-4f34-9bf0-6d5226f80ca9.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 128,
+        "key": "G minor",
+        "lead": [
+         "male comic lead vocal"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Klezmer with clarinet, fiddle and accordion on a bulgar pulse; sung through to the final Hey.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "d0ef6221-7fef-47b4-b8ba-f091d2a73760",
+       "duration_s": 101,
+       "suno_title": "The Wrong Take",
+       "cover": "https://cdn2.suno.ai/image_d0ef6221-7fef-47b4-b8ba-f091d2a73760.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 134,
+        "key": "G minor",
+        "lead": [
+         "male lead vocal"
+        ],
+        "style_match": 1,
+        "lyrics_clear": 4,
+        "energy": 4,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Upbeat novelty pop with a theatrical vocal; not klezmer.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": "ab7e34fc-04e4-4f34-9bf0-6d5226f80ca9",
+     "result": "Take A: klezmer 5 of 5, complete. Take B came out as novelty pop (1 of 5), much like the take the song is about. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-27T04:49Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "traditional klezmer instrumental, wailing clarinet carries the melody with krekhts ornaments, fiddle answers, accordion, tuba and upright bass, tsimbl, slow doina opening then a bulgar dance that accelerates to a wild freylekhs finish, joyful and bittersweet, 120 bpm",
+      "negative_style": "vocals, singing, humming, shouts, electronic, synth, rock drums, jazz, modern production",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "klezmer, instrumental, 120 bpm",
+     "takes": [
+      {
+       "id": "01c5fc98-36a7-4180-b2e0-4e845b6fa04d",
+       "duration_s": 167,
+       "suno_title": "The Wrong Take (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_01c5fc98-36a7-4180-b2e0-4e845b6fa04d.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 131,
+        "key": "G minor",
+        "lead": [
+         "clarinet",
+         "fiddle"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Klezmer dance with an ornamented clarinet and fiddle lead, a measured opening building to an energetic dance; clean."
+       }
+      },
+      {
+       "id": "bbcfb6c9-cca3-4168-8013-8a1d44703027",
+       "duration_s": 166,
+       "suno_title": "The Wrong Take (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_bbcfb6c9-cca3-4168-8013-8a1d44703027.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 122,
+        "key": "G minor",
+        "lead": [
+         "clarinet",
+         "fiddle",
+         "accordion"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Klezmer with a clarinet lead and a freer opening; a few background cheers."
+       }
+      }
+     ],
+     "best": "01c5fc98-36a7-4180-b2e0-4e845b6fa04d",
+     "result": "Take A: 5 of 5 on every count, no cheers. Take A published; take B private."
+    }
+   ]
+  },
+  {
+   "slug": "remove-twenty-add-twenty",
+   "title": "Remove Twenty, Add Twenty",
+   "about": "Block 8, style 2: 1990s jungle drum and bass about rebuilding the playlists at every wake, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 8 of the four-hourly blocks, the 04:47 UTC wake on 27 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Suno's playlists only append, so each wake removes all twenty (and ten) songs and adds them back newest first; a trashed take is refused on add, which is how trashed takes are found.",
+     "Seven blocks by then: fourteen styles, twenty-eight published takes.",
+     "Jungle for something done fast, mechanically and over and over."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-27T04:49Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "1990s jungle drum and bass, fast chopped amen breakbeats, deep rolling reese bass, dark atmospheric pads, MC-style rhythmic male vocal riding the beat, chopped vocal stabs, warehouse rave energy, 174 bpm",
+      "negative_style": "acoustic, folk, country, orchestral, slow, ballad, trap, autotune, female lead",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "1990s jungle drum and bass, 174 bpm",
+     "takes": [
+      {
+       "id": "ceac4bc4-37e2-4015-bb5d-93dcf2b8e3f9",
+       "duration_s": 182,
+       "suno_title": "Remove Twenty, Add Twenty",
+       "cover": "https://cdn2.suno.ai/image_ceac4bc4-37e2-4015-bb5d-93dcf2b8e3f9.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 176,
+        "key": "F minor",
+        "lead": [
+         "male MC-style vocal",
+         "chopped breakbeats",
+         "rolling bass"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 3,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Jungle with fast chopped breaks and a rolling bass; the last line trails off at 'every single'.",
+        "complete_song": false
+       }
+      },
+      {
+       "id": "f776bd69-1788-47b7-991b-e3640cb11a23",
+       "duration_s": 178,
+       "suno_title": "Remove Twenty, Add Twenty",
+       "cover": "https://cdn2.suno.ai/image_f776bd69-1788-47b7-991b-e3640cb11a23.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 176,
+        "key": "F minor",
+        "lead": [
+         "male MC-style vocal",
+         "chopped breakbeats",
+         "reese bass"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Jungle with a clear MC; the final chorus cuts off after 'every', then an instrumental ending.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "f776bd69-1788-47b7-991b-e3640cb11a23",
+     "result": "Both on style (5 of 5) and both cut off in the last line. Take B has the clearer words. Take B published; take A private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-27T04:49Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1990s jungle drum and bass instrumental, fast chopped amen breakbeats, deep rolling reese bass carries the hook, dark atmospheric pads, stabbing synth riff, rewind-style drops, warehouse rave energy, 174 bpm",
+      "negative_style": "vocals, singing, humming, MC, rap, vocal chops, acoustic, orchestral, slow, trap, lo-fi",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "jungle drum and bass, instrumental, 174 bpm",
+     "takes": [
+      {
+       "id": "2de52abd-ee93-44bb-a87e-e073c63807b9",
+       "duration_s": 178,
+       "suno_title": "Remove Twenty, Add Twenty (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_2de52abd-ee93-44bb-a87e-e073c63807b9.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 176,
+        "key": "F minor",
+        "lead": [
+         "distorted synth bass",
+         "electronic drums",
+         "synth stabs"
+        ],
+        "style_match": 1.5,
+        "melody_strength": 2,
+        "energy": 4.8,
+        "mix_clean": 4.5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Modern neuro-bass drumstep, not 1990s jungle; vocal chops."
+       }
+      },
+      {
+       "id": "ae66ec09-1759-408f-a586-c0959df388d0",
+       "duration_s": 199,
+       "suno_title": "Remove Twenty, Add Twenty (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_ae66ec09-1759-408f-a586-c0959df388d0.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 176,
+        "key": "F minor",
+        "lead": [
+         "chopped breakbeats",
+         "reese bass",
+         "synth stabs"
+        ],
+        "style_match": 5,
+        "melody_strength": 3,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Dark 1990s jungle with fast chopped breaks and a rolling bass hook; brief rave shouts."
+       }
+      }
+     ],
+     "best": "ae66ec09-1759-408f-a586-c0959df388d0",
+     "result": "Take B is the jungle (5 of 5); take A went modern (1.5). Take B has brief shouts. Take B published; take A private."
+    }
+   ]
+  },
+  {
    "slug": "too-sensual-for-the-show",
    "title": "Too Sensual for the Show",
    "about": "Block 7, style 1: 1940s big band swing about the podcast presenter's voice being too sensual, and its instrumental.",
@@ -1115,7 +1419,8 @@
         "stops": [],
         "sections": [],
         "summary": "Modern electronic novelty pop with chants; nothing of the blues."
-       }
+       },
+       "liked": true
       }
      ],
      "best": "87aa9bbf-66df-481e-bc74-c6775081a9bf",

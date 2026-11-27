@@ -58,3 +58,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-26 21:21 | audio-download (no confirm) x1 | checked the cost: requires_credit, nothing downloaded | 0 | 1,760 | 15 | for the vault question |
 | 2026-11-27 00:48 | audio-create x4 | Block 7: Too Sensual for the Show (big band swing, sung and instrumental) and Twenty Downloads, Fifteen Left (Hawaiian steel guitar, sung and instrumental) | 40 | 1,720 | 15 | Dinis: four songs every four hours |
 | 2026-11-27 00:49 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,720 | 15 | to pick the best takes |
+| 2026-11-27 04:49 | audio-create x4 | Block 8: The Wrong Take (klezmer, sung and instrumental) and Remove Twenty, Add Twenty (jungle drum and bass, sung and instrumental) | 40 | 1,680 | 15 | Dinis: four songs every four hours |
+| 2026-11-27 04:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,680 | 15 | to pick the best takes |
