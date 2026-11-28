@@ -1,16 +1,16 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-28T00:50Z",
- "plan": "Pro Plan",
+ "read_at": "2026-11-28T04:50Z",
+ "plan": "Premier Plan",
  "period": "month",
- "renews_on": "2026-12-13",
+ "renews_on": "2026-12-28",
  "song_credits": {
-  "monthly_limit": 2500,
-  "used": 1030,
-  "left": 1470
+  "monthly_limit": 10000,
+  "used": 40,
+  "left": 9960
  },
  "download_credits": {
-  "left": 15
+  "left": 60
  },
  "cost": {
   "generation": 10,
@@ -199,6 +199,23 @@
   {
    "when": "2026-11-28T00:48Z",
    "what": "Block 13: Cape Verdean funaná and 1980s Japanese city pop, each sung and instrumental; 4 generations, a best take on style in each, no retry. The counter fell by exactly 40",
+   "song_credits": 40,
+   "asked_by": "Dinis: four songs every four hours, budget no object"
+  },
+  {
+   "when": "2026-11-28T01:39Z",
+   "what": "5 downloads (MP3) by elevenlabs.b for a draft radio show: Sixteen Hundred, Samba; Out by the Fourth; One Song, One Download; The Shout Is No Guarantee; Midnight, Nothing Trashed. The download counter fell from 15 to 10 (read by suno.b at 01:45)",
+   "download_credits": 5,
+   "asked_by": "Dinis, in elevenlabs.b's session (relayed by elevenlabs.b)"
+  },
+  {
+   "when": "2026-11-28T01:51Z",
+   "what": "Plan changed by Dinis from Pro to Premier: 10,000 song credits a month, 60 downloads, 450 visuals credits, renewal 28 December (read by suno.b at 02:00)",
+   "asked_by": "Dinis (relayed by soundcloud.b; confirmed on the account)"
+  },
+  {
+   "when": "2026-11-28T04:48Z",
+   "what": "Block 14: Angolan semba and late 1990s UK garage, each sung and instrumental; 4 generations, a best take on style in each, no retry. The counter fell by exactly 40",
    "song_credits": 40,
    "asked_by": "Dinis: four songs every four hours, budget no object"
   }

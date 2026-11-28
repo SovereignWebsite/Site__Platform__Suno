@@ -23,8 +23,306 @@
   }
  ],
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
- "updated": "2026-11-28T01:00Z",
+ "updated": "2026-11-28T05:00Z",
  "songs": [
+  {
+   "slug": "ten-thousand",
+   "title": "Ten Thousand",
+   "about": "Block 14, style 1: an Angolan semba on the account's move to Premier (10,000 song credits, 60 downloads), and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 14 of the four-hourly blocks, the 04:47 UTC wake on 28 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "About 01:51 UTC on 28 November Dinis moved the account to Premier: account-usage now shows 10,000 song credits, 60 downloads, renewal on 28 December, so block 12's Out by the Fourth is out of date.",
+     "Semba: Angolan, Lusophone, guitar-led; vocal_gender set to male after block 13's city pop came out with a female lead."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-28T04:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "classic Angolan semba from Luanda, bright interlocking electric guitars playing rolling melodic riffs, bouncing bass, congas and dikanza scraper, warm joyful male lead vocal, group answers in the chorus, festive dance energy, clean recording, 118 bpm",
+      "negative_style": "electronic, synth, trap, rap, autotune, rock drums, kizomba ballad, slow, modern pop production",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "Angolan semba, 118 bpm",
+     "takes": [
+      {
+       "id": "ed18ef8b-af94-40d0-9024-967cafa839bd",
+       "duration_s": 91,
+       "suno_title": "Ten Thousand",
+       "cover": "https://cdn2.suno.ai/image_ed18ef8b-af94-40d0-9024-967cafa839bd.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 117,
+        "key": "G major",
+        "lead": [
+         "male lead vocal",
+         "group call and response"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Semba with interlocking guitars and percussion; clear words, complete to the Hey, then an instrumental fade.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "ba8be375-f737-40dc-b222-9a2c06fc2a1b",
+       "duration_s": 84,
+       "suno_title": "Ten Thousand",
+       "cover": "https://cdn2.suno.ai/image_ba8be375-f737-40dc-b222-9a2c06fc2a1b.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 118,
+        "key": "G major",
+        "lead": [
+         "male lead vocal",
+         "group answers"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Semba, on style; stops before the final Hey.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "ed18ef8b-af94-40d0-9024-967cafa839bd",
+     "result": "Take A: 5 of 5 on every count and complete. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-28T04:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "classic Angolan semba instrumental from Luanda, bright interlocking electric guitars carry a rolling continuous melody, bouncing bass, congas and dikanza scraper, festive dance energy, clean recording, 118 bpm",
+      "negative_style": "vocals, singing, humming, choir, shouts, electronic, synth, rock drums, slow, modern production",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "Angolan semba, instrumental, 118 bpm",
+     "takes": [
+      {
+       "id": "e2ea7107-56d1-46eb-93e2-743da7be6873",
+       "duration_s": 182,
+       "suno_title": "Ten Thousand (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_e2ea7107-56d1-46eb-93e2-743da7be6873.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 117,
+        "key": "G major",
+        "lead": [
+         "interlocking electric guitars"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Semba instrumental with a continuous guitar melody; clean, no voices."
+       }
+      },
+      {
+       "id": "0b9752d4-63cc-4bcb-8e8b-10a355cb074f",
+       "duration_s": 202,
+       "suno_title": "Ten Thousand (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_0b9752d4-63cc-4bcb-8e8b-10a355cb074f.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 120,
+        "key": "G major",
+        "lead": [
+         "electric guitar",
+         "accordion-like lead"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Semba-like instrumental with an accordion-like lead beside the guitars; no voices."
+       }
+      }
+     ],
+     "best": "e2ea7107-56d1-46eb-93e2-743da7be6873",
+     "result": "A tie (19 each, same mix score, no voices in either), so take A. Take A published; take B private."
+    }
+   ]
+  },
+  {
+   "slug": "five-for-the-radio",
+   "title": "Five for the Radio",
+   "about": "Block 14, style 2: late 1990s UK garage on the five songs elevenlabs.b downloaded for a draft radio show, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 14 of the four-hourly blocks, the 04:47 UTC wake on 28 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "At 01:39 UTC on 28 November elevenlabs.b downloaded MP3s of five songs for a draft radio show Dinis asked it for (5 Pro download credits, 15 to 10); soundcloud.b's steps for SoundCloud: check published.json, download through Suno only, hand the file over. Premier then brought 60 downloads.",
+     "UK garage: a London radio sound."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-28T04:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "late 1990s UK garage, shuffling 2-step beat with skippy hi-hats and swung snares, deep warm sub bass, chopped organ stabs, smooth soulful male lead vocal, airy female backing harmonies, London club energy, 132 bpm",
+      "negative_style": "trap, drill, heavy metal, rock guitar, acoustic folk, orchestral, lo-fi, four-on-the-floor house",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "late 1990s UK garage, 132 bpm",
+     "takes": [
+      {
+       "id": "e1f1cc2f-436d-4caa-bfd1-02f7e360e0dd",
+       "duration_s": 85,
+       "suno_title": "Five for the Radio",
+       "cover": "https://cdn2.suno.ai/image_e1f1cc2f-436d-4caa-bfd1-02f7e360e0dd.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 133,
+        "key": "A# minor",
+        "lead": [
+         "male lead",
+         "female backing vocals"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "UK garage 2-step, male lead; the vocal ends mid-line in the last chorus, before the Hey.",
+        "complete_song": false
+       }
+      },
+      {
+       "id": "58f37f13-4762-46b3-8ca0-0aad6433674a",
+       "duration_s": 88,
+       "suno_title": "Five for the Radio",
+       "cover": "https://cdn2.suno.ai/image_58f37f13-4762-46b3-8ca0-0aad6433674a.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 134,
+        "key": "G minor",
+        "lead": [
+         "male lead",
+         "female backing vocals"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 4,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "UK garage 2-step; the last line trails off and the outro is cut.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "e1f1cc2f-436d-4caa-bfd1-02f7e360e0dd",
+     "result": "Both takes on style with a male lead, but both stop before the final Hey. Take A scores higher. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-28T04:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "late 1990s UK garage instrumental, shuffling 2-step beat with skippy hi-hats and swung snares, deep warm sub bass, chopped organ stabs carry the hook, bright synth lead melody, London club energy, 132 bpm",
+      "negative_style": "vocals, singing, humming, vocal chops, MC, rap, trap, rock guitar, acoustic, orchestral, lo-fi",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "late 1990s UK garage, instrumental, 132 bpm",
+     "takes": [
+      {
+       "id": "b357f50c-c786-48e5-83af-809b5b730020",
+       "duration_s": 147,
+       "suno_title": "Five for the Radio (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_b357f50c-c786-48e5-83af-809b5b730020.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 133,
+        "key": "A# minor",
+        "lead": [
+         "plucked synth melody",
+         "organ-like stabs"
+        ],
+        "style_match": 5,
+        "melody_strength": 4,
+        "energy": 4,
+        "mix_clean": 4,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "UK garage 2-step instrumental with a plucked synth lead; no voices."
+       }
+      },
+      {
+       "id": "51a6f734-6e94-486d-b4a5-f04edda0f432",
+       "duration_s": 202,
+       "suno_title": "Five for the Radio (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_51a6f734-6e94-486d-b4a5-f04edda0f432.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 134,
+        "key": "G minor",
+        "lead": [
+         "synth chirps"
+        ],
+        "style_match": 5,
+        "melody_strength": 2,
+        "energy": 4,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Garage and speed garage with short synth accents and audible vocal chops."
+       }
+      }
+     ],
+     "best": "b357f50c-c786-48e5-83af-809b5b730020",
+     "result": "Take A: on style, no voices. Take B had vocal chops. Take A published; take B private."
+    }
+   ]
+  },
   {
    "slug": "the-shout-is-no-guarantee",
    "title": "The Shout Is No Guarantee",
@@ -78,6 +376,13 @@
         "sections": [],
         "summary": "Funaná with clear words; reaches the final Hey, then a deliberate instrumental decay.",
         "complete_song": true
+       },
+       "downloaded": {
+        "on": "2026-11-28T01:39Z",
+        "by": "elevenlabs.b (session_01Kw9UwDWq7YZCSQSZLPdKNK), at Dinis's word in its session",
+        "format": "mp3",
+        "for": "a draft radio show; handed to soundcloud.b for upload",
+        "source": "elevenlabs.b's message to suno.b, 28 Nov 01:41 and 02:02 UTC"
        }
       },
       {
@@ -228,6 +533,13 @@
         "sections": [],
         "summary": "City pop with slap bass, keys and brass; a female lead, not the male one asked for; cuts off abruptly after the group Hey.",
         "complete_song": false
+       },
+       "downloaded": {
+        "on": "2026-11-28T01:39Z",
+        "by": "elevenlabs.b (session_01Kw9UwDWq7YZCSQSZLPdKNK), at Dinis's word in its session",
+        "format": "mp3",
+        "for": "a draft radio show; handed to soundcloud.b for upload",
+        "source": "elevenlabs.b's message to suno.b, 28 Nov 01:41 and 02:02 UTC"
        }
       },
       {
@@ -402,6 +714,13 @@
         "sections": [],
         "summary": "Kuduro, high energy, clear chanted words; the vocal ends before the final Hey and the outro cuts off.",
         "complete_song": false
+       },
+       "downloaded": {
+        "on": "2026-11-28T01:39Z",
+        "by": "elevenlabs.b (session_01Kw9UwDWq7YZCSQSZLPdKNK), at Dinis's word in its session",
+        "format": "mp3",
+        "for": "a draft radio show; handed to soundcloud.b for upload",
+        "source": "elevenlabs.b's message to suno.b, 28 Nov 01:41 and 02:02 UTC"
        }
       }
      ],
@@ -552,6 +871,13 @@
         "sections": [],
         "summary": "Surf rock with twangy reverb guitar and surf drums; complete, ending on the Hey.",
         "complete_song": true
+       },
+       "downloaded": {
+        "on": "2026-11-28T01:39Z",
+        "by": "elevenlabs.b (session_01Kw9UwDWq7YZCSQSZLPdKNK), at Dinis's word in its session",
+        "format": "mp3",
+        "for": "a draft radio show; handed to soundcloud.b for upload",
+        "source": "elevenlabs.b's message to suno.b, 28 Nov 01:41 and 02:02 UTC"
        }
       }
      ],
@@ -900,6 +1226,13 @@
         "sections": [],
         "summary": "High-energy samba-enredo with bateria and cavaquinho; clear words; ends on the Hey.",
         "complete_song": true
+       },
+       "downloaded": {
+        "on": "2026-11-28T01:39Z",
+        "by": "elevenlabs.b (session_01Kw9UwDWq7YZCSQSZLPdKNK), at Dinis's word in its session",
+        "format": "mp3",
+        "for": "a draft radio show; handed to soundcloud.b for upload",
+        "source": "elevenlabs.b's message to suno.b, 28 Nov 01:41 and 02:02 UTC"
        }
       },
       {

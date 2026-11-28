@@ -70,3 +70,7 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-27 20:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,510 | 15 | to pick the best takes |
 | 2026-11-28 00:48 | audio-create x4 | Block 13: The Shout Is No Guarantee (funaná, sung and instrumental) and Midnight, Nothing Trashed (city pop, sung and instrumental) | 40 | 1,470 | 15 | Dinis: four songs every four hours |
 | 2026-11-28 00:49 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,470 | 15 | to pick the best takes |
+| 2026-11-28 01:39 | audio-download x5 (by elevenlabs.b) | MP3s of Sixteen Hundred, Samba; Out by the Fourth; One Song, One Download; The Shout Is No Guarantee; Midnight, Nothing Trashed, for a draft radio show | 0 | 1,470 | 10 | Dinis, in elevenlabs.b's session |
+| 2026-11-28 01:51 | plan change | Pro to Premier: 10,000 song credits, 60 downloads, renews 28 Dec | 0 | 10,000 | 60 | Dinis |
+| 2026-11-28 04:48 | audio-create x4 | Block 14: Ten Thousand (semba, sung and instrumental) and Five for the Radio (UK garage, sung and instrumental) | 40 | 9,960 | 60 | Dinis: four songs every four hours |
+| 2026-11-28 04:49 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 9,960 | 60 | to pick the best takes |
