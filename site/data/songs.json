@@ -23,8 +23,305 @@
   }
  ],
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
- "updated": "2026-11-28T05:00Z",
+ "updated": "2026-11-28T09:00Z",
  "songs": [
+  {
+   "slug": "a-man-at-last",
+   "title": "A Man at Last",
+   "about": "Block 15, style 1: a Mozambican marrabenta on the male voice that came back once vocal_gender was set, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 15 of the four-hourly blocks, the 08:47 UTC wake on 28 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Block 13's city pop had a female lead though the style asked for a male one; in block 14 vocal_gender male gave a male lead in all four sung takes.",
+     "Marrabenta: Mozambican, Lusophone, guitar-led."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-28T08:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "Mozambican marrabenta from Maputo, bright bouncing electric guitar riffs, walking bass, light drum kit with shaker, cheerful male lead vocal, group answers in the chorus, joyful dance energy, clean recording, 124 bpm",
+      "negative_style": "synth, trap, rap, autotune, rock, slow, ballad, modern pop production",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "Mozambican marrabenta, 124 bpm",
+     "takes": [
+      {
+       "id": "7a2d49fe-80a4-44d1-82e6-cd2bd47b0348",
+       "duration_s": 72,
+       "suno_title": "A Man at Last",
+       "cover": "https://cdn2.suno.ai/image_7a2d49fe-80a4-44d1-82e6-cd2bd47b0348.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 126,
+        "key": "G major",
+        "lead": [
+         "male lead",
+         "group answers"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Marrabenta call and response, clear male lead; complete, resolves on the final tag.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "df2ff2aa-301a-48cc-99a4-1014e84396cd",
+       "duration_s": 97,
+       "suno_title": "A Man at Last",
+       "cover": "https://cdn2.suno.ai/image_df2ff2aa-301a-48cc-99a4-1014e84396cd.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 127,
+        "key": "G major",
+        "lead": [
+         "male lead",
+         "group backing vocals"
+        ],
+        "style_match": 4,
+        "lyrics_clear": 4,
+        "energy": 4,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Marrabenta-like Afro-pop; lyric complete to the Hey, outro cut abruptly.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": "7a2d49fe-80a4-44d1-82e6-cd2bd47b0348",
+     "result": "Both takes complete with a male lead; take A scores higher (19). Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-28T08:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Mozambican marrabenta instrumental from Maputo, bright bouncing electric guitars carry a continuous melody, walking bass, light drum kit with shaker, joyful dance energy, clean recording, 124 bpm",
+      "negative_style": "vocals, singing, humming, choir, shouts, synth, rock, slow, modern production",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "Mozambican marrabenta, instrumental, 124 bpm",
+     "takes": [
+      {
+       "id": "65deca66-d166-43b3-b9b3-7ccc18e1f1e1",
+       "duration_s": 156,
+       "suno_title": "A Man at Last (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_65deca66-d166-43b3-b9b3-7ccc18e1f1e1.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 126,
+        "key": "G major",
+        "lead": [
+         "electric guitar",
+         "electric bass"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Marrabenta instrumental, interlocking guitars and walking bass; no voices."
+       }
+      },
+      {
+       "id": "4dfdbc50-891b-4aca-88e9-4f7c261ead3e",
+       "duration_s": 163,
+       "suno_title": "A Man at Last (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_4dfdbc50-891b-4aca-88e9-4f7c261ead3e.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 127,
+        "key": "G major",
+        "lead": [
+         "electric guitars"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Marrabenta guitar groove; no voices."
+       }
+      }
+     ],
+     "best": "65deca66-d166-43b3-b9b3-7ccc18e1f1e1",
+     "result": "A tie (19 each, same mix, no voices), so take A. Take A published; take B private."
+    }
+   ]
+  },
+  {
+   "slug": "four-questions-waiting",
+   "title": "Four Questions Waiting",
+   "about": "Block 15, style 2: 1980s Chicago acid house on the four requests relayed by other agents that wait on Dinis's word in this session, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 15 of the four-hourly blocks, the 08:47 UTC wake on 28 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Waiting on Dinis in this session at the 08:47 wake: stop the instrumentals (relayed by elevenlabs.b), test the Premier features (relayed by soundcloud.b), which songs to download for SoundCloud, and whether to publish the liked blues take. Only Dinis instructs, in suno.b's own session.",
+     "Acid house: hypnotic repetition for a question asked over and over."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-28T08:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "1980s Chicago acid house, squelching TB-303 acid bassline, four-on-the-floor TR-909 drums, crisp hi-hats, warehouse synth stabs, deep soulful male lead vocal, hypnotic dancefloor energy, 124 bpm",
+      "negative_style": "acoustic, folk, rock guitar, orchestral, trap, ballad, lo-fi",
+      "vocal_gender": "male",
+      "controls": "style influence 0.85"
+     },
+     "style": "1980s Chicago acid house, 124 bpm",
+     "takes": [
+      {
+       "id": "56cf0657-73a1-4641-a443-a8463ee4a6a2",
+       "duration_s": 169,
+       "suno_title": "Four Questions Waiting",
+       "cover": "https://cdn2.suno.ai/image_56cf0657-73a1-4641-a443-a8463ee4a6a2.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 126,
+        "key": "F minor",
+        "lead": [
+         "male rhythmic chant"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Chicago acid house fit; the final Hey not confirmed, though the track ends on a proper outro.",
+        "complete_song": false
+       }
+      },
+      {
+       "id": "4e30b732-524f-4e08-ae06-91bcf37a3e9b",
+       "duration_s": 164,
+       "suno_title": "Four Questions Waiting",
+       "cover": "https://cdn2.suno.ai/image_4e30b732-524f-4e08-ae06-91bcf37a3e9b.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 126,
+        "key": "G minor",
+        "lead": [
+         "male soulful lead"
+        ],
+        "style_match": 4,
+        "lyrics_clear": 3,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Acid house; words partly unclear, final Hey not reached.",
+        "complete_song": false
+       }
+      }
+     ],
+     "best": "56cf0657-73a1-4641-a443-a8463ee4a6a2",
+     "result": "Take A: on style (5 of 5), male lead, smooth outro, final Hey not confirmed. Take B scores lower. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-28T08:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1980s Chicago acid house instrumental, squelching TB-303 acid bassline carries the hook, four-on-the-floor TR-909 drums, crisp hi-hats, warehouse synth stabs, hypnotic dancefloor energy, 124 bpm",
+      "negative_style": "vocals, singing, humming, vocal chops, spoken words, acoustic, rock guitar, orchestral, lo-fi",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "1980s Chicago acid house, instrumental, 124 bpm",
+     "takes": [
+      {
+       "id": "d50c0fc2-f39a-4dd4-931e-24453f57bc8a",
+       "duration_s": 200,
+       "suno_title": "Four Questions Waiting (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_d50c0fc2-f39a-4dd4-931e-24453f57bc8a.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 126,
+        "key": "G minor",
+        "lead": [
+         "303-like bass",
+         "bright synth leads"
+        ],
+        "style_match": 2,
+        "melody_strength": 2,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Polished modern hands-up or hard dance, not 1980s Chicago acid house."
+       }
+      },
+      {
+       "id": "47afb870-3ffa-4cc3-a7b1-af35458e0def",
+       "duration_s": 207,
+       "suno_title": "Four Questions Waiting (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_47afb870-3ffa-4cc3-a7b1-af35458e0def.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 127,
+        "key": "F# minor",
+        "lead": [
+         "303-style acid bassline",
+         "synth stabs"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Late 1980s Chicago acid house groove with brief vocal chops."
+       }
+      }
+     ],
+     "best": "47afb870-3ffa-4cc3-a7b1-af35458e0def",
+     "result": "Take A missed the style (2 of 5). Take B is on style (5 of 5) with brief vocal chops. Take B published; take A private."
+    }
+   ]
+  },
   {
    "slug": "ten-thousand",
    "title": "Ten Thousand",

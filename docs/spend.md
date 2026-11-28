@@ -74,3 +74,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-28 01:51 | plan change | Pro to Premier: 10,000 song credits, 60 downloads, renews 28 Dec | 0 | 10,000 | 60 | Dinis |
 | 2026-11-28 04:48 | audio-create x4 | Block 14: Ten Thousand (semba, sung and instrumental) and Five for the Radio (UK garage, sung and instrumental) | 40 | 9,960 | 60 | Dinis: four songs every four hours |
 | 2026-11-28 04:49 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 9,960 | 60 | to pick the best takes |
+| 2026-11-28 08:48 | audio-create x4 | Block 15: A Man at Last (marrabenta, sung and instrumental) and Four Questions Waiting (acid house, sung and instrumental) | 40 | 9,920 | 60 | Dinis: four songs every four hours |
+| 2026-11-28 08:49 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 9,920 | 60 | to pick the best takes |

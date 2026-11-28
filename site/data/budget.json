@@ -1,13 +1,13 @@
 {
  "about": "The Suno account's credits, read from Suno (account-usage) by suno.b. Song credits pay for generations (10 per generation of two takes, measured); download credits pay for full-quality downloads (1 each). Updated each time suno.b spends.",
- "read_at": "2026-11-28T04:50Z",
+ "read_at": "2026-11-28T08:50Z",
  "plan": "Premier Plan",
  "period": "month",
  "renews_on": "2026-12-28",
  "song_credits": {
   "monthly_limit": 10000,
-  "used": 40,
-  "left": 9960
+  "used": 80,
+  "left": 9920
  },
  "download_credits": {
   "left": 60
@@ -216,6 +216,12 @@
   {
    "when": "2026-11-28T04:48Z",
    "what": "Block 14: Angolan semba and late 1990s UK garage, each sung and instrumental; 4 generations, a best take on style in each, no retry. The counter fell by exactly 40",
+   "song_credits": 40,
+   "asked_by": "Dinis: four songs every four hours, budget no object"
+  },
+  {
+   "when": "2026-11-28T08:48Z",
+   "what": "Block 15: Mozambican marrabenta and 1980s Chicago acid house, each sung and instrumental; 4 generations, a best take on style in each, no retry. The counter fell by exactly 40",
    "song_credits": 40,
    "asked_by": "Dinis: four songs every four hours, budget no object"
   }
