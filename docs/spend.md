@@ -68,3 +68,5 @@ Measured: one generation (two takes) costs 10 song credits. Publishing, listing 
 | 2026-11-27 16:49 to 16:53 | audio-listen x10 | style, lyrics, completeness, melody, mix of all ten takes | 0 | 1,550 | 15 | to pick the best takes |
 | 2026-11-27 20:49 | audio-create x4 | Block 12: One Song, One Download (kuduro, sung and instrumental) and Out by the Fourth (surf rock, sung and instrumental) | 40 | 1,510 | 15 | Dinis: four songs every four hours |
 | 2026-11-27 20:50 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,510 | 15 | to pick the best takes |
+| 2026-11-28 00:48 | audio-create x4 | Block 13: The Shout Is No Guarantee (funaná, sung and instrumental) and Midnight, Nothing Trashed (city pop, sung and instrumental) | 40 | 1,470 | 15 | Dinis: four songs every four hours |
+| 2026-11-28 00:49 | audio-listen x8 | style, lyrics, completeness, melody, mix of all eight takes | 0 | 1,470 | 15 | to pick the best takes |

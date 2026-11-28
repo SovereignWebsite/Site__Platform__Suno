@@ -23,8 +23,307 @@
   }
  ],
  "source": "Read from the team's Suno library through Suno's MCP connection by suno.b@SovereignWebsite.dinis, 23 November 2026. Takes are paired by the generation they came from (same creation time). Version labels are short descriptions of each prompt.",
- "updated": "2026-11-27T21:00Z",
+ "updated": "2026-11-28T01:00Z",
  "songs": [
+  {
+   "slug": "the-shout-is-no-guarantee",
+   "title": "The Shout Is No Guarantee",
+   "about": "Block 13, style 1: a Cape Verdean funaná on the shouted ending that failed for the kuduro, and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 13 of the four-hourly blocks, the 00:47 UTC wake on 28 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "Block 12: both kuduro sung takes stopped before the final Hey, after six complete takes with the shout in blocks 10 and 11; the learning now says keep the shout and keep sung lyrics short.",
+     "This lyric tests that: two two-line verses and a two-line chorus. Funaná: Cape Verdean, Lusophone, accordion-led, close to what Dinis keeps."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-28T00:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "Cape Verdean funaná, fast driving dance from Santiago island, diatonic button accordion (gaita) playing rapid melodic riffs, ferrinho iron scraper keeping a relentless pulse, electric bass, bright male lead vocal, group answers, joyful sweaty dance energy, 150 bpm",
+      "negative_style": "electronic, synth, trap, rap, autotune, rock drums, polka, modern pop production, slow, ballad",
+      "controls": "style influence 0.85"
+     },
+     "style": "Cape Verdean funaná, 150 bpm",
+     "takes": [
+      {
+       "id": "e986de20-9e3c-4624-aeed-52ac91e84a47",
+       "duration_s": 67,
+       "suno_title": "The Shout Is No Guarantee",
+       "cover": "https://cdn2.suno.ai/image_e986de20-9e3c-4624-aeed-52ac91e84a47.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 151,
+        "key": "C major",
+        "lead": [
+         "male lead vocal",
+         "group responses"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 5,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Funaná with clear words; reaches the final Hey, then a deliberate instrumental decay.",
+        "complete_song": true
+       }
+      },
+      {
+       "id": "0c4e4d5c-4f87-414b-9e97-19a1388e5498",
+       "duration_s": 72,
+       "suno_title": "The Shout Is No Guarantee",
+       "cover": "https://cdn2.suno.ai/image_0c4e4d5c-4f87-414b-9e97-19a1388e5498.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 149,
+        "key": "F major",
+        "lead": [
+         "male lead vocal",
+         "group-response vocals"
+        ],
+        "style_match": 5,
+        "lyrics_clear": 4,
+        "energy": 5,
+        "mix_clean": 4,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Funaná with accordion, scraper pulse and call and response; complete, ends on the Hey.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": "e986de20-9e3c-4624-aeed-52ac91e84a47",
+     "result": "Both takes on style and complete with the short lyric; take A scores higher. Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-28T00:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "Cape Verdean funaná instrumental, fast driving dance from Santiago island, diatonic button accordion (gaita) carries a rapid continuous melody, ferrinho iron scraper keeping a relentless pulse, electric bass, light drum kit, joyful dance energy, clean recording, 150 bpm",
+      "negative_style": "vocals, singing, humming, choir, shouts, electronic, synth, polka, rock, modern production, slow",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "Cape Verdean funaná, instrumental, 150 bpm",
+     "takes": [
+      {
+       "id": "f318fd98-2954-44f9-834c-16eb64d10e97",
+       "duration_s": 131,
+       "suno_title": "The Shout Is No Guarantee (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_f318fd98-2954-44f9-834c-16eb64d10e97.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 151,
+        "key": "E minor",
+        "lead": [
+         "accordion"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Funaná instrumental, fast ornamented accordion over a scraper pulse; clean, no voices."
+       }
+      },
+      {
+       "id": "1878a345-783e-4755-9064-91220cbc90be",
+       "duration_s": 136,
+       "suno_title": "The Shout Is No Guarantee (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_1878a345-783e-4755-9064-91220cbc90be.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 150,
+        "key": "C major",
+        "lead": [
+         "accordion",
+         "metal scraper",
+         "electric bass"
+        ],
+        "style_match": 5,
+        "melody_strength": 5,
+        "energy": 5,
+        "mix_clean": 5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "Funaná instrumental, rapid accordion, bouncy bass; clean, no voices."
+       }
+      }
+     ],
+     "best": "f318fd98-2954-44f9-834c-16eb64d10e97",
+     "result": "Both takes 5 of 5 on every count; a tie, so take A. Take A published; take B private."
+    }
+   ]
+  },
+  {
+   "slug": "midnight-nothing-trashed",
+   "title": "Midnight, Nothing Trashed",
+   "about": "Block 13, style 2: 1980s Japanese city pop on the midnight check (same ten likes, nothing trashed, 1,510 credits), and its instrumental.",
+   "stage": "experiment",
+   "pick": null,
+   "lyrics_by": "suno.b@SovereignWebsite.dinis",
+   "series": "blocks",
+   "brief": {
+    "asked_by": "Dinis Cruz, 26 November 2026, in suno.b's session (block 13 of the four-hourly blocks, the 00:47 UTC wake on 28 November)",
+    "words": "write a lyric, kind of a funny one and witty lyric about the work that has happened since or in the last 24 hours ... for each style, always do one with the lyrics and one instrumental. So basically, do 4 songs per block of 4 hours.",
+    "thinking": [
+     "At the 00:47 wake: Dinis's likes unchanged (ten), none of the twenty playlist songs trashed, 1,510 song credits before this block; block 12's kuduro and surf rock at the top of both playlists.",
+     "City pop: a late-night urban sound for a midnight wake."
+    ]
+   },
+   "versions": [
+    {
+     "n": 1,
+     "made": "2026-11-28T00:48Z",
+     "label": "With the lyric",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, with lyrics",
+      "style": "1980s Japanese city pop, glossy late-night urban sound, slap bass groove, Rhodes electric piano, bright brass section stabs, clean funky rhythm guitar, lush synth pads, smooth male lead vocal sung in English, warm female backing harmonies, 112 bpm",
+      "negative_style": "trap, rap, autotune, heavy metal, distortion, acoustic folk, lo-fi, EDM, modern pop production",
+      "controls": "style influence 0.85"
+     },
+     "style": "1980s Japanese city pop, 112 bpm",
+     "takes": [
+      {
+       "id": "e3a9a446-86e7-4c1c-945a-66012ca6b3b5",
+       "duration_s": 93,
+       "suno_title": "Midnight, Nothing Trashed",
+       "cover": "https://cdn2.suno.ai/image_e3a9a446-86e7-4c1c-945a-66012ca6b3b5.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 117,
+        "key": "G major",
+        "lead": [
+         "female lead vocal",
+         "female harmonies",
+         "brief male line"
+        ],
+        "style_match": 4,
+        "lyrics_clear": 4,
+        "energy": 4,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "City pop with slap bass, keys and brass; a female lead, not the male one asked for; cuts off abruptly after the group Hey.",
+        "complete_song": false
+       }
+      },
+      {
+       "id": "f53b873d-13ff-4173-9456-8b9e40acb452",
+       "duration_s": 92,
+       "suno_title": "Midnight, Nothing Trashed",
+       "cover": "https://cdn2.suno.ai/image_f53b873d-13ff-4173-9456-8b9e40acb452.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 121,
+        "key": "D# major",
+        "lead": [
+         "female lead vocal",
+         "female backing harmonies"
+        ],
+        "style_match": 1,
+        "lyrics_clear": 4,
+        "energy": 3,
+        "mix_clean": 5,
+        "vocals": true,
+        "stops": [],
+        "sections": [],
+        "summary": "Bright 1980s synth-pop, not city pop; complete, ends on the Hey.",
+        "complete_song": true
+       }
+      }
+     ],
+     "best": "e3a9a446-86e7-4c1c-945a-66012ca6b3b5",
+     "result": "Take A: city pop (4 of 5), every line sung to the Hey, then an abrupt end; both takes have a female lead though a male one was asked for. Take B missed the style (1 of 5). Take A published; take B private."
+    },
+    {
+     "n": 2,
+     "made": "2026-11-28T00:48Z",
+     "label": "Instrumental",
+     "model": "v6",
+     "credits": 10,
+     "prompt": {
+      "mode": "custom, instrumental",
+      "style": "1980s Japanese city pop instrumental, glossy late-night urban sound, slap bass groove, Rhodes electric piano, bright brass section stabs, clean funky rhythm guitar, saxophone carries the melody, lush synth pads, 112 bpm",
+      "negative_style": "vocals, singing, humming, choir, vocal chops, trap, rap, heavy metal, distortion, lo-fi, EDM",
+      "controls": "style influence 0.9, variety 0"
+     },
+     "style": "1980s Japanese city pop, instrumental, 112 bpm",
+     "takes": [
+      {
+       "id": "cf1d3eeb-a6d0-4b4f-92b2-e06308d18273",
+       "duration_s": 157,
+       "suno_title": "Midnight, Nothing Trashed (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_cf1d3eeb-a6d0-4b4f-92b2-e06308d18273.jpeg",
+       "side": "A",
+       "listen": {
+        "bpm": 114,
+        "key": "C major",
+        "lead": [
+         "saxophone",
+         "synth lead"
+        ],
+        "style_match": 5,
+        "melody_strength": 4.5,
+        "energy": 4.5,
+        "mix_clean": 4.5,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "City pop instrumental with a saxophone melody trading with synth; no voices."
+       }
+      },
+      {
+       "id": "b2ad2c31-f909-4c10-86ec-34776853969f",
+       "duration_s": 194,
+       "suno_title": "Midnight, Nothing Trashed (instrumental)",
+       "cover": "https://cdn2.suno.ai/image_b2ad2c31-f909-4c10-86ec-34776853969f.jpeg",
+       "side": "B",
+       "listen": {
+        "bpm": 114,
+        "key": "D minor",
+        "lead": [
+         "electric guitar",
+         "synth"
+        ],
+        "style_match": 4.8,
+        "melody_strength": 5,
+        "energy": 4.2,
+        "mix_clean": 4.8,
+        "vocals": false,
+        "stops": [],
+        "sections": [],
+        "summary": "City pop and fusion with a guitar lead, not saxophone; continuous melody, no voices."
+       }
+      }
+     ],
+     "best": "b2ad2c31-f909-4c10-86ec-34776853969f",
+     "result": "Take B scores a little higher (18.8 against 18.5), with a guitar lead in place of the saxophone. Take B published; take A private."
+    }
+   ]
+  },
   {
    "slug": "one-song-one-download",
    "title": "One Song, One Download",
